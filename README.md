@@ -160,3 +160,7 @@ python main.py
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+## Content rights and hybrid storage
+
+HackFeed uses a hybrid model: full text is stored only when author permission or a compatible license allows republication. Otherwise, the database stores metadata, attribution, a permitted excerpt, and the original link. See [CONTENT-POLICY.md](docs/CONTENT-POLICY.md).
