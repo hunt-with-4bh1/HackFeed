@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "updated_at": "2026-11-21T20:39:55.872438+00:00",
-  "total": 863,
+  "updated_at": "2026-11-21T20:48:27.597778+00:00",
+  "total": 865,
   "items": [
     {
       "id": "0d2765f5f0cc0b873851a2c8f64ccff379b7aa3684f61b9ab8cd1805a493b5cf",
@@ -431,7 +431,10 @@
       ],
       "summary": "Tags: cryptography, l3akctf, writeup, crypto, ctf",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This CTFtime writeup listing for \"L3akCTF 2026 — Isaac's Kaleidoscope\" in the cryptography category provides tags indicating it is a crypto writeup for L3akCTF. Beyond the title and tags, no further technical details are provided in the excerpt.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "19fa04de2a20baf5193fd7d022a4c208eb5ae8a58633095edb833c6cf3bb00fd",
@@ -454,7 +457,10 @@
       ],
       "summary": "Tags: cryptography, l3akctf, writeup, crypto, ctf",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This CTFtime writeup listing for L3akCTF 2026 is titled \"po1337nomial-revenge\" and falls under the cryptography category. The provided excerpt only lists the tags \"cryptography, l3akctf, writeup, crypto, ctf\" and contains no further technical details about the challenge.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "3a7b4b185e28aa7fb0e2f4f1bc4d132fdb455c4205e40f1c40b5c4ec0b37a5f1",
@@ -477,7 +483,10 @@
       ],
       "summary": "Tags: cryptography, l3akctf, writeup, crypto, ctf",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "The article is a cryptography-category CTF writeup titled \"L3akCTF 2026 — RSA Eclipse\" hosted on CTFtime. Aside from the title and category, no other technical details are provided in the excerpt.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "5313888baa54cd277b7d7c5a361abe3ca91a0edc20ca7c3b77cc2258017ee011",
@@ -499,7 +508,10 @@
       ],
       "summary": "Tags: ctf, writeup, l3akctf, misc",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "Based on the provided information, the writeup titled \"L3akCTF 2026 — Cursed Maze Captcha\" on CTFtime falls under the MISC category and is tagged with ctf, writeup, l3akctf, and misc. No further technical details are available in the excerpt.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "25a3497f131e757266c415859c775a96e08441b18180a6a80f87e754d3241bd6",
@@ -521,7 +533,10 @@
       ],
       "summary": "Tags: misc, l3akctf, writeup, ctf",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "The L3akCTF 2026 writeup covers the \"Maze Captcha\" challenge in the misc category, as listed on CTFtime. Specific technical details are not provided in the excerpt.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "ee66c1d336d258879b6ca0a2e68e4ca47bc3c5e6efc6960b254d572051bbe82f",
@@ -543,7 +558,10 @@
       ],
       "summary": "Tags: misc, l3akctf, writeup, ctf",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This CTFtime listing is a write-up for the \"Blunder\" challenge in the MISC category from L3akCTF 2026. Beyond the title, category, and tags, no further technical details are provided in the excerpt.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "b214ae55e24845d5ab55e80fe7c44bdffdbe071c6f0d386e1b087a6db13e995d",
@@ -563,7 +581,10 @@
       ],
       "summary": "Tags: hard, forensics",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "The CTFtime listing for \"L3akCTF 2026 — Relizane is Down!\" in the DIGITAL-FORENSICS category is tagged as hard and focuses on forensics. No further technical details are provided in the excerpt.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "305b496ad117481ca0e29f7219c6544c41c45ae8b60a460889cee8ccaab17030",
@@ -585,7 +606,10 @@
       ],
       "summary": "Tags: web, writeup, kaliteamctf, ctf",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "The CTFtime listing for \"Kali Team - CTF 26 — Industry Night\" is categorized as \"UNCATEGORIZED\" with tags for web, writeup, kaliteamctf, and ctf. Beyond the title and these basic tags, no further technical details or writeup content are provided in the excerpt.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "55d91cf5e27cfd0cf009275fbd4bc4e3bfb96550c8f70eb47886ce1c5c2b1f46",
@@ -4708,6 +4732,42 @@
       "metadata_checked": true
     },
     {
+      "id": "7087b480c31ebb3b4addf7b6dc866f27f582475c82689b45bb287349b38f0048",
+      "title": "hunt-with-4bh1/HackFeed",
+      "url": "https://github.com/hunt-with-4bh1/HackFeed",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "hunt-with-4bh1",
+      "published_at": "2026-11-21T20:44:25Z",
+      "discovered_at": "2026-11-21T20:48:07.855235+00:00",
+      "tags": [
+        "bug-bounty",
+        "bug-bounty-hunters",
+        "bug-bounty-tips",
+        "cryptography",
+        "cryptography-concepts",
+        "ctf",
+        "ctf-challenges",
+        "ctf-solutions",
+        "ctf-tools",
+        "ctf-writeups",
+        "digital-forensics",
+        "github",
+        "osint",
+        "picoctf",
+        "picoctf-writeups",
+        "picoctfsolutions",
+        "reverse-engineering-",
+        "web-exploitation"
+      ],
+      "summary": "A centralized, automatically updated collection of CTF writeups, bug bounty research, cybersecurity articles and technical learning resources.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "89269237adfc4ae384b0d750d9206bba54cdb0719e972454812d969097167b20",
       "title": "notSUHA1B/CTF-Writeups",
       "url": "https://github.com/notSUHA1B/CTF-Writeups",
@@ -6808,6 +6868,26 @@
       "metadata_checked": true
     },
     {
+      "id": "debcda92a4bbf12c5fdfcb04f66c639e60a4bbfee0ea33091a5bfdb0140baddd",
+      "title": "talalh99/tryhackme-writeups",
+      "url": "https://github.com/talalh99/tryhackme-writeups",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "talalh99",
+      "published_at": "2026-11-14T01:31:08Z",
+      "discovered_at": "2026-11-21T20:48:11.583619+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Hands-on lab writeups from my TryHackMe Pre Security (SEC0) and Cyber Security 101 (SEC1) paths — Linux, Windows & Active Directory, networking, and defensive security.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "1254e16e22bc2d0bf9b5a5e6309ee00b6628308442a176b88c84fa5d33b2a4e1",
       "title": "atimal04/htb-writeups",
       "url": "https://github.com/atimal04/htb-writeups",
@@ -8184,9 +8264,9 @@
       "id": "7b0c2c0f9b735c1a50a2be911eb82d784426eaf5108ee9dff39d8a4d19c6dde8",
       "title": "axk8/ctf-writeups",
       "url": "https://github.com/axk8/ctf-writeups",
-      "source": "GitHub · CTF writeup",
+      "source": "GitHub · CTF writeups",
       "source_id": "github-search",
-      "platform": "CTF writeup",
+      "platform": "CTF writeups",
       "type": "ctf_writeup",
       "category": "UNCATEGORIZED",
       "author": "axk8",
@@ -18642,12 +18722,8 @@
     "rss_entries": 201,
     "github_repositories": 653,
     "social_links": 0,
-    "new_entries": 117,
+    "new_entries": 3,
     "failures": [
-      {
-        "source": "Reddit · r/ctf",
-        "error": "404 Client Error: Not Found for url: https://www.reddit.com/r/ctf/.rss"
-      },
       {
         "source": "X/Twitter",
         "error": "Optional: configure X_BEARER_TOKEN Actions secret"

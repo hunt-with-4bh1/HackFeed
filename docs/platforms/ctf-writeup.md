@@ -2,6 +2,7 @@
 
 | Date | CTF / Challenge / Repository | Platform | Category | Author / Team | Source |
 |---|---|---|---|---|---|
+| 2026-11-21T20:44 | [hunt-with-4bh1/HackFeed<br><sub>A centralized, automatically updated collection of CTF writeups, bug bounty research, cybersecurity articles and technical learning resources.</sub>](https://github.com/hunt-with-4bh1/HackFeed) | CTF writeup | WEB-EXPLOITATION | hunt-with-4bh1 | GitHub · CTF writeup |
 | 2026-11-21T19:25 | [notSUHA1B/CTF-Writeups<br><sub>Public CTF writeup repository</sub>](https://github.com/notSUHA1B/CTF-Writeups) | CTF writeup | UNCATEGORIZED | notSUHA1B | GitHub · CTF writeup |
 | 2026-11-21T18:49 | [1ndraabot/nfx-ctf-2026-writeup<br><sub>WriteUp NFXCTF 2026</sub>](https://github.com/1ndraabot/nfx-ctf-2026-writeup) | CTF writeup | UNCATEGORIZED | 1ndraabot | GitHub · CTF writeup |
 | 2026-11-21T18:17 | [moglxh/recruit-ctf-writeup<br><sub>Public CTF writeup repository</sub>](https://github.com/moglxh/recruit-ctf-writeup) | CTF writeup | UNCATEGORIZED | moglxh | GitHub · CTF writeup |
@@ -32,7 +33,6 @@
 | 2026-11-09T22:00 | [Idan-Babayan/IdanLab<br><sub>My CyberSecurity Portfolio & CTF Writeups</sub>](https://github.com/Idan-Babayan/IdanLab) | CTF writeup | UNCATEGORIZED | Idan-Babayan | GitHub · CTF writeup |
 | 2026-11-09T19:35 | [WhiteRoseLK/ctf-agents<br><sub>Workspace multi-agent CTF : skills vendorés, exécution Exegol, mémoire (KB + rétros), writeups Obsidian</sub>](https://github.com/WhiteRoseLK/ctf-agents) | CTF writeup | UNCATEGORIZED | WhiteRoseLK | GitHub · CTF writeup |
 | 2026-11-08T10:24 | [JIMIT-PARIKH-01/ctf-extras-toolkit<br><sub>CTF extras: LSB steganography and Markdown writeup generator (GUI + CLI)</sub>](https://github.com/JIMIT-PARIKH-01/ctf-extras-toolkit) | CTF writeup | DIGITAL-FORENSICS | JIMIT-PARIKH-01 | GitHub · CTF writeup |
-| 2026-11-08T05:09 | [axk8/ctf-writeups<br><sub>Public CTF writeup repository</sub>](https://github.com/axk8/ctf-writeups) | CTF writeup | UNCATEGORIZED | axk8 | GitHub · CTF writeup |
 | 2026-11-02T06:59 | [reuteras/CTF-writeups<br><sub>My CTF writeups</sub>](https://github.com/reuteras/CTF-writeups) | CTF writeup | UNCATEGORIZED | reuteras | GitHub · CTF writeup |
 | 2026-11-01T17:49 | [0xnullc0de/Cybersec-Web<br><sub>Offensive Security Portfolio, CTF Writeups & Lab Knowledge Vault by Max 'Nulbyt3'</sub>](https://github.com/0xnullc0de/Cybersec-Web) | CTF writeup | WEB-EXPLOITATION | 0xnullc0de | GitHub · CTF writeup |
 | 2026-10-31T14:46 | [elyqs1/CTF-Writeups<br><sub>Public CTF writeup repository</sub>](https://github.com/elyqs1/CTF-Writeups) | CTF writeup | UNCATEGORIZED | elyqs1 | GitHub · CTF writeup |
