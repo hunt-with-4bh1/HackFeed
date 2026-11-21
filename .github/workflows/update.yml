@@ -52,19 +52,30 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-2.5-flash' }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-3.5-flash-lite' }}
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
           DISCORD_CHANNEL_IDS: ${{ secrets.DISCORD_CHANNEL_IDS }}
         run: python main.py
-      - name: Commit generated indexes
+      - name: Commit generated indexes (retry safely if main moves)
         run: |
-          if [[ -n "$(git status --porcelain)" ]]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
             git add README.md database/writeups.json docs/
+            if git diff --cached --quiet; then
+              echo "No generated changes to publish."
+              exit 0
+            fi
             git commit -m "chore: refresh CTF writeups"
-            git push origin HEAD:main
-          else
-            echo "No changes to publish."
-          fi
+            if git push origin HEAD:main; then
+              echo "Generated indexes pushed successfully."
+              exit 0
+            fi
+            echo "Push attempt $attempt failed; refreshing and rerunning collector."
+            git fetch origin main
+            git reset --hard origin/main
+            python main.py
+          done
+          echo "::error::Could not publish generated indexes after 3 attempts."
+          exit 1
