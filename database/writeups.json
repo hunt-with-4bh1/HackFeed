@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "updated_at": "2026-11-21T20:12:46.579259+00:00",
-  "total": 484,
+  "updated_at": "2026-11-21T20:17:29.366925+00:00",
+  "total": 485,
   "items": [
     {
       "id": "0d2765f5f0cc0b873851a2c8f64ccff379b7aa3684f61b9ab8cd1805a493b5cf",
@@ -4992,9 +4992,9 @@
       "id": "53ae0c5211f50955040e4e80188941ab0be30170f92caa05dacc915a8421e54a",
       "title": "madanisora/ctf-writeups",
       "url": "https://github.com/madanisora/ctf-writeups",
-      "source": "GitHub · CTF writeup",
+      "source": "GitHub · CTF writeups",
       "source_id": "github-search",
-      "platform": "CTF writeup",
+      "platform": "CTF writeups",
       "type": "ctf_writeup",
       "category": "UNCATEGORIZED",
       "author": "madanisora",
@@ -5849,6 +5849,36 @@
         "github"
       ],
       "summary": "🚩 Writeups y resoluciones detalladas de máquinas CTF (HackTheBox, DockerLabs, Whoami-labs).",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "b5deb9a578ebe77bd4656b22d08e2c47ef9b71c8a545c8bbfe20522247832736",
+      "title": "paolocostanzo/paolocostanzo.github.io",
+      "url": "https://github.com/paolocostanzo/paolocostanzo.github.io",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "AI-SECURITY",
+      "author": "paolocostanzo",
+      "published_at": "2026-11-11T10:00:49Z",
+      "discovered_at": "2026-11-21T20:17:27.973202+00:00",
+      "tags": [
+        "ai-security",
+        "aws-security",
+        "cloud-security",
+        "ctf",
+        "ctf-writeups",
+        "github",
+        "mcp",
+        "offensive-security",
+        "osint",
+        "prompt-injection",
+        "security-research",
+        "threat-intelligence"
+      ],
+      "summary": "Security research site of Paolo Costanzo (NonèCostanzo): reproducible labs, threat-intel reports, field notes and TryHackMe CTF writeups covering cloud/AWS, agentic AI, MCP and prompt injection. Hand-written static HTML, no build step, deployed to GitHub Pages via Actions.",
       "priority": 70,
       "metadata_checked": true
     },
@@ -10371,7 +10401,7 @@
     "rss_entries": 201,
     "github_repositories": 139,
     "social_links": 0,
-    "new_entries": 139,
+    "new_entries": 3,
     "failures": [
       {
         "source": "CTFtime · Public Writeups",

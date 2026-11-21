@@ -4,15 +4,15 @@ CTFtime is the primary source. Browse public writeup links by platform.
 
 - [0xdf](platforms/0xdf.md) — 50 entries
 - [CTF Learn](platforms/ctf-learn.md) — 20 entries
-- [CTF writeup](platforms/ctf-writeup.md) — 19 entries
-- [CTF writeups](platforms/ctf-writeups.md) — 3 entries
+- [CTF writeup](platforms/ctf-writeup.md) — 18 entries
+- [CTF writeups](platforms/ctf-writeups.md) — 4 entries
 - [CTFtime](platforms/ctftime.md) — 90 entries
 - [DEV.to](platforms/dev.to.md) — 12 entries
 - [Hack The Box](platforms/hack-the-box.md) — 37 entries
 - [InfoSec Write-ups](platforms/infosec-write-ups.md) — 10 entries
 - [Medium](platforms/medium.md) — 10 entries
 - [Root-Me](platforms/root-me.md) — 29 entries
-- [TryHackMe](platforms/tryhackme.md) — 32 entries
+- [TryHackMe](platforms/tryhackme.md) — 33 entries
 - [picoCTF](platforms/picoctf.md) — 26 entries
 
 ## Latest CTF writeups
@@ -248,7 +248,7 @@ CTFtime is the primary source. Browse public writeup links by platform.
 | 2026-11-21T15:06 | [anonymcoderdev/CTF-CYBERSECURITY<br><sub>CTF writeups, walkthroughs, and cybersecurity documenting, challenges, techniques</sub>](https://github.com/anonymcoderdev/CTF-CYBERSECURITY) | CTF writeups | UNCATEGORIZED | anonymcoderdev | GitHub · CTF writeups |
 | 2026-11-21T15:05 | [kadohack12/everything-for-hacking<br><sub>Writeups CTF collaboratifs (Hack The Box, TryHackMe, Hackropole/FCSC) et cours de cybersécurité. Contributions libres sur les writeups, cours verrouillés et vérifiés par empreinte.</sub>](https://github.com/kadohack12/everything-for-hacking) | TryHackMe | UNCATEGORIZED | kadohack12 | GitHub · TryHackMe |
 | 2026-11-21T14:34 | [HaiGa73/HackTheBox-Writeups<br><sub>Public CTF writeup repository</sub>](https://github.com/HaiGa73/HackTheBox-Writeups) | Hack The Box | UNCATEGORIZED | HaiGa73 | GitHub · Hack The Box |
-| 2026-11-21T14:09 | [madanisora/ctf-writeups<br><sub>Public CTF writeup repository</sub>](https://github.com/madanisora/ctf-writeups) | CTF writeup | UNCATEGORIZED | madanisora | GitHub · CTF writeup |
+| 2026-11-21T14:09 | [madanisora/ctf-writeups<br><sub>Public CTF writeup repository</sub>](https://github.com/madanisora/ctf-writeups) | CTF writeups | UNCATEGORIZED | madanisora | GitHub · CTF writeups |
 | 2026-11-21T13:33 | [cozyxss/cozyxss.github.io<br><sub>cozyxss.com — bug bounty notes, CTF writeups, lessons learned</sub>](https://github.com/cozyxss/cozyxss.github.io) | CTF writeup | UNCATEGORIZED | cozyxss | GitHub · CTF writeup |
 | 2026-11-21T13:31 | [Abdelrahman2612-cloud/tryhackme-writeups<br><sub>Notes and write-ups from hands-on security labs</sub>](https://github.com/Abdelrahman2612-cloud/tryhackme-writeups) | TryHackMe | UNCATEGORIZED | Abdelrahman2612-cloud | GitHub · TryHackMe |
 | 2026-11-21T12:37 | [PholosoBokaba/CTF-WRITEUPS<br><sub>Walkthroughs of CTFs and pentest labs: recon, enumeration, and lessons learned</sub>](https://github.com/PholosoBokaba/CTF-WRITEUPS) | CTF writeup | UNCATEGORIZED | PholosoBokaba | GitHub · CTF writeup |
@@ -285,6 +285,7 @@ CTFtime is the primary source. Browse public writeup links by platform.
 | 2026-11-11T19:15 | [Kiwi20003/CTF-WRITEUPS<br><sub>Ire subiendo los writeups que vaya haciendo sobre maquinas</sub>](https://github.com/Kiwi20003/CTF-WRITEUPS) | CTF writeup | UNCATEGORIZED | Kiwi20003 | GitHub · CTF writeup |
 | 2026-11-11T15:50 | [f4zzie/MyNotes<br><sub>Obsidian vault + Astro site behind f4zzie.dev — 84 hands-on writeups: binary exploitation, malware analysis, reverse engineering, HTB & CTF (picoCTF, perfectRootCTF).</sub>](https://github.com/f4zzie/MyNotes) | picoCTF | BINARY-EXPLOITATION | f4zzie | GitHub · picoCTF |
 | 2026-11-11T12:10 | [Zariia/CTFs-Writeups<br><sub>🚩 Writeups y resoluciones detalladas de máquinas CTF (HackTheBox, DockerLabs, Whoami-labs).</sub>](https://github.com/Zariia/CTFs-Writeups) | Hack The Box | UNCATEGORIZED | Zariia | GitHub · Hack The Box |
+| 2026-11-11T10:00 | [paolocostanzo/paolocostanzo.github.io<br><sub>Security research site of Paolo Costanzo (NonèCostanzo): reproducible labs, threat-intel reports, field notes and TryHackMe CTF writeups covering cloud/AWS, agentic AI, MCP and prompt injection. Hand-written static HTML, no build step, depl</sub>](https://github.com/paolocostanzo/paolocostanzo.github.io) | TryHackMe | AI-SECURITY | paolocostanzo | GitHub · TryHackMe |
 | 2026-11-11T04:50 | [Fecuw/CTF-Writteup<br><sub>今まで解いてきたCTFのWriteup置き場</sub>](https://github.com/Fecuw/CTF-Writteup) | CTF writeup | UNCATEGORIZED | Fecuw | GitHub · CTF writeup |
 | 2026-11-11T00:02 | [BagaskaraAP-Dev/Writeup-PicoCTF-Bagaskara-Amukti-Palapa<br><sub>Kumpulan writeup picoCTF oleh Bagaskara Amukti Palapa</sub>](https://github.com/BagaskaraAP-Dev/Writeup-PicoCTF-Bagaskara-Amukti-Palapa) | picoCTF | UNCATEGORIZED | BagaskaraAP-Dev | GitHub · picoCTF |
 | 2026-11-10T21:09 | [akramyennoune/Writeups<br><sub>CTF,challenges,Tryhackme rooms writeups</sub>](https://github.com/akramyennoune/Writeups) | TryHackMe | UNCATEGORIZED | akramyennoune | GitHub · TryHackMe |
@@ -318,4 +319,3 @@ CTFtime is the primary source. Browse public writeup links by platform.
 | 2026-10-09T03:17 | [0xFarag/tryhackme-writeups<br><sub>8 completed-room learning reports: technical reasoning, remediation and retest criteria. Evidence-aware, spoiler-free public retrospectives.</sub>](https://github.com/0xFarag/tryhackme-writeups) | TryHackMe | UNCATEGORIZED | 0xFarag | GitHub · TryHackMe |
 | 2026-10-02T04:27 | [ManHazz/ctf-writeups<br><sub>A personal collection and storage for my CTF writeups, covering a wide range of sources. :></sub>](https://github.com/ManHazz/ctf-writeups) | CTF writeups | UNCATEGORIZED | ManHazz | GitHub · CTF writeups |
 | 2026-09-23T11:37 | [Jubishop02/cybersecurity-portfolio<br><sub>Cybersecurity writeups (tryhackme) \| security+ prep</sub>](https://github.com/Jubishop02/cybersecurity-portfolio) | TryHackMe | UNCATEGORIZED | Jubishop02 | GitHub · TryHackMe |
-| 2026-09-14T13:34 | [zbel-oss/YZ-Portfolio<br><sub>Offensive Security & Pentesting Portfolio \| HackTheBox writeups, API hacking, vulnerability research and privilege escalation.</sub>](https://github.com/zbel-oss/YZ-Portfolio) | Hack The Box | UNCATEGORIZED | zbel-oss | GitHub · Hack The Box |
