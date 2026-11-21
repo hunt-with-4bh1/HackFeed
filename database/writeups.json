@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-11-21T20:17:29.366925+00:00",
+  "updated_at": "2026-11-21T20:17:55.111125+00:00",
   "total": 485,
   "items": [
     {
@@ -10401,7 +10401,7 @@
     "rss_entries": 201,
     "github_repositories": 139,
     "social_links": 0,
-    "new_entries": 3,
+    "new_entries": 0,
     "failures": [
       {
         "source": "CTFtime · Public Writeups",
