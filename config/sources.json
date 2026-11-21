@@ -1,17 +1,5 @@
 [
   {
-    "id": "ctftime-writeups",
-    "name": "CTFtime · Public Writeups",
-    "url": "https://ctftime.org/writeups",
-    "type": "ctf_writeup",
-    "platform": "CTFtime",
-    "priority": 100,
-    "tags": [
-      "ctf",
-      "writeup"
-    ]
-  },
-  {
     "id": "0xdf",
     "name": "0xdf · CTF Writeups",
     "url": "https://0xdf.gitlab.io/feed.xml",
@@ -95,48 +83,12 @@
     ]
   },
   {
-    "id": "devto-rootme",
-    "name": "DEV.to · Root-Me",
-    "url": "https://dev.to/feed/tag/rootme",
-    "type": "ctf_writeup",
-    "platform": "Root-Me",
-    "priority": 75,
-    "tags": [
-      "ctf",
-      "root-me"
-    ]
-  },
-  {
-    "id": "devto-ctflearn",
-    "name": "DEV.to · CTF Learn",
-    "url": "https://dev.to/feed/tag/ctflearn",
-    "type": "ctf_writeup",
-    "platform": "CTF Learn",
-    "priority": 75,
-    "tags": [
-      "ctf",
-      "ctflearn"
-    ]
-  },
-  {
     "id": "reddit-ctf",
     "name": "Reddit · r/ctf",
     "url": "https://www.reddit.com/r/ctf/.rss",
     "type": "ctf_writeup",
     "platform": "Reddit r/ctf",
     "priority": 65,
-    "tags": [
-      "ctf",
-      "community"
-    ]
-  },
-  {
-    "id": "reddit-ctfwriteups",
-    "name": "Reddit · r/CTFWriteups",
-    "url": "https://www.reddit.com/r/CTFWriteups/.rss",
-    "type": "ctf_writeup",
-    "platform": "Reddit r/CTFWriteups",
-    "priority": 70,
     "tags": [
       "ctf",
       "community"
