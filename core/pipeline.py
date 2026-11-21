@@ -1,129 +1,227 @@
-"""Feed collection, normalization, classification and persistence."""
+"""CTF-first collectors, topic classification, deduplication and optional AI summaries."""
 from __future__ import annotations
-import hashlib
-import json
-import logging
-import re
+import hashlib, html, json, logging, os, re
 from datetime import datetime, timezone
+from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
-
-import feedparser
-import requests
+import feedparser, requests
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES = ROOT / "config" / "sources.json"
 DATABASE = ROOT / "database" / "writeups.json"
 LOG = logging.getLogger("hackfeed")
-TRACKING_KEYS = {"fbclid", "gclid", "mc_cid", "mc_eid"}
+UA = "HackFeed/2.1 (+https://github.com/hunt-with-4bh1/HackFeed)"
+TRACKING = {"fbclid", "gclid", "mc_cid", "mc_eid"}
+
+# Ordered from specific CTF challenge families to broad topics.
 CATEGORY_RULES = {
-    "BUG-BOUNTY": ["bug bounty", "hackerone", "bugcrowd", "intigriti", "responsible disclosure", "bounty"],
-    "CTF-WRITEUPS": ["ctf", "capture the flag", "picoctf", "hack the box", "hackthebox", "tryhackme", "htb"],
-    "WEB-SECURITY": ["xss", "cross-site scripting", "ssrf", "sqli", "sql injection", "idor", "csrf", "ssti", "rce", "request smuggling", "web security", "api security"],
-    "REVERSE-ENGINEERING": ["reverse engineering", "malware analysis", "disassembly", "ghidra", "ida pro", "decompiler"],
-    "FORENSICS": ["forensics", "memory dump", "disk image", "volatility", "steganography", "pcap"],
-    "PWN": ["pwn", "binary exploitation", "buffer overflow", "rop chain", "heap exploitation", "format string"],
-    "CRYPTO": ["cryptography", "cryptanalysis", "rsa", "aes", "elliptic curve", "padding oracle"],
+ "WEB-EXPLOITATION": ["web exploitation","web exploit","web challenge","web security","sql injection","sqli","cross-site scripting","xss","ssrf","idor","ssti","csrf","xxe","request smuggling","path traversal","file upload","command injection","lfi","rfi","deserialization","prototype pollution","jwt"],
+ "CRYPTOGRAPHY": ["cryptography","cryptanalysis","crypto","rsa","aes","elliptic curve","ecc","lattice","padding oracle","xor","lcg","hash length extension"],
+ "DIGITAL-FORENSICS": ["digital forensics","forensics","forensic","memory dump","memory forensics","disk image","pcap","wireshark","volatility","steganography","file carving","metadata","evtx","registry hive"],
+ "BINARY-EXPLOITATION": ["binary exploitation","binary exploit","pwn","pwning","buffer overflow","rop chain","ret2libc","heap exploitation","format string","stack canary","shellcode","use after free","uaf"],
+ "AI-SECURITY": ["ai security","artificial intelligence","machine learning","llm","large language model","prompt injection","jailbreak","model extraction","adversarial","poisoning","rag","agentic","ai ctf"],
+ "REVERSE-ENGINEERING": ["reverse engineering","reverse-engineering","reversing","ghidra","ida pro","radare2","angr","decompilation","disassembly","malware analysis"],
+ "OSINT": ["osint","open source intelligence","geolocation","geoint","reconnaissance"],
+ "NETWORK": ["network forensics","network exploitation","packet analysis","dns","protocol","snmp","network"],
+ "CLOUD": ["cloud security","aws","azure","gcp","iam","kubernetes","docker","container escape"],
+ "MOBILE": ["android","ios","mobile app","apk","ipa"],
+ "HARDWARE-IOT": ["hardware","iot","firmware","embedded","uart","jtag","rfid"],
+ "MISC": ["miscellaneous","misc","programming","warmup","general skills","esoteric"],
 }
+CATEGORY_FILES = {k:k+".md" for k in CATEGORY_RULES}
+CATEGORY_FILES["UNCATEGORIZED"] = "UNCATEGORIZED.md"
 
-def canonical_url(value: str) -> str:
+def canonical_url(value):
     try:
-        parts = urlsplit(value.strip())
-        if parts.scheme not in ("http", "https") or not parts.netloc:
-            return value.strip()
-        query = [(k, v) for k, v in parse_qsl(parts.query, keep_blank_values=True)
-                 if not k.lower().startswith("utm_") and k.lower() not in TRACKING_KEYS]
-        return urlunsplit((parts.scheme.lower(), parts.netloc.lower(), parts.path.rstrip("/") or "/", urlencode(query), ""))
-    except Exception:
-        return value.strip()
+        p=urlsplit(value.strip())
+        if p.scheme not in ("http","https") or not p.netloc: return value.strip()
+        q=[(k,v) for k,v in parse_qsl(p.query,keep_blank_values=True) if not k.lower().startswith("utm_") and k.lower() not in TRACKING]
+        return urlunsplit((p.scheme.lower(),p.netloc.lower(),p.path.rstrip("/") or "/",urlencode(q),""))
+    except Exception: return value.strip()
 
-def classify(title: str, summary: str) -> str:
-    text = (title + " " + summary).lower()
-    for category, keywords in CATEGORY_RULES.items():
-        for keyword in keywords:
-            # Avoid accidental matches such as "rsa" inside unrelated words.
-            if " " in keyword or "-" in keyword:
-                matched = keyword in text
-            else:
-                import re
-                matched = re.search(r"(?<![a-z0-9])" + re.escape(keyword) + r"(?![a-z0-9])", text) is not None
-            if matched:
+def classify(title, summary="", tags=None):
+    text=(title+" "+summary+" "+" ".join(tags or [])).lower()
+    for category, words in CATEGORY_RULES.items():
+        for word in words:
+            if re.search(r"(?<![a-z0-9])"+re.escape(word)+r"(?![a-z0-9])",text):
                 return category
-    return "OTHER"
+    return "UNCATEGORIZED"
 
-def load_database() -> dict:
-    if not DATABASE.exists():
-        return {"version": 1, "items": []}
-    try:
-        data = json.loads(DATABASE.read_text(encoding="utf-8"))
-        if isinstance(data, dict) and isinstance(data.get("items"), list):
-            return data
-    except (OSError, json.JSONDecodeError):
-        LOG.exception("Could not read database; starting a fresh in-memory collection")
-    return {"version": 1, "items": []}
+def make_item(url,title,source,source_id,platform,summary="",tags=None,published="",author="",priority=50):
+    url=canonical_url(url)
+    if not url.startswith(("http://","https://")): return None
+    tags=tags or []
+    category=classify(title,summary,tags)
+    return {"id":hashlib.sha256(url.encode()).hexdigest(),"title":html.unescape(re.sub(r"\s+"," ",title or "Untitled")).strip()[:300],
+      "url":url,"source":source,"source_id":source_id,"platform":platform,"type":"ctf_writeup",
+      "category":category,"author":author[:120],"published_at":published,"discovered_at":datetime.now(timezone.utc).isoformat(),
+      "tags":sorted(set(str(x).lower() for x in tags if x))[:30],"summary":re.sub(r"\s+"," ",re.sub(r"<[^>]+>"," ",summary or "")).strip()[:800],
+      "priority":priority,"metadata_checked":True}
 
-def collect() -> tuple[list[dict], list[dict]]:
-    sources = json.loads(SOURCES.read_text(encoding="utf-8"))
-    collected, failures = [], []
-    session = requests.Session()
-    session.headers.update({"User-Agent": "HackFeed/1.0 (+https://github.com/hunt-with-4bh1/HackFeed)"})
-    for source in sources:
+class CTFtimeParser(HTMLParser):
+    def __init__(self):
+        super().__init__(); self.rows=[]; self.row=None; self.cell=None; self.anchor=None
+    def handle_starttag(self,tag,attrs):
+        attrs=dict(attrs)
+        if tag=="tr": self.row=[]
+        elif tag=="td" and self.row is not None: self.cell={"text":"","links":[]}
+        elif tag=="a" and self.cell is not None: self.anchor={"href":attrs.get("href",""),"text":""}
+    def handle_data(self,data):
+        if self.cell is not None: self.cell["text"]+=data
+        if self.anchor is not None: self.anchor["text"]+=data
+    def handle_endtag(self,tag):
+        if tag=="a" and self.anchor is not None:
+            self.cell["links"].append(self.anchor); self.anchor=None
+        elif tag=="td" and self.cell is not None:
+            self.row.append(self.cell); self.cell=None
+        elif tag=="tr" and self.row is not None:
+            if self.row: self.rows.append(self.row)
+            self.row=None
+
+def collect_ctftime(session):
+    items=[]; failures=[]
+    # The public writeups index is a listing of links, not a writeup API.
+    for page in range(1,4):
         try:
-            response = session.get(source["url"], timeout=(8, 20))
-            response.raise_for_status()
-            parsed = feedparser.parse(response.content)
-            if parsed.bozo and not parsed.entries:
-                raise ValueError(str(parsed.bozo_exception))
-            count = 0
-            for entry in parsed.entries[:100]:
-                link = canonical_url(entry.get("link") or entry.get("id") or "")
-                title = re.sub(r"\s+", " ", entry.get("title", "Untitled")).strip()
-                if not link.startswith(("http://", "https://")):
-                    continue
-                published = entry.get("published") or entry.get("updated") or ""
-                author = entry.get("author", "")
-                summary = re.sub(r"<[^>]+>", " ", entry.get("summary", ""))
-                summary = re.sub(r"\s+", " ", summary).strip()[:500]
-                tags = [tag.get("term", "") for tag in entry.get("tags", []) if tag.get("term")]
-                tags.extend(source.get("tags", []))
-                item_id = hashlib.sha256(link.encode("utf-8")).hexdigest()
-                collected.append({
-                    "id": item_id, "title": title[:300], "url": link,
-                    "source": source["name"], "source_id": source["id"],
-                    "type": source.get("type", "article"),
-                    "category": classify(title, summary),
-                    "author": author[:120], "published_at": published,
-                    "discovered_at": datetime.now(timezone.utc).isoformat(),
-                    "tags": sorted(set(t.lower() for t in tags if t))[:15],
-                    "summary": summary, "metadata_checked": True
-                })
-                count += 1
-            LOG.info("%s: collected %d entries", source["name"], count)
-        except Exception as exc:
-            LOG.warning("%s failed: %s", source.get("name", "unknown source"), exc)
-            failures.append({"source": source.get("name", "unknown"), "error": str(exc)[:240]})
-    session.close()
-    return collected, failures
+            url="https://ctftime.org/writeups" if page==1 else f"https://ctftime.org/writeups?page={page}"
+            r=session.get(url,timeout=(8,25)); r.raise_for_status()
+            parser=CTFtimeParser(); parser.feed(r.text)
+            for row in parser.rows:
+                if len(row)<5: continue
+                event=row[0]["text"].strip(); task=row[1]["text"].strip()
+                tags=row[2]["text"].lower().split()
+                team=row[3]["text"].strip()
+                read_links=row[4]["links"]
+                if not read_links: continue
+                href=read_links[-1]["href"]
+                if href.startswith("/"): href="https://ctftime.org"+href
+                title=(event+" — "+task).strip(" —")
+                item=make_item(href,title,"CTFtime","ctftime-writeups","CTFtime", "Tags: "+", ".join(tags),tags,author=team,priority=100)
+                if item: items.append(item)
+        except Exception as e:
+            failures.append({"source":f"CTFtime page {page}","error":str(e)[:240]})
+            LOG.warning("CTFtime page %s failed: %s",page,e)
+            break
+    LOG.info("CTFtime: collected %d public listing links",len(items))
+    return items,failures
 
-def run_pipeline() -> dict:
-    DATABASE.parent.mkdir(parents=True, exist_ok=True)
-    data = load_database()
-    by_id = {item.get("id"): item for item in data["items"] if item.get("id")}
-    incoming, failures = collect()
-    added = 0
+def collect_rss(session,sources):
+    items=[]; failures=[]
+    for src in sorted(sources,key=lambda x:x.get("priority",50),reverse=True):
+        try:
+            r=session.get(src["url"],timeout=(8,20)); r.raise_for_status()
+            feed=feedparser.parse(r.content)
+            if feed.bozo and not feed.entries: raise ValueError(str(feed.bozo_exception))
+            count=0
+            for entry in feed.entries[:100]:
+                tags=[t.get("term","") for t in entry.get("tags",[]) if t.get("term")]+src.get("tags",[])
+                item=make_item(entry.get("link") or entry.get("id",""),entry.get("title","Untitled"),
+                    src["name"],src["id"],src.get("platform",src["name"]),entry.get("summary",""),tags,
+                    entry.get("published") or entry.get("updated",""),entry.get("author",""),src.get("priority",50))
+                if item: items.append(item); count+=1
+            LOG.info("%s: %d entries",src["name"],count)
+        except Exception as e:
+            failures.append({"source":src.get("name","unknown"),"error":str(e)[:240]})
+            LOG.warning("%s failed: %s",src.get("name","unknown"),e)
+    return items,failures
+
+GITHUB_QUERIES=[
+ ("ctf-writeups in:name,description","GitHub · CTF writeups"),
+ ("ctf-writeup in:name,description","GitHub · CTF writeup"),
+ ("picoCTF writeups in:name,description","GitHub · picoCTF"),
+ ("HackTheBox writeups in:name,description","GitHub · Hack The Box"),
+ ("TryHackMe writeups in:name,description","GitHub · TryHackMe"),
+ ("Root-Me writeups in:name,description","GitHub · Root-Me"),
+ ("CTFLearn writeups in:name,description","GitHub · CTF Learn"),
+]
+def collect_github(session):
+    items=[]; failures=[]
+    headers={"Accept":"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28"}
+    token=os.getenv("GITHUB_TOKEN")
+    if token: headers["Authorization"]="Bearer "+token
+    for query,label in GITHUB_QUERIES:
+        try:
+            r=session.get("https://api.github.com/search/repositories",params={"q":query,"sort":"updated","order":"desc","per_page":20},headers=headers,timeout=(8,20)); r.raise_for_status()
+            for repo in r.json().get("items",[]):
+                item=make_item(repo.get("html_url",""),repo.get("full_name",""),label,"github-search",label.replace("GitHub · ",""),
+                    repo.get("description") or "Public CTF writeup repository",repo.get("topics",[])+["ctf","github"],repo.get("updated_at",""),
+                    repo.get("owner",{}).get("login",""),70)
+                if item: items.append(item)
+        except Exception as e: failures.append({"source":label,"error":str(e)[:240]})
+    return items,failures
+
+def optional_social(session):
+    items=[]; failures=[]
+    token=os.getenv("X_BEARER_TOKEN")
+    if token:
+        try:
+            r=session.get("https://api.x.com/2/tweets/search/recent",params={"query":'(CTF OR picoCTF OR HackTheBox OR TryHackMe) (writeup OR walkthrough) -is:retweet',"max_results":100,"tweet.fields":"created_at,author_id"},headers={"Authorization":"Bearer "+token},timeout=(8,20)); r.raise_for_status()
+            for p in r.json().get("data",[]):
+                item=make_item("https://x.com/i/web/status/"+p["id"],p.get("text","")[:240],"X/Twitter","x-search","X/Twitter",p.get("text",""),["ctf","social"],p.get("created_at",""),p.get("author_id",""),55)
+                if item: items.append(item)
+        except Exception as e: failures.append({"source":"X/Twitter","error":str(e)[:240]})
+    else: failures.append({"source":"X/Twitter","error":"Optional: configure X_BEARER_TOKEN Actions secret"})
+    token=os.getenv("DISCORD_BOT_TOKEN"); channels=[x.strip() for x in os.getenv("DISCORD_CHANNEL_IDS","").split(",") if x.strip()]
+    if token and channels:
+        for channel in channels[:20]:
+            try:
+                r=session.get(f"https://discord.com/api/v10/channels/{channel}/messages",params={"limit":100},headers={"Authorization":"Bot "+token},timeout=(8,20)); r.raise_for_status()
+                for msg in r.json():
+                    body=msg.get("content","")
+                    if not re.search(r"ctf|write.?up|picoctf|hackthebox|tryhackme|root.?me",body,re.I): continue
+                    for link in re.findall(r"https?://[^\s<>]+",body):
+                        item=make_item(link,body[:220],"Discord","discord-"+channel,"Discord",body,["ctf","discord"],msg.get("timestamp",""),msg.get("author",{}).get("username",""),50)
+                        if item: items.append(item)
+            except Exception as e: failures.append({"source":"Discord "+channel,"error":str(e)[:240]})
+    else: failures.append({"source":"Discord","error":"Optional: configure DISCORD_BOT_TOKEN and DISCORD_CHANNEL_IDS; bot needs channel read permissions"})
+    return items,failures
+
+def ai_summarize(items):
+    key=os.getenv("OPENAI_API_KEY")
+    if not key: return
+    pending=[x for x in items if x.get("type")=="ctf_writeup" and not x.get("ai_summary") and x.get("summary")][:8]
+    for item in pending:
+        try:
+            r=requests.post(os.getenv("OPENAI_BASE_URL","https://api.openai.com/v1")+"/chat/completions",
+              headers={"Authorization":"Bearer "+key,"Content-Type":"application/json"},
+              json={"model":os.getenv("OPENAI_MODEL","gpt-4o-mini"),"temperature":0.2,"messages":[
+                {"role":"system","content":"Summarize this CTF writeup metadata/excerpt in 1-2 factual sentences. Do not invent exploit steps or claim to have read the full article. Mention uncertainty if excerpt is insufficient."},
+                {"role":"user","content":"Title: "+item["title"]+"\nPlatform: "+item["platform"]+"\nCategory: "+item["category"]+"\nExcerpt: "+item["summary"][:700]}]},timeout=30)
+            r.raise_for_status(); item["ai_summary"]=r.json()["choices"][0]["message"]["content"].strip()[:600]
+            item["ai_summary_model"]=os.getenv("OPENAI_MODEL","gpt-4o-mini")
+        except Exception as e: LOG.warning("AI summary failed for %s: %s",item["url"],e)
+
+def run_pipeline():
+    DATABASE.parent.mkdir(parents=True,exist_ok=True)
+    old={}
+    if DATABASE.exists():
+        try:
+            old={x["id"]:x for x in json.loads(DATABASE.read_text(encoding="utf-8")).get("items",[]) if x.get("id")}
+        except Exception: LOG.exception("Could not read previous database")
+    session=requests.Session(); session.headers.update({"User-Agent":UA})
+    ctf,cf=collect_ctftime(session)
+    sources=json.loads(SOURCES.read_text(encoding="utf-8"))
+    rss,rf=collect_rss(session,sources)
+    gh,gf=collect_github(session)
+    social,sf=optional_social(session)
+    session.close()
+    incoming=ctf+rss+gh+social
+    added=0; by_id=dict(old)
     for item in incoming:
-        old = by_id.get(item["id"])
-        if old:
-            # Preserve first discovery timestamp; refresh feed metadata.
-            item["discovered_at"] = old.get("discovered_at", item["discovered_at"])
-        else:
-            added += 1
-        by_id[item["id"]] = item
-    items = sorted(by_id.values(), key=lambda x: x.get("published_at") or x.get("discovered_at", ""), reverse=True)
-    data = {"version": 1, "updated_at": datetime.now(timezone.utc).isoformat(),
-            "total": len(items), "items": items[:5000],
-            "last_run": {"feeds_ok": len(json.loads(SOURCES.read_text())) - len(failures),
-                         "feeds_failed": failures, "entries_seen": len(incoming), "new_entries": added}}
-    DATABASE.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    LOG.info("Saved %d records (%d new); %d feed failures", len(data["items"]), added, len(failures))
+        previous=old.get(item["id"])
+        if previous:
+            item["discovered_at"]=previous.get("discovered_at",item["discovered_at"])
+            if previous.get("ai_summary"): item["ai_summary"]=previous["ai_summary"]; item["ai_summary_model"]=previous.get("ai_summary_model","")
+        else: added+=1
+        by_id[item["id"]]=item
+    items=list(by_id.values())
+    ai_summarize(items)
+    items.sort(key=lambda x:(x.get("type")=="ctf_writeup",x.get("priority",0),x.get("published_at") or x.get("discovered_at","")),reverse=True)
+    failures=cf+rf+gf+sf
+    data={"version":3,"updated_at":datetime.now(timezone.utc).isoformat(),"total":len(items),"items":items[:10000],
+      "last_run":{"ctftime_entries":len(ctf),"rss_entries":len(rss),"github_repositories":len(gh),"social_links":len(social),
+      "new_entries":added,"failures":failures}}
+    DATABASE.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    LOG.info("HackFeed: %d records (%d new), CTFtime=%d, RSS=%d, GitHub=%d",len(data["items"]),added,len(ctf),len(rss),len(gh))
     return data
