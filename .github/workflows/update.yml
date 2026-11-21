@@ -39,6 +39,15 @@ jobs:
         run: |
           git fetch origin main
           git reset --hard origin/main
+      - name: Check Gemini configuration
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          if [ -n "$GEMINI_API_KEY" ]; then
+            echo "Gemini API secret is available to this workflow."
+          else
+            echo "::warning::GEMINI_API_KEY is not available; summaries will be skipped."
+          fi
       - name: Run HackFeed
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
