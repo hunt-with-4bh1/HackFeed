@@ -127,6 +127,13 @@ GITHUB_QUERIES=[
  ("TryHackMe writeups in:name,description","GitHub · TryHackMe"),
  ("Root-Me writeups in:name,description","GitHub · Root-Me"),
  ("CTFLearn writeups in:name,description","GitHub · CTF Learn"),
+ ("OSINT CTF writeups in:name,description","GitHub · OSINT"),
+ ("cryptography CTF writeups in:name,description","GitHub · Cryptography"),
+ ("pwn binary exploitation CTF writeups in:name,description","GitHub · Binary Exploitation"),
+ ("forensics CTF writeups in:name,description","GitHub · Digital Forensics"),
+ ("reverse engineering CTF writeups in:name,description","GitHub · Reverse Engineering"),
+ ("web exploitation CTF writeups in:name,description","GitHub · Web Exploitation"),
+ ("AI security CTF writeups in:name,description","GitHub · AI Security"),
 ]
 def collect_github(session):
     items=[]; failures=[]
@@ -135,7 +142,7 @@ def collect_github(session):
     if token: headers["Authorization"]="Bearer "+token
     for query,label in GITHUB_QUERIES:
         try:
-            r=session.get("https://api.github.com/search/repositories",params={"q":query,"sort":"updated","order":"desc","per_page":20},headers=headers,timeout=(8,20)); r.raise_for_status()
+            r=session.get("https://api.github.com/search/repositories",params={"q":query,"sort":"updated","order":"desc","per_page":50},headers=headers,timeout=(8,20)); r.raise_for_status()
             for repo in r.json().get("items",[]):
                 item=make_item(repo.get("html_url",""),repo.get("full_name",""),label,"github-search",label.replace("GitHub · ",""),
                     repo.get("description") or "Public CTF writeup repository",repo.get("topics",[])+["ctf","github"],repo.get("updated_at",""),
