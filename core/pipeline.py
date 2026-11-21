@@ -70,13 +70,13 @@ def collect() -> tuple[list[dict], list[dict]]:
             count = 0
             for entry in parsed.entries[:100]:
                 link = canonical_url(entry.get("link") or entry.get("id") or "")
-                title = re.sub(r"\\s+", " ", entry.get("title", "Untitled")).strip()
+                title = re.sub(r"\s+", " ", entry.get("title", "Untitled")).strip()
                 if not link.startswith(("http://", "https://")):
                     continue
                 published = entry.get("published") or entry.get("updated") or ""
                 author = entry.get("author", "")
                 summary = re.sub(r"<[^>]+>", " ", entry.get("summary", ""))
-                summary = re.sub(r"\\s+", " ", summary).strip()[:500]
+                summary = re.sub(r"\s+", " ", summary).strip()[:500]
                 tags = [tag.get("term", "") for tag in entry.get("tags", []) if tag.get("term")]
                 tags.extend(source.get("tags", []))
                 item_id = hashlib.sha256(link.encode("utf-8")).hexdigest()
