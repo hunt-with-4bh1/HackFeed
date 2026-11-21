@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HackFeed writeup record",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "url",
+    "source",
+    "platform",
+    "type",
+    "category",
+    "content_mode"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "source": {
+      "type": "string"
+    },
+    "platform": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "ctf_writeup",
+        "research"
+      ]
+    },
+    "category": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "published_at": {
+      "type": "string"
+    },
+    "discovered_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "summary": {
+      "type": "string",
+      "maxLength": 800
+    },
+    "ai_summary": {
+      "type": "string",
+      "maxLength": 600
+    },
+    "content_mode": {
+      "type": "string",
+      "enum": [
+        "link_only",
+        "excerpt",
+        "full_text_authorized"
+      ]
+    },
+    "full_text": {
+      "type": "string"
+    },
+    "rights_basis": {
+      "type": "string"
+    },
+    "rights_evidence": {
+      "type": "string"
+    },
+    "attribution": {
+      "type": "string"
+    },
+    "collected_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "metadata_checked": {
+      "type": "boolean"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "content_mode": {
+            "const": "full_text_authorized"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "full_text",
+          "rights_basis",
+          "rights_evidence",
+          "attribution",
+          "collected_at"
+        ]
+      }
+    }
+  ]
+}
