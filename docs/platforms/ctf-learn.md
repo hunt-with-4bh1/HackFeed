@@ -2,7 +2,7 @@
 
 | Date | CTF / Challenge / Repository | Platform | Category | Author / Team | Source |
 |---|---|---|---|---|---|
-| 2026-11-21T18:26 | [rishitsaiya/CTFlearn-Writeups<br><sub>CTFlearn writeups of all the challenges I have solved. It covers all the domains including Cryptography, Forensics, Reversing, Pwning and other Misc problems.</sub>](https://github.com/rishitsaiya/CTFlearn-Writeups) | CTF Learn | CRYPTOGRAPHY | rishitsaiya | GitHub · CTF Learn |
+| 2026-11-21T18:26 | [rishitsaiya/CTFlearn-Writeups<br><sub>CTFlearn writeups of all the challenges I have solved. It covers all the domains including Cryptography, Forensics, Reversing, Pwning and other Misc problems.</sub>](https://github.com/rishitsaiya/CTFlearn-Writeups) | CTF Learn | WEB-EXPLOITATION | rishitsaiya | GitHub · CTF Learn |
 | 2026-11-21T01:50 | [zakyzaa-dev/ctf-writeups<br><sub>My personal CTF write-ups, notes, and exploit scripts from picoCTF and CTFLearn.</sub>](https://github.com/zakyzaa-dev/ctf-writeups) | CTF Learn | UNCATEGORIZED | zakyzaa-dev | GitHub · CTF Learn |
 | 2026-10-18T15:24 | [EladBeber/CTFlearn-Writeups<br><sub>Writeups of CTFLearn Challenges , by EdbR - EladBeber</sub>](https://github.com/EladBeber/CTFlearn-Writeups) | CTF Learn | DIGITAL-FORENSICS | EladBeber | GitHub · CTF Learn |
 | 2026-10-15T10:20 | [skibidibum333/CTFlearn-writeups<br><sub>This repo serves as a storage for my successful CTF challenges.</sub>](https://github.com/skibidibum333/CTFlearn-writeups) | CTF Learn | UNCATEGORIZED | skibidibum333 | GitHub · CTF Learn |
