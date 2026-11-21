@@ -2,7 +2,7 @@ name: Update HackFeed
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "17 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -44,6 +44,7 @@ jobs:
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add README.md database/writeups.json docs/
             git commit -m "chore: refresh HackFeed articles"
+            git pull --rebase origin main
             git push
           else
             echo "No changes to publish."
