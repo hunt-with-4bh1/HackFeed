@@ -216,6 +216,10 @@ HackFeed is an **index, not a mirror**. By default it stores metadata, source li
 - AI summaries are based only on available feed excerpts.
 - Automated categories are suggestions; check the original writeup.
 
+## AI learning knowledge base
+
+The long-term goal is to let an AI assistant search and understand the indexed writeups while solving future CTFs. The correct first approach is a rights-aware **RAG knowledge base**, not claiming that a model is trained just by sharing a repository URL. See the [AI Knowledge Base plan](docs/AI-KNOWLEDGE-BASE.md) for architecture and current implementation status.
+
 ## Contributing
 
 Found a useful public CTF writeup source or spotted a broken link?
