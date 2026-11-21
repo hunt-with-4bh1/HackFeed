@@ -1,21 +1,181 @@
 [
   {
+    "id": "ctftime-writeups",
+    "name": "CTFtime · Public Writeups",
+    "url": "https://ctftime.org/writeups",
+    "type": "ctf_writeup",
+    "platform": "CTFtime",
+    "priority": 100,
+    "tags": [
+      "ctf",
+      "writeup"
+    ]
+  },
+  {
+    "id": "0xdf",
+    "name": "0xdf · CTF Writeups",
+    "url": "https://0xdf.gitlab.io/feed.xml",
+    "type": "ctf_writeup",
+    "platform": "0xdf",
+    "priority": 95,
+    "tags": [
+      "ctf",
+      "hackthebox",
+      "tryhackme"
+    ]
+  },
+  {
+    "id": "htb-writeups",
+    "name": "Hack The Box · Write-Ups",
+    "url": "https://www.hackthebox.com/blog/tag/write-ups/rss.xml",
+    "type": "ctf_writeup",
+    "platform": "Hack The Box",
+    "priority": 90,
+    "tags": [
+      "ctf",
+      "htb"
+    ]
+  },
+  {
+    "id": "medium-ctf",
+    "name": "Medium · CTF",
+    "url": "https://medium.com/feed/tag/ctf",
+    "type": "ctf_writeup",
+    "platform": "Medium",
+    "priority": 75,
+    "tags": [
+      "ctf"
+    ]
+  },
+  {
+    "id": "medium-picoctf",
+    "name": "Medium · picoCTF",
+    "url": "https://medium.com/feed/tag/picoctf",
+    "type": "ctf_writeup",
+    "platform": "picoCTF",
+    "priority": 80,
+    "tags": [
+      "ctf",
+      "picoctf"
+    ]
+  },
+  {
+    "id": "devto-ctf",
+    "name": "DEV.to · CTF",
+    "url": "https://dev.to/feed/tag/ctf",
+    "type": "ctf_writeup",
+    "platform": "DEV.to",
+    "priority": 75,
+    "tags": [
+      "ctf"
+    ]
+  },
+  {
+    "id": "devto-htb",
+    "name": "DEV.to · Hack The Box",
+    "url": "https://dev.to/feed/tag/hackthebox",
+    "type": "ctf_writeup",
+    "platform": "Hack The Box",
+    "priority": 80,
+    "tags": [
+      "ctf",
+      "htb"
+    ]
+  },
+  {
+    "id": "devto-thm",
+    "name": "DEV.to · TryHackMe",
+    "url": "https://dev.to/feed/tag/tryhackme",
+    "type": "ctf_writeup",
+    "platform": "TryHackMe",
+    "priority": 80,
+    "tags": [
+      "ctf",
+      "tryhackme"
+    ]
+  },
+  {
+    "id": "devto-rootme",
+    "name": "DEV.to · Root-Me",
+    "url": "https://dev.to/feed/tag/rootme",
+    "type": "ctf_writeup",
+    "platform": "Root-Me",
+    "priority": 75,
+    "tags": [
+      "ctf",
+      "root-me"
+    ]
+  },
+  {
+    "id": "devto-ctflearn",
+    "name": "DEV.to · CTF Learn",
+    "url": "https://dev.to/feed/tag/ctflearn",
+    "type": "ctf_writeup",
+    "platform": "CTF Learn",
+    "priority": 75,
+    "tags": [
+      "ctf",
+      "ctflearn"
+    ]
+  },
+  {
+    "id": "reddit-ctf",
+    "name": "Reddit · r/ctf",
+    "url": "https://www.reddit.com/r/ctf/.rss",
+    "type": "ctf_writeup",
+    "platform": "Reddit r/ctf",
+    "priority": 65,
+    "tags": [
+      "ctf",
+      "community"
+    ]
+  },
+  {
+    "id": "reddit-ctfwriteups",
+    "name": "Reddit · r/CTFWriteups",
+    "url": "https://www.reddit.com/r/CTFWriteups/.rss",
+    "type": "ctf_writeup",
+    "platform": "Reddit r/CTFWriteups",
+    "priority": 70,
+    "tags": [
+      "ctf",
+      "community"
+    ]
+  },
+  {
+    "id": "rootme-blog",
+    "name": "Root-Me Blog · Writeups",
+    "url": "https://blog.root-me.org/categories/writeups/index.xml",
+    "type": "ctf_writeup",
+    "platform": "Root-Me",
+    "priority": 85,
+    "tags": [
+      "ctf",
+      "root-me"
+    ]
+  },
+  {
+    "id": "infosecwriteups",
+    "name": "InfoSec Write-ups",
+    "url": "https://infosecwriteups.com/feed",
+    "type": "ctf_writeup",
+    "platform": "InfoSec Write-ups",
+    "priority": 55,
+    "tags": [
+      "ctf",
+      "writeup"
+    ]
+  },
+  {
     "id": "portswigger-research",
     "name": "PortSwigger Research",
     "url": "https://portswigger.net/research/rss",
     "type": "research",
+    "platform": "PortSwigger",
+    "priority": 15,
     "tags": [
       "web",
-      "bug-bounty"
-    ]
-  },
-  {
-    "id": "portswigger-blog",
-    "name": "PortSwigger Blog",
-    "url": "https://portswigger.net/blog/rss",
-    "type": "research",
-    "tags": [
-      "web"
+      "security"
     ]
   },
   {
@@ -23,75 +183,11 @@
     "name": "ProjectDiscovery",
     "url": "https://blog.projectdiscovery.io/rss",
     "type": "research",
+    "platform": "ProjectDiscovery",
+    "priority": 10,
     "tags": [
       "bug-bounty",
       "web"
-    ]
-  },
-  {
-    "id": "infosecwriteups",
-    "name": "InfoSec Write-ups",
-    "url": "https://infosecwriteups.com/feed",
-    "type": "writeup",
-    "tags": [
-      "bug-bounty",
-      "web",
-      "ctf"
-    ]
-  },
-  {
-    "id": "medium-bugbounty",
-    "name": "Medium · Bug Bounty",
-    "url": "https://medium.com/feed/tag/bug-bounty",
-    "type": "writeup",
-    "tags": [
-      "bug-bounty"
-    ]
-  },
-  {
-    "id": "medium-ctf",
-    "name": "Medium · CTF",
-    "url": "https://medium.com/feed/tag/ctf",
-    "type": "writeup",
-    "tags": [
-      "ctf"
-    ]
-  },
-  {
-    "id": "medium-hacking",
-    "name": "Medium · Hacking",
-    "url": "https://medium.com/feed/tag/hacking",
-    "type": "writeup",
-    "tags": [
-      "security"
-    ]
-  },
-  {
-    "id": "devto-bugbounty",
-    "name": "DEV Community · Bug Bounty",
-    "url": "https://dev.to/feed/tag/bugbounty",
-    "type": "writeup",
-    "tags": [
-      "bug-bounty"
-    ]
-  },
-  {
-    "id": "devto-ctf",
-    "name": "DEV Community · CTF",
-    "url": "https://dev.to/feed/tag/ctf",
-    "type": "writeup",
-    "tags": [
-      "ctf"
-    ]
-  },
-  {
-    "id": "pentestlab",
-    "name": "Penetration Testing Lab",
-    "url": "https://pentestlab.blog/feed",
-    "type": "research",
-    "tags": [
-      "web",
-      "pwn"
     ]
   },
   {
@@ -99,6 +195,8 @@
     "name": "OALABS Research",
     "url": "https://research.openanalysis.net/feed.xml",
     "type": "research",
+    "platform": "OALABS",
+    "priority": 10,
     "tags": [
       "reverse-engineering",
       "forensics"
