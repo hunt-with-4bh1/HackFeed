@@ -16,14 +16,14 @@ TRACKING = {"fbclid", "gclid", "mc_cid", "mc_eid"}
 
 # Ordered from specific CTF challenge families to broad topics.
 CATEGORY_RULES = {
- "WEB-EXPLOITATION": ["web exploitation","web exploit","web challenge","web security","sql injection","sqli","cross-site scripting","xss","ssrf","idor","ssti","csrf","xxe","request smuggling","path traversal","file upload","command injection","lfi","rfi","deserialization","prototype pollution","jwt"],
+ "WEB-EXPLOITATION": ["web exploitation","web exploit","web challenge","web security","web","sql injection","sqli","cross-site scripting","xss","ssrf","idor","ssti","csrf","xxe","request smuggling","path traversal","file upload","command injection","lfi","rfi","deserialization","prototype pollution","jwt"],
  "CRYPTOGRAPHY": ["cryptography","cryptanalysis","crypto","rsa","aes","elliptic curve","ecc","lattice","padding oracle","xor","lcg","hash length extension"],
  "DIGITAL-FORENSICS": ["digital forensics","forensics","forensic","memory dump","memory forensics","disk image","pcap","wireshark","volatility","steganography","file carving","metadata","evtx","registry hive"],
  "BINARY-EXPLOITATION": ["binary exploitation","binary exploit","pwn","pwning","buffer overflow","rop chain","ret2libc","heap exploitation","format string","stack canary","shellcode","use after free","uaf"],
  "AI-SECURITY": ["ai security","artificial intelligence","machine learning","llm","large language model","prompt injection","jailbreak","model extraction","adversarial","poisoning","rag","agentic","ai ctf"],
- "REVERSE-ENGINEERING": ["reverse engineering","reverse-engineering","reversing","ghidra","ida pro","radare2","angr","decompilation","disassembly","malware analysis"],
+ "REVERSE-ENGINEERING": ["reverse engineering","reverse-engineering","reverse","reversing","ghidra","ida pro","radare2","angr","decompilation","disassembly","malware analysis"],
  "OSINT": ["osint","open source intelligence","geolocation","geoint","reconnaissance"],
- "NETWORK": ["network forensics","network exploitation","packet analysis","dns","protocol","snmp","network"],
+ "NETWORK": ["network forensics","network exploitation","packet analysis","dns","protocol","snmp","network","rf","radio frequency"],
  "CLOUD": ["cloud security","aws","azure","gcp","iam","kubernetes","docker","container escape"],
  "MOBILE": ["android","ios","mobile app","apk","ipa"],
  "HARDWARE-IOT": ["hardware","iot","firmware","embedded","uart","jtag","rfid"],
@@ -178,6 +178,7 @@ def ai_summarize(items):
         return
     model = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
     pending = [x for x in items if x.get("type") == "ctf_writeup" and not x.get("ai_summary") and x.get("summary")][:8]
+    generated = 0
     for item in pending:
         prompt = (
             "Write a factual 1-2 sentence summary of this CTF writeup listing. "
@@ -202,8 +203,10 @@ def ai_summarize(items):
                 item["ai_summary"] = summary[:600]
                 item["ai_summary_model"] = model
                 item["ai_provider"] = "Google Gemini"
+                generated += 1
         except Exception as exc:
             LOG.warning("Gemini summary failed for %s: %s", item.get("url", ""), str(exc)[:200])
+    LOG.info("Gemini summaries generated this run: %d; API key configured: yes", generated)
 
 def run_pipeline():
     DATABASE.parent.mkdir(parents=True,exist_ok=True)
