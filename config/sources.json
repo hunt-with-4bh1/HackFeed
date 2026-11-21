@@ -95,17 +95,6 @@
     ]
   },
   {
-    "id": "nccgroup",
-    "name": "NCC Group Research",
-    "url": "https://research.nccgroup.com/feed/",
-    "type": "research",
-    "tags": [
-      "research",
-      "web",
-      "pwn"
-    ]
-  },
-  {
     "id": "oalabs",
     "name": "OALABS Research",
     "url": "https://research.openanalysis.net/feed.xml",
