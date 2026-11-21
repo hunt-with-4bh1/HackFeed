@@ -1,4 +1,3487 @@
 {
   "version": 1,
-  "items": []
-}\n
+  "updated_at": "2026-11-21T20:00:47.500271+00:00",
+  "total": 178,
+  "items": [
+    {
+      "id": "224392cb7b7d25c54ebccab70c48fd2b1f9627389e2363314ee274d934638dfe",
+      "title": "Drag and Pwnd: Leverage ASCII characters to exploit VS Code",
+      "url": "https://portswigger.net/research/drag-and-pwnd-leverage-ascii-characters-to-exploit-vs-code",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Wed, 30 Apr 2025 12:37:11 GMT",
+      "discovered_at": "2026-11-21T20:00:44.781505+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "Control characters like SOH, STX, EOT and ETX were never meant to run your code - but in the world of modern terminal emulators, they sometimes do. In this post, I'll dive into the forgotten mechanics",
+      "metadata_checked": true
+    },
+    {
+      "id": "310918de91a58344a3cf52f8e1b9133ec0fad5b0e530b2973d03904c98bb70f1",
+      "title": "Refining your HTTP perspective, with bambdas",
+      "url": "https://portswigger.net/research/adjusting-your-http-perspective-with-bambdas",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Wed, 29 May 2024 13:31:49 GMT",
+      "discovered_at": "2026-11-21T20:00:44.782260+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "When you open a HTTP request or response, what do you instinctively look for? Suspicious parameter names? CORS headers? Some clue as to the request's origin or underlying purpose? A single HTTP messag",
+      "metadata_checked": true
+    },
+    {
+      "id": "15aa38cc65679d7d854033a6c582202815caed1b4f2f0637a01d2f9095d3cca6",
+      "title": "Heading to San Francisco? Meet PortSwigger at OWASP Global AppSec USA 2026",
+      "url": "https://portswigger.net/blog/heading-to-san-francisco-meet-portswigger-at-owasp-global-appsec-usa-2026",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "CRYPTO",
+      "author": "",
+      "published_at": "Wed, 28 Oct 2026 15:32:04 GMT",
+      "discovered_at": "2026-11-21T20:00:44.948923+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "Join us at booth G14 on 5–6 November at the Hyatt Regency San Francisco. We’re a Gold sponsor, with live Burp AT demos, conversations about your AppSec programme, and something new to share. OWASP is",
+      "metadata_checked": true
+    },
+    {
+      "id": "1eebd1536e36484bffbe45081b31401a97f93cbaf9f0b8d309d25539e9596f2e",
+      "title": "\"The entire internet is broken\": ethical hacking expert John Hammond meets James Kettle",
+      "url": "https://portswigger.net/blog/the-entire-internet-is-broken-ethical-hacking-expert-john-hammond-meets-james-kettle",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "OTHER",
+      "author": "",
+      "published_at": "Wed, 27 Aug 2025 09:11:17 GMT",
+      "discovered_at": "2026-11-21T20:00:44.950636+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "In a brand-new collaboration between ethical hacking and AppSec expert John Hammond and world-renowned security researcher James Kettle, the pair explore how tens of millions of websites are compromis",
+      "metadata_checked": true
+    },
+    {
+      "id": "d6f6287bc89f44fa8cf49955bfce10d37b82546088ca37b80f2c45216235c1ab",
+      "title": "Welcome to AI pentesting - add on-demand AI assistance directly to your workflow with new, agentic Burp AI capabilities",
+      "url": "https://portswigger.net/blog/welcome-to-ai-pentesting-add-on-demand-ai-assistance-directly-to-your-workflow-with-new-agentic-burp-ai-capabilities",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Wed, 24 Sep 2025 14:17:34 GMT",
+      "discovered_at": "2026-11-21T20:00:44.950420+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "Whether you’re navigating a client pentest or chasing a bounty target, even the most experienced testers hit roadblocks, burn time on repetitive tasks, or just want a second opinion. Burp AI is design",
+      "metadata_checked": true
+    },
+    {
+      "id": "18c2273a44fdf779ed9fde2d46697e6d5b40accaf8b5b5a16c60a2747b3d4940",
+      "title": "HTTP/3 in Burp Suite - it’s time to find a bigger wordlist",
+      "url": "https://portswigger.net/research/http3-in-burp-suite",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Wed, 23 Sep 2026 14:00:00 GMT",
+      "discovered_at": "2026-11-21T20:00:44.780938+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "How many bugs have you missed because you didn’t send quite enough HTTP requests? Turbo Intruder now supports HTTP/3, can comfortably exceed 100,000 requests per second over Wi-Fi, and auto-tunes for",
+      "metadata_checked": true
+    },
+    {
+      "id": "9cb9dc5b4250e39bbf955d5b4e4a77b5ec4c6552fb0e01b4dced023518e43477",
+      "title": "Concealing payloads in URL credentials",
+      "url": "https://portswigger.net/research/concealing-payloads-in-url-credentials",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Wed, 23 Oct 2024 12:59:05 GMT",
+      "discovered_at": "2026-11-21T20:00:44.781907+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "Last year Johan Carlsson discovered you could conceal payloads inside the credentials part of the URL . This was fascinating to me especially because the payload is not actually visible in the URL in",
+      "metadata_checked": true
+    },
+    {
+      "id": "cd53d5516bd935113e9b28aa9382e5eb633a0299518038b8ebd5460af6d7f0ef",
+      "title": "Document My Pentest: you hack, the AI writes it up!",
+      "url": "https://portswigger.net/research/document-my-pentest",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Wed, 23 Apr 2025 13:17:24 GMT",
+      "discovered_at": "2026-11-21T20:00:44.781540+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "Tired of repeating yourself? Automate your web security audit trail. In this post I'll introduce a new Burp AI extension that takes the boring bits out of your pen test. Web security testing can be a",
+      "metadata_checked": true
+    },
+    {
+      "id": "2cd068624eb4cd441ab956b5c31725dfdc9b9392bd9957223aac9c1542fca3aa",
+      "title": "Can Burp AI hack a website? CyberMaddy explores the new agentic capabilities in Burp AI",
+      "url": "https://portswigger.net/blog/can-burp-ai-hack-a-website-cybermaddy-explores-the-new-agentic-capabilities-in-burp-ai",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "WEB-SECURITY",
+      "author": "",
+      "published_at": "Wed, 22 Oct 2025 13:15:24 GMT",
+      "discovered_at": "2026-11-21T20:00:44.950196+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "In her latest video, CyberMaddy dives into the world of AI-driven ethical hacking, exploring how Burp AI performs in Repeater when tasked with finding web vulnerabilities like SQL injection, cross-sit",
+      "metadata_checked": true
+    },
+    {
+      "id": "b97f4687ed366c277136078209b5687277a76cd7dacf5eb7d266605599699654",
+      "title": "Burp AI takes on a vulnerable web app: watch Tib3rius put Burp’s new agentic capabilities to the test",
+      "url": "https://portswigger.net/blog/burp-ai-takes-on-a-vulnerable-web-app-watch-tib3rius-put-burps-new-agentic-capabilities-to-the-test",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "OTHER",
+      "author": "",
+      "published_at": "Wed, 22 Oct 2025 12:59:05 GMT",
+      "discovered_at": "2026-11-21T20:00:44.950256+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "What happens when you set Burp AI loose on a deliberately vulnerable web app? In his latest video, Tib3rius takes Burp’s new agentic Burp AI capabilities for a spin - and the results are seriously coo",
+      "metadata_checked": true
+    },
+    {
+      "id": "b6cdc6de8c5e61659b7895141238ded459816d8865f5c07a0eb361afafb6de73",
+      "title": "Oh My Rogue Agent",
+      "url": "https://projectdiscovery.io/blog/oh-my-rogue-agent",
+      "source": "ProjectDiscovery",
+      "source_id": "projectdiscovery",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Wed, 22 Jul 2026 20:37:22 GMT",
+      "discovered_at": "2026-11-21T20:00:45.229345+00:00",
+      "tags": [
+        "ai",
+        "bug-bounty",
+        "industry",
+        "neo",
+        "research",
+        "web"
+      ],
+      "summary": "Yesterday, Hugging Face came out saying they'd detected an AI autonomous-agent-powered cyberattack and that they had to use open-source models to actually investigate and remediate it. Later we heard from OpenAI that their agent was responsible; it happened during an ExploitGym eval, and the agent just drifted off the goal. It escaped the sandbox, reached OpenAI Research Environment, got access to internet, and hacked Hugging Face production environment trying to find the solution for the benchm",
+      "metadata_checked": true
+    },
+    {
+      "id": "f392532bd3a108d930884315fbe310a3813a24e4350a30c76d8294db96186f63",
+      "title": "Stealing HttpOnly cookies with the cookie sandwich technique",
+      "url": "https://portswigger.net/research/stealing-httponly-cookies-with-the-cookie-sandwich-technique",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Wed, 22 Jan 2025 14:45:11 GMT",
+      "discovered_at": "2026-11-21T20:00:44.781729+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "In this post, I will introduce the \"cookie sandwich\" technique which lets you bypass the HttpOnly flag on certain servers. This research follows on from Bypassing WAFs with the phantom $Version cookie",
+      "metadata_checked": true
+    },
+    {
+      "id": "958840aa8fb15a24edf46066c86389445d28415f6701cbc66c1596e906c87fff",
+      "title": "Achieving the impossible: XSS in innerHTML without equals",
+      "url": "https://portswigger.net/research/achieving-the-impossible-xss-in-innerhtml-without-equals",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Wed, 18 Nov 2026 14:39:45 GMT",
+      "discovered_at": "2026-11-21T20:00:44.780602+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "Introduction I'm delighted to introduce Masato Kinugawa as a guest web security researcher on the PortSwigger research channel. Masato is a well known web security expert who has found countless high",
+      "metadata_checked": true
+    },
+    {
+      "id": "933f5963168dec6f2d80fcd985cefe0d43a961de1bdc2fc3e4241d52cba2ccb7",
+      "title": "WebSocket Turbo Intruder: Unearthing the WebSocket Goldmine",
+      "url": "https://portswigger.net/research/websocket-turbo-intruder-unearthing-the-websocket-goldmine",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Wed, 17 Sep 2025 12:40:06 GMT",
+      "discovered_at": "2026-11-21T20:00:44.781280+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "Many testers and tools give up the moment a protocol upgrade to WebSocket occurs, or only perform shallow analysis. This is a huge blind spot, leaving many bugs like Broken Access Controls, Race condi",
+      "metadata_checked": true
+    },
+    {
+      "id": "6b51c1fcfe3bd06346e983dfce22d4219a159c9ceec47318bc7600a3e0bae202",
+      "title": "Can AI invent new attack techniques? New research from James Kettle and PortSwigger Research",
+      "url": "https://portswigger.net/blog/can-ai-invent-new-attack-techniques-new-research-from-james-kettle-and-portswigger-research",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "OTHER",
+      "author": "",
+      "published_at": "Wed, 12 Aug 2026 09:04:45 GMT",
+      "discovered_at": "2026-11-21T20:00:44.949104+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "We already know AI can find vulnerabilities. James Kettle, PortSwigger's Director of Research, wanted to answer a harder question: can an autonomous system invent genuinely new attack techniques? To f",
+      "metadata_checked": true
+    },
+    {
+      "id": "6e666e39d0c2d4fc20b4fec820a5a4a9218798f36b4590da57423cb323071ef1",
+      "title": "Blind trust: stealing credentials through CSP",
+      "url": "https://portswigger.net/research/blind-trust-stealing-credentials-through-csp",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Wed, 11 Nov 2026 14:26:01 GMT",
+      "discovered_at": "2026-11-21T20:00:44.780676+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "Content Security Policy is supposed to be the safety net that stops an HTML injection from turning into XSS. Usually it works. But sometimes it doesn't, because the policy allows-lists a domain that h",
+      "metadata_checked": true
+    },
+    {
+      "id": "70dc3af09a6f5adbf9bf8fd2e3f4c1f8c7387e6773eebcf14b065d1e02a66191",
+      "title": "🕸️ GraphQL BOLA: One Object, Many Paths, and How to Prove the Gap",
+      "url": "https://dev.to/krishna_kumar_75bdf350b26/graphql-bola-one-object-many-paths-and-how-to-prove-the-gap-40n7",
+      "source": "DEV Community · Bug Bounty",
+      "source_id": "devto-bugbounty",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "Krishna Kumar",
+      "published_at": "Wed, 11 Nov 2026 13:26:03 +0000",
+      "discovered_at": "2026-11-21T20:00:46.339214+00:00",
+      "tags": [
+        "api",
+        "bug-bounty",
+        "bugbounty",
+        "security",
+        "webdev"
+      ],
+      "summary": "In a REST API, an invoice usually lives at one URL. You test GET /invoices/1042 with a second account, and you've tested the invoice. GraphQL doesn't work that way. The same invoice might come back from invoice(id:) , from node(id:) , from me { invoices } , from a search union, and from the payload of a sendInvoice mutation. Each of those is a separate resolver. The developer who added the ownership check to invoice(id:) may never have touched the other four. So in GraphQL, broken object level a",
+      "metadata_checked": true
+    },
+    {
+      "id": "3594f0a4d96dc14298c8ed696258cc54a397207d1837d652a131c0fe808cc476",
+      "title": "Inside the benchmark: app architectures, walkthroughs of findings, and what each scanner actually caught",
+      "url": "https://projectdiscovery.io/blog/inside-the-benchmark-pp-architectures-finding-walkthroughs-and-what-each-scanner-actually-caught",
+      "source": "ProjectDiscovery",
+      "source_id": "projectdiscovery",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Wed, 11 Mar 2026 16:59:28 GMT",
+      "discovered_at": "2026-11-21T20:00:45.230072+00:00",
+      "tags": [
+        "bug-bounty",
+        "neo",
+        "vulnerability research",
+        "web"
+      ],
+      "summary": "This is Part 2 of our vibe coding security benchmark study. In Part 1, we compared how LLM-based security tools like ProjectDiscovery's Neo and Claude Code performed against traditional SAST and DAST scanners on AI-generated code. We found that LLM-based tools like Neo and Claude Code detected many high-value findings that traditional scanners missed. Between Neo and Claude Code, Neo produced more true positives and fewer false positives because it could validate hypotheses against a running app",
+      "metadata_checked": true
+    },
+    {
+      "id": "30c1843fbedd95a94fddb64675a8901b40cb098a78e1fd28930cb3fbc1da9b32",
+      "title": "PortSwigger X Intigriti: Burp Suite Professional licenses up for grabs with this new collaboration",
+      "url": "https://portswigger.net/blog/portswigger-x-intigriti-burp-suite-professional-licenses-up-for-grabs-with-this-new-collaboration",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Wed, 11 Mar 2026 10:36:26 GMT",
+      "discovered_at": "2026-11-21T20:00:44.949777+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "At PortSwigger, we’re always looking for ways to enable the world to secure the web, and today we’re excited to take that mission a step further. We’re pleased to announce a new collaboration bringing",
+      "metadata_checked": true
+    },
+    {
+      "id": "8c9bafe9b1094f354b4fee880d502b823f71538a01681b191e5655ce0325353e",
+      "title": "The Fragile Lock:&nbsp;Novel Bypasses For SAML Authentication",
+      "url": "https://portswigger.net/research/the-fragile-lock",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Wed, 10 Dec 2025 12:32:00 GMT",
+      "discovered_at": "2026-11-21T20:00:44.781211+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "TLDR This post shows how to achieve a full authentication bypass in the Ruby and PHP SAML ecosystem by exploiting several parser-level inconsistencies: including attribute pollution, namespace confusi",
+      "metadata_checked": true
+    },
+    {
+      "id": "ddd0ccab3917993d82b2326bb8ef425f2608e9757c6324aee7e594dbe298ec93",
+      "title": "Top 10 web hacking techniques of 2024: nominations open",
+      "url": "https://portswigger.net/research/top-10-web-hacking-techniques-of-2024-nominations-open",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Wed, 08 Jan 2025 14:07:27 GMT",
+      "discovered_at": "2026-11-21T20:00:44.781773+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "Nominations are now open for the top 10 new web hacking techniques of 2024! Every year, security researchers from all over the world share their latest findings via blog posts, presentations, PoCs, an",
+      "metadata_checked": true
+    },
+    {
+      "id": "1b92c5df3d57897c030ce32e32b81d4ea5fb6ce1c7317e17361f65df1836ba9c",
+      "title": "Splitting the email atom: exploiting parsers to bypass access controls",
+      "url": "https://portswigger.net/research/splitting-the-email-atom",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Wed, 07 Aug 2024 21:32:47 GMT",
+      "discovered_at": "2026-11-21T20:00:44.782028+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "Some websites parse email addresses to extract the domain and infer which organisation the owner belongs to. This pattern makes email-address parser discrepancies critical. Predicting which domain an",
+      "metadata_checked": true
+    },
+    {
+      "id": "9d131d32e954d0dc14a032e68605731b50680eabe569a9fb69ecd1b1b6b11a0e",
+      "title": "Listen to the whispers: web timing attacks that actually work",
+      "url": "https://portswigger.net/research/listen-to-the-whispers-web-timing-attacks-that-actually-work",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Wed, 07 Aug 2024 18:10:21 GMT",
+      "discovered_at": "2026-11-21T20:00:44.782065+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "Websites are riddled with timing oracles eager to divulge their innermost secrets. It's time we started listening to them. In this paper, I'll unleash novel attack concepts to coax out server secrets",
+      "metadata_checked": true
+    },
+    {
+      "id": "2546f4c112ae735053d48ee95d41a35a1609e5f2f7c54bafbd2de96df1d6296d",
+      "title": "HTTP/1.1 Must Die: What This Means for AppSec Leadership",
+      "url": "https://portswigger.net/blog/http-1-1-must-die-what-this-means-for-appsec-leadership",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "WEB-SECURITY",
+      "author": "",
+      "published_at": "Wed, 06 Aug 2025 22:23:49 GMT",
+      "discovered_at": "2026-11-21T20:00:44.950674+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "At Black Hat USA and DEFCON 2025, PortSwigger's Director of Research, James Kettle, issued a stark warning: request smuggling isn't dying out, it's evolving and thriving. Despite years of defensive ef",
+      "metadata_checked": true
+    },
+    {
+      "id": "d6b899795ffb81abb157e850d33802fa606bd88d5e06615ea9f4d2573c67e623",
+      "title": "HTTP/1.1 Must Die: What This Means for In-House Pentesters",
+      "url": "https://portswigger.net/blog/http-1-1-must-die-what-this-means-for-in-house-pentesters",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "WEB-SECURITY",
+      "author": "",
+      "published_at": "Wed, 06 Aug 2025 22:23:41 GMT",
+      "discovered_at": "2026-11-21T20:00:44.950714+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "At Black Hat USA and DEFCON 2025, PortSwigger's Director of Research, James Kettle, issued a stark warning: request smuggling isn't dying out, it's evolving and thriving. Despite years of defensive ef",
+      "metadata_checked": true
+    },
+    {
+      "id": "2b331d806d0e01170c5fdc82deefd830727d0bf79f9984ba08976722da1829dc",
+      "title": "HTTP/1.1 Must Die: What This Means for Bug Bounty Hunters",
+      "url": "https://portswigger.net/blog/http-1-1-must-die-what-this-means-for-bug-bounty-hunters",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Wed, 06 Aug 2025 22:23:28 GMT",
+      "discovered_at": "2026-11-21T20:00:44.950747+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "At Black Hat USA and DEFCON 2025, PortSwigger's Director of Research, James Kettle, issued a stark warning: request smuggling isn't dying out, it's evolving and thriving. Despite years of defensive ef",
+      "metadata_checked": true
+    },
+    {
+      "id": "ba40aa4d5534f14072098ad77f8982233c2ead365eb301499d9c7baf9e5646ec",
+      "title": "HTTP/1.1 Must Die: What This Means for Contract Pentesters and MSSPs",
+      "url": "https://portswigger.net/blog/http-1-1-must-die-what-this-means-for-contract-pentesters-and-mssps",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "WEB-SECURITY",
+      "author": "",
+      "published_at": "Wed, 06 Aug 2025 22:23:07 GMT",
+      "discovered_at": "2026-11-21T20:00:44.950784+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "At Black Hat USA and DEFCON 2025, PortSwigger's Director of Research, James Kettle, issued a stark warning: request smuggling isn't dying out, it's evolving and thriving. Despite years of defensive ef",
+      "metadata_checked": true
+    },
+    {
+      "id": "3fbb714f9cee9dd5c1df67d92acaee206e8e7ce77d0e43d10cd2a5ffa77bae78",
+      "title": "HTTP/1.1 must die: the desync endgame",
+      "url": "https://portswigger.net/research/http1-must-die",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Wed, 06 Aug 2025 22:20:00 GMT",
+      "discovered_at": "2026-11-21T20:00:44.781432+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "Abstract Upstream HTTP/1.1 is inherently insecure and regularly exposes millions of websites to hostile takeover. Six years of attempted mitigations have hidden the issue, but failed to fix it. This p",
+      "metadata_checked": true
+    },
+    {
+      "id": "fe5b46e68876a69007ce54e5556c4ecef82cdc2c652d2a94e4e5984fa50bd205",
+      "title": "CRLF-Powered Desync Attacks: Beheading HTTP Streams",
+      "url": "https://portswigger.net/research/crlf-powered-desync-attacks",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Wed, 05 Aug 2026 23:30:00 GMT",
+      "discovered_at": "2026-11-21T20:00:44.781061+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "Found Header Injection? Make it a critical with one prompt Has the scanner reported HTTP request header injection? Try asking Burp AT to exploit the issue with our CRLF-Powered Desync and Tunnelling s",
+      "metadata_checked": true
+    },
+    {
+      "id": "7883bfd1659300c30eab46cc0dfb72143b4c2387ce02793e86f73b18fc90e878",
+      "title": "Can AI do novel security research? Meet the HTTP Terminator",
+      "url": "https://portswigger.net/research/can-ai-do-novel-security-research",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Wed, 05 Aug 2026 19:30:00 GMT",
+      "discovered_at": "2026-11-21T20:00:44.781099+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "Abstract We all know AI can find bugs. After a decade of research, I asked a harder question: can an autonomous system invent new attack techniques, and use them to hack live websites at scale? Buildi",
+      "metadata_checked": true
+    },
+    {
+      "id": "dfddfd5235d756d86296928c22f02e2cf8bd50957a263fa830512e49f15a1aee",
+      "title": "How Competitive Learning Can Make Cybersecurity Practice More Engaging.",
+      "url": "https://dev.to/strombreaker/how-competitive-learning-can-make-cybersecurity-practice-more-engaging-49il",
+      "source": "DEV Community · CTF",
+      "source_id": "devto-ctf",
+      "type": "writeup",
+      "category": "CTF-WRITEUPS",
+      "author": "Aashif M",
+      "published_at": "Wed, 04 Nov 2026 16:20:00 +0000",
+      "discovered_at": "2026-11-21T20:00:46.482342+00:00",
+      "tags": [
+        "blackboxctf",
+        "ctf",
+        "cybersecurity",
+        "vulnerabilities"
+      ],
+      "summary": "Cybersecurity is easy to study and hard to practice. Reading about SQL injection, privilege escalation, or reverse engineering can feel abstract—but turning those concepts into timed challenges, scoreboards, and team competitions gives learners a reason to apply them immediately. Competitive learning makes security practice active, measurable, and social, which is why CTF-style platforms such as BlackBoxCTF can be so effective. Why competition works Traditional cybersecurity learning often follo",
+      "metadata_checked": true
+    },
+    {
+      "id": "dea192c2a3b70885e99799409f3a7f37647703e8bb15481b47e53d381c2224ee",
+      "title": "Making HTTP header injection critical with one prompt",
+      "url": "https://portswigger.net/research/making-http-header-injection-critical-with-one-prompt",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Wed, 04 Nov 2026 15:12:29 GMT",
+      "discovered_at": "2026-11-21T20:00:44.780734+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "You can now escalate HTTP header injection to a CRLF-Powered Desync and exploit it to serve random users a redirect to your collaborator, in a single prompt. We’ve just introduced a new scan check for",
+      "metadata_checked": true
+    },
+    {
+      "id": "3c5787c3fc63aca41a739c777b0dfd91c7bd03417b70a0e3b8a21ef7785af396",
+      "title": "HTB - Monteverde Writeup - no Metasploit",
+      "url": "https://dev.to/nekohige/htb-monteverde-writeup-no-metasploit-2cc",
+      "source": "DEV Community · CTF",
+      "source_id": "devto-ctf",
+      "type": "writeup",
+      "category": "CTF-WRITEUPS",
+      "author": "nekohige",
+      "published_at": "Wed, 04 Nov 2026 14:53:58 +0000",
+      "discovered_at": "2026-11-21T20:00:46.482771+00:00",
+      "tags": [
+        "ctf",
+        "htb",
+        "security"
+      ],
+      "summary": "Summary An anonymous SMB connection via nxc exposed a list of usernames. One of these accounts had a password identical to its username, allowing access to view shares using that account. An azure.xml file was found on users$ revealing credentials for the mhope account. mhope was a member of the Azure Admins group, providing access to the Azure AD Connect server. The target server was running Azure AD Connect. Using a known script, credentials for the Admin account were extracted. Recommendation",
+      "metadata_checked": true
+    },
+    {
+      "id": "b1546e51b01158ec7de8fec4942b1151fa9f4943b2a67feda61aeae33969dbb4",
+      "title": "Bypassing WAFs with the phantom $Version cookie",
+      "url": "https://portswigger.net/research/bypassing-wafs-with-the-phantom-version-cookie",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Wed, 04 Dec 2024 15:03:35 GMT",
+      "discovered_at": "2026-11-21T20:00:44.781808+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "HTTP cookies often control critical website features, but their long and convoluted history exposes them to parser discrepancy vulnerabilities. In this post, I'll explore some dangerous, lesser-known",
+      "metadata_checked": true
+    },
+    {
+      "id": "3b30f3ff6b70641a105e652385d2a6f65fb5d93647468c040909e513adedb0a6",
+      "title": "Cookie Chaos: How to bypass __Host and __Secure cookie prefixes",
+      "url": "https://portswigger.net/research/cookie-chaos-how-to-bypass-host-and-secure-cookie-prefixes",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Wed, 03 Sep 2025 14:46:23 GMT",
+      "discovered_at": "2026-11-21T20:00:44.781321+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "Browsers added cookie prefixes to protect your sessions and stop attackers from setting harmful cookies. In this post, you’ll see how to bypass cookie defenses using discrepancies in browser and serve",
+      "metadata_checked": true
+    },
+    {
+      "id": "230167533d7ee1076a191d2f5e0a626f890f75c7e39264da21aa2a1fc4a119c0",
+      "title": "Persistence – DLL Proxy Loading",
+      "url": "https://pentestlab.blog/2024/04/03/persistence-dll-proxy-loading",
+      "source": "Penetration Testing Lab",
+      "source_id": "pentestlab",
+      "type": "research",
+      "category": "PWN",
+      "author": "Administrator",
+      "published_at": "Wed, 03 Apr 2024 06:57:00 +0000",
+      "discovered_at": "2026-11-21T20:00:46.545005+00:00",
+      "tags": [
+        "dll loading",
+        "persistence",
+        "pwn",
+        "red team",
+        "sharpdllproxy",
+        "web"
+      ],
+      "summary": "DLL Proxy Loading is a technique which an arbitrary DLL exports the same functions as the legitimate DLL and forwards the calls to the legitimate&#8230; Continue reading &#8594; Persistence &#8211; DLL Proxy&#160;Loading",
+      "metadata_checked": true
+    },
+    {
+      "id": "632b4deecdc1b5863eb3410580fa611065310bcac658d8e45b34c9eb72f24f9b",
+      "title": "Hacking smarter with Burp AI: NahamSec puts Burp AI to the test",
+      "url": "https://portswigger.net/blog/hacking-smarter-with-burp-ai-nahamsec-puts-burp-ai-to-the-test",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Wed, 01 Oct 2025 14:31:40 GMT",
+      "discovered_at": "2026-11-21T20:00:44.950377+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "Bug bounty legend, NahamSec, has taken Burp AI for a spin. If you're curious how Burp AI fits into a real workflow, his new video is the perfect place to start. Watch on YouTube Burp AI was built to a",
+      "metadata_checked": true
+    },
+    {
+      "id": "dd348c7b9cbfae8caaaed2e83df053a873418f2ebbd9eb2d94f4895e3cbacf93",
+      "title": "New crazy payloads in the URL Validation Bypass Cheat Sheet",
+      "url": "https://portswigger.net/research/new-crazy-payloads-in-the-url-validation-bypass-cheat-sheet",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Tue, 29 Oct 2024 13:59:13 GMT",
+      "discovered_at": "2026-11-21T20:00:44.781864+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "The strength of our URL Validation Bypass Cheat Sheet lies in the contributions from the web security community, and today’s update is no exception. We are excited to introduce a new and improved IP a",
+      "metadata_checked": true
+    },
+    {
+      "id": "71a669c2744c4cf9edc79fc5792995c2c3aa1e38654b5c22c549c7182da7281d",
+      "title": "Bypassing character blocklists with unicode overflows",
+      "url": "https://portswigger.net/research/bypassing-character-blocklists-with-unicode-overflows",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Tue, 28 Jan 2025 13:58:28 GMT",
+      "discovered_at": "2026-11-21T20:00:44.781687+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "Unicode codepoint truncation - also called a Unicode overflow attack - happens when a server tries to store a Unicode character in a single byte. Because the maximum value of a byte is 255, an overflo",
+      "metadata_checked": true
+    },
+    {
+      "id": "998da48c31cc3ed28a0c69afd62c97b347ac121cea79e5552d4af71dd6da253b",
+      "title": "The Trust Gap Behind the AI Coding Boom: What 200 Security Practitioners Just Told Us",
+      "url": "https://projectdiscovery.io/blog/the-trust-gap-behind-the-ai-coding-boom-what-200-security-practitioners-just-told-us",
+      "source": "ProjectDiscovery",
+      "source_id": "projectdiscovery",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Tue, 28 Apr 2026 18:05:58 GMT",
+      "discovered_at": "2026-11-21T20:00:45.229783+00:00",
+      "tags": [
+        "application security",
+        "bug-bounty",
+        "research",
+        "web"
+      ],
+      "summary": "New research from ProjectDiscovery surfaces an uncomfortable truth: Engineering has accelerated, and Security has been left to absorb the impact, mostly by hand. If you work in application security right now, you already know the shape of the problem. Pull requests are landing faster than they used to. The diffs are bigger. The author on the commit is increasingly your engineering team's AI assistant, not the engineer themselves. And somewhere downstream, you and a small team are expected to ke",
+      "metadata_checked": true
+    },
+    {
+      "id": "29411d66a5c244b6580044162b577b8ab6c7c259655b55745a9cbef97b394580",
+      "title": "PortSwigger recognized at the Northern Tech Awards 2026.",
+      "url": "https://portswigger.net/blog/portswigger-recognized-at-the-northern-tech-awards-2026",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "OTHER",
+      "author": "",
+      "published_at": "Tue, 28 Apr 2026 10:42:54 GMT",
+      "discovered_at": "2026-11-21T20:00:44.949540+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "We’re proud to announce that PortSwigger recently won the Overall Judges’ Award at the Northern Tech Awards 2026. The Northern Tech Awards are run by GP Bullhound, the tech advisory and investment fir",
+      "metadata_checked": true
+    },
+    {
+      "id": "6af8be674919171a2f43af2380e452918830ed08901ddd12c9c9f52e1977e1b0",
+      "title": "Scalable Vector Grief",
+      "url": "https://portswigger.net/research/scalable-vector-grief",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Tue, 27 Oct 2026 14:29:26 GMT",
+      "discovered_at": "2026-11-21T20:00:44.780779+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "I tested eight popular SVG sanitizers and bypassed six of them. In this post, I'll show you how a response header can run JavaScript in Firefox even when the response body is completely harmless XML.",
+      "metadata_checked": true
+    },
+    {
+      "id": "e5df76de73a1a7f4aaebafb9eb42f0738b60ed514e121af5ae35c2a76b514102",
+      "title": "Inline Style Exfiltration: leaking data with chained CSS conditionals",
+      "url": "https://portswigger.net/research/inline-style-exfiltration",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Tue, 26 Aug 2025 12:54:03 GMT",
+      "discovered_at": "2026-11-21T20:00:44.781359+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "I discovered how to use CSS to steal attribute data without selectors and stylesheet imports! This means you can now exploit CSS injection via style attributes! Learn how below: Someone asked if you c",
+      "metadata_checked": true
+    },
+    {
+      "id": "7ddf432c65afa391b61a189ab9200c52ccf93e4e52a190584b945b3fd7bc7fa5",
+      "title": "What's in a tag name? JavaScript, apparently",
+      "url": "https://portswigger.net/research/whats-in-a-tag-name-javascript-apparently",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Tue, 25 Aug 2026 14:24:32 GMT",
+      "discovered_at": "2026-11-21T20:00:44.780982+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "I was on my laptop, as I often am when there's rubbish on telly, and found myself wondering what characters are allowed in a tag. I knew they had to begin with \"a-zA-Z\", but what about after that? I t",
+      "metadata_checked": true
+    },
+    {
+      "id": "19c8732d056341c9f0bc7e151436119f1cb8d5aae07870c998e06c6630ba7ee6",
+      "title": "Introducing Internal Network Scanning: see your network the way an attacker inside it would",
+      "url": "https://projectdiscovery.io/blog/introducing-internal-network-scanning-see-your-network-the-way-an-attacker-inside-it-would",
+      "source": "ProjectDiscovery",
+      "source_id": "projectdiscovery",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Tue, 21 Jul 2026 21:48:40 GMT",
+      "discovered_at": "2026-11-21T20:00:45.229398+00:00",
+      "tags": [
+        "bug-bounty",
+        "scanners",
+        "vulnerability management",
+        "web"
+      ],
+      "summary": "Most breaches don't begin with a zero-day but with something ordinary like a forgotten server, an unmanaged network device, a service reachable across a segment that was supposed to be isolated. Internal scanning was supposed to catch exactly that but most scanners match a host's banner and version against a CVE list and flag everything potentially affected, so the few reachable exposures sit lost among thousands that were never exploitable. That noise is expensive now that the window to respon",
+      "metadata_checked": true
+    },
+    {
+      "id": "d1bf9e15c182e6617a4f01b578f7c1377fc1ef715f13b8200e67734e865ff3bf",
+      "title": "AS-REP Roasting",
+      "url": "https://pentestlab.blog/2024/02/20/as-rep-roasting",
+      "source": "Penetration Testing Lab",
+      "source_id": "pentestlab",
+      "type": "research",
+      "category": "WEB-SECURITY",
+      "author": "Administrator",
+      "published_at": "Tue, 20 Feb 2024 07:25:00 +0000",
+      "discovered_at": "2026-11-21T20:00:46.545187+00:00",
+      "tags": [
+        "as-rep",
+        "as-rep roasting",
+        "crackmapexec",
+        "credential access",
+        "hashcat",
+        "impacket",
+        "pwn",
+        "red team",
+        "rubeus",
+        "web"
+      ],
+      "summary": "Active Directory users that have the Kerberos pre-authentication enabled and require access to a resource initiate the Kerberos authentication process by sending an Authentication Server&#8230; Continue reading &#8594; AS-REP Roasting",
+      "metadata_checked": true
+    },
+    {
+      "id": "caec88c9f17fecf176ad847bd91a78470e8e037b7d5246f8b374d5dbd06f47d0",
+      "title": "Web Browser Stored Credentials",
+      "url": "https://pentestlab.blog/2024/08/20/web-browser-stored-credentials",
+      "source": "Penetration Testing Lab",
+      "source_id": "pentestlab",
+      "type": "research",
+      "category": "PWN",
+      "author": "Administrator",
+      "published_at": "Tue, 20 Aug 2024 07:00:00 +0000",
+      "discovered_at": "2026-11-21T20:00:46.544922+00:00",
+      "tags": [
+        "browser",
+        "credential access",
+        "credentials",
+        "donpapi",
+        "dpapi",
+        "dploot",
+        "masterkeys",
+        "mimikatz",
+        "pwn",
+        "red team",
+        "sharpdpapi",
+        "web"
+      ],
+      "summary": "Microsoft introduced Data Protection Application Programming Interface (DPAPI) in Windows environments as a method to encrypt and decrypt sensitive data such as credentials using the&#8230; Continue reading &#8594; Web Browser Stored&#160;Credentials",
+      "metadata_checked": true
+    },
+    {
+      "id": "6257a04998c7338be5049b71b2e78fd617e0de095dd365ea7329d447237dad41",
+      "title": "Beware the false false-positive: how to distinguish HTTP pipelining from request smuggling",
+      "url": "https://portswigger.net/research/how-to-distinguish-http-pipelining-from-request-smuggling",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Tue, 19 Aug 2025 14:30:44 GMT",
+      "discovered_at": "2026-11-21T20:00:44.781396+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "Sometimes people think they've found HTTP request smuggling, when they're actually just observing HTTP keep-alive or pipelining. This is usually a false positive, but sometimes there's actually a real",
+      "metadata_checked": true
+    },
+    {
+      "id": "9745f6dd0ba2df40200313ce16172252d8bfe102ee29d94ed907774adddc4fe3",
+      "title": "SAML roulette: the hacker always wins",
+      "url": "https://portswigger.net/research/saml-roulette-the-hacker-always-wins",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Tue, 18 Mar 2025 14:55:43 GMT",
+      "discovered_at": "2026-11-21T20:00:44.781580+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "Introduction In this post, we’ll show precisely how to chain round-trip attacks and namespace confusion to achieve unauthenticated admin access on GitLab Enterprise by exploiting the ruby-saml library",
+      "metadata_checked": true
+    },
+    {
+      "id": "946b9266dbc288714d0d17c431dd467f8b3c70d7a990698d6932d16bac88cbce",
+      "title": "Surviving the CARTP Final CTF: The Wild Ride of 'The Flag Value from BluePrint' (and How to Beat It)",
+      "url": "https://dev.to/seclabs/surviving-the-cartp-final-ctf-the-wild-ride-of-the-flag-value-from-blueprint-and-how-to-beat-it-3io1",
+      "source": "DEV Community · CTF",
+      "source_id": "devto-ctf",
+      "type": "writeup",
+      "category": "CTF-WRITEUPS",
+      "author": "SecLabs",
+      "published_at": "Tue, 17 Nov 2026 20:59:30 +0000",
+      "discovered_at": "2026-11-21T20:00:46.478900+00:00",
+      "tags": [
+        "azure",
+        "cartp",
+        "ctf",
+        "flag"
+      ],
+      "summary": "Surviving the CARTP Final CTF: The Wild Ride of \"The Flag Value from BluePrint\" If you've spent any time working through the Certified Azure Red Team Professional (CARTP) course by Altered Security, you know that satisfying feeling of knocking down the 20+ Learning Objectives. You master Graph enumeration, abuse Managed Identities, bypass MFA like a wizard, and feel like you're unstoppable. And then... you arrive at the Final CTF : \"Goal: Compromise DefCorp organization and retrieve the final fl",
+      "metadata_checked": true
+    },
+    {
+      "id": "e5f2211eeebe8c008c33d87569106e14d1cacdfd129b4b9dcf9314ecc7b52b91",
+      "title": "Deep Web Hunting: Why Altered Security's CWES is a Masterclass in Modern Web App Red Teaming",
+      "url": "https://dev.to/seclabs/deep-web-hunting-why-altered-securitys-cwes-is-a-masterclass-in-modern-web-app-red-teaming-lnd",
+      "source": "DEV Community · Bug Bounty",
+      "source_id": "devto-bugbounty",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "SecLabs",
+      "published_at": "Tue, 17 Nov 2026 20:47:31 +0000",
+      "discovered_at": "2026-11-21T20:00:46.333718+00:00",
+      "tags": [
+        "appsec",
+        "bug-bounty",
+        "bugbounty",
+        "security",
+        "webdev"
+      ],
+      "summary": "Deep Web Hunting: Why Altered Security's CWES is a Masterclass in Modern Web App Red Teaming If you think web penetration testing is just clicking through a web application and running an automated scanner to find missing HTTP headers, think again. CWES (Certified Web Exploitation Specialist) by Altered Security is designed for operators who want to take web application exploitation to a deep, surgical, red team level. 🎯 In enterprise red teaming, web applications are almost always the initial a",
+      "metadata_checked": true
+    },
+    {
+      "id": "30ab4be796211e40805d8c3be10a5cda99cdb4d08327d8be6e51cd2fe3b4c87b",
+      "title": "Before the CVE: Reading Release Notes Like an Auditor",
+      "url": "https://dev.to/aaannvv/before-the-cve-reading-release-notes-like-an-auditor-5c09",
+      "source": "DEV Community · Bug Bounty",
+      "source_id": "devto-bugbounty",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "aaannvv",
+      "published_at": "Tue, 17 Nov 2026 02:56:06 +0000",
+      "discovered_at": "2026-11-21T20:00:46.333977+00:00",
+      "tags": [
+        "bug-bounty",
+        "bugbounty",
+        "codeanalysis",
+        "opensource",
+        "security"
+      ],
+      "summary": "Most vulnerability hunters I know watch CVE feeds. That's fine, but here's the thing: every CVE was preceded by a commit, a tag, and usually a release note — often weeks before the advisory goes public. If you read release notes first, you're not racing the crowd. You're racing the CVE assigner. I've been auditing open-source Java middleware for a while — message brokers, frameworks, admin consoles — and release notes have become my single highest-signal feed. Not Twitter, not CVE/NVD. Release n",
+      "metadata_checked": true
+    },
+    {
+      "id": "cab9d9d31dbc1aed8bf7b58868dff24e523be7b62c31abffb5d2ef031313859f",
+      "title": "Repeater Strike: manual testing, amplified",
+      "url": "https://portswigger.net/research/repeater-strike-manual-testing-amplified",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Tue, 15 Jul 2025 13:46:37 GMT",
+      "discovered_at": "2026-11-21T20:00:44.781468+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "Manual testing doesn't have to be repetitive. In this post, we're introducing Repeater Strike - a new AI-powered Burp Suite extension designed to automate the hunt for IDOR and similar vulnerabilities",
+      "metadata_checked": true
+    },
+    {
+      "id": "df90a6ea5e4a15c64135562c37e312a1c96581b45851d974ae7e7b4a745f14cc",
+      "title": "The beast needs a cage: What's next for AppSec post-Mythos",
+      "url": "https://portswigger.net/blog/the-beast-needs-a-cage-whats-next-for-appsec-post-mythos",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "OTHER",
+      "author": "",
+      "published_at": "Tue, 12 May 2026 14:18:47 GMT",
+      "discovered_at": "2026-11-21T20:00:44.949441+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "Now that the dust has settled on Mythos dropping, there is space for more considered reflection on the direction of travel. Mythos wasn't a surprise; it's another data point on a trajectory that's bee",
+      "metadata_checked": true
+    },
+    {
+      "id": "b4c6f1fa26ed79f254974293a177fbe82d6b3a1d930efd4f61ebd18c892aeb5e",
+      "title": "Nuclei Templates - April 2026",
+      "url": "https://projectdiscovery.io/blog/nuclei-templates-april-2026",
+      "source": "ProjectDiscovery",
+      "source_id": "projectdiscovery",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Tue, 12 May 2026 11:26:09 GMT",
+      "discovered_at": "2026-11-21T20:00:45.229729+00:00",
+      "tags": [
+        "bug-bounty",
+        "nuclei & templates",
+        "web"
+      ],
+      "summary": "Two releases shipped this cycle - v10.4.2 (April 15) and v10.4.3 (May 5) - delivering deep KEV coverage, a major push into AI/LLM attack surface, fresh Perforce visibility, and broad quality improvements across the template library. 🚀 April Stats Release New Templates CVEs Added First-time Contributors v10.4.2 121 61 15 v10.4.3 105 62 12 Total 226 123 27 * 226 new templates shipped across both releases * 123 CVEs covered, including ~10 actively exploited vulnerabilities",
+      "metadata_checked": true
+    },
+    {
+      "id": "9209532e9dffbcff98f1db54abcb495b93a367c4c551bfebf2ebec8711fcf99a",
+      "title": "Introducing HTTP Anomaly Rank",
+      "url": "https://portswigger.net/research/introducing-http-anomaly-rank",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Tue, 11 Nov 2025 14:41:53 GMT",
+      "discovered_at": "2026-11-21T20:00:44.781245+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "HTTP Anomaly Rank If you've ever used Burp Intruder or Turbo Intruder, you'll be familiar with the ritual of manually digging through thousands of responses by repeatedly sorting the table via length,",
+      "metadata_checked": true
+    },
+    {
+      "id": "983abcf0b3af194943ccc09fe74480f1955d1e1fb8592c28786464041924f19e",
+      "title": "onwebkitplaybacktargetavailabilitychanged?! New exotic events in the XSS cheat sheet",
+      "url": "https://portswigger.net/research/new-exotic-events-in-the-xss-cheat-sheet",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Tue, 11 Jun 2024 14:58:29 GMT",
+      "discovered_at": "2026-11-21T20:00:44.782192+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "The power of our XSS cheat sheet is we get fantastic contributions from the web security community and this update is no exception. We had valuable contributions from Mozilla to remove events that no",
+      "metadata_checked": true
+    },
+    {
+      "id": "05e567e9f08103cb0ff62f2ed3031fb63c0ef17b45c8ced7c381ec14c25452b2",
+      "title": "Probably Not Exploitable",
+      "url": "https://projectdiscovery.io/blog/probably-not-exploitable",
+      "source": "ProjectDiscovery",
+      "source_id": "projectdiscovery",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Tue, 10 Nov 2026 12:25:00 GMT",
+      "discovered_at": "2026-11-21T20:00:45.229154+00:00",
+      "tags": [
+        "bug-bounty",
+        "industry",
+        "triage",
+        "vulnerability research",
+        "web"
+      ],
+      "summary": "The assumption we've all made If you've worked in security for any length of time, you've definitely turned to a colleague and said some version of \"this probably isn't exploitable\" and moved on. Usually late in the day, with a few dozen other findings waiting and a release going out in the morning. But nobody says it because they don't care. They say it because there are only so many man hours in the week, and the queue keeps refilling. We wanted to know how common that assumption really is,",
+      "metadata_checked": true
+    },
+    {
+      "id": "ef42af8cdd78149f6e5b49dc969bad289f73f79019653b95f13389c4dc7551c4",
+      "title": "HTB - Blackfield Writeup - no Metasploit",
+      "url": "https://dev.to/nekohige/htb-blackfield-writeup-no-metasploit-3j8p",
+      "source": "DEV Community · CTF",
+      "source_id": "devto-ctf",
+      "type": "writeup",
+      "category": "CTF-WRITEUPS",
+      "author": "nekohige",
+      "published_at": "Tue, 10 Nov 2026 12:14:43 +0000",
+      "discovered_at": "2026-11-21T20:00:46.480415+00:00",
+      "tags": [
+        "ctf",
+        "hackthebox",
+        "htb",
+        "security"
+      ],
+      "summary": "Summary The target was a Windows machine having an Active Directory domain. Using the Guest account, I was able to browse a shared folder, where a folder named profiles$ revealed a list of valid usernames. Using those usernames, I performed an AS-REP Roasting attack and found that the user support had Kerberos pre-authentication disabled. support had permission to change the password of audit2020 . After resetting it, I used the audit2020 account to access another shared folder. Inside that fold",
+      "metadata_checked": true
+    },
+    {
+      "id": "3ab4be80ec050b4e93387e5b93d6930be5e18cd3a356ac6cda6db43628544cce",
+      "title": "Fickle PDFs: exploiting browser rendering discrepancies",
+      "url": "https://portswigger.net/research/fickle-pdfs-exploiting-browser-rendering-discrepancies",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Tue, 09 Jul 2024 12:51:22 GMT",
+      "discovered_at": "2026-11-21T20:00:44.782105+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "Imagine the CEO of a random company receives an email containing a PDF invoice file. In Safari and MacOS Preview, the total price displayed is £399. After approval, the invoice is sent to the accounti",
+      "metadata_checked": true
+    },
+    {
+      "id": "2f6300151623d55c87355ab7f3e7cd198a0b428a831943ac5fd5e3c5b5f9b837",
+      "title": "The future of pentesting is Human x AI, and it's already in Burp Suite Professional",
+      "url": "https://portswigger.net/blog/the-future-of-pentesting-is-human-x-ai-and-its-already-in-burp-suite-professional",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Tue, 07 Oct 2025 13:17:41 GMT",
+      "discovered_at": "2026-11-21T20:00:44.950340+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "The latest Hacker-Powered Security Report from HackerOne makes one thing clear: AI-assisted pentesting isn't a future trend; it's today's reality. In HackerOne's 2025 report, 70% of surveyed researche",
+      "metadata_checked": true
+    },
+    {
+      "id": "992505a51657da7ee8a958c54bb3170c2e05d542bf343c9be183bfd6deb0b094",
+      "title": "PortSwigger partners with Meta Bug Bounty to empower bug hunters with training and Pro licenses",
+      "url": "https://portswigger.net/blog/portswigger-partners-with-meta-bug-bounty-to-empower-bug-hunters-with-training-and-pro-licenses",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Tue, 07 Apr 2026 12:12:07 GMT",
+      "discovered_at": "2026-11-21T20:00:44.949635+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "More power for bug hunters An education-first approach to bug bounty Rewards on Meta's Bug Bounty Platform Our shared vision Ready to get started? We’re excited to announce a new partnership with Meta",
+      "metadata_checked": true
+    },
+    {
+      "id": "62f8a1aac6cb81da3267efd4acf27283294e63f5dd0893094161e267391ac0ad",
+      "title": "The model isn't cooperating",
+      "url": "https://portswigger.net/research/the-model-isnt-cooperating",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Tue, 06 Oct 2026 17:14:53 GMT",
+      "discovered_at": "2026-11-21T20:00:44.780822+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "Have you ever felt like a model isn't actually trying to do what you asked? Did you just ask it wrong, or is there something else at play here? In this post, I'll briefly explore this phenomenon, the",
+      "metadata_checked": true
+    },
+    {
+      "id": "91451580c341f08af163267811c94d30430faca0b5fc69118222ec8abcb40c98",
+      "title": "Top 10 web hacking techniques of 2025: call for nominations",
+      "url": "https://portswigger.net/research/top-10-web-hacking-techniques-of-2025-nominations-open",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Tue, 06 Jan 2026 15:31:28 GMT",
+      "discovered_at": "2026-11-21T20:00:44.781175+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "Update: nominations are now closed, and voting is live! Cast your vote here Over the last year, security researchers have shared a huge amount of work with the community through blog posts, presentati",
+      "metadata_checked": true
+    },
+    {
+      "id": "a1fa9e39c14c321d4d00842f6b81a6b98b191bf7b54f9eb76d324f3532aac120",
+      "title": "Persistence – Explorer",
+      "url": "https://pentestlab.blog/2024/03/05/persistence-explorer",
+      "source": "Penetration Testing Lab",
+      "source_id": "pentestlab",
+      "type": "research",
+      "category": "PWN",
+      "author": "Administrator",
+      "published_at": "Tue, 05 Mar 2024 07:54:00 +0000",
+      "discovered_at": "2026-11-21T20:00:46.545070+00:00",
+      "tags": [
+        "dll hijacking",
+        "explorer.exe",
+        "persistence",
+        "pwn",
+        "red team",
+        "web"
+      ],
+      "summary": "Windows File Explorer is the is the graphical file management utility for the Windows operating system and the default desktop environment. Windows explorer was introduced&#8230; Continue reading &#8594; Persistence &#8211; Explorer",
+      "metadata_checked": true
+    },
+    {
+      "id": "05d2d15041fb5ca01395fdf13693d923a9ba38cee2a00b5908200c445d80e3fe",
+      "title": "Top 10 web hacking techniques of 2024",
+      "url": "https://portswigger.net/research/top-10-web-hacking-techniques-of-2024",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Tue, 04 Feb 2025 15:01:48 GMT",
+      "discovered_at": "2026-11-21T20:00:44.781650+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "Welcome to the Top 10 Web Hacking Techniques of 2024, the 18th edition of our annual community-powered effort to identify the most innovative must-read web security research published in the last year",
+      "metadata_checked": true
+    },
+    {
+      "id": "206ce476d74e250a193f4543995c3e87cf2a12112df4fb08db01a806cf1ad819",
+      "title": "How Burp AT helped expose whistleblower reports via a critical vulnerability that was overlooked for years",
+      "url": "https://portswigger.net/blog/how-burp-at-helped-expose-whistleblower-reports-via-a-critical-vulnerability-that-was-overlooked-for-years",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "OTHER",
+      "author": "",
+      "published_at": "Tue, 04 Aug 2026 14:45:31 GMT",
+      "discovered_at": "2026-11-21T20:00:44.949157+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "\"It feels like I get 10X the productivity on an engagement. The difference is night and day.\" Profile Ray Huygen is a Security Analyst at Orange Cyberdefense, a managed security service provider with",
+      "metadata_checked": true
+    },
+    {
+      "id": "5715c72a6529d8b99503ae6352b79eb5fcba3135e73879627fda37f0271e268f",
+      "title": "Introducing the URL validation bypass cheat sheet",
+      "url": "https://portswigger.net/research/introducing-the-url-validation-bypass-cheat-sheet",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Tue, 03 Sep 2024 14:52:12 GMT",
+      "discovered_at": "2026-11-21T20:00:44.781943+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "URL validation bypasses are the root cause of numerous vulnerabilities including many instances of SSRF, CORS misconfiguration, and open redirection. These work by using ambiguous URLs to trigger URL",
+      "metadata_checked": true
+    },
+    {
+      "id": "69ca105216019ed579a0569e4a2dc0c87aa47d16bd5229b7542adc9fd3c0b46d",
+      "title": "How Neo found an SSRF vulnerability in Faraday, and why it matters for every team that ships code",
+      "url": "https://projectdiscovery.io/blog/how-neo-found-an-ssrf-vulnerability-in-faraday-and-why-it-matters-for-every-team-that-ships-code",
+      "source": "ProjectDiscovery",
+      "source_id": "projectdiscovery",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Tue, 03 Mar 2026 17:05:32 GMT",
+      "discovered_at": "2026-11-21T20:00:45.230133+00:00",
+      "tags": [
+        "bug-bounty",
+        "neo",
+        "vulnerability research",
+        "web"
+      ],
+      "summary": "Executive Summary Neo found a Server-Side Request Forgery (SSRF) vulnerability in Faraday, a widely used HTTP client library in the Ruby ecosystem. This is Neo’s first credited CVE discovery. Neo is ProjectDiscovery’s AI security copilot for tasks like code review and vulnerability discovery. For this finding, Neo reviewed a widely used open source dependency and, without human guidance, surfaced a subtle URL-handling edge case, validated it in runtime, and produced a clear write-up that maint",
+      "metadata_checked": true
+    },
+    {
+      "id": "0d7c10797428e4f402829aa16e5acfdd6eeef978eef10be88d15fa0ddc7c7ed4",
+      "title": "A hacking hat-trick: previewing three PortSwigger Research publications coming to DEF CON &amp; Black Hat USA",
+      "url": "https://portswigger.net/research/a-hacking-hat-trick-previewing-three-portswigger-research-publications-coming-to-def-con-amp-black-hat-usa",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Tue, 02 Jul 2024 12:57:08 GMT",
+      "discovered_at": "2026-11-21T20:00:44.782153+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "We're delighted to announce three major research releases from PortSwigger Research will be published at both Black Hat USA and DEF CON 32. In this post, we'll offer a quick teaser of each talk, info",
+      "metadata_checked": true
+    },
+    {
+      "id": "087f36d56876a97cfdd1e8ce56770048ff349dfeb0e32fafc8d7e34976f98255",
+      "title": "From capable AI models to trusted security testing",
+      "url": "https://portswigger.net/blog/from-capable-ai-models-to-trusted-security-testing",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "OTHER",
+      "author": "",
+      "published_at": "Thu, 30 Jul 2026 14:58:47 GMT",
+      "discovered_at": "2026-11-21T20:00:44.949205+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "This week, we launched Burp AT in public beta for Burp Suite Professional users. Next week at Black Hat, PortSwigger Research will reveal more of the work that helped shape our direction. Burp AT is o",
+      "metadata_checked": true
+    },
+    {
+      "id": "4df7fe08157663a8f764b54362d7ce37db47beda9ad9efbeb492269b39bf6d7c",
+      "title": "The year so far: How Burp Suite DAST is leveling up enterprise security in 2025",
+      "url": "https://portswigger.net/blog/the-year-so-far-how-burp-suite-dast-is-leveling-up-enterprise-security-in-2025",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "OTHER",
+      "author": "",
+      "published_at": "Thu, 28 Aug 2025 12:07:45 GMT",
+      "discovered_at": "2026-11-21T20:00:44.950589+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "Enterprise security teams are under more pressure than ever to secure sprawling application estates, without slowing down delivery. That's why, over the first half of 2025, we've delivered some of our",
+      "metadata_checked": true
+    },
+    {
+      "id": "ce6f19ca77dd62fc21cc8d302cc67203dc757f4aaae85db8fad360860212aac8",
+      "title": "AI code review has come a long way, but it can’t catch everything",
+      "url": "https://projectdiscovery.io/blog/ai-code-review-vs-neo",
+      "source": "ProjectDiscovery",
+      "source_id": "projectdiscovery",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Thu, 26 Feb 2026 22:23:42 GMT",
+      "discovered_at": "2026-11-21T20:00:45.230176+00:00",
+      "tags": [
+        "bug-bounty",
+        "neo",
+        "vulnerability research",
+        "web"
+      ],
+      "summary": "AI code review can reason about intent, but real incidents often stem from business logic flaws that only show up in runtime. Our benchmark reveals where code-only review falls short.",
+      "metadata_checked": true
+    },
+    {
+      "id": "137516f24901ccd6579a58573490e043f810cb5ab7130ea1e822ac0e4651bb63",
+      "title": "How I sped up exploit validation in Repeater using Burp AI",
+      "url": "https://portswigger.net/blog/how-i-sped-up-exploit-validation-in-repeater-using-burp-ai",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "OTHER",
+      "author": "",
+      "published_at": "Thu, 22 Jan 2026 15:18:00 GMT",
+      "discovered_at": "2026-11-21T20:00:44.949832+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "Note: This is a guest post by IT security consultant&nbsp;Adarsh Kumar. I’ve been using Burp Suite day to day for years, so when Burp AI was introduced, I was curious how it would actually hold up dur",
+      "metadata_checked": true
+    },
+    {
+      "id": "b25d803dd4e2a641e301ca913e6fcfd184001d390eed9aeda1117d6205d8c268",
+      "title": "Red-Teaming Cloud Infrastructure with Neo",
+      "url": "https://projectdiscovery.io/blog/red-teaming-cloud-infrastructure-with-neo",
+      "source": "ProjectDiscovery",
+      "source_id": "projectdiscovery",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Thu, 21 May 2026 12:18:50 GMT",
+      "discovered_at": "2026-11-21T20:00:45.229670+00:00",
+      "tags": [
+        "bug-bounty",
+        "neo",
+        "web"
+      ],
+      "summary": "Most AI security tooling shipped over the last year focuses on one of two workflows, code review at PR time or zero-day research in open-source software. Models in PR pipelines now flag insecure patterns at every commit and autonomous research runs have produced more zero-days across open-source projects than the patch teams behind them can realistically triage. We've been running Neo on both of those workflows at ProjectDiscovery for a while now, surfacing zero-days in production software and t",
+      "metadata_checked": true
+    },
+    {
+      "id": "4a84e4f434a3c2aa63977f4dd42cb434937a5f43f5f9d03baa4c805fcade28af",
+      "title": "Shadow Repeater:AI-enhanced manual testing",
+      "url": "https://portswigger.net/research/shadow-repeater-ai-enhanced-manual-testing",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Thu, 20 Feb 2025 13:20:19 GMT",
+      "discovered_at": "2026-11-21T20:00:44.781615+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "Have you ever wondered how many vulnerabilities you've missed by a hair's breadth, due to a single flawed choice? We've just released Shadow Repeater, which enhances your manual testing with AI-powere",
+      "metadata_checked": true
+    },
+    {
+      "id": "9b15a97054566cfdd3951ddb3d84e255c94f0022ed84a88b6afc27d1b5c433b9",
+      "title": "Pwning “under the web”",
+      "url": "https://medium.com/@isl.aoudia/pwning-under-the-web-f1131eac17f9?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "type": "writeup",
+      "category": "CTF-WRITEUPS",
+      "author": "Islam Aoudia",
+      "published_at": "Thu, 19 Nov 2026 18:08:08 GMT",
+      "discovered_at": "2026-11-21T20:00:45.875884+00:00",
+      "tags": [
+        "binary-exploitation",
+        "ctf",
+        "htb",
+        "htb-writeup",
+        "pwn"
+      ],
+      "summary": "Hi everyone, and welcome to my first blog post! I&#x2019;ve been wanting to start sharing my writeups for a while now, and today is finally the&#x2026; Continue reading on Medium »",
+      "metadata_checked": true
+    },
+    {
+      "id": "b40e3e18d8af1cd8e5ea122cc9610601b939130df496c912fcd406164a926a1b",
+      "title": "Dina: 1.1 – Walkthrough",
+      "url": "https://medium.com/@jamilulx01/dina-1-1-walkthrough-8447c0f4a7e1?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "type": "writeup",
+      "category": "CTF-WRITEUPS",
+      "author": "Jamilulx",
+      "published_at": "Thu, 19 Nov 2026 17:20:54 GMT",
+      "discovered_at": "2026-11-21T20:00:45.875942+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "linux",
+        "penetration-testing",
+        "vulnhub"
+      ],
+      "summary": "Tags: CTF, Penetration Testing, Cybersecurity, Vulnhub, Linux Continue reading on Medium »",
+      "metadata_checked": true
+    },
+    {
+      "id": "2337b5e0cf376066ff3d7496e8ddfe03d18b5301f22a189b96e777bed5ba9d51",
+      "title": "Javascript — Obfuscation 3",
+      "url": "https://medium.com/@mohitrelekar8j/javascript-obfuscation-3-59bbfd4e6c1b?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "type": "writeup",
+      "category": "CTF-WRITEUPS",
+      "author": "Mohitrelekar",
+      "published_at": "Thu, 19 Nov 2026 16:28:41 GMT",
+      "discovered_at": "2026-11-21T20:00:45.875990+00:00",
+      "tags": [
+        "ctf",
+        "root-me"
+      ],
+      "summary": "Platform: root-me.org Continue reading on Medium »",
+      "metadata_checked": true
+    },
+    {
+      "id": "4cac5191fbeec370c81de0ebc57469b11a814ade766891ce9381732f5f9c0527",
+      "title": "How to join the desync endgame: Practical tips from pentester Tom Stacey",
+      "url": "https://portswigger.net/blog/how-to-join-the-desync-endgame-practical-tips-from-pentester-tom-stacey",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "WEB-SECURITY",
+      "author": "",
+      "published_at": "Thu, 18 Sep 2025 15:51:39 GMT",
+      "discovered_at": "2026-11-21T20:00:44.950461+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "Note: This is a guest post by pentester and researcher, Tom Stacey (@t0xodile). You'd think that after almost 21 years since its initial public discovery, HTTP Request Smuggling would be barely exploi",
+      "metadata_checked": true
+    },
+    {
+      "id": "094b4130aeb9b0d9dd5383ae141ab5238e00b20a78bd46bce28e4acc50a66c85",
+      "title": "The Vulnerability Curve Bent With the AI Curve",
+      "url": "https://projectdiscovery.io/blog/the-vulnerability-curve-bent-with-the-ai-curve",
+      "source": "ProjectDiscovery",
+      "source_id": "projectdiscovery",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Thu, 18 Jun 2026 18:32:03 GMT",
+      "discovered_at": "2026-11-21T20:00:45.229510+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "How CVE volume, known-exploited counts and time-to-exploit all changed shape across the LLM build-out and why defenders are now on the wrong side of the clock. In 2018 the world published about 18,000 CVEs and the average vulnerability took roughly two months to get exploited after it went public. By 2025 the world was publishing nearly 50,000 CVEs a year and the average vulnerability was being exploited before it was disclosed. Those two facts are the whole story. The number of vulnerabilitie",
+      "metadata_checked": true
+    },
+    {
+      "id": "dc7ce09643aad63ae6ae80ccdecf1e5893b82a929a2cba2a1febf1e094cc0c14",
+      "title": "Introducing the official Burp Ambassador Program",
+      "url": "https://portswigger.net/blog/introducing-the-official-burp-ambassador-program",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "OTHER",
+      "author": "",
+      "published_at": "Thu, 16 Apr 2026 13:24:25 GMT",
+      "discovered_at": "2026-11-21T20:00:44.949593+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "Why we’re launching the program What it means to be a Burp Ambassador What we’re aiming for Our Burp Ambassadors Alan Levy Corey Ball Federico Dotta Rana Khalil Tib3rius Looking ahead Get Involved - B",
+      "metadata_checked": true
+    },
+    {
+      "id": "194074f1884e2d4ee5e2709f220835190cd5c9a4bd0af97fa2987c6d5adf131d",
+      "title": "Burp AT: What's new since Black Hat",
+      "url": "https://portswigger.net/blog/burp-at-whats-new-since-black-hat",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "OTHER",
+      "author": "",
+      "published_at": "Thu, 15 Oct 2026 10:09:41 GMT",
+      "discovered_at": "2026-11-21T20:00:44.949050+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "Launch Burp AT now&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Find out more about Burp AT Since we launched Burp AT at Black Hat USA, it's been great to s",
+      "metadata_checked": true
+    },
+    {
+      "id": "2b12c59f1ee3d0433645a17c568771bde61eadfd1ae3d90038ea6da5c1fa1437",
+      "title": "Automating Kali Linux on Apple Silicon: Headless GUI Orchestration, Burp Suite BApps & Recon Pipelines",
+      "url": "https://dev.to/hrlpavan/automating-kali-linux-on-apple-silicon-headless-gui-orchestration-burp-suite-bapps-recon-184b",
+      "source": "DEV Community · Bug Bounty",
+      "source_id": "devto-bugbounty",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "Pavan Kumar Sadashiv",
+      "published_at": "Thu, 12 Nov 2026 19:55:45 +0000",
+      "discovered_at": "2026-11-21T20:00:46.335940+00:00",
+      "tags": [
+        "automation",
+        "bug-bounty",
+        "bugbounty",
+        "kalilinux",
+        "security"
+      ],
+      "summary": "Setting up a dedicated penetration testing environment on an Apple Silicon (ARM64) Mac requires more than just installing an OS. To hunt for high-severity vulnerabilities on platforms like HackerOne and Intigriti , you need an offensive environment that bridges high-speed CLI reconnaissance with deep manual business logic testing in Burp Suite . In our previous articles, we audited our macOS host storage to reclaim 26.2 GB, spun up a tuned Kali Linux ARM64 VM in UTM, and audited the entire A-to-",
+      "metadata_checked": true
+    },
+    {
+      "id": "12e81015656175f726b9f9edb7e7568d64a3515eb8bf3d567af074658ac26745",
+      "title": "A to Z Bug Bounty Hunting Tools: Full Arsenal Breakdown, Storage Sizing & Kali Setup",
+      "url": "https://dev.to/hrlpavan/a-to-z-bug-bounty-hunting-tools-full-arsenal-breakdown-storage-sizing-kali-setup-5f3a",
+      "source": "DEV Community · Bug Bounty",
+      "source_id": "devto-bugbounty",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "Pavan Kumar Sadashiv",
+      "published_at": "Thu, 12 Nov 2026 16:09:49 +0000",
+      "discovered_at": "2026-11-21T20:00:46.336514+00:00",
+      "tags": [
+        "bug-bounty",
+        "bugbounty",
+        "devtools",
+        "kalilinux",
+        "security"
+      ],
+      "summary": "In the popular cybersecurity breakdown \"A to Z Bug Bounty Hunting Tools! (HACKING)\" by Hacker Joe (based on Satya Prakash's curated 0xKayala/BugBountyTools repository), dozens of essential tools are surveyed across eleven testing categories. For researchers running penetration testing environments—especially inside virtual machines on 256 GB laptops—blindly installing every tool is a quick way to run out of disk space. Before running apt install or go install , we performed a category-by-categor",
+      "metadata_checked": true
+    },
+    {
+      "id": "cee9565a96e3fcaf257b21181c9f08325a1c6b8ba6aa3ae21298773834cf1ced",
+      "title": "Installing Kali Linux on an Apple Silicon Mac for Bug Bounty: Storage Audits, VM Sizing & Performance Tuning",
+      "url": "https://dev.to/hrlpavan/installing-kali-linux-on-an-apple-silicon-mac-for-bug-bounty-storage-audits-vm-sizing--10nh",
+      "source": "DEV Community · Bug Bounty",
+      "source_id": "devto-bugbounty",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "Pavan Kumar Sadashiv",
+      "published_at": "Thu, 12 Nov 2026 13:52:40 +0000",
+      "discovered_at": "2026-11-21T20:00:46.336952+00:00",
+      "tags": [
+        "bug-bounty",
+        "bugbounty",
+        "kalilinux",
+        "macos",
+        "security"
+      ],
+      "summary": "Running a penetration testing lab on a 256 GB MacBook (Apple Silicon M-series) feels like walking a tightrope. Kali Linux has a reputation for being disk-hungry, and macOS aggressively uses free SSD space for swap files and sleep images. If your available disk drops below 15–20 GB, macOS begins to throttle, apps freeze, and your VM can suffer silent disk corruption. In this guide, we break down the exact disk mathematics of installing Kali Linux on a 256 GB Mac SSD, how to prepare your storage, ",
+      "metadata_checked": true
+    },
+    {
+      "id": "fe13cfe8abef8ff55d5fc7419345bfd9a29dddad29c21a0aa490c811eff82de9",
+      "title": "🧟 Old API Versions: Find the /v1 That Never Died, Then Prove It",
+      "url": "https://dev.to/krishna_kumar_75bdf350b26/old-api-versions-find-the-v1-that-never-died-then-prove-it-2fh4",
+      "source": "DEV Community · Bug Bounty",
+      "source_id": "devto-bugbounty",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "Krishna Kumar",
+      "published_at": "Thu, 12 Nov 2026 13:21:53 +0000",
+      "discovered_at": "2026-11-21T20:00:46.338004+00:00",
+      "tags": [
+        "api",
+        "appsec",
+        "bug-bounty",
+        "bugbounty",
+        "security"
+      ],
+      "summary": "Teams ship /api/v2 , fix the authorization bug that /v1 had, update the docs, and move on. The router never got the memo. /api/v1/orders/1002 still answers, it still talks to the same database, and it still has the bug. That's the whole idea behind OWASP's API9:2023 Improper Inventory Management : you can't secure an API version you've forgotten you run. This post is about finding those forgotten versions and hosts, and then doing the part that matters: proving, with your own test accounts, whet",
+      "metadata_checked": true
+    },
+    {
+      "id": "02a50c451bd923603bab68672fac4ede5ae52b56e23835375f66318f504b98cb",
+      "title": "Automation without alignment: The hidden cost of modern DAST",
+      "url": "https://portswigger.net/blog/automation-without-alignment-the-hidden-cost-of-modern-dast",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "OTHER",
+      "author": "",
+      "published_at": "Thu, 12 Mar 2026 12:02:57 GMT",
+      "discovered_at": "2026-11-21T20:00:44.949734+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "Watch the webinar recording: Burp Suite DAST x Burp Suite Professional: Better Together I'm a firm believer that if you want to understand how secure an application really is, you have to test how it",
+      "metadata_checked": true
+    },
+    {
+      "id": "70c4201e8a8dce2b1f5ae80da43e86a6ece1a906516ca2550bdf71f2594101f6",
+      "title": "DAST without disruption: Burp Suite DAST winter update 2025",
+      "url": "https://portswigger.net/blog/burp-suite-dast-winter-update-2025",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "OTHER",
+      "author": "",
+      "published_at": "Thu, 11 Dec 2025 13:09:30 GMT",
+      "discovered_at": "2026-11-21T20:00:44.949999+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "AppSec teams are under constant pressure to secure fast-moving applications without slowing anything down. But scanning windows, fragile authentication, and sprawling API estates often get in the way",
+      "metadata_checked": true
+    },
+    {
+      "id": "73b46cfd83e01c4a793134256888903a88b2738922284375429e2a8d326ad284",
+      "title": "HTTP/1.1 must die: Dafydd Stuttard on what this means for enterprise security",
+      "url": "https://portswigger.net/blog/http-1-1-must-die-dafydd-stuttard-on-what-this-means-for-enterprise-security",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "OTHER",
+      "author": "",
+      "published_at": "Thu, 09 Oct 2025 14:06:40 GMT",
+      "discovered_at": "2026-11-21T20:00:44.950305+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "At Black Hat USA 2025 and DEF CON 33, PortSwigger's Director of Research, James Kettle, unveiled new HTTP desync techniques that prove one thing beyond doubt: HTTP/1.1 is broken, and every organizatio",
+      "metadata_checked": true
+    },
+    {
+      "id": "498fce5f98e363be9d31d3d9d1f59ad49ad02cce2bd9d43bea3afc8162def439",
+      "title": "Heading to Vegas? Meet PortSwigger at Black Hat, BSides, and DEF CON 34.",
+      "url": "https://portswigger.net/blog/heading-to-vegas-meet-portswigger-at-black-hat-bsides-and-def-con-34",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "OTHER",
+      "author": "",
+      "published_at": "Thu, 09 Jul 2026 09:20:06 GMT",
+      "discovered_at": "2026-11-21T20:00:44.949350+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "First hand of the week: Find us at BSides Workshop: Burp But Yours, with Hannah and Tib3rius Center stage: Visit us at Black Hat USA - Booth 5342 Lightning talks at the booth Catch our researchers' br",
+      "metadata_checked": true
+    },
+    {
+      "id": "e60e78c24ce3f188b7a244de95c487796c903e7f1cdf66c19b49c6ba28fbd806",
+      "title": "Gotta cache 'em all: bending the rules of web cache exploitation",
+      "url": "https://portswigger.net/research/gotta-cache-em-all",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Thu, 08 Aug 2024 22:27:46 GMT",
+      "discovered_at": "2026-11-21T20:00:44.781990+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "Through the years, we have seen many attacks exploiting web caches to hijack sensitive information or store malicious payloads. However, as CDNs became more popular, new discrepancies between propriet",
+      "metadata_checked": true
+    },
+    {
+      "id": "74afbb4899ce6ab1d9e810c3e6e7cf15d38b6ff7ae8e439326509744fdaa028b",
+      "title": "CSS:the bomb inside your inbox",
+      "url": "https://portswigger.net/research/css-the-bomb-inside-your-inbox",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Thu, 06 Aug 2026 22:00:00 GMT",
+      "discovered_at": "2026-11-21T20:00:44.781022+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "Gareth Heyes - gareth.heyes@portswigger.net - @garethheyes It's quite common for webmail clients to render untrusted CSS in a trusted UI. They attempt to make this safe using CSS sanitization. In this",
+      "metadata_checked": true
+    },
+    {
+      "id": "4d1f42f3a495c56592049e08db502f06f3d29414b3a1bf45129ba5a59be6c2f8",
+      "title": "Top 10 web hacking techniques of 2025",
+      "url": "https://portswigger.net/research/top-10-web-hacking-techniques-of-2025",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Thu, 05 Feb 2026 15:28:08 GMT",
+      "discovered_at": "2026-11-21T20:00:44.781136+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "Welcome to the Top 10 Web Hacking Techniques of 2025, the 19th edition of our annual community-powered effort to identify the most innovative must-read web security research published in the last year",
+      "metadata_checked": true
+    },
+    {
+      "id": "a9cac62709bb99c23883b0b97f885fa77c77d432fb660b01bea755fad64cdd36",
+      "title": "Watch the webinar: Scale secure coverage without scaling headcount",
+      "url": "https://portswigger.net/blog/watch-the-webinar-scale-secure-coverage-without-scaling-headcount",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "OTHER",
+      "author": "",
+      "published_at": "Thu, 04 Sep 2025 14:21:00 GMT",
+      "discovered_at": "2026-11-21T20:00:44.950542+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "Application security teams are under pressure. With expanding application estates, growing API usage, and faster release cycles, many teams struggle to keep up. Backlogs grow, releases are delayed, an",
+      "metadata_checked": true
+    },
+    {
+      "id": "074b3dfb2d0b6237eb282af8b00618e41b63928f4e11708b6d66881e723a2d03",
+      "title": "Supply Chain Security Analysis of a 9.5M-Install VS Code Extension",
+      "url": "https://projectdiscovery.io/blog/a-9-5m-install-vs-code-extension-one-markdown-file-and-a-supply-chain-foothold",
+      "source": "ProjectDiscovery",
+      "source_id": "projectdiscovery",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Sun, 16 Aug 2026 13:08:38 GMT",
+      "discovered_at": "2026-11-21T20:00:45.229230+00:00",
+      "tags": [
+        "bug-bounty",
+        "neo",
+        "research",
+        "vs code",
+        "web"
+      ],
+      "summary": "Your code editor extensions auto-update and run with your privileges on the machine that holds your source code, your SSH keys, and your publishing credentials, but they rarely show up in a software bill of materials. Using Neo we audited one of the most popular ones, Markdown Preview Enhanced has roughly 9.5 million installs. The neo found five CVEs across two attack surfaces. A WaveDrom rendering bug turned an ordinary Markdown file into JavaScript execution inside the preview, then into arb",
+      "metadata_checked": true
+    },
+    {
+      "id": "f80b79b86b1bb211cb75c0ebde70ee7b5205b6ecabb91c9e7663e232cfcf9a56",
+      "title": "No Lab, No Exploit Server: Proving a Bug From Source Alone",
+      "url": "https://dev.to/aaannvv/no-lab-no-exploit-server-proving-a-bug-from-source-alone-40po",
+      "source": "DEV Community · Bug Bounty",
+      "source_id": "devto-bugbounty",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "aaannvv",
+      "published_at": "Sun, 15 Nov 2026 04:48:36 +0000",
+      "discovered_at": "2026-11-21T20:00:46.334636+00:00",
+      "tags": [
+        "bug-bounty",
+        "bugbounty",
+        "codeanalysis",
+        "security",
+        "vulnerability"
+      ],
+      "summary": "You have the code. You don't have the target. Maybe the product only exists inside enterprises you have no permission to touch. Maybe the finding is still unreported, and standing up a full exploit environment means manufacturing artifacts — payloads, captured screenshots, exfiltrated rows — that become liabilities the moment they exist. Maybe it's plainer than that: a faithful environment for this bug means a BI platform deployment with an Elasticsearch cluster behind it, three evenings of plum",
+      "metadata_checked": true
+    },
+    {
+      "id": "348ac981a61c900642cc72bb9cd8f633ab59fbee43e43cbe4768a8bc025969a4",
+      "title": "How to find bug bounty and disclosure programs, and get a report accepted",
+      "url": "https://dev.to/sentinelleai/how-to-find-bug-bounty-and-disclosure-programs-and-get-a-report-accepted-4h6l",
+      "source": "DEV Community · Bug Bounty",
+      "source_id": "devto-bugbounty",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "Sentinelleai",
+      "published_at": "Sun, 08 Nov 2026 23:46:50 +0000",
+      "discovered_at": "2026-11-21T20:00:46.339945+00:00",
+      "tags": [
+        "bug-bounty",
+        "bugbounty",
+        "infosec",
+        "security",
+        "webdev"
+      ],
+      "summary": "Originally published on sentinelleai.app . Programs are published in many places. The skill is knowing where to look, and reading the rules before you touch anything. If you search for \"responsible disclosure bounty\" or \"bug bounty\", you are probably trying to answer two questions. Where can I report a problem I found, and is there any reward for it? This guide covers both, in the order you should do them: understand what a program promises, find the right one, read its policy, and only then tes",
+      "metadata_checked": true
+    },
+    {
+      "id": "a3c5864124f5750db2c7f09340b017929c30cf2b9034c05d0243a10d22772243",
+      "title": "Inside Android’s Storage",
+      "url": "https://medium.com/@mohaba746/inside-androids-storage-24ef44b71c0f?source=rss------bug_bounty-5",
+      "source": "Medium · Bug Bounty",
+      "source_id": "medium-bugbounty",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "Muhab A.",
+      "published_at": "Sat, 21 Nov 2026 19:33:29 GMT",
+      "discovered_at": "2026-11-21T20:00:45.806194+00:00",
+      "tags": [
+        "android",
+        "bug-bounty",
+        "cybersecurity",
+        "hacking",
+        "security"
+      ],
+      "summary": "Private storage, public consequences. Continue reading on Medium »",
+      "metadata_checked": true
+    },
+    {
+      "id": "7830b14ec6ee2aff889be2aad3e4c95ab5d922e78f961a04061553bff855aad6",
+      "title": "Inside Android’s Storage",
+      "url": "https://medium.com/@mohaba746/inside-androids-storage-24ef44b71c0f?source=rss------hacking-5",
+      "source": "Medium · Hacking",
+      "source_id": "medium-hacking",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "Muhab A.",
+      "published_at": "Sat, 21 Nov 2026 19:33:29 GMT",
+      "discovered_at": "2026-11-21T20:00:46.009703+00:00",
+      "tags": [
+        "android",
+        "bug-bounty",
+        "cybersecurity",
+        "hacking",
+        "security"
+      ],
+      "summary": "Private storage, public consequences. Continue reading on Medium »",
+      "metadata_checked": true
+    },
+    {
+      "id": "8ef03a5f6b27f71d56ff8bcb8bc9e51ddc78110a2eeff87a83c0edce565178d8",
+      "title": "How I Solved the Indian Army Terrier Cyber Quest 2026 Web Challenges",
+      "url": "https://medium.com/@sandeep03edu/how-i-solved-the-indian-army-terrier-cyber-quest-2026-web-challenges-9a7f360662b7?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "type": "writeup",
+      "category": "CTF-WRITEUPS",
+      "author": "Sandeep Mishra",
+      "published_at": "Sat, 21 Nov 2026 19:24:45 GMT",
+      "discovered_at": "2026-11-21T20:00:45.875450+00:00",
+      "tags": [
+        "ctf",
+        "ctf-writeup",
+        "cybersecurity",
+        "penetration-testing",
+        "web-security"
+      ],
+      "summary": "A techical walkthrough of three TCQ 3.0 web challenges covering SQLi, prototype pollution, auth bypass, steganography and HTTP enumeration. Continue reading on Medium »",
+      "metadata_checked": true
+    },
+    {
+      "id": "331625d5131df1fb9e9cad6e626152bafe70238ea12dcf7bd3b5eb160fa3af76",
+      "title": "USDA Hacked — Cyberattack Hits the System That Pays America’s Farmers",
+      "url": "https://medium.com/@driftingcar49/usda-hacked-cyberattack-hits-the-system-that-pays-americas-farmers-50af02cf02b5?source=rss------hacking-5",
+      "source": "Medium · Hacking",
+      "source_id": "medium-hacking",
+      "type": "writeup",
+      "category": "OTHER",
+      "author": "гуру здоровья",
+      "published_at": "Sat, 21 Nov 2026 18:20:30 GMT",
+      "discovered_at": "2026-11-21T20:00:46.009799+00:00",
+      "tags": [
+        "hacking",
+        "news",
+        "security",
+        "usda"
+      ],
+      "summary": "Hackers have breached the US Department of Agriculture &#x2014; and the system they got into is the one that sends money to American farmers. Continue reading on Medium »",
+      "metadata_checked": true
+    },
+    {
+      "id": "09f22b9d3f8f5cd6c09e7727293bd1a81b9b2009a23ee2b2918296658a10a781",
+      "title": "How a Next.js CDN Proxy Turned Into a One-Click Account Takeover",
+      "url": "https://medium.com/@r3dd404/how-a-next-js-cdn-proxy-turned-into-a-one-click-account-takeover-dd8bc8dd9fde?source=rss------bug_bounty-5",
+      "source": "Medium · Bug Bounty",
+      "source_id": "medium-bugbounty",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "R3DD",
+      "published_at": "Sat, 21 Nov 2026 18:12:52 GMT",
+      "discovered_at": "2026-11-21T20:00:45.806273+00:00",
+      "tags": [
+        "bug-bounty",
+        "bug-bounty-tips",
+        "bug-bounty-writeup",
+        "cybersecurity"
+      ],
+      "summary": "A Next.js rewrite rule proxied decentralized storage content through the target&#x2019;s origin. Since the storage network is permissionless &#x2014;&#x2026; Continue reading on Medium »",
+      "metadata_checked": true
+    },
+    {
+      "id": "2446f6cc0b0dd459b399ea640d49fecbc267f0216b3acbea1839b879cd9cd986",
+      "title": "Minha visão sobre IAs em CTFs",
+      "url": "https://medium.com/@jeanlitran58/minha-vis%C3%A3o-sobre-ias-em-ctfs-643acca8076a?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "type": "writeup",
+      "category": "CTF-WRITEUPS",
+      "author": "MistRaven",
+      "published_at": "Sat, 21 Nov 2026 17:37:25 GMT",
+      "discovered_at": "2026-11-21T20:00:45.875524+00:00",
+      "tags": [
+        "ctf",
+        "uso-de-ia"
+      ],
+      "summary": "Elas j&#xe1; est&#xe3;o entre n&#xf3;s, e n&#xe3;o h&#xe1; como fugir dessa realidade. Muitos defendem que, se uma ferramenta est&#xe1; dispon&#xed;vel, ela deve ser&#x2026; Continue reading on Medium »",
+      "metadata_checked": true
+    },
+    {
+      "id": "62c8637961f571c527b33f078f582207600b872611620dd0ee72500f78bb3e00",
+      "title": "Trump Says FBI Hack Could Expose Russia 'Hoax' Secrets",
+      "url": "https://medium.com/@rawatbikky54/trump-says-fbi-hack-could-expose-russia-hoax-secrets-07ae7b1ff6c2?source=rss------hacking-5",
+      "source": "Medium · Hacking",
+      "source_id": "medium-hacking",
+      "type": "writeup",
+      "category": "OTHER",
+      "author": "kore tech writer",
+      "published_at": "Sat, 21 Nov 2026 16:27:25 GMT",
+      "discovered_at": "2026-11-21T20:00:46.009882+00:00",
+      "tags": [
+        "donald-trump",
+        "fbi",
+        "fbi-hack",
+        "hacking",
+        "security",
+        "trump-russia"
+      ],
+      "summary": "Photo by Leo_Visions on Unsplash Continue reading on Medium »",
+      "metadata_checked": true
+    },
+    {
+      "id": "452eafb4f651edf72a7f8c47b439ad39c09fd16adf577391b0ca88de43313cbe",
+      "title": "What Is an Attack Surface and How Do You Investigate It?",
+      "url": "https://medium.com/@vitatoeclementine231/what-is-an-attack-surface-and-how-do-you-investigate-it-183aafe44aac?source=rss------hacking-5",
+      "source": "Medium · Hacking",
+      "source_id": "medium-hacking",
+      "type": "writeup",
+      "category": "OTHER",
+      "author": "solvnox",
+      "published_at": "Sat, 21 Nov 2026 16:07:57 GMT",
+      "discovered_at": "2026-11-21T20:00:46.009949+00:00",
+      "tags": [
+        "cybersecurity",
+        "ethical-hacking",
+        "hacking",
+        "security",
+        "solvnox",
+        "tools"
+      ],
+      "summary": "Introduction Continue reading on Medium »",
+      "metadata_checked": true
+    },
+    {
+      "id": "3c05aa045c455637eae729bf2d5e9eb8d16bb03bbb5ce5fcad25c4666b43d570",
+      "title": "Anatomy of an HTTP Request (Part 3): Web Application Firewalls, Parser Differentials, and Breaking…",
+      "url": "https://medium.com/@extraterrestrial2342/anatomy-of-an-http-request-part-3-web-application-firewalls-parser-differentials-and-breaking-94cdfa04205c?source=rss------bug_bounty-5",
+      "source": "Medium · Bug Bounty",
+      "source_id": "medium-bugbounty",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "Sahil",
+      "published_at": "Sat, 21 Nov 2026 16:03:13 GMT",
+      "discovered_at": "2026-11-21T20:00:45.806341+00:00",
+      "tags": [
+        "bug-bounty",
+        "cybersecurity",
+        "penetration-testing",
+        "web-application-security",
+        "web-vulnerabilities"
+      ],
+      "summary": "In Part 1, our request resolved a domain through DNS. In Part 2, it completed TCP and TLS handshakes and passed through the CDN cache&#x2026; Continue reading on Medium »",
+      "metadata_checked": true
+    },
+    {
+      "id": "c3ada54f9bdeee0defdbc0eab726196c23a39fbc6c37d0a6440d1f8142c458ee",
+      "title": "The Dark Side of AI Security | part3",
+      "url": "https://medium.com/@ksreemosmar/the-dark-side-of-ai-security-part3-3eddf1edcd20?source=rss------bug_bounty-5",
+      "source": "Medium · Bug Bounty",
+      "source_id": "medium-bugbounty",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "Z3DX",
+      "published_at": "Sat, 21 Nov 2026 15:28:18 GMT",
+      "discovered_at": "2026-11-21T20:00:45.806396+00:00",
+      "tags": [
+        "ai-cyber-security",
+        "ai-security",
+        "bug-bounty",
+        "hacking",
+        "red-teaming"
+      ],
+      "summary": "Introduction to Large Language Models (LLMs) Continue reading on Medium »",
+      "metadata_checked": true
+    },
+    {
+      "id": "10cb53bc58dd70644ddb7d5c225ed725efc74e831497e32ddab5e5dd4bb07c5c",
+      "title": "The Dark Side of AI Security | part3",
+      "url": "https://medium.com/@ksreemosmar/the-dark-side-of-ai-security-part3-3eddf1edcd20?source=rss------hacking-5",
+      "source": "Medium · Hacking",
+      "source_id": "medium-hacking",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "Z3DX",
+      "published_at": "Sat, 21 Nov 2026 15:28:18 GMT",
+      "discovered_at": "2026-11-21T20:00:46.010002+00:00",
+      "tags": [
+        "ai-cyber-security",
+        "ai-security",
+        "bug-bounty",
+        "hacking",
+        "red-teaming",
+        "security"
+      ],
+      "summary": "Introduction to Large Language Models (LLMs) Continue reading on Medium »",
+      "metadata_checked": true
+    },
+    {
+      "id": "ed479d4725cb7a548485dc67549500485292fff58e16c12e8c3d297abf62e993",
+      "title": "WhatsApp Fixes 3 Security Flaws | Android Bug Suspected of Use in Scams",
+      "url": "https://medium.com/@pentesterclubpvtltd/whatsapp-fixes-3-security-flaws-android-bug-suspected-of-use-in-scams-8c1cd3aebef3?source=rss------bug_bounty-5",
+      "source": "Medium · Bug Bounty",
+      "source_id": "medium-bugbounty",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "Pentester Club",
+      "published_at": "Sat, 21 Nov 2026 15:23:58 GMT",
+      "discovered_at": "2026-11-21T20:00:45.806454+00:00",
+      "tags": [
+        "artificial-intelligence",
+        "bug-bounty",
+        "cybersecurity",
+        "hacking",
+        "web-development"
+      ],
+      "summary": "Subtitle: What the November 2026 disclosures reveal about an IP-address leak, a malicious order-details message, and a&#x2026; Continue reading on Medium »",
+      "metadata_checked": true
+    },
+    {
+      "id": "f1ca75cbcf7323bfd9d12ec91c30f63eeb18c99e61cf1e3f7529ae2ff2ace2a1",
+      "title": "WhatsApp Fixes 3 Security Flaws | Android Bug Suspected of Use in Scams",
+      "url": "https://medium.com/@pentesterclubpvtltd/whatsapp-fixes-3-security-flaws-android-bug-suspected-of-use-in-scams-8c1cd3aebef3?source=rss------hacking-5",
+      "source": "Medium · Hacking",
+      "source_id": "medium-hacking",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "Pentester Club",
+      "published_at": "Sat, 21 Nov 2026 15:23:58 GMT",
+      "discovered_at": "2026-11-21T20:00:46.010061+00:00",
+      "tags": [
+        "artificial-intelligence",
+        "bug-bounty",
+        "cybersecurity",
+        "hacking",
+        "security",
+        "web-development"
+      ],
+      "summary": "Subtitle: What the November 2026 disclosures reveal about an IP-address leak, a malicious order-details message, and a&#x2026; Continue reading on Medium »",
+      "metadata_checked": true
+    },
+    {
+      "id": "c762d216734f1c1ecc952b56fa8d88467353ee53fcbaf59503df23ea74e88cdd",
+      "title": "14/14 on HTB CPTS, First Attempt: What Actually Mattered",
+      "url": "https://infosecwriteups.com/14-14-on-htb-cpts-first-attempt-what-actually-mattered-34ab2910551b?source=rss----7b722bfd1b8d---4",
+      "source": "InfoSec Write-ups",
+      "source_id": "infosecwriteups",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "Ashish Bogati",
+      "published_at": "Sat, 21 Nov 2026 14:45:24 GMT",
+      "discovered_at": "2026-11-21T20:00:45.462785+00:00",
+      "tags": [
+        "bug-bounty",
+        "cpt",
+        "ctf",
+        "cybersecurity",
+        "ethical-hacking",
+        "hackthebox",
+        "penetration-testing",
+        "web"
+      ],
+      "summary": "Prep, pacing, multi-hop pivoting, a 300-page report, and the outage I didn’t see coming. Certificate I passed the Hack The Box Certified Penetration Testing Specialist (CPTS) exam on my first attempt. All 14 flags, report accepted. I’m still a little surprised writing that, because CPTS was my very first certification. I’d been working in security for more than three years, but I had never sat an exam of any kind. No eJPT, no OSCP, nothing to tell me what “exam pressure” actually felt like. I we",
+      "metadata_checked": true
+    },
+    {
+      "id": "1f2c57ec83392ed6ce90a91643d7a213450d94a7ec93575772738cc9d7637930",
+      "title": "AI Red Teaming: Persistent Injection",
+      "url": "https://infosecwriteups.com/ai-red-teaming-persistent-injection-f1f5c8aeffcf?source=rss----7b722bfd1b8d---4",
+      "source": "InfoSec Write-ups",
+      "source_id": "infosecwriteups",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "hosein vita",
+      "published_at": "Sat, 21 Nov 2026 14:43:59 GMT",
+      "discovered_at": "2026-11-21T20:00:45.463664+00:00",
+      "tags": [
+        "ai-red-teaming",
+        "ai-security",
+        "artificial-intelligence",
+        "bug-bounty",
+        "ctf",
+        "web"
+      ],
+      "summary": "A Quick Word Before We Start It’s been a minute since my last technical post, but I’m back with plenty of field notes. Over the past year, I’ve spent the bulk of my time diving deep into the offensive security side of artificial intelligence, specifically, AI Red Teaming . After executing multiple complex adversarial assessments against enterprise-grade AI systems, I wanted to step back and share the architectural lessons I learned along the way. Disclaimer: All scenarios, workflows and demonstr",
+      "metadata_checked": true
+    },
+    {
+      "id": "4d77b4455a0ba9d7ab61f402c3e682ce62ea4914fd719f5225ff3fa9f19d0534",
+      "title": "Bypassing the Frontend Obfuscation: How I Uncovered a Company’s Entire Internal Architecture…",
+      "url": "https://infosecwriteups.com/bypassing-the-frontend-obfuscation-how-i-uncovered-a-companys-entire-internal-architecture-da95e27668c9?source=rss----7b722bfd1b8d---4",
+      "source": "InfoSec Write-ups",
+      "source_id": "infosecwriteups",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "Priyansh",
+      "published_at": "Sat, 21 Nov 2026 14:43:44 GMT",
+      "discovered_at": "2026-11-21T20:00:45.464085+00:00",
+      "tags": [
+        "bug-bounty",
+        "bug-bounty-tips",
+        "bug-bounty-writeup",
+        "bugs",
+        "ctf",
+        "hacking",
+        "web"
+      ],
+      "summary": "Bypassing the Frontend Obfuscation: How I Uncovered a Company’s Entire Internal Architecture Through Source Maps As bug bounty hunters, we are trained to find the chink in the armor. But what happens when the target has no visible cracks? Recently, I was tasked with testing a large logistics and cold-chain storage company. Their main web application was a modern, sleek, Single Page Application (SPA). On the surface, it seemed impenetrable: heavily shielded by Cloudflare’s Web Application Firewal",
+      "metadata_checked": true
+    },
+    {
+      "id": "6abe5838c48febba6da5efecf19f3a6077ab19b31a33c3c8dfc3e3f86658b9a6",
+      "title": "admin:admin123 — How Default Keycloak Credentials on a Cargo Training Environment Exposed 766…",
+      "url": "https://infosecwriteups.com/admin-admin123-how-default-keycloak-credentials-on-a-cargo-training-environment-exposed-766-f026dcf45023?source=rss----7b722bfd1b8d---4",
+      "source": "InfoSec Write-ups",
+      "source_id": "infosecwriteups",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "Priyansh",
+      "published_at": "Sat, 21 Nov 2026 14:42:12 GMT",
+      "discovered_at": "2026-11-21T20:00:45.465157+00:00",
+      "tags": [
+        "bug-bounty",
+        "bug-bounty-tips",
+        "bug-bounty-writeup",
+        "bugs",
+        "ctf",
+        "hacking",
+        "web"
+      ],
+      "summary": "admin:admin123 — How Default Keycloak Credentials on a Cargo Training Environment Exposed 766 Employee Accounts Why this matters Default credentials are the oldest vulnerability in the book. Every security awareness training module mentions them. Every hardening guide says “change the default password.” Every compliance framework requires it. And yet, in 2026, a major airline group’s cargo division was running an internet-facing Keycloak instance — version 12.0.3, end-of-life since December 2021",
+      "metadata_checked": true
+    },
+    {
+      "id": "c086c10cd6ac6c99b63b1cadd2b69c3018c8ea9d22a9f54214d1befb51a206c1",
+      "title": "How a Silent Websocket Led Me to Unauthenticated Uploads on a University’s Exam Platform",
+      "url": "https://infosecwriteups.com/the-anonymous-5-gb-file-host-that-almost-wasnt-how-a-silent-websocket-led-me-to-unauthenticated-c34120be1492?source=rss----7b722bfd1b8d---4",
+      "source": "InfoSec Write-ups",
+      "source_id": "infosecwriteups",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "Priyansh",
+      "published_at": "Sat, 21 Nov 2026 14:41:33 GMT",
+      "discovered_at": "2026-11-21T20:00:45.465885+00:00",
+      "tags": [
+        "bug-bounty",
+        "bug-bounty-tips",
+        "bug-bounty-writeup",
+        "ctf",
+        "growth-hacking",
+        "hacking",
+        "web"
+      ],
+      "summary": "Intro: The Wall I expected this one to be easy. A digital-exam platform — the kind that grades thousands of students, stores their submissions, their identities, their futures — running an acceptance (staging) instance on the university’s own domain. In my experience, staging instances are where production hygiene goes to die: debug endpoints, default credentials, forgotten admin panels. It wasn’t easy. For the better part of a day, every single route I touched threw 401 or a login redirect in m",
+      "metadata_checked": true
+    },
+    {
+      "id": "21bf8c0e726bffcb73df5f3a26b794e3a643f1c940d7963390b6ddc5e9177b87",
+      "title": "Superman CTF Walkthrough: SSH Enumeration to Root Access Using CVE-2021–3156 (08/50)",
+      "url": "https://medium.com/@deepabelvat/superman-ctf-walkthrough-ssh-enumeration-to-root-access-using-cve-2021-3156-08-50-b3adac4fc27e?source=rss------hacking-5",
+      "source": "Medium · Hacking",
+      "source_id": "medium-hacking",
+      "type": "writeup",
+      "category": "CTF-WRITEUPS",
+      "author": "sai_prasad_belvat",
+      "published_at": "Sat, 21 Nov 2026 14:41:19 GMT",
+      "discovered_at": "2026-11-21T20:00:46.010112+00:00",
+      "tags": [
+        "hacking",
+        "red-teaming",
+        "roots",
+        "security"
+      ],
+      "summary": "Introduction Continue reading on Medium »",
+      "metadata_checked": true
+    },
+    {
+      "id": "6055c84e9c4cd28588077cc2829a9f21d3afc8e1a82b991360bb29a6ee6814e6",
+      "title": "PHP2Shell: Practical RCE Reproduction in a Docker Lab",
+      "url": "https://infosecwriteups.com/php2shell-practical-rce-reproduction-in-a-docker-lab-fc00fb2a8cf8?source=rss----7b722bfd1b8d---4",
+      "source": "InfoSec Write-ups",
+      "source_id": "infosecwriteups",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "Abhilash H",
+      "published_at": "Sat, 21 Nov 2026 14:40:02 GMT",
+      "discovered_at": "2026-11-21T20:00:45.466214+00:00",
+      "tags": [
+        "bug-bounty",
+        "ctf",
+        "cybersecurity",
+        "docker",
+        "ethical-hacking",
+        "php2shell-vulnerabilities",
+        "vulnerability",
+        "web"
+      ],
+      "summary": "Introduction Introduction After exploring the PHP2Shell vulnerability, I wanted to take my research a step further by investigating its practical exploitation. Reading about a vulnerability explains what could happen, but reproducing it in a controlled environment provides a better understanding of how the attack works. For this experiment, I set up an isolated Docker environment using Kali Linux and a compatible PHP configuration. I then used a publicly available research PoC to investigate the",
+      "metadata_checked": true
+    },
+    {
+      "id": "bdbd4bafeed921ff8011c42304ce20d8e14faec6418675e1ad329358117cf7ea",
+      "title": "The Bare LLM: Manipulating the CloudBank Chatbot (Part 2)",
+      "url": "https://infosecwriteups.com/inside-the-bare-llm-manipulating-the-cloudbank-chatbot-part-2-8efbc92666a7?source=rss----7b722bfd1b8d---4",
+      "source": "InfoSec Write-ups",
+      "source_id": "infosecwriteups",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "Irem Bezci",
+      "published_at": "Sat, 21 Nov 2026 14:38:17 GMT",
+      "discovered_at": "2026-11-21T20:00:45.466745+00:00",
+      "tags": [
+        "ai-security",
+        "bug-bounty",
+        "ctf",
+        "cybersecurity",
+        "llm-security",
+        "prompt-injection-attack",
+        "web"
+      ],
+      "summary": "In the second part of this series, I continue exploring the Bare LLM section of PromptTrace, this time focusing on a banking chatbot. Through hands-on exercises, I’ll demonstrate how multi-turn prompt injection can manipulate the chatbot into generating a false transaction confirmation, despite its existing instructions. I’ll also examine the security weaknesses behind this behavior and explore possible mitigation approaches. The second challenge in the The Bare LLM section is The Obedient Assis",
+      "metadata_checked": true
+    },
+    {
+      "id": "7e0f996df912524e2f111722ea09a83ed7425b20ca134264d756f199df065904",
+      "title": "The Bare LLM: Attacking and Securing the FruitMart Chatbot (Part 1)",
+      "url": "https://infosecwriteups.com/inside-the-bare-llm-attacking-and-securing-the-fruitmart-chatbot-part-1-4eabe9ad5bbe?source=rss----7b722bfd1b8d---4",
+      "source": "InfoSec Write-ups",
+      "source_id": "infosecwriteups",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "Irem Bezci",
+      "published_at": "Sat, 21 Nov 2026 14:38:09 GMT",
+      "discovered_at": "2026-11-21T20:00:45.467334+00:00",
+      "tags": [
+        "ai-security",
+        "bug-bounty",
+        "chatbots",
+        "ctf",
+        "large-language-models",
+        "llm-security",
+        "web"
+      ],
+      "summary": "In this article, I explore the Bare LLM section of PromptTrace, where we work with a basic chatbot without additional security layers. Through hands-on labs, I’ll demonstrate how direct prompt injection can manipulate its behavior, expose information from its system prompt and how we can approach these vulnerabilities from a defensive perspective. The first section of PromptTrace is called The Bare LLM focusing on direct prompt injection against unguarded language models. The first challenge, He",
+      "metadata_checked": true
+    },
+    {
+      "id": "da32a34463fde798e80fc4743ee2077a286f4da1de28631456c1529e422889ac",
+      "title": "Passing the OSEP: Course Review and Exam Preparation tips",
+      "url": "https://infosecwriteups.com/passing-the-osep-course-review-and-exam-preparation-tips-167f987251f4?source=rss----7b722bfd1b8d---4",
+      "source": "InfoSec Write-ups",
+      "source_id": "infosecwriteups",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "vastzero",
+      "published_at": "Sat, 21 Nov 2026 14:38:00 GMT",
+      "discovered_at": "2026-11-21T20:00:45.467745+00:00",
+      "tags": [
+        "bug-bounty",
+        "computer-science",
+        "ctf",
+        "cybersecurity",
+        "hacking",
+        "information-security",
+        "information-technology",
+        "web"
+      ],
+      "summary": "I skipped the OSCP, was it wise? What made the OSEP journey smoother? Is AI making OSEP obsolete? Read on to find out. Course review and exam experience It was a great, structured way to learn slightly more advanced phishing techniques and experiment with payloads. There were also really fun materials on pulling off kiosk breakouts, which are less commonly available across other training providers. A key highlight, and what makes the OSEP training rather unique, is how it allows practice and hon",
+      "metadata_checked": true
+    },
+    {
+      "id": "ce80a6f723bf4160de3b10df92dffb4603f1241b152659a0fe86a699e6d10eee",
+      "title": "My Journey To Conquering The OSCE3",
+      "url": "https://infosecwriteups.com/my-journey-to-conquering-the-osce3-e4cb5d68467b?source=rss----7b722bfd1b8d---4",
+      "source": "InfoSec Write-ups",
+      "source_id": "infosecwriteups",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "vastzero",
+      "published_at": "Sat, 21 Nov 2026 14:37:19 GMT",
+      "discovered_at": "2026-11-21T20:00:45.468230+00:00",
+      "tags": [
+        "bug-bounty",
+        "computer-science",
+        "ctf",
+        "cybersecurity",
+        "hacking",
+        "information-security",
+        "penetration-testing",
+        "web"
+      ],
+      "summary": "With tips and notes for your own offensive security adventure! I won’t start off with any typical “OSCE3 is worth it!” or “OSCE3 is worth every penny and your effort.” I will share a nuanced view of what you get from pursuing the OSCE3, what I learned and enjoyed, and other key considerations to help you decide whether this adventure (and beyond) is something you want to conquer as well. Mastering Offensive Security | OSCE³ Certification | OffSec What you get Structured learning from a vetted an",
+      "metadata_checked": true
+    },
+    {
+      "id": "b2647b1bfa8f11493652168f3e8f8d9a2fb6e407bb05d9edac414507e769e30b",
+      "title": "What the Heck is ARTEX?",
+      "url": "https://medium.com/@madkatomega/what-the-heck-is-artex-764a647b5afe?source=rss------hacking-5",
+      "source": "Medium · Hacking",
+      "source_id": "medium-hacking",
+      "type": "writeup",
+      "category": "OTHER",
+      "author": "Madkat Omega",
+      "published_at": "Sat, 21 Nov 2026 13:01:02 GMT",
+      "discovered_at": "2026-11-21T20:00:46.010174+00:00",
+      "tags": [
+        "artificial-intelligence",
+        "cybersecurity",
+        "hacking",
+        "privacy",
+        "security",
+        "technology"
+      ],
+      "summary": "Details are surfacing about the AI Superweapon the FBI warned us about. Continue reading on Medium »",
+      "metadata_checked": true
+    },
+    {
+      "id": "f16b61f30710919df19555224b925024693c34d0b9ab701c3c760cd095dfad6f",
+      "title": "The Message That Ate the CPU: Finding a Quadratic-Time DoS in Markdown Parsing",
+      "url": "https://elze1n.medium.com/the-message-that-ate-the-cpu-finding-a-quadratic-time-dos-in-markdown-parsing-7813c2dc8df4?source=rss------bug_bounty-5",
+      "source": "Medium · Bug Bounty",
+      "source_id": "medium-bugbounty",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "elze1n",
+      "published_at": "Sat, 21 Nov 2026 12:44:21 GMT",
+      "discovered_at": "2026-11-21T20:00:45.806507+00:00",
+      "tags": [
+        "bug-bounty",
+        "bug-bounty-writeup"
+      ],
+      "summary": "How three characters in a Markdown message turned a normal chat operation into a server-side CPU exhaustion vulnerability. Continue reading on Medium »",
+      "metadata_checked": true
+    },
+    {
+      "id": "360be327b065e35433ae0d3cc0a8911da31043225b610d8c6093f761795b93b8",
+      "title": "The Franchise Model of Fear: When Ransomware Became a Subscription Service.",
+      "url": "https://medium.com/@csn.scsit/the-franchise-model-of-fear-when-ransomware-became-a-subscription-service-8413c4eed60b?source=rss------hacking-5",
+      "source": "Medium · Hacking",
+      "source_id": "medium-hacking",
+      "type": "writeup",
+      "category": "OTHER",
+      "author": "Cyber Scholars Network (CSN) Club,  SCSIT",
+      "published_at": "Sat, 21 Nov 2026 11:05:32 GMT",
+      "discovered_at": "2026-11-21T20:00:46.010244+00:00",
+      "tags": [
+        "cybercrime",
+        "hacking",
+        "malware",
+        "ransomeware",
+        "security",
+        "telegram"
+      ],
+      "summary": "The most dangerous development in modern cybercrime is not a new exploit or a zero-day vulnerability. It is a business model. When&#x2026; Continue reading on Medium »",
+      "metadata_checked": true
+    },
+    {
+      "id": "72ae755d62bfeefa99eead21a07484f89b3d6c0186295884b4c87cb7e6a7c978",
+      "title": "Antara putih dan hitam",
+      "url": "https://medium.com/@muhammadtatas/antara-putih-dan-hitam-5f28f48127c0?source=rss------bug_bounty-5",
+      "source": "Medium · Bug Bounty",
+      "source_id": "medium-bugbounty",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "Muhammad Tatas Maulana",
+      "published_at": "Sat, 21 Nov 2026 10:17:20 GMT",
+      "discovered_at": "2026-11-21T20:00:45.806557+00:00",
+      "tags": [
+        "bug-bounty"
+      ],
+      "summary": "Pada akhir tahun 2020, saya mulai belajar tentang website di channel youtube paling terkenal yakni &#x201c;Web Programming Unpas&#x201d;. Di channel&#x2026; Continue reading on Medium »",
+      "metadata_checked": true
+    },
+    {
+      "id": "abf468a1febaf5e63fa96232eee7323b2943fa14cc254c663d4846122f7866f9",
+      "title": "How Cross-Site WebSocket Hijacking (CSWSH) Leads to Unauthenticated State Modification",
+      "url": "https://medium.com/@t4nv1/how-cross-site-websocket-hijacking-cswsh-leads-to-unauthenticated-state-modification-d0deff2286b4?source=rss------bug_bounty-5",
+      "source": "Medium · Bug Bounty",
+      "source_id": "medium-bugbounty",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "T4nv1",
+      "published_at": "Sat, 21 Nov 2026 09:01:02 GMT",
+      "discovered_at": "2026-11-21T20:00:45.806606+00:00",
+      "tags": [
+        "bug-bounty",
+        "bug-bounty-tips",
+        "cybersecurity",
+        "hacking",
+        "security"
+      ],
+      "summary": "Introduction Continue reading on Medium »",
+      "metadata_checked": true
+    },
+    {
+      "id": "38fb14015d55a4e46ee47419442b2cc9c0401ff823ed95abe0952144c5cb1133",
+      "title": "How Cross-Site WebSocket Hijacking (CSWSH) Leads to Unauthenticated State Modification",
+      "url": "https://medium.com/@t4nv1/how-cross-site-websocket-hijacking-cswsh-leads-to-unauthenticated-state-modification-d0deff2286b4?source=rss------hacking-5",
+      "source": "Medium · Hacking",
+      "source_id": "medium-hacking",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "T4nv1",
+      "published_at": "Sat, 21 Nov 2026 09:01:02 GMT",
+      "discovered_at": "2026-11-21T20:00:46.010307+00:00",
+      "tags": [
+        "bug-bounty",
+        "bug-bounty-tips",
+        "cybersecurity",
+        "hacking",
+        "security"
+      ],
+      "summary": "Introduction Continue reading on Medium »",
+      "metadata_checked": true
+    },
+    {
+      "id": "9c8d32d794d94b9744755c38d23cbbb3c5207f3762dedb3255ef8ea2de65db0d",
+      "title": "How I Discovered a Session Management Vulnerability That Could Lead to Account Takeover | By…",
+      "url": "https://samadhanshimple.medium.com/how-i-discovered-a-session-management-vulnerability-that-could-lead-to-account-takeover-by-887ba9f199de?source=rss------bug_bounty-5",
+      "source": "Medium · Bug Bounty",
+      "source_id": "medium-bugbounty",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "Samadhan shimple",
+      "published_at": "Sat, 21 Nov 2026 07:43:48 GMT",
+      "discovered_at": "2026-11-21T20:00:45.806665+00:00",
+      "tags": [
+        "bug-bounty",
+        "cybersecurity",
+        "penetration-testing",
+        "session-management",
+        "vulnerability"
+      ],
+      "summary": "While testing a web application during my bug bounty research, I came across an interesting weakness in its session management mechanism. Continue reading on Medium »",
+      "metadata_checked": true
+    },
+    {
+      "id": "dbf4fa44feab7beb4773e6706e573bf85060b1fa17c5a1cdf6e60c0163e062ac",
+      "title": "How passive reconnaissance works on an abandoned machine.",
+      "url": "https://dev.to/nullcipher2shell/how-passive-reconnaissance-works-on-an-abandoned-machine-4p86",
+      "source": "DEV Community · CTF",
+      "source_id": "devto-ctf",
+      "type": "writeup",
+      "category": "CTF-WRITEUPS",
+      "author": "Hearsay",
+      "published_at": "Sat, 14 Nov 2026 12:48:17 +0000",
+      "discovered_at": "2026-11-21T20:00:46.479204+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "linux",
+        "reconnaissance"
+      ],
+      "summary": "First Contact — BreachLab Ghost Level 0 → 1 Platform: BreachLab Track: Ghost Level: 0 → 1 Challenge Name: First Contact Category: Linux Basics / Reconnaissance Points: 100 pts + 25 First Blood Bonus Date Completed: 2026-11-14 Challenge Description The previous analyst left in a hurry. His terminal is still open. His files — still here. Find what he left behind. Goal: Retrieve the password for ghost1 Connect: ssh ghost1@204.168.229.209 -p 2222 Topics to read before: ls , cat , cd Walkthrough We h",
+      "metadata_checked": true
+    },
+    {
+      "id": "558c61d8aa334aa0b4d5b60a4c9f7c3c78798bf309678322362e9545f12ed523",
+      "title": "OverTheWire Bandit Level 10 Writeup — Decode a Base64-Encoded Password",
+      "url": "https://dev.to/ctfdojo/overthewire-bandit-level-10-writeup-decode-a-base64-encoded-password-28bc",
+      "source": "DEV Community · CTF",
+      "source_id": "devto-ctf",
+      "type": "writeup",
+      "category": "CTF-WRITEUPS",
+      "author": "CTFDojo",
+      "published_at": "Sat, 07 Nov 2026 22:37:55 +0000",
+      "discovered_at": "2026-11-21T20:00:46.480568+00:00",
+      "tags": [
+        "beginners",
+        "ctf",
+        "security"
+      ],
+      "summary": "data.txt holds the password encoded in base64 — the base64 command's -d flag decodes it directly back to plain text. Platform: OverTheWire Bandit Category: Linux Fundamentals Level: 10 → 11 Difficulty: Beginner Technique: base64 decoding Challenge description No searching or filtering this time — the file is small and its entire content is the password, just run through base64 encoding first. \"Level Goal: The password for the next level is stored in the file data.txt, which contains base64 encod",
+      "metadata_checked": true
+    },
+    {
+      "id": "3182699c44e9039f1e5c44f94a708512fb27d3517237fe0d669c1799da681f99",
+      "title": "Building Practical Skills Alongside a Computer Science Degree",
+      "url": "https://dev.to/strombreaker/building-practical-skills-alongside-a-computer-science-degree-14m0",
+      "source": "DEV Community · CTF",
+      "source_id": "devto-ctf",
+      "type": "writeup",
+      "category": "CTF-WRITEUPS",
+      "author": "Aashif M",
+      "published_at": "Sat, 07 Nov 2026 09:29:55 +0000",
+      "discovered_at": "2026-11-21T20:00:46.480740+00:00",
+      "tags": [
+        "blackboxctf",
+        "ctf",
+        "cybersecurity",
+        "security"
+      ],
+      "summary": "A computer science degree gives you strong foundations: data structures, networks, operating systems, databases, and programming. But classroom learning and real-world skill are not always the same thing. Many students graduate knowing how a system works in theory without having tested how it can fail in practice. Cybersecurity is where this gap shows most. You can memorize terms like SQL injection, XSS, and broken access control, but recognizing them in a live application is a different skill. ",
+      "metadata_checked": true
+    },
+    {
+      "id": "f5e0b9e490d030af0b17466e3d1fad364c006c2f1fc5bf8a7eae7c9d176403d4",
+      "title": "Persistence – Disk Clean-up",
+      "url": "https://pentestlab.blog/2024/01/29/persistence-disk-clean-up",
+      "source": "Penetration Testing Lab",
+      "source_id": "pentestlab",
+      "type": "research",
+      "category": "PWN",
+      "author": "Administrator",
+      "published_at": "Mon, 29 Jan 2024 05:59:00 +0000",
+      "discovered_at": "2026-11-21T20:00:46.545303+00:00",
+      "tags": [
+        "c2",
+        "com",
+        "com hijacking",
+        "metasploit",
+        "metasploit framework",
+        "persistence",
+        "pwn",
+        "web"
+      ],
+      "summary": "Disk Clean-up is a utility which is part of Windows operating systems and can free up hard drive disk space by deleting mainly cache and&#8230; Continue reading &#8594; Persistence &#8211; Disk&#160;Clean-up",
+      "metadata_checked": true
+    },
+    {
+      "id": "15867d603ac84f3c958179adbc7bb840c9c6ca71b190f35fcf358302847c6dfb",
+      "title": "Introducing Burp AT: agentic AI, built on two decades of Burp Suite",
+      "url": "https://portswigger.net/blog/introducing-burp-at",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "WEB-SECURITY",
+      "author": "",
+      "published_at": "Mon, 27 Jul 2026 12:51:51 GMT",
+      "discovered_at": "2026-11-21T20:00:44.949251+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "Burp AT brings agentic AI to human-led pentesting, with Burp Suite’s proven tools, your project context, and purpose-built skills. You decide how much work agents take on. Burp enforces the boundaries",
+      "metadata_checked": true
+    },
+    {
+      "id": "117cb249bc5343907df93f69f4110ae2896d8c9930008dd91f0843c79179d08c",
+      "title": "Benchmarking Neo's Black-Box DAST Capabilities",
+      "url": "https://projectdiscovery.io/blog/neo-black-box-dast-capabilities",
+      "source": "ProjectDiscovery",
+      "source_id": "projectdiscovery",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Mon, 27 Apr 2026 17:11:00 GMT",
+      "discovered_at": "2026-11-21T20:00:45.229835+00:00",
+      "tags": [
+        "bug-bounty",
+        "dast",
+        "neo",
+        "web"
+      ],
+      "summary": "Since the launch of Neo, we've been steadily expanding what it can do. Neo has found 33+ real CVEs across open-source projects, performed well on white-box security testing where source code is available, and generally proven itself as a capable security engineer when it has context to work with. What we hadn't shared yet is how Neo does when it's operating purely as a black-box DAST agent no source code, no architecture context, just a URL. The prompt Neo gets is a minimal prompt with no guida",
+      "metadata_checked": true
+    },
+    {
+      "id": "9c5a78dbb093cecffb9ce5b410cd5e9f91479b48b29bbdada2a8bf5bbdb0cf5a",
+      "title": "Domain Escalation – Backup Operator",
+      "url": "https://pentestlab.blog/2024/01/22/domain-escalation-backup-operator",
+      "source": "Penetration Testing Lab",
+      "source_id": "pentestlab",
+      "type": "research",
+      "category": "PWN",
+      "author": "Administrator",
+      "published_at": "Mon, 22 Jan 2024 07:15:00 +0000",
+      "discovered_at": "2026-11-21T20:00:46.545365+00:00",
+      "tags": [
+        "domain escalation",
+        "havoc",
+        "impacket",
+        "persistence",
+        "powershell",
+        "pwn",
+        "sebackupprivilege",
+        "web"
+      ],
+      "summary": "The Backup Operators is a Windows built-in group. Users which are part of this group have permissions to perform backup and restore operations. More specifically,&#8230; Continue reading &#8594; Domain Escalation &#8211; Backup&#160;Operator",
+      "metadata_checked": true
+    },
+    {
+      "id": "46fa7ea78531d9dbde7494324407744405ffee898bbadf7ab2b25cb5b4b0d0de",
+      "title": "Continuous PR Security Review",
+      "url": "https://projectdiscovery.io/blog/continuous-pr-security-review",
+      "source": "ProjectDiscovery",
+      "source_id": "projectdiscovery",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Mon, 15 Jun 2026 16:26:15 GMT",
+      "discovered_at": "2026-11-21T20:00:45.229561+00:00",
+      "tags": [
+        "application security",
+        "bug-bounty",
+        "neo",
+        "web"
+      ],
+      "summary": "The security findings that end up in incident post-mortems rarely looked dangerous in the PR that introduced them. Not because anyone was careless but because there's nothing in the change that looks wrong. The code does exactly what it says but the problem is in how the app behaves once it's running. A new endpoint ships without a permission check but every other route in the file handles permissions correctly, so nothing about it stands out. Or a response comes back carrying more of a user's",
+      "metadata_checked": true
+    },
+    {
+      "id": "dd879ea739f8973d1522b6900c9cb3af8c678e18aba808808e4da33a59fff29e",
+      "title": "Lateral Movement – Visual Studio DTE",
+      "url": "https://pentestlab.blog/2024/01/15/lateral-movement-visual-studio-dte",
+      "source": "Penetration Testing Lab",
+      "source_id": "pentestlab",
+      "type": "research",
+      "category": "PWN",
+      "author": "Administrator",
+      "published_at": "Mon, 15 Jan 2024 07:09:00 +0000",
+      "discovered_at": "2026-11-21T20:00:46.545424+00:00",
+      "tags": [
+        "com",
+        "dcom",
+        "dte",
+        "lateral movement",
+        "pwn",
+        "visual studio",
+        "web"
+      ],
+      "summary": "A lot of organizations have some sort of application development program and it is highly likely that developers will utilize Visual Studio for their development&#8230; Continue reading &#8594; Lateral Movement &#8211; Visual Studio&#160;DTE",
+      "metadata_checked": true
+    },
+    {
+      "id": "673d4d4719ead709ee92a2c2447d5bfeb40edd45cf140d747ce285cc5af3b74a",
+      "title": "Community Spotlight: Rishi (@rxerium)",
+      "url": "https://projectdiscovery.io/blog/community-spotlight-rishi-rxerium",
+      "source": "ProjectDiscovery",
+      "source_id": "projectdiscovery",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Mon, 13 Jul 2026 06:12:18 GMT",
+      "discovered_at": "2026-11-21T20:00:45.229458+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "“Open source isn’t about perfection; it’s about putting an idea forward and improving it together as a community.” Rishi (@rxerium) If you’ve spent any time in the Nuclei Templates repository, you’ve almost certainly run something Rishi engineered. With over 500 templates merged, picked up by the likes of the UK’s National Cyber Security Center (NCSC), California Cybersecurity Integration Center, CERT Polska, Spain’s national security agency, and many others, he’s one of the most prolific con",
+      "metadata_checked": true
+    },
+    {
+      "id": "fe2fa4c487eedf2bcbce5ebb01016f081bf99890a1daa8dad73349137e790c61",
+      "title": "Persistence – Event Log",
+      "url": "https://pentestlab.blog/2024/01/08/persistence-event-log",
+      "source": "Penetration Testing Lab",
+      "source_id": "pentestlab",
+      "type": "research",
+      "category": "WEB-SECURITY",
+      "author": "Administrator",
+      "published_at": "Mon, 08 Jan 2024 07:21:00 +0000",
+      "discovered_at": "2026-11-21T20:00:46.545477+00:00",
+      "tags": [
+        "c2",
+        "event log",
+        "havoc",
+        "metasploit",
+        "persistence",
+        "powershell",
+        "pwn",
+        "web"
+      ],
+      "summary": "Windows Event logs are the main source of information for defensive security teams to identify threats and for administrators to troubleshoot errors. The logs are&#8230; Continue reading &#8594; Persistence &#8211; Event&#160;Log",
+      "metadata_checked": true
+    },
+    {
+      "id": "5d816d3f8a91914246fd941f8ebf31ffd3da6932669632f9977ced76d42a71c2",
+      "title": "Smashing the token limit with overlapping fragments",
+      "url": "https://portswigger.net/research/smashing-the-token-limit",
+      "source": "PortSwigger Research",
+      "source_id": "portswigger-research",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Mon, 05 Oct 2026 15:04:55 GMT",
+      "discovered_at": "2026-11-21T20:00:44.780881+00:00",
+      "tags": [
+        "bug-bounty",
+        "web"
+      ],
+      "summary": "I'm delighted to introduce Alex, my fellow swigger who I've collaborated with in the past with tools like DOM Invader. He showed me that it's possible to exfiltrate larger tokens than demonstrated in",
+      "metadata_checked": true
+    },
+    {
+      "id": "0e6d98a9d3859201fbb65e577aa2a294cc8f6cbabea03694b6ba59334b5c7620",
+      "title": "Persistence – Windows Setup Script",
+      "url": "https://pentestlab.blog/2024/02/05/persistence-windows-setup-script",
+      "source": "Penetration Testing Lab",
+      "source_id": "pentestlab",
+      "type": "research",
+      "category": "PWN",
+      "author": "Administrator",
+      "published_at": "Mon, 05 Feb 2024 05:53:00 +0000",
+      "discovered_at": "2026-11-21T20:00:46.545245+00:00",
+      "tags": [
+        "c2",
+        "persistence",
+        "pwn",
+        "web"
+      ],
+      "summary": "When the Windows Operating system is installed via a clean installation or via an upgrade, the Windows Setup binary is executed. The Windows setup allows&#8230; Continue reading &#8594; Persistence &#8211; Windows Setup&#160;Script",
+      "metadata_checked": true
+    },
+    {
+      "id": "feb6329e74c4aea3bdabeaa9a4334342740c8df625462d6849b5a4f39db3c65f",
+      "title": "Persistence – Visual Studio Code Extensions",
+      "url": "https://pentestlab.blog/2024/03/04/persistence-visual-studio-code-extensions",
+      "source": "Penetration Testing Lab",
+      "source_id": "pentestlab",
+      "type": "research",
+      "category": "PWN",
+      "author": "Administrator",
+      "published_at": "Mon, 04 Mar 2024 06:19:00 +0000",
+      "discovered_at": "2026-11-21T20:00:46.545133+00:00",
+      "tags": [
+        "c2",
+        "persistence",
+        "powershell",
+        "pwn",
+        "visual studio code",
+        "web"
+      ],
+      "summary": "It is not uncommon developers or users responsible to write code (i.e. detection engineers using Sigma) to utilize Visual Studio Code as their code editor.&#8230; Continue reading &#8594; Persistence &#8211; Visual Studio Code&#160;Extensions",
+      "metadata_checked": true
+    },
+    {
+      "id": "305cc525d8db4032e135c1d61f9430598a01213fe9ee3e3a0a56593083ce2a63",
+      "title": "Watching Agents Work: A Behavioral Audit of Offensive-Security LLM Runs",
+      "url": "https://projectdiscovery.io/blog/watching-agents-work-a-behavioral-audit-of-offensive-security-llm-runs",
+      "source": "ProjectDiscovery",
+      "source_id": "projectdiscovery",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Mon, 03 Aug 2026 16:34:21 GMT",
+      "discovered_at": "2026-11-21T20:00:45.229290+00:00",
+      "tags": [
+        "ai",
+        "bug-bounty",
+        "research",
+        "web"
+      ],
+      "summary": "What closed and open models actually do when you tell them to hack a website Summary The cybersecurity capability of a model is currently measured by a solve rate, a percentage, and that number tells you almost nothing worth knowing. It doesn't tell you how the model behaved. It doesn't tell you what it is actually capable of, or where it is lacking, or how far it still is from doing the job end to end. And when you put an agent next to a human practitioner, the entire comparison collapses in",
+      "metadata_checked": true
+    },
+    {
+      "id": "16be8ef0d7c080e3f4d16b729fec27d1f0e2788786bfad7e14d79433c979f545",
+      "title": "How an AI agent swarm solved 25 CTF challenges in 24 hours (and what it means for security testing)",
+      "url": "https://dev.to/croxsec/how-an-ai-agent-swarm-solved-25-ctf-challenges-in-24-hours-and-what-it-means-for-security-testing-3odc",
+      "source": "DEV Community · CTF",
+      "source_id": "devto-ctf",
+      "type": "writeup",
+      "category": "CTF-WRITEUPS",
+      "author": "croxsec",
+      "published_at": "Mon, 02 Nov 2026 23:35:03 +0000",
+      "discovered_at": "2026-11-21T20:00:46.482991+00:00",
+      "tags": [
+        "ai",
+        "automation",
+        "ctf",
+        "security"
+      ],
+      "summary": "How an AI agent swarm solved 25 CTF challenges in 24 hours Last week my team competed in HI Cyber Con 2026. We didn't field a team of humans grinding through challenges one by one. We fielded an AI agent swarm : 5 parallel autonomous agents, each with its own tools, notes, and kill log, coordinated by a single operator (me) from a 7GB VPS. Result: 25 flags in ~24 hours , across forensics, web, crypto, reverse engineering and misc — including a data-vault challenge cracked by piping a whole file ",
+      "metadata_checked": true
+    },
+    {
+      "id": "eb17cd79c395f35cca32c6682238e1c1acb46675a3b134704c0388766cb5bdce",
+      "title": "Announcing the ProjectDiscovery OSS Bounty Program",
+      "url": "https://projectdiscovery.io/blog/announcing-the-projectdiscovery-oss-bounty-program",
+      "source": "ProjectDiscovery",
+      "source_id": "projectdiscovery",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Mon, 02 Feb 2026 14:17:38 GMT",
+      "discovered_at": "2026-11-21T20:00:45.230233+00:00",
+      "tags": [
+        "#announcement",
+        "#opensource",
+        "bug bounty",
+        "bug-bounty",
+        "community",
+        "web"
+      ],
+      "summary": "Update: OSS Bounty Program Closed The ProjectDiscovery OSS Bounty Program is currently closed. We launched the program to reward meaningful open-source contributions, but over time we saw a growing volume of low-quality and heavily AI-generated submissions that created more review overhead than value for maintainers. For now, we’ve decided to shut down the program. We’re grateful to everyone who contributed thoughtful, high-quality work while it was active. Regular open-source contributions",
+      "metadata_checked": true
+    },
+    {
+      "id": "876513aac7693482f9508012ca9d06a45fa710769740f03f033d24e096e60a4f",
+      "title": "How Neo's Agent Architecture Evolved: From One Agent → Plan, Execute & Verify",
+      "url": "https://projectdiscovery.io/blog/neo-agent-architecture",
+      "source": "ProjectDiscovery",
+      "source_id": "projectdiscovery",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Mon, 01 Jun 2026 18:28:00 GMT",
+      "discovered_at": "2026-11-21T20:00:45.229620+00:00",
+      "tags": [
+        "bug-bounty",
+        "engineering",
+        "neo",
+        "web"
+      ],
+      "summary": "Our first engineering post covered prompt caching, the infrastructure change that made long-running agentic tasks economically viable. That post assumed a multi-step, multi-agent system already existed. It did not exist on day one. When we started building Neo, the product was a single agent with a sandbox and a large toolset. Today, a typical task runs through optional planning, an Execution agent that delegates to parallel specialized subagents, and a verification loop that can re-run w",
+      "metadata_checked": true
+    },
+    {
+      "id": "2f36604a5c8b6d4693c9a398dc6b264c880365266225ec60465b53a55487835b",
+      "title": "PortSwigger x TryHackMe: Supporting Advent of Cyber",
+      "url": "https://portswigger.net/blog/portswigger-x-tryhackme-supporting-advent-of-cyber",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "CTF-WRITEUPS",
+      "author": "",
+      "published_at": "Mon, 01 Dec 2025 09:00:00 GMT",
+      "discovered_at": "2026-11-21T20:00:44.950090+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "Every December, TryHackMe’s Advent of Cyber brings the security community together around a simple idea: learn something new by getting hands-on. Each day during the festive season reveals a beginner-",
+      "metadata_checked": true
+    },
+    {
+      "id": "7cec31a60686730ed1c0556ddf0f68006614991b856871a7ca2d46df58af10fe",
+      "title": "PHP2Shell x Burp Suite: Detection in your hands within a day of disclosure",
+      "url": "https://portswigger.net/blog/php2shell-x-burp-suite-detection-in-your-hands-within-a-day-of-disclosure",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "OTHER",
+      "author": "",
+      "published_at": "Fri, 23 Oct 2026 13:50:51 GMT",
+      "discovered_at": "2026-11-21T20:00:44.948999+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "PHP2Shell (CVE-2026-109618 and CVE-2026-109619) became the latest vulnerability to grab headlines around the globe. By some estimates, up to 70% of websites run at least some PHP. So if you're respons",
+      "metadata_checked": true
+    },
+    {
+      "id": "0b5487fea722576e8090c35c46d6b02be55fbc6f01161f50c58a20bd3aa96417",
+      "title": "I Wish I Had Started Playing CTFs Earlier.",
+      "url": "https://medium.com/@SatyamPathania/i-wish-i-had-started-playing-ctfs-earlier-b22c355a992c?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "type": "writeup",
+      "category": "CTF-WRITEUPS",
+      "author": "Satyam Pathania",
+      "published_at": "Fri, 20 Nov 2026 17:37:52 GMT",
+      "discovered_at": "2026-11-21T20:00:45.875581+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "hacking",
+        "infosec",
+        "technology"
+      ],
+      "summary": "Here&#x2019;s How You Can Get Into Them&#x2026; Continue reading on Medium »",
+      "metadata_checked": true
+    },
+    {
+      "id": "08e87fc057d81783f2bd1f133fbb65cb531d4f166dfb377489ece17aeeec64a0",
+      "title": "My OverTheWire Bandit Journey: Learning Linux and Cybersecurity Through 14 Hands-On Challenges",
+      "url": "https://medium.com/@RajPhantomVector/my-overthewire-bandit-journey-learning-linux-and-cybersecurity-through-14-hands-on-challenges-5113dff35bd9?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "type": "writeup",
+      "category": "CTF-WRITEUPS",
+      "author": "Rajsegar Alagarathnam",
+      "published_at": "Fri, 20 Nov 2026 14:36:30 GMT",
+      "discovered_at": "2026-11-21T20:00:45.875641+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "ethical-hacking",
+        "linux",
+        "overthewire"
+      ],
+      "summary": "From SSH basics to Linux enumeration, binary analysis, data decoding, and private-key authentication &#x2014; documenting what I learned&#x2026; Continue reading on Medium »",
+      "metadata_checked": true
+    },
+    {
+      "id": "89e8a9dfbf95954c885aca41ae1c19781272587b121def2200c5a4bddde6e02b",
+      "title": "CYLAB CTF — Part 1: Web Exploitation",
+      "url": "https://medium.com/@dwedar98/cylab-ctf-part-1-web-exploitation-fee51a77b2b0?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "type": "writeup",
+      "category": "CTF-WRITEUPS",
+      "author": "Mohamed Dwedar",
+      "published_at": "Fri, 20 Nov 2026 14:06:26 GMT",
+      "discovered_at": "2026-11-21T20:00:45.875700+00:00",
+      "tags": [
+        "ctf",
+        "ctf-writeup",
+        "python",
+        "web-security"
+      ],
+      "summary": "Hi, It&#x2019;s been a while since we last posted about web security. Continue reading on Medium »",
+      "metadata_checked": true
+    },
+    {
+      "id": "088315571c150534618d7d74dde7228c4b55a73699174fa421c23f9736d164b9",
+      "title": "🧹 HAR Files Leak Sessions: Scrub Them Without Breaking the Proof",
+      "url": "https://dev.to/krishna_kumar_75bdf350b26/har-files-leak-sessions-scrub-them-without-breaking-the-proof-5bfo",
+      "source": "DEV Community · Bug Bounty",
+      "source_id": "devto-bugbounty",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "Krishna Kumar",
+      "published_at": "Fri, 20 Nov 2026 13:23:52 +0000",
+      "discovered_at": "2026-11-21T20:00:46.333411+00:00",
+      "tags": [
+        "appsec",
+        "bug-bounty",
+        "bugbounty",
+        "python",
+        "security"
+      ],
+      "summary": "You've proven the bug. You have the request that shows it, the response that confirms it, and the browser's network log that ties it together. The easiest way to hand all of that to a triager, a developer or a vendor's support desk is a HAR file: one click in DevTools, one attachment. That file is also a copy of your session. Every cookie, every Authorization header, every token the app returned in a response body is in there, in plain JSON. Whoever reads the attachment, or whoever later gets in",
+      "metadata_checked": true
+    },
+    {
+      "id": "f474b695ee85ed6e1ca754575ea89672dbd8461900ccb9ff49ee7093da547a08",
+      "title": "ZSoft CTF Walkthrough: SQL Injection to Root Access (07/50)",
+      "url": "https://medium.com/@deepabelvat/zsoft-ctf-walkthrough-sql-injection-to-root-access-07-50-55a39b6cac0b?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "type": "writeup",
+      "category": "CTF-WRITEUPS",
+      "author": "sai_prasad_belvat",
+      "published_at": "Fri, 20 Nov 2026 11:49:45 GMT",
+      "discovered_at": "2026-11-21T20:00:45.875748+00:00",
+      "tags": [
+        "ctf",
+        "roots"
+      ],
+      "summary": "Introduction Continue reading on Medium »",
+      "metadata_checked": true
+    },
+    {
+      "id": "4e3bf1e6b5eb3f4b571449a4f0484d013d26d393f799f3c1481e2254b58c9150",
+      "title": "Tokyo Ghoul — Tryhackme writeup",
+      "url": "https://medium.com/@pritiranjanmohanta6371/tokyo-ghoul-tryhackme-writeup-3b0696ca5676?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "type": "writeup",
+      "category": "CTF-WRITEUPS",
+      "author": "PRiTi.EX",
+      "published_at": "Fri, 20 Nov 2026 08:27:35 GMT",
+      "discovered_at": "2026-11-21T20:00:45.875806+00:00",
+      "tags": [
+        "anime",
+        "ctf",
+        "tokyo-ghoul",
+        "tryhackme",
+        "tryhackme-walkthrough"
+      ],
+      "summary": "This room is based on Tokyo Ghoul anime. It&#x2019; easy to intermediate lab through this walkthrough you might be learn some new concepts. Continue reading on Medium »",
+      "metadata_checked": true
+    },
+    {
+      "id": "007c2880409045b6c0196f61fca9c2c667eb8ee8c832cb35718e35e5b9b95d56",
+      "title": "Beyond the Model: Neo Hunts, Exploits, and Proves 22 Zero-Days.",
+      "url": "https://projectdiscovery.io/blog/everyone-is-finding-vulns-the-hard-part-is-proving-them",
+      "source": "ProjectDiscovery",
+      "source_id": "projectdiscovery",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Fri, 20 Mar 2026 16:14:10 GMT",
+      "discovered_at": "2026-11-21T20:00:45.230017+00:00",
+      "tags": [
+        "bug-bounty",
+        "neo",
+        "vulnerability research",
+        "web"
+      ],
+      "summary": "LLMs are a genuine leap forward for vulnerability discovery. Anthropic reported 500+ zero-days from Opus 4.6 and OpenAI's Codex Security discovered 14 CVEs across projects like OpenSSH and GnuTLS. If you've experimented with LLMs for security testing, you've probably been impressed too. The practical reality for a security team deploying AI is messier than the headlines or early POC results suggest. Noise compounds fast. Anthropic brought in external security researchers to help validate the vo",
+      "metadata_checked": true
+    },
+    {
+      "id": "2f8f943e324c5fbbea63ea3801a14c164aee8ce6a6903d9d8cea6e6ad69bd9fe",
+      "title": "Burp Extensibility 2026: Awards, Talks, and Highlights",
+      "url": "https://portswigger.net/blog/burp-extensibility-2026-awards-talks-and-highlights",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "OTHER",
+      "author": "",
+      "published_at": "Fri, 19 Jun 2026 12:18:14 GMT",
+      "discovered_at": "2026-11-21T20:00:44.949395+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "The 2026 Burp Suite Extension Awards Best Recon &amp; Discovery Best Auth &amp; Access Control Best Workflow &amp; Manipulation Best API &amp; Specialist Testing Hidden Gem Most Nominated The talks In",
+      "metadata_checked": true
+    },
+    {
+      "id": "ce0702f55d9cf4736f31eafd0cc42ce953e3a78a2651adf8937ed321c1145c83",
+      "title": "Burp's new Ambassadors: learn from the people who use Burp Suite everyday",
+      "url": "https://portswigger.net/blog/burps-new-ambassadors-learn-from-the-people-who-use-burp-suite-everyday",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "OTHER",
+      "author": "",
+      "published_at": "Fri, 17 Jul 2026 13:35:25 GMT",
+      "discovered_at": "2026-11-21T20:00:44.949301+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "Growing our Burp Ambassador community Meet our newest Burp Ambassadors Katie Paxton-Fear Malek Mohammad Yogesh Tantak James Lester Looking ahead Interested in getting involved? Growing our Burp Ambass",
+      "metadata_checked": true
+    },
+    {
+      "id": "6a0e8b5404f9bf59f18058fa0c0af86014fc50606d77ce9d2e28f6f866ccc7d1",
+      "title": "Neo v. DIY: The gap between a single finding and a mature security program",
+      "url": "https://projectdiscovery.io/blog/neo-vs-diy",
+      "source": "ProjectDiscovery",
+      "source_id": "projectdiscovery",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Fri, 17 Apr 2026 19:05:29 GMT",
+      "discovered_at": "2026-11-21T20:00:45.229907+00:00",
+      "tags": [
+        "bug-bounty",
+        "neo",
+        "web",
+        "webinar"
+      ],
+      "summary": "In our latest webinar, our Founding Solutions Engineer, Davis Franklin, addressed the massive gap between finding a vulnerability with an LLM and running a mature security program. That gap is what Neo is built to close. With the release of Opus 4.6 and the announcement of Mythos, the question we hear constantly has gotten louder: Can I just build this with Claude Code? The short answer is yes. You can spin up a working PoC in about half an hour, find a real vulnerability, and feel genuinely co",
+      "metadata_checked": true
+    },
+    {
+      "id": "a1c634e6bb92f920dbe1d1a469816b1999a09e2f1a1eae3fe52d4b2c1a0e1d29",
+      "title": "Functional PoCs in less than a minute? Julen Garrido Estévez puts Burp AI to the test",
+      "url": "https://portswigger.net/blog/functional-pocs-in-less-than-a-minute",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "OTHER",
+      "author": "",
+      "published_at": "Fri, 16 Jan 2026 00:00:00 GMT",
+      "discovered_at": "2026-11-21T20:00:44.949900+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "Note: This is a guest post by pentester&nbsp;Julen Garrido Estévez&nbsp;(@b3xal). Methodology Key results Examples Key learnings Prompt template A pentester's POV on Burp AI Pentester Julen Garrido Es",
+      "metadata_checked": true
+    },
+    {
+      "id": "870a3b7845ea1cc686fcc8ea86f91c1bd2494331378b78058fda51335ff508f2",
+      "title": "Hacking with Burp AI in the Chesspocalypse: API expert Corey Ball showcases how Burp AI can support pentesters.",
+      "url": "https://portswigger.net/blog/hacking-with-burp-ai-in-the-chesspocalypse-api-expert-corey-ball-showcases-how-burp-ai-can-support-pentesters",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "OTHER",
+      "author": "",
+      "published_at": "Fri, 14 Nov 2025 15:09:32 GMT",
+      "discovered_at": "2026-11-21T20:00:44.950151+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "AI isn’t just reshaping cybersecurity - it’s challenging testers to rethink their entire playbook. In his latest article, “Hacking with Burp AI in the Chesspocalypse”, API expert Corey Ball draws less",
+      "metadata_checked": true
+    },
+    {
+      "id": "4380a1a388794f6a0726afc28d0845d5e62a2800328a40aeb96eec8531002bc1",
+      "title": "🪟 Clickjacking: When a Missing X-Frame-Options Is a Real Bug",
+      "url": "https://dev.to/krishna_kumar_75bdf350b26/clickjacking-when-a-missing-x-frame-options-is-a-real-bug-2pmf",
+      "source": "DEV Community · Bug Bounty",
+      "source_id": "devto-bugbounty",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "Krishna Kumar",
+      "published_at": "Fri, 13 Nov 2026 13:35:41 +0000",
+      "discovered_at": "2026-11-21T20:00:46.335549+00:00",
+      "tags": [
+        "appsec",
+        "bug-bounty",
+        "bugbounty",
+        "security",
+        "webdev"
+      ],
+      "summary": "Every scanner flags it: \"Missing X-Frame-Options header.\" Many programs close it as informative, and they're often right. Bugcrowd's Vulnerability Rating Taxonomy splits clickjacking into a \"non-sensitive action\" entry and a \"sensitive click-based action\" entry, and only the second one is rated above the bottom tier. So the header on its own isn't the bug. The bug is a page that another site can frame, that arrives logged in, and that holds an action one click can complete. This post walks throu",
+      "metadata_checked": true
+    },
+    {
+      "id": "6c80691f63cc693957751cb4d9d16093b6a92bdc0065ad6aca921c67bdf80e4c",
+      "title": "HTB - Timelapse Writeup - no Metasploit",
+      "url": "https://dev.to/nekohige/htb-timelapse-writeup-no-metasploit-3p0k",
+      "source": "DEV Community · CTF",
+      "source_id": "devto-ctf",
+      "type": "writeup",
+      "category": "CTF-WRITEUPS",
+      "author": "nekohige",
+      "published_at": "Fri, 13 Nov 2026 12:25:16 +0000",
+      "discovered_at": "2026-11-21T20:00:46.479558+00:00",
+      "tags": [
+        "ctf",
+        "hackthebox",
+        "htb",
+        "security"
+      ],
+      "summary": "Summary A shared folder ( Shares ) was accessible via the Guest account. Inside, there was a password-protected zip archive (PPAP-style). I cracked it with john (via zip2john ), which revealed a .pfx file. I cracked the .pfx password with john (via pfx2john ) as well, and extracted the certificate and private key from it. Using this certificate/key pair, I logged in via evil-winrm with cert-based authentication. Inside that user’s PowerShell history, I found a login performed as svc_deploy , whi",
+      "metadata_checked": true
+    },
+    {
+      "id": "826c7b3d7b963037c9492f3098ae26179d89d05c0af79ca4aa9030e41bfa3534",
+      "title": "Here's half of a trading key. Get an order past the other half.",
+      "url": "https://dev.to/ishai_mishmar/heres-half-of-a-trading-key-get-an-order-past-the-other-half-3e34",
+      "source": "DEV Community · CTF",
+      "source_id": "devto-ctf",
+      "type": "writeup",
+      "category": "CTF-WRITEUPS",
+      "author": "Ishai Strauss",
+      "published_at": "Fri, 13 Nov 2026 08:10:27 +0000",
+      "discovered_at": "2026-11-21T20:00:46.479837+00:00",
+      "tags": [
+        "blockchain",
+        "cryptography",
+        "ctf",
+        "security"
+      ],
+      "summary": "Trading bots and AI agents trade with exchange API keys, and whoever holds the key can trade. So the limits a bot is meant to respect, like order size, exposure or daily loss, usually live in the bot's own code. A bug, a prompt injection, or whoever takes over the bot's machine can trade straight around them. Mishmar is our attempt to make those limits hold even when the bot is hostile. We're running a testnet challenge to find out whether they do: you play the hostile bot, and we pay if you get",
+      "metadata_checked": true
+    },
+    {
+      "id": "cb9be9c1926164ffd764f338f66261353214828534365e97c9d59bb14f332da6",
+      "title": "HTTP/1.1 Must Die: Conquering the 0.CL Challenge",
+      "url": "https://portswigger.net/blog/http-1-1-must-die-conquering-the-0-cl-challenge",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "OTHER",
+      "author": "",
+      "published_at": "Fri, 13 Mar 2026 09:21:19 GMT",
+      "discovered_at": "2026-11-21T20:00:44.949686+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "Note: This is a guest post by pentester Julen Garrido Estévez (@b3xal). 1. Acknowledgements 2. Intro 3. Required tools 4. Strategy to solve/exploit the lab 5. Detecting 0.CL 5.1. Practical confirmatio",
+      "metadata_checked": true
+    },
+    {
+      "id": "12cc9d6cc39a2fbf24d8e6936bdb0ae1715bf63b2dba8fe8c7ab9bfb47f56fe2",
+      "title": "How this seasoned bug bounty hunter combines Burp Suite and HackerOne to uncover high-impact vulnerabilities",
+      "url": "https://portswigger.net/blog/how-this-seasoned-bug-bounty-hunter-combines-burp-suite-and-hackerone-to-uncover-high-impact-vulnerabilities",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Fri, 12 Sep 2025 12:21:38 GMT",
+      "discovered_at": "2026-11-21T20:00:44.950497+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "Arman S. (Tess), a full-time independent security researcher and bug bounty hunter, talked us through how he uses Burp Suite Professional and HackerOne in tandem to find and report high-value security",
+      "metadata_checked": true
+    },
+    {
+      "id": "3acfd592a5ca439bdc921a8981cc69c271c6e51ee58354bd2e42869df8764d32",
+      "title": "Burp On Tour 2025: bringing the AppSec community together around the world",
+      "url": "https://portswigger.net/blog/burp-on-tour-2025-bringing-the-appsec-community-together-around-the-world",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "OTHER",
+      "author": "",
+      "published_at": "Fri, 12 Dec 2025 11:34:28 GMT",
+      "discovered_at": "2026-11-21T20:00:44.949953+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "In 2025, we set out with a simple mission: take Burp Suite on the road and meet the global AppSec community where you are. Burp On Tour was born from our desire to learn from you; the brilliant people",
+      "metadata_checked": true
+    },
+    {
+      "id": "88439ceb56294945d9d25a0785b1dae8f899a4343b1d9e496c11c7332d15103c",
+      "title": "How We Cut LLM Costs by 59% With Prompt Caching",
+      "url": "https://projectdiscovery.io/blog/how-we-cut-llm-cost-with-prompt-caching",
+      "source": "ProjectDiscovery",
+      "source_id": "projectdiscovery",
+      "type": "research",
+      "category": "BUG-BOUNTY",
+      "author": "",
+      "published_at": "Fri, 10 Apr 2026 02:42:06 GMT",
+      "discovered_at": "2026-11-21T20:00:45.229965+00:00",
+      "tags": [
+        "bug-bounty",
+        "engineering",
+        "neo",
+        "web"
+      ],
+      "summary": "At ProjectDiscovery, we've been building Neo, an autonomous security testing platform that runs multi-agent, multi-step workflows, routinely executing 20-40+ LLM steps per task. Vulnerability assessments, code reviews, and security audits at scale, enabling continuous testing across the entire development lifecycle. When we launched, our LLM costs were staggering. A single complex task with Opus 4.5 could consume 60 million tokens. Then we implemented prompt caching. Here's what changed:",
+      "metadata_checked": true
+    },
+    {
+      "id": "c9731cfce0e6010fd1e312c4dfff1aa5279e31e58f578c7b14de60b80903d0f1",
+      "title": "NJIT Hosts 24-Hour Spooky CTF Competition to Engage Students in Cybersecurity Challenges and Networking",
+      "url": "https://dev.to/kserude/njit-hosts-24-hour-spooky-ctf-competition-to-engage-students-in-cybersecurity-challenges-and-5a9k",
+      "source": "DEV Community · CTF",
+      "source_id": "devto-ctf",
+      "type": "writeup",
+      "category": "CTF-WRITEUPS",
+      "author": "Ksenia Rudneva",
+      "published_at": "Fri, 06 Nov 2026 22:52:47 +0000",
+      "discovered_at": "2026-11-21T20:00:46.481869+00:00",
+      "tags": [
+        "competition",
+        "ctf",
+        "cybersecurity",
+        "education"
+      ],
+      "summary": "Introduction: NJIT’s Spooky CTF—Bridging the Cybersecurity Skills Gap Through Immersive Competition This weekend, the New Jersey Institute of Technology (NJIT) hosts the Spooky CTF , a 24-hour cybersecurity competition that serves as a crucible for practical skill development, collaborative problem-solving, and industry readiness. Unlike conventional academic exercises, this Capture the Flag (CTF) event immerses participants in a high-pressure environment where theoretical knowledge is rigorousl",
+      "metadata_checked": true
+    },
+    {
+      "id": "9d5c816021cc6f6fc35f7b3ba445d75afa7ea92c18fffc9ab93e928a53fef789",
+      "title": "🕵️ Hidden HTTP Parameters: Find Them with Arjun, Then Prove They Matter",
+      "url": "https://dev.to/krishna_kumar_75bdf350b26/hidden-http-parameters-find-them-with-arjun-then-prove-they-matter-4gf8",
+      "source": "DEV Community · Bug Bounty",
+      "source_id": "devto-bugbounty",
+      "type": "writeup",
+      "category": "BUG-BOUNTY",
+      "author": "Krishna Kumar",
+      "published_at": "Fri, 06 Nov 2026 22:25:19 +0000",
+      "discovered_at": "2026-11-21T20:00:46.340873+00:00",
+      "tags": [
+        "api",
+        "bug-bounty",
+        "bugbounty",
+        "security",
+        "tutorial"
+      ],
+      "summary": "The docs for GET /api/v1/userinfo list one parameter: id . The code behind it may read four. One was added for a mobile client, one was left in for debugging, one switches on an \"expanded\" view the web app never asks for. None of them show up in the front-end, the OpenAPI file or your proxy history, so none of them get tested. Hidden parameters are one of the cheapest pieces of attack surface to find and one of the easiest to over-report. This post covers both halves: how discovery tools find th",
+      "metadata_checked": true
+    },
+    {
+      "id": "e1a12a701efa72a96b63be5c82fb13f0becc4e014de495da1886a51a610b5893",
+      "title": "HTB - Broker Writeup - no Metasploit",
+      "url": "https://dev.to/nekohige/htb-broker-writeup-no-metasploit-48d9",
+      "source": "DEV Community · CTF",
+      "source_id": "devto-ctf",
+      "type": "writeup",
+      "category": "CTF-WRITEUPS",
+      "author": "nekohige",
+      "published_at": "Fri, 06 Nov 2026 12:49:14 +0000",
+      "discovered_at": "2026-11-21T20:00:46.482084+00:00",
+      "tags": [
+        "ctf",
+        "htb",
+        "security"
+      ],
+      "summary": "Summary The target was running a vulnerable version of ActiveMQ. The user account had a sudo rule allowing it to run nginx, which could be abused to execute commands as root — leading to privilege escalation. Recommendation Upgrade ActiveMQ to the latest version, and periodically check that all software and packages are kept up to date. Close off any ports that don’t need to be reachable from outside. Remove the sudo rule allowing nginx to be run by this user. More generally, apply the principle",
+      "metadata_checked": true
+    },
+    {
+      "id": "4ee28f6a3d4740409a94fe60fa773f9864f785371ea4891b3251bb359ee10620",
+      "title": "How to detect React2Shell with Burp Suite",
+      "url": "https://portswigger.net/blog/how-to-detect-react2shell-with-burp-suite",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "OTHER",
+      "author": "",
+      "published_at": "Fri, 05 Dec 2025 13:53:30 GMT",
+      "discovered_at": "2026-11-21T20:00:44.950044+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "Detecting React2Shell with Burp Suite Two new critical vulnerabilities, collectively known as React2Shell (CVE-2025-55182 and CVE-2025-66478), are rapidly gaining traction in the security community. D",
+      "metadata_checked": true
+    },
+    {
+      "id": "5e13228965c6acd2271099c135e81a937f00a7e4735ec6362cc0f5e444b26126",
+      "title": "3 ways custom scan checks turn practitioner knowledge into scalable automation",
+      "url": "https://portswigger.net/blog/3-ways-custom-scan-checks-turn-practitioner-knowledge-into-scalable-automation",
+      "source": "PortSwigger Blog",
+      "source_id": "portswigger-blog",
+      "type": "research",
+      "category": "OTHER",
+      "author": "",
+      "published_at": "Fri, 01 May 2026 06:52:00 GMT",
+      "discovered_at": "2026-11-21T20:00:44.949488+00:00",
+      "tags": [
+        "web"
+      ],
+      "summary": "Senior pentesters have a deeply refined intuition about what is vulnerable in an environment. The problem? That expertise is often siloed with an individual and trapped in their notes or Python scripts.",
+      "metadata_checked": true
+    },
+    {
+      "id": "db6fce74bf3a7b5c6107e86b3c3b8aa186a110113906df77a9b18892db762d5a",
+      "title": "HDGfx Infector",
+      "url": "https://research.openanalysis.net/hdgfx/fileinfector/worm/usb/polymorphic/config/2026/11/17/hdgfx-infector.html",
+      "source": "OALABS Research",
+      "source_id": "oalabs",
+      "type": "research",
+      "category": "FORENSICS",
+      "author": "",
+      "published_at": "2026-11-17T00:00:00+00:00",
+      "discovered_at": "2026-11-21T20:00:47.498826+00:00",
+      "tags": [
+        "config",
+        "fileinfector",
+        "forensics",
+        "hdgfx",
+        "polymorphic",
+        "reverse-engineering",
+        "usb",
+        "worm"
+      ],
+      "summary": "A polymorphic Windows file infector and USB worm built in 2026",
+      "metadata_checked": true
+    },
+    {
+      "id": "d274eab58b0e4f5d7727d6a04f42b25b41f32d852695220e143780fe28a4ae69",
+      "title": "Captured Logs Reveal Hackers Using Claude and Codex to Breach Companies",
+      "url": "https://research.openanalysis.net/claude/codex/hacking/ai%20hacking/llm/redteam/policy%20violation/2026/06/16/compromised-claude-hacking.html",
+      "source": "OALABS Research",
+      "source_id": "oalabs",
+      "type": "research",
+      "category": "FORENSICS",
+      "author": "",
+      "published_at": "2026-06-16T00:00:00+00:00",
+      "discovered_at": "2026-11-21T20:00:47.498926+00:00",
+      "tags": [
+        "ai hacking",
+        "claude",
+        "codex",
+        "forensics",
+        "hacking",
+        "llm",
+        "policy violation",
+        "redteam",
+        "reverse-engineering"
+      ],
+      "summary": "Full agent sessions captured on a compromised host turned honeypot offer an unprecedented look at how attackers are using AI in real-world intrusions.",
+      "metadata_checked": true
+    },
+    {
+      "id": "ad326a6b5d8690476e58ae50987c38ffe3281c12f05777b909becf3bdaf38a48",
+      "title": "JitterDropper",
+      "url": "https://research.openanalysis.net/jitterdropper/dropper/rust/srdi/donut/pixeldrain/2026/04/13/jitterdropper.html",
+      "source": "OALABS Research",
+      "source_id": "oalabs",
+      "type": "research",
+      "category": "FORENSICS",
+      "author": "",
+      "published_at": "2026-04-13T00:00:00+00:00",
+      "discovered_at": "2026-11-21T20:00:47.498979+00:00",
+      "tags": [
+        "donut",
+        "dropper",
+        "forensics",
+        "jitterdropper",
+        "pixeldrain",
+        "reverse-engineering",
+        "rust",
+        "srdi"
+      ],
+      "summary": "A Rust/MSVC dropper fingerprinted by per-API sleep-jitter budgets",
+      "metadata_checked": true
+    },
+    {
+      "id": "81d6948d9137dea4ab9e936fab1e2a2c43525ad73a70a83537f3edaba1b9a95d",
+      "title": "CryptBot Evolution",
+      "url": "https://research.openanalysis.net/cryptbot/botnet/yara/config/2024/12/06/cryptbot2.html",
+      "source": "OALABS Research",
+      "source_id": "oalabs",
+      "type": "research",
+      "category": "FORENSICS",
+      "author": "",
+      "published_at": "2024-12-06T00:00:00+00:00",
+      "discovered_at": "2026-11-21T20:00:47.499023+00:00",
+      "tags": [
+        "botnet",
+        "config",
+        "cryptbot",
+        "forensics",
+        "reverse-engineering",
+        "yara"
+      ],
+      "summary": "Tracking the many iterations of this stealer",
+      "metadata_checked": true
+    },
+    {
+      "id": "d94e89df52db0dad9e0714bd926090bec7b9141a4d0f7705a6defb4b13f4b7da",
+      "title": "Spectre Ops",
+      "url": "https://research.openanalysis.net/spectreops/config/strings/cpp/2024/11/21/spectre-ops.html",
+      "source": "OALABS Research",
+      "source_id": "oalabs",
+      "type": "research",
+      "category": "FORENSICS",
+      "author": "",
+      "published_at": "2024-11-21T00:00:00+00:00",
+      "discovered_at": "2026-11-21T20:00:47.499065+00:00",
+      "tags": [
+        "config",
+        "cpp",
+        "forensics",
+        "reverse-engineering",
+        "spectreops",
+        "strings"
+      ],
+      "summary": "Triage for v10 of this commodity implant",
+      "metadata_checked": true
+    }
+  ],
+  "last_run": {
+    "feeds_ok": 11,
+    "feeds_failed": [
+      {
+        "source": "NCC Group Research",
+        "error": "<unknown>:15:152: not well-formed (invalid token)"
+      }
+    ],
+    "entries_seen": 178,
+    "new_entries": 178
+  }
+}
