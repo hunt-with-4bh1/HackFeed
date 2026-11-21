@@ -1,1 +1,3 @@
-# Mobile CTF Writeups\n\n_No matching public writeups collected yet._\n
+# Mobile CTF Writeups
+
+_No matching public writeups collected yet._
