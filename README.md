@@ -2,7 +2,7 @@
 
 <p align="center">
   <strong>One feed. The CTF writeups worth learning from.</strong><br/>
-  A community-driven index of public CTF writeups and practical security research.
+  A community-driven index of public CTF writeups and practical security research.\n\n**339+ CTF writeup records collected** — browse the latest 100 below or explore the full category and platform indexes.
 </p>
 
 <p align="center">
@@ -165,7 +165,7 @@ The default model is `gemini-2.5-flash`. You can optionally override it with a r
 6. Ask Gemini for concise summaries when `GEMINI_API_KEY` is configured.
 7. Refresh the README and category/platform indexes through GitHub Actions.
 
-The workflow runs hourly and can also be started manually.
+The workflow runs hourly and can also be started manually. Every successful run refreshes the database and generated indexes; source failures are recorded in `database/writeups.json`.
 
 ## Content and attribution
 
