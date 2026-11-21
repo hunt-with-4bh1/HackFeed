@@ -76,7 +76,7 @@ def render(data):
         before, remainder = readme.split(start, 1)
         _, after = remainder.split(end, 1)
         other = [x for x in items if x.get("type") != "ctf_writeup"]
-        latest = table(ctf_items, 60)
+        latest = table(ctf_items, 100)
         if other:
             latest += "\n### Other security research\n\n" + table(other, 10)
         readme = before + start + "\n" + latest + end + after
