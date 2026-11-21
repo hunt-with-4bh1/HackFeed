@@ -171,19 +171,39 @@ def optional_social(session):
     return items,failures
 
 def ai_summarize(items):
-    key=os.getenv("OPENAI_API_KEY")
-    if not key: return
-    pending=[x for x in items if x.get("type")=="ctf_writeup" and not x.get("ai_summary") and x.get("summary")][:8]
+    """Generate concise summaries with Gemini; the API key is read only from Actions secrets."""
+    key = os.getenv("GEMINI_API_KEY")
+    if not key:
+        LOG.info("Gemini summaries disabled: GEMINI_API_KEY Actions secret is not set")
+        return
+    model = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+    pending = [x for x in items if x.get("type") == "ctf_writeup" and not x.get("ai_summary") and x.get("summary")][:8]
     for item in pending:
+        prompt = (
+            "Write a factual 1-2 sentence summary of this CTF writeup listing. "
+            "Use only the title and supplied feed excerpt. Do not invent technical details "
+            "or imply you read the full article. If information is limited, say so.\\n\\n"
+            f"Title: {item['title']}\\nPlatform: {item['platform']}\\n"
+            f"Category: {item['category']}\\nExcerpt: {item['summary'][:700]}"
+        )
         try:
-            r=requests.post(os.getenv("OPENAI_BASE_URL","https://api.openai.com/v1")+"/chat/completions",
-              headers={"Authorization":"Bearer "+key,"Content-Type":"application/json"},
-              json={"model":os.getenv("OPENAI_MODEL","gpt-4o-mini"),"temperature":0.2,"messages":[
-                {"role":"system","content":"Summarize this CTF writeup metadata/excerpt in 1-2 factual sentences. Do not invent exploit steps or claim to have read the full article. Mention uncertainty if excerpt is insufficient."},
-                {"role":"user","content":"Title: "+item["title"]+"\nPlatform: "+item["platform"]+"\nCategory: "+item["category"]+"\nExcerpt: "+item["summary"][:700]}]},timeout=30)
-            r.raise_for_status(); item["ai_summary"]=r.json()["choices"][0]["message"]["content"].strip()[:600]
-            item["ai_summary_model"]=os.getenv("OPENAI_MODEL","gpt-4o-mini")
-        except Exception as e: LOG.warning("AI summary failed for %s: %s",item["url"],e)
+            response = requests.post(
+                f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+                headers={"x-goog-api-key": key, "Content-Type": "application/json"},
+                json={"contents": [{"role": "user", "parts": [{"text": prompt}]}],
+                      "generationConfig": {"temperature": 0.2, "maxOutputTokens": 180}},
+                timeout=(8, 30),
+            )
+            response.raise_for_status()
+            payload = response.json()
+            parts = payload.get("candidates", [{}])[0].get("content", {}).get("parts", [])
+            summary = " ".join(part.get("text", "") for part in parts).strip()
+            if summary:
+                item["ai_summary"] = summary[:600]
+                item["ai_summary_model"] = model
+                item["ai_provider"] = "Google Gemini"
+        except Exception as exc:
+            LOG.warning("Gemini summary failed for %s: %s", item.get("url", ""), str(exc)[:200])
 
 def run_pipeline():
     DATABASE.parent.mkdir(parents=True,exist_ok=True)
