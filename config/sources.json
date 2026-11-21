@@ -83,18 +83,6 @@
     ]
   },
   {
-    "id": "reddit-ctf",
-    "name": "Reddit · r/ctf",
-    "url": "https://www.reddit.com/r/ctf/.rss",
-    "type": "ctf_writeup",
-    "platform": "Reddit r/ctf",
-    "priority": 65,
-    "tags": [
-      "ctf",
-      "community"
-    ]
-  },
-  {
     "id": "rootme-blog",
     "name": "Root-Me Blog · Writeups",
     "url": "https://blog.root-me.org/categories/writeups/index.xml",
