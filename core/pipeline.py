@@ -176,16 +176,16 @@ def ai_summarize(items):
     if not key:
         LOG.info("Gemini summaries disabled: GEMINI_API_KEY Actions secret is not set")
         return
-    model = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+    model = os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
     pending = [x for x in items if x.get("type") == "ctf_writeup" and not x.get("ai_summary") and x.get("summary")][:8]
     generated = 0
     for item in pending:
         prompt = (
             "Write a factual 1-2 sentence summary of this CTF writeup listing. "
             "Use only the title and supplied feed excerpt. Do not invent technical details "
-            "or imply you read the full article. If information is limited, say so.\\n\\n"
-            f"Title: {item['title']}\\nPlatform: {item['platform']}\\n"
-            f"Category: {item['category']}\\nExcerpt: {item['summary'][:700]}"
+            "or imply you read the full article. If information is limited, say so.\n\n"
+            f"Title: {item['title']}\nPlatform: {item['platform']}\n"
+            f"Category: {item['category']}\nExcerpt: {item['summary'][:700]}"
         )
         try:
             response = requests.post(
