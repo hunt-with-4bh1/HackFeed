@@ -37,11 +37,18 @@ def canonical_url(value: str) -> str:
     except Exception:
         return value.strip()
 
-def classify(title: str, summary: str, source_tags: list[str]) -> str:
-    text = (title + " " + summary + " " + " ".join(source_tags)).lower()
+def classify(title: str, summary: str) -> str:
+    text = (title + " " + summary).lower()
     for category, keywords in CATEGORY_RULES.items():
-        if any(word in text for word in keywords):
-            return category
+        for keyword in keywords:
+            # Avoid accidental matches such as "rsa" inside unrelated words.
+            if " " in keyword or "-" in keyword:
+                matched = keyword in text
+            else:
+                import re
+                matched = re.search(r"(?<![a-z0-9])" + re.escape(keyword) + r"(?![a-z0-9])", text) is not None
+            if matched:
+                return category
     return "OTHER"
 
 def load_database() -> dict:
@@ -84,7 +91,7 @@ def collect() -> tuple[list[dict], list[dict]]:
                     "id": item_id, "title": title[:300], "url": link,
                     "source": source["name"], "source_id": source["id"],
                     "type": source.get("type", "article"),
-                    "category": classify(title, summary, tags),
+                    "category": classify(title, summary),
                     "author": author[:120], "published_at": published,
                     "discovered_at": datetime.now(timezone.utc).isoformat(),
                     "tags": sorted(set(t.lower() for t in tags if t))[:15],
