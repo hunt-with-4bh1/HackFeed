@@ -191,7 +191,7 @@ HackFeed uses **Google Gemini** to create short summaries from available titles 
 4. Paste your newly generated Google AI Studio API key as the secret value.
 5. Save it, then open [Actions](https://github.com/hunt-with-4bh1/HackFeed/actions) and run **Update HackFeed** once.
 
-The default model is `gemini-2.5-flash`. You can optionally override it with a repository Actions variable named `GEMINI_MODEL`. The API key is read from the secret at runtime; it is never written into tracked files.
+The workflow currently uses `gemini-3.5-flash-lite`. The API key is read from the `GEMINI_API_KEY` repository secret and is never written into tracked files. The API key is read from the secret at runtime; it is never written into tracked files.
 
 > **Never commit API keys.** If a key is accidentally shared, revoke it and create a replacement immediately.
 
@@ -205,7 +205,7 @@ The default model is `gemini-2.5-flash`. You can optionally override it with a r
 6. Ask Gemini for concise summaries when `GEMINI_API_KEY` is configured.
 7. Refresh the README and category/platform indexes through GitHub Actions.
 
-The workflow runs hourly and can also be started manually. Every successful run refreshes the database and generated indexes; source failures are recorded in `database/writeups.json`.
+The workflow runs hourly at minute 17 UTC (minute 47 India Standard Time) and can also be started manually. Every successful run refreshes the database and generated indexes; source failures are recorded in `database/writeups.json`.
 
 ## Content and attribution
 
