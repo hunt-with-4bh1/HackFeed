@@ -2,7 +2,7 @@
 
 | Date | CTF / Challenge / Repository | Platform | Category | Author / Team | Source |
 |---|---|---|---|---|---|
-| 2026-11-21T20:09 | [L3akCTF 2026 — Me Fr Challenge<br><sub>Tags: misc, l3akctf, writeup, ctf</sub>](https://ctftime.org/writeup/41070) | CTFtime | MISC | Abdelkader | CTFtime |
+| 2026-11-21T20:09 | [L3akCTF 2026 — Me Fr Challenge<br><sub>The CTFtime listing for "L3akCTF 2026 — Me Fr Challenge" in the MISC category provides no specific technical details in its excerpt, only listing the tags misc, l3akctf, writeup, and ctf.</sub>](https://ctftime.org/writeup/41070) | CTFtime | MISC | Abdelkader | CTFtime |
 | 2026-11-21T20:09 | [L3akCTF 2026 — Cursed Maze Captcha<br><sub>Tags: ctf, writeup, l3akctf, misc</sub>](https://ctftime.org/writeup/41086) | CTFtime | MISC | Abdelkader | CTFtime |
 | 2026-11-21T20:09 | [L3akCTF 2026 — Maze Captcha<br><sub>Tags: misc, l3akctf, writeup, ctf</sub>](https://ctftime.org/writeup/41087) | CTFtime | MISC | Abdelkader | CTFtime |
 | 2026-11-21T20:09 | [L3akCTF 2026 — Blunder<br><sub>Tags: misc, l3akctf, writeup, ctf</sub>](https://ctftime.org/writeup/41088) | CTFtime | MISC | Abdelkader | CTFtime |

@@ -2,7 +2,7 @@
 
 | Date | CTF / Challenge / Repository | Platform | Category | Author / Team | Source |
 |---|---|---|---|---|---|
-| 2026-11-21T20:09 | [L3akCTF 2026 — BabyLCG Challenge<br><sub>Tags: cryptography, l3akctf, writeup, crypto, ctf</sub>](https://ctftime.org/writeup/41068) | CTFtime | CRYPTOGRAPHY | Abdelkader | CTFtime |
+| 2026-11-21T20:09 | [L3akCTF 2026 — BabyLCG Challenge<br><sub>The CTFtime writeup listing is for the "BabyLCG Challenge" from L3akCTF 2026, categorized under cryptography. The available feed excerpt does not provide any technical details about the challenge.</sub>](https://ctftime.org/writeup/41068) | CTFtime | CRYPTOGRAPHY | Abdelkader | CTFtime |
 | 2026-11-21T20:09 | [L3akCTF 2026 — BabyLCG<br><sub>Tags: cryptography, l3akctf, writeup, crypto, ctf</sub>](https://ctftime.org/writeup/41078) | CTFtime | CRYPTOGRAPHY | Abdelkader | CTFtime |
 | 2026-11-21T20:09 | [L3akCTF 2026 — CSC265<br><sub>Tags: cryptography, l3akctf, writeup, crypto, ctf</sub>](https://ctftime.org/writeup/41079) | CTFtime | CRYPTOGRAPHY | Abdelkader | CTFtime |
 | 2026-11-21T20:09 | [L3akCTF 2026 — Immiscible<br><sub>Tags: cryptography, l3akctf, writeup, crypto, ctf</sub>](https://ctftime.org/writeup/41080) | CTFtime | CRYPTOGRAPHY | Abdelkader | CTFtime |

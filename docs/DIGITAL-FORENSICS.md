@@ -2,7 +2,7 @@
 
 | Date | CTF / Challenge / Repository | Platform | Category | Author / Team | Source |
 |---|---|---|---|---|---|
-| 2026-11-21T20:09 | [L3akCTF 2026 — Transcendent Renovation Challenge<br><sub>Tags: l3akctf, writeup, forensics, ctf</sub>](https://ctftime.org/writeup/41069) | CTFtime | DIGITAL-FORENSICS | Abdelkader | CTFtime |
+| 2026-11-21T20:09 | [L3akCTF 2026 — Transcendent Renovation Challenge<br><sub>The provided excerpt for the "L3akCTF 2026 — Transcendent Renovation Challenge" writeup on CTFtime indicates that it belongs to the forensics category and is tagged with l3akctf, writeup, and forensics. Beyond these basic tags and the title</sub>](https://ctftime.org/writeup/41069) | CTFtime | DIGITAL-FORENSICS | Abdelkader | CTFtime |
 | 2026-11-21T20:09 | [L3akCTF 2026 — Relizane is Down!<br><sub>Tags: hard, forensics</sub>](https://ctftime.org/writeup/41089) | CTFtime | DIGITAL-FORENSICS | Al-Sinwar | CTFtime |
 | 2026-11-21T20:09 | [JerseyCTF VI Fix Your Ship team NYUSEC<br><sub>[click on title to read] URL: https://ctftime.org/writeup/41137 Topics: file-repair,&nbsp;jpeg,&nbsp;mp4,&nbsp;forensics,&nbsp;hex-editing,&nbsp;magic-bytes,&nbsp;png&nbsp; Rating: not rated Original writeup</sub>](https://ctftime.org/writeup/41137) | CTFtime | DIGITAL-FORENSICS |  | CTFtime |
 | 2026-11-21T20:09 | [JerseyCTF VI Recovered Signal File team NYUSEC<br><sub>[click on title to read] URL: https://ctftime.org/writeup/41138 Topics: caesar-cipher,&nbsp;base64,&nbsp;forensics&nbsp; Rating: 4.0 Original writeup</sub>](https://ctftime.org/writeup/41138) | CTFtime | DIGITAL-FORENSICS |  | CTFtime |

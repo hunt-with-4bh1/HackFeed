@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-11-21T20:30:39.754478+00:00",
+  "updated_at": "2026-11-21T20:31:06.268258+00:00",
   "total": 485,
   "items": [
     {
@@ -24,7 +24,10 @@
       ],
       "summary": "Tags: cryptography, l3akctf, writeup, crypto, ctf",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "The CTFtime writeup listing is for the \"BabyLCG Challenge\" from L3akCTF 2026, categorized under cryptography. The available feed excerpt does not provide any technical details about the challenge.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "6a99daee8e66f0c013d05c5548136d17fbb093fa93f9647903112746222bcbaa",
@@ -46,7 +49,10 @@
       ],
       "summary": "Tags: l3akctf, writeup, forensics, ctf",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "The provided excerpt for the \"L3akCTF 2026 — Transcendent Renovation Challenge\" writeup on CTFtime indicates that it belongs to the forensics category and is tagged with l3akctf, writeup, and forensics. Beyond these basic tags and the title, no further technical details are available in the excerpt.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "ff535766f0a0803ded38b4914ea635d333749b20e2a0389e6c5ca0a0f707ee5e",
@@ -68,7 +74,10 @@
       ],
       "summary": "Tags: misc, l3akctf, writeup, ctf",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "The CTFtime listing for \"L3akCTF 2026 — Me Fr Challenge\" in the MISC category provides no specific technical details in its excerpt, only listing the tags misc, l3akctf, writeup, and ctf.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "dad03d6d7d1adc63b3301ddd6ec6b9ed586404161ee4af21dc115b5265e0f1b1",
@@ -93,7 +102,10 @@
       ],
       "summary": "Tags: ctf, pwn, exploitation, l3akctf, binary, binaryexploitation, writeup",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "The L3akCTF 2026 writeup for \"Rudimentary Calculator\" is categorized under binary exploitation. Further technical details are limited based on the provided excerpt.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "d05e370408d09d314368f77a3ac6af2178f725f9b10db8171193e5d7030858ba",
@@ -118,7 +130,10 @@
       ],
       "summary": "Tags: ctf, pwn, exploitation, l3akctf, binary, binaryexploitation, writeup",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "Information is limited, but the provided excerpt indicates that the L3akCTF 2026 writeup for \"LattiaVM\" on CTFtime covers a binary exploitation challenge.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "5e7dbc5ca78b9bb302f41ff3369d795b828ab734a3e5965bea184b475340c91a",
@@ -144,7 +159,10 @@
       ],
       "summary": "Tags: ctf, pwn, exploitation, l3akctf, binary, exploit, binaryexploitation, writeup",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "The provided excerpt and title for \"L3akCTF 2026 — LattiaVM 2\" on CTFtime list the category as binary exploitation and include tags related to CTFs, pwn, and exploitation, but contain no further technical details about the challenge or solution.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "80b23b7832b0da1ad06ca7906bb5e5149948ea3816e35a1e0e7abf0f9d3146f1",
@@ -170,7 +188,10 @@
       ],
       "summary": "Tags: ctf, pwn, exploitation, l3akctf, binary, exploit, binaryexploitation, writeup",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This CTFtime writeup listing for \"L3akCTF 2026 — Bosh\" falls under the binary exploitation category. Specific technical details beyond the title, platform, and standard exploitation-related tags are limited in the provided excerpt.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "11d63d8737db3a1f4246f4bb8896fcb273b94ed8ba01bde5805f417fb3aea807",
@@ -196,7 +217,10 @@
       ],
       "summary": "Tags: ctf, pwn, exploitation, l3akctf, binary, exploit, binaryexploitation, writeup",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "A CTFtime writeup for L3akCTF 2026 covering the \"Piet\" challenge in the binary exploitation category. Specific technical exploit details are not provided in the excerpt.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "4c4ef9b66be8a84d94580b43ce00469450cb7c57996d778489521558e2dfc23a",
