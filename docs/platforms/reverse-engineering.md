@@ -2,6 +2,7 @@
 
 | Date | CTF / Challenge / Repository | Platform | Category | Author / Team | Source |
 |---|---|---|---|---|---|
+| 2026-11-22T03:05 | [khaled970r/ctf-writeups<br><sub>CTF write-up: from a PCAP to a macOS info-stealer, using Wireshark, IDA reverse engineering and AES/RC4 decryption.</sub>](https://github.com/khaled970r/ctf-writeups) | Reverse Engineering | CRYPTOGRAPHY | khaled970r | GitHub · Reverse Engineering |
 | 2026-11-21T11:32 | [davidepiolomonaco/reverse-challs<br><sub>Reverse engineering learning log: crackmes and CTF challenges with binaries, writeups and a small CLI to scaffold each one</sub>](https://github.com/davidepiolomonaco/reverse-challs) | Reverse Engineering | REVERSE-ENGINEERING | davidepiolomonaco | GitHub · Reverse Engineering |
 | 2026-11-20T21:33 | [maapik/cybersec-writeups<br><sub>DFIR, Reverse Engineering, OSINT & CTF writeups — HTB Sherlocks, TryHackMe, RTU MIREA labs</sub>](https://github.com/maapik/cybersec-writeups) | Reverse Engineering | DIGITAL-FORENSICS | maapik | GitHub · Reverse Engineering |
 | 2026-11-20T05:47 | [Nate-br/ethiopian-ctf-writeups<br><sub>Curated collection of 47+ CTF writeups and reverse- engineering walkthroughs from Ethiopian cybersecurity competitions (ADWA CTF, BunaByte). Obsidian Vault ready.</sub>](https://github.com/Nate-br/ethiopian-ctf-writeups) | Reverse Engineering | REVERSE-ENGINEERING | Nate-br | GitHub · Reverse Engineering |

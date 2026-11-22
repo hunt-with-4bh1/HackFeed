@@ -35,6 +35,7 @@
 | 2026-11-12T15:37 | [pabloregidor/tryhackme-writeups<br><sub>Public CTF writeup repository</sub>](https://github.com/pabloregidor/tryhackme-writeups) | TryHackMe | UNCATEGORIZED | pabloregidor | GitHub · TryHackMe |
 | 2026-11-12T15:30 | [OwlRC/thm-writeups<br><sub>TryHackMe room writeups categorized by difficulty — by OwlRC</sub>](https://github.com/OwlRC/thm-writeups) | TryHackMe | UNCATEGORIZED | OwlRC | GitHub · TryHackMe |
 | 2026-11-12T15:14 | [Alexandroskw/soc-analyst-writeups<br><sub>Writeups de salas y laboratorios de TryHackMe.</sub>](https://github.com/Alexandroskw/soc-analyst-writeups) | TryHackMe | UNCATEGORIZED | Alexandroskw | GitHub · TryHackMe |
+| 2026-11-12T15:00 | [md9439403-debug/Tryhackme-Writeups<br><sub>Public CTF writeup repository</sub>](https://github.com/md9439403-debug/Tryhackme-Writeups) | TryHackMe | UNCATEGORIZED | md9439403-debug | GitHub · TryHackMe |
 | 2026-11-12T04:05 | [camilamorei/tryhackme-writeups<br><sub>My TryHackMe learning journey, including cybersecurity labs, notes, commands, and write-ups</sub>](https://github.com/camilamorei/tryhackme-writeups) | TryHackMe | UNCATEGORIZED | camilamorei | GitHub · TryHackMe |
 | 2026-11-12T03:16 | [VCCH0815/Writeups<br><sub>Writeups on OverTheWire, TryHackMe and many more!</sub>](https://github.com/VCCH0815/Writeups) | TryHackMe | UNCATEGORIZED | VCCH0815 | GitHub · TryHackMe |
 | 2026-11-11T23:36 | [0xOualid/TryHackMe<br><sub>TryHackMe Personal Writeups</sub>](https://github.com/0xOualid/TryHackMe) | TryHackMe | UNCATEGORIZED | 0xOualid | GitHub · TryHackMe |
