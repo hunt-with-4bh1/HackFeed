@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "updated_at": "2026-11-22T08:01:00.190922+00:00",
-  "total": 884,
+  "updated_at": "2026-11-22T16:19:17.876554+00:00",
+  "total": 913,
   "items": [
     {
       "id": "0d2765f5f0cc0b873851a2c8f64ccff379b7aa3684f61b9ab8cd1805a493b5cf",
@@ -1029,7 +1029,10 @@
       ],
       "summary": "Tags: misc, writeup, ctf",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "A CTFtime writeup titled \"UIUCTF 2026 — smaller-jail\" has been posted under the misc category. Beyond the title and categorization, the provided excerpt contains no additional technical details.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "64c83296fcf8a9b681cc51f030c6846a0189d8bc9eebe10862e2e3abd18a03c8",
@@ -1050,7 +1053,10 @@
       ],
       "summary": "Tags: web, writeup, ctf",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This CTFtime listing for UIUCTF 2026 features a writeup for the challenge \"Nabi AI,\" categorized as uncategorized with tags for web and writeup.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "d0d649ac8309b30f9bd1f0e7547e27869b5eb217f4476ff28f6078da3b3ad743",
@@ -1072,7 +1078,10 @@
       ],
       "summary": "Tags: cryptography, writeup, crypto, ctf",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "The UIUCTF 2026 CTFtime writeup listing, titled \"Young Cryptography,\" is categorized under cryptography, but the available feed excerpt provides no further technical details about the challenge or its solution.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "7404c09248ce33027f0e3c15c3d84c23520d39eedbfcc561131c5841bd196b6f",
@@ -1094,7 +1103,10 @@
       ],
       "summary": "Tags: cryptography, writeup, crypto, ctf",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "The UIUCTF 2026 writeup titled \"positive-thinking\" focuses on the cryptography category, as indicated by the available tags. Beyond this categorization, no further technical details are provided in the excerpt.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "cb91da06ba79858ed49ef51d2f6a3fd9f7fcb16a810736e7f274f6d8b2fcfff6",
@@ -1116,7 +1128,10 @@
       ],
       "summary": "Tags: cryptography, writeup, crypto, ctf",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "The CTFtime listing for \"UIUCTF 2026 — Rune Decryptor\" is a cryptography writeup categorized under crypto. No further technical details are provided in the excerpt.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "66d20b14b9127bcba92e7d4a8d002e43fe2b43ca5a9e8694513e4627f8b0bdeb",
@@ -1138,7 +1153,10 @@
       ],
       "summary": "Tags: writeup, reverseengineering, reverse, ctf",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "The provided excerpt for the UIUCTF 2026 \"vector-cache\" writeup on CTFtime lists the category as uncategorized and includes tags for writeup, reverse engineering, and ctf. Because the provided information is limited, no further technical details about the article are available.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "5d073f063796a369429a32046e283fd6467fe74a12fe6352c19bb4cb05d863be",
@@ -1160,7 +1178,10 @@
       ],
       "summary": "Tags: writeup, reverseengineering, reverse, ctf",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "The CTFtime listing for \"UIUCTF 2026 — GODMODE//999\" is categorized as uncategorized with tags including writeup, reverse engineering, and ctf, though further technical details are not provided in the excerpt.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "48cdb3d399eef50f7e0b02306c969da2473cf7bb1d0220ac0bbc84ecb86b88cd",
@@ -1182,7 +1203,10 @@
       ],
       "summary": "Tags: writeup, reverseengineering, reverse, ctf",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This CTFtime listing for \"UIUCTF 2026 — Veil of Evernight\" falls under the uncategorized category and includes tags for writeup, reverse engineering, reverse, and ctf. No further technical details are provided in the excerpt.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "03f029c98eb0a8258979555d87688c2ca3cb9238b7495d3cee22a7c90c51c4b7",
@@ -4452,6 +4476,98 @@
       "metadata_checked": true
     },
     {
+      "id": "b3d80e03a2e05bfcfa7208be2bab6993e6ba1e9f036d1d9e88c120facec61795",
+      "title": "VmDak and Jordak: What I Wanted You to Learn From My TJnull Machines",
+      "url": "https://medium.com/@alidak/vmdak-and-jordak-what-i-wanted-you-to-learn-from-my-tjnull-machines-9a2923c55ff5?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "platform": "Medium",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "Ali Dak",
+      "published_at": "Sun, 22 Nov 2026 15:26:01 GMT",
+      "discovered_at": "2026-11-22T16:18:33.869327+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "offensive-security",
+        "oscp",
+        "penetration-testing"
+      ],
+      "summary": "I have built 53 machines for OffSec Proving Grounds. Continue reading on Medium »",
+      "priority": 75,
+      "metadata_checked": true
+    },
+    {
+      "id": "80e975a81a3f0a7c28bfa2de7b6581b47967db6d17739e74cbbbfc4541e68d04",
+      "title": "Healthcare Vulnhub walkthrough",
+      "url": "https://medium.com/@pritiranjanmohanta6371/healthcare-vulnhub-walkthrough-450dfce6e375?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "platform": "Medium",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "PRiTi.EX",
+      "published_at": "Sun, 22 Nov 2026 15:25:39 GMT",
+      "discovered_at": "2026-11-22T16:18:33.870269+00:00",
+      "tags": [
+        "ctf",
+        "healthcare",
+        "oscp",
+        "vulnhub",
+        "vulnhub-walkthrough"
+      ],
+      "summary": "In this walkthrough, I will be exploring Healthcare, a vulnerable machine from VulnHub designed to test practical penetration testing&#x2026; Continue reading on Medium »",
+      "priority": 75,
+      "metadata_checked": true
+    },
+    {
+      "id": "2c3d3f942f7e2e6a2febae2d35aefd65a769ceb4bd49e4a8a87a9914038cadca",
+      "title": "Quay Gate Writeup | iHack 2026",
+      "url": "https://medium.com/@a.ahazimin/quay-gate-writeup-ihack-2026-44fdc68600f8?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "platform": "Medium",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "manhazz",
+      "published_at": "Sun, 22 Nov 2026 13:04:34 GMT",
+      "discovered_at": "2026-11-22T16:18:33.870330+00:00",
+      "tags": [
+        "ctf",
+        "ctf-writeup",
+        "cybersecurity",
+        "ssrf",
+        "web-security"
+      ],
+      "summary": "Phase 2, Jeopardy Defense Category: Web Difficulty: Hard Continue reading on Medium »",
+      "priority": 75,
+      "metadata_checked": true
+    },
+    {
+      "id": "5657b3a0682b62b7cc272bd3380e10692fc0838fb2fba8751e3c1b05c5fd7955",
+      "title": "Tool Guide: Radare2 — A flexible reverse engineering toolchain",
+      "url": "https://medium.com/@f0xgl0v3/tool-guide-radare2-a-flexible-reverse-engineering-toolchain-063a7d44da67?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "platform": "Medium",
+      "type": "ctf_writeup",
+      "category": "REVERSE-ENGINEERING",
+      "author": "F0XGL0V3",
+      "published_at": "Sun, 22 Nov 2026 10:01:02 GMT",
+      "discovered_at": "2026-11-22T16:18:33.870955+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity-tools",
+        "cybersecurity-training",
+        "reverse-engineering",
+        "tech-tutorials"
+      ],
+      "summary": "A framework specialized in reverse engineering. Ideal for malware analysts, security researchers and CTF players. Continue reading on Medium »",
+      "priority": 75,
+      "metadata_checked": true
+    },
+    {
       "id": "38b0e9a5e4d8d8b35cfa1a2bd3b08449f2175a55b9437257dfdbaf4ac5710d57",
       "title": "Steganography: Hiding Data in Plain Sight, and Finding It",
       "url": "https://medium.com/@mrblockednet183/steganography-hiding-data-in-plain-sight-and-finding-it-a5fd99f36f0f?source=rss------ctf-5",
@@ -4801,6 +4917,363 @@
       "metadata_checked": true
     },
     {
+      "id": "49ba28bfa1a26ddf39bafbdf4b1cd55ef03fe53d2bd29588416dfd459890dcdb",
+      "title": "hatixntsoa/tryhackme",
+      "url": "https://github.com/hatixntsoa/tryhackme",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "hatixntsoa",
+      "published_at": "2026-11-22T16:08:08Z",
+      "discovered_at": "2026-11-22T16:18:43.941520+00:00",
+      "tags": [
+        "active-directory",
+        "blue-team",
+        "ctf",
+        "cybersecurity",
+        "dfir",
+        "digital-forensics",
+        "ethical-hacking",
+        "github",
+        "incident-response",
+        "infosec",
+        "malware-analysis",
+        "penetration-testing",
+        "privilege-escalation",
+        "red-team",
+        "reverse-engineering",
+        "security-operations",
+        "soc",
+        "threat-hunting",
+        "tryhackme",
+        "web-security",
+        "writeups"
+      ],
+      "summary": "Chronological portfolio of TryHackMe rooms across offensive security, blue team, DFIR, malware analysis and security operations: enumeration output, exploit scripts, decoded artefacts and writeups. All credentials and keys are ephemeral lab data.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "7c036e317adbf5ea74e33c2c286208a075cca0502239c5ea0b208f920fb85250",
+      "title": "cirosantilli/china-dictatorship",
+      "url": "https://github.com/cirosantilli/china-dictatorship",
+      "source": "GitHub · AI Security",
+      "source_id": "github-search",
+      "platform": "AI Security",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "cirosantilli",
+      "published_at": "2026-11-22T15:55:18Z",
+      "discovered_at": "2026-11-21T20:39:51.865550+00:00",
+      "tags": [
+        "996",
+        "censorship",
+        "censorship-circumvention",
+        "china",
+        "china-dictatorship",
+        "chinese-communist-party",
+        "covid-19",
+        "covid-19-china",
+        "ctf",
+        "dictator",
+        "dictatorship",
+        "falun-gong",
+        "gfw",
+        "github",
+        "great-firewall",
+        "human-rights",
+        "shadowsocks",
+        "socks5",
+        "tiananmen",
+        "totalitarian",
+        "xi-jinping",
+        "xinjiang"
+      ],
+      "summary": "反中共政治宣传库。Anti Chinese government propaganda. 住在中国真名用户的网友请别给星星，不然你要被警察请喝茶。常见问答集，新闻集和饭店和音乐建议。卐习万岁卐。冠状病毒审查郝海东新疆改造中心六四事件法轮功 996.ICU709大抓捕巴拿马文件邓家贵低端人口西藏骚乱。Friends who live in China and have real name on account, please don't star this repo, or else the police might pay you a visit. Home to the mega-FAQ, news compilation, restaurant and music recommendations.Heil Xi 卐. 大陆修宪香港恶法台湾武统朝鲜毁约美中冷战等都是王沪宁愚弄习思想极左命运共同体的大策划中共窃国这半个多世纪所犯下的滔天罪恶，前期是毛泽东策划的，中期6.4前后是邓小平策划的，黄牛数据分析后期是毛的极左追随者三朝罪恶元凶王沪宁策划的。王沪宁高小肆业因文革政治和情报需要保送“学院外语班“红色仕途翻身，所以王的本质是极左的。他是在上海底层弄堂长大的，因其本性也促成其瘪三下三滥个性，所以也都说他有易主“变色龙”哈巴狗“的天性。大陆像王沪宁这样学马列政治所谓\"法学\"专业的人，在除朝鲜古巴所有国家特别是在文明发达国家是无法找到专业对口工作必定失业，唯独在大陆却是重用的紧缺“人才”，6.4后中共信仰大危机更是最重用的救党“人才”。这也就是像王沪宁此类工农兵假“大学生”平步青云的原因，他们最熟悉毛泽东历次运动的宫庭内斗经验手段和残酷的阶级斗争等暴力恐怖的“政治学”。王沪宁能平步青云靠他这马毛伪“政治学”资本和头衔，不是什么真才实学，能干实事有点真才实学的或许在他手下的谋士及",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "4081f1486b10a79130a06cb72eeb4d6d973732e008d8eed2f3c5b53fc3208e2a",
+      "title": "Kriti014/CTF-7-Writeup---Dina-1.0-Walkthrough",
+      "url": "https://github.com/Kriti014/CTF-7-Writeup---Dina-1.0-Walkthrough",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "Kriti014",
+      "published_at": "2026-11-22T15:40:19Z",
+      "discovered_at": "2026-11-22T16:18:38.514167+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "This is my revision and practice writeup for CTF 7 (Dina 1.0). I documented every single step including things that didn't work so I can easily revise my ethical hacking process .",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "852080b9a3e4e5bda20f8432c112465a7c9e2eaf75f16e219b5c5134bc0f7ccd",
+      "title": "blu3-th1ngs/CTF_Writeups",
+      "url": "https://github.com/blu3-th1ngs/CTF_Writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "blu3-th1ngs",
+      "published_at": "2026-11-22T14:49:07Z",
+      "discovered_at": "2026-11-22T16:18:38.514891+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Public CTF writeup repository",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "a7e1e2e05ca3f73b89855de532a09b58782b5df1dd5a8769e8c040a4fc054466",
+      "title": "Stfl0735/My-CrateCTF-2026-Writeup",
+      "url": "https://github.com/Stfl0735/My-CrateCTF-2026-Writeup",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "Stfl0735",
+      "published_at": "2026-11-22T14:18:09Z",
+      "discovered_at": "2026-11-22T16:18:38.515200+00:00",
+      "tags": [
+        "ctf",
+        "ctf-solutions",
+        "ctf-writeups",
+        "github",
+        "web-exploitation"
+      ],
+      "summary": "My writeups and solution trials for CrateCTF 2026",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "4014f607eca86fc2e929179f987f29ab34103d24d460be73ad651ef5413d594a",
+      "title": "amimerayoub/ctf-writeups",
+      "url": "https://github.com/amimerayoub/ctf-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "amimerayoub",
+      "published_at": "2026-11-22T13:00:40Z",
+      "discovered_at": "2026-11-22T16:18:38.515805+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "I am a cybersecurity student who loves CTF challenges. In this repository I document every challenge I solve: the steps, the tools, the mistakes, and what I learned.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "651da7d6f35a3e233f189dc35dbe6ebab8c0924de82ac7cb3ef446938aac97a6",
+      "title": "VictorVader/tryhackme-writeups",
+      "url": "https://github.com/VictorVader/tryhackme-writeups",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "VictorVader",
+      "published_at": "2026-11-22T12:55:17Z",
+      "discovered_at": "2026-11-22T16:18:43.942823+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "This repository contains detailed write-ups regarding TryHackMe challenge rooms, excellent for people aiming to study for the PT1 exam and more!",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "828e0b07623dbd67a472d264e2edb25784141aacd3ae891b3ebd012633aa1929",
+      "title": "YonLiud/tengucon-2026-aerospace-village-ctf-writeup",
+      "url": "https://github.com/YonLiud/tengucon-2026-aerospace-village-ctf-writeup",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "YonLiud",
+      "published_at": "2026-11-22T11:53:49Z",
+      "discovered_at": "2026-11-22T16:18:38.517243+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "My writeup for the TenguCon 2026 Aerospace Village CTF",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "2418c25e95809b17ee1c28ae86a44293b82c2ee63447c2f6f582439aa954678e",
+      "title": "QoLamdaS/writeup-onsite-ctf-finals-schematics-its-2026",
+      "url": "https://github.com/QoLamdaS/writeup-onsite-ctf-finals-schematics-its-2026",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "QoLamdaS",
+      "published_at": "2026-11-22T10:59:46Z",
+      "discovered_at": "2026-11-22T16:18:38.517485+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Public CTF writeup repository",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "2e799200e4dc169710603ec31151719f23fdfd3ad1602670d09066a48dc437ec",
+      "title": "Mayurijain07/TryHackMe-Writeups",
+      "url": "https://github.com/Mayurijain07/TryHackMe-Writeups",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "Mayurijain07",
+      "published_at": "2026-11-22T10:33:20Z",
+      "discovered_at": "2026-11-22T16:18:43.944107+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Public CTF writeup repository",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "f37b2e9ea042b3004549bc4945b1801543e74f3f4f0121a2237bb1480b99705c",
+      "title": "2xlight/CTF-writeups",
+      "url": "https://github.com/2xlight/CTF-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "2xlight",
+      "published_at": "2026-11-22T10:19:10Z",
+      "discovered_at": "2026-11-22T16:18:38.518539+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "CTF writeup tiếng Việt.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "809e5c77a834e4e7ae7ecad89d77c3ae927697b1a841b140273a897f308f854e",
+      "title": "gege-circle/.github",
+      "url": "https://github.com/gege-circle/.github",
+      "source": "GitHub · AI Security",
+      "source_id": "github-search",
+      "platform": "AI Security",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "gege-circle",
+      "published_at": "2026-11-22T10:08:16Z",
+      "discovered_at": "2026-11-21T20:39:51.890420+00:00",
+      "tags": [
+        "a-soul",
+        "acfun",
+        "bilibili",
+        "china",
+        "ctf",
+        "gege-circle",
+        "github",
+        "message-board",
+        "vtuber",
+        "vup"
+      ],
+      "summary": "这里是GitHub的草场，也是戈戈圈爱好者的交流地，主要讨论动漫、游戏、科技、人文、生活等所有话题，欢迎各位小伙伴们在此讨论趣事。This is GitHub grassland, and the community place for Gege circle lovers, mainly discusses anime, games, technology, lifing and other topics. You are welcome to share interest things here. 缺氧修改器 捏脸 反光板 MySQL数据库 玉米杂草数据集 销售系统开发 疫情期间网民情绪识别比赛 996icu 预测结果导出 赖伟林刺杀小说家 购物商场 英语词汇量小程序 联级选择器Bitcoin区块链 技术面试必备基础知识 Leetcode 计算机操作系统 计算机网络 系统设计 Java学习 面试指南 一份涵盖大部分 Java 程序员所需要掌握的核心知识 准备 Java 面试 首选 JavaGuide Python 1 天从新手到大师刷算法全靠套路 认准 labuladong 就够了 免费的计算机编程类中文书籍 欢迎投稿用动画的形式呈现解LeetCode题目的思路 互联网 Java 工程师进阶知识完全扫盲 涵盖高并发 分布式 高可用 微服务 海量数据处理等领域知识后端架构师技术图谱mall项目是一套电商系统 包括前台商城系统及后台管理系统 基于SpringBoot MyBatis实现 采用Docker容器化部署 前台商城系统包含首页门户 商品推荐 商品搜索 商品展示 购物车 订单流程 会员中心 客户服务 帮助中心等模块 后台管理系统包含商品管理 订单管理 会员管理 促销管理 运营管理 内容管理 统计报表 财务管理 权限管理 设置等模块 微信小程序开发资源汇总 最全中华古诗",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "e7bf0fa83f96d44a018f26a12d2e8571dc34d1f10f786a019fe4c94095db7770",
+      "title": "moruku36/ctf-vdp",
+      "url": "https://github.com/moruku36/ctf-vdp",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "moruku36",
+      "published_at": "2026-11-22T09:55:23Z",
+      "discovered_at": "2026-11-22T16:18:38.518829+00:00",
+      "tags": [
+        "cloud-security",
+        "ctf",
+        "ctf-writeups",
+        "github",
+        "hacker101",
+        "hackerone",
+        "security-training",
+        "vulnerability-disclosure",
+        "web-security"
+      ],
+      "summary": "Public CTF writeups, cloud and web security lab notes, and sanitized vulnerability disclosure program (VDP) pilot records. Organized by platform and event, with documentation in English and Japanese.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "d48bdc1d37318abe8c67e54822c5fca1f58bbb9522b24cd8cfd5dc4cf5c0fc9f",
+      "title": "timshaya/tryhackme-writeups",
+      "url": "https://github.com/timshaya/tryhackme-writeups",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "timshaya",
+      "published_at": "2026-11-22T08:45:52Z",
+      "discovered_at": "2026-11-22T16:18:43.944327+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Public CTF writeup repository",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "60870c434a7d676ddb573781f5408d6e17c016791d7e04b0f3aabc7c970a9f03",
+      "title": "mRFWq7LwNPZjaVv5v6eo/cihna-dictattorshrip-8",
+      "url": "https://github.com/mRFWq7LwNPZjaVv5v6eo/cihna-dictattorshrip-8",
+      "source": "GitHub · AI Security",
+      "source_id": "github-search",
+      "platform": "AI Security",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "mRFWq7LwNPZjaVv5v6eo",
+      "published_at": "2026-11-22T08:08:51Z",
+      "discovered_at": "2026-11-21T20:39:51.873874+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "反中共政治宣传库。Anti Chinese government propaganda. https://github.com/cirosantilli/china-dictatorship 的备份backup. 住在中国真名用户的网友请别给星星，不然你要被警察请喝茶。常见问答集，新闻集和饭店和音乐建议。卐习万岁卐。冠状病毒审查郝海东新疆改造中心六四事件法轮功 996.ICU709大抓捕巴拿马文件邓家贵低端人口西藏骚乱。Friends who live in China and have real name on account, please don't star this repo, or else the police might pay you a visit. Home to the mega-FAQ, news compilation, restaurant and music recommendations.Heil Xi 卐. 大陆修宪香港恶法台湾武统朝鲜毁约美中冷战等都是王沪宁愚弄习思想极左命运共同体的大策划中共窃国这半个多世纪所犯下的滔天罪恶，前期是毛泽东策划的，中期6.4前后是邓小平策划的，黄牛数据分析后期是毛的极左追随者三朝罪恶元凶王沪宁策划的。王沪宁高小肆业因文革政治和情报需要保送“学院外语班“红色仕途翻身，所以王的本质是极左的。他是在上海底层弄堂长大的，因其本性也促成其瘪三下三滥个性，所以也都说他有易主“变色龙”哈巴狗“的天性。大陆像王沪宁这样学马列政治所谓\"法学\"专业的人，在除朝鲜古巴所有国家特别是在文明发达国家是无法找到专业对口工作必定失业，唯独在大陆却是重用的紧缺“人才”，6.4后中共信仰大危机更是最重用的救党“人才”。这也就是像王沪宁此类工农兵假“大学生”平步青云的原因，他们最熟悉毛泽东历次运动的宫庭内斗经验手段和残酷的阶级斗争等暴力恐怖",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "84d1170448bbf766959aca4e503615aac826a6ac5d3c26b9206e48002ca99d60",
       "title": "Cr4wl-t0-De4Th/CTF-WriteUp",
       "url": "https://github.com/Cr4wl-t0-De4Th/CTF-WriteUp",
@@ -4844,9 +5317,9 @@
       "id": "d622a858db32272e97c33db2e9f17109d1df2a86ec00140305a5ed4cb3a23df2",
       "title": "prompiriyag/CTF-Writeups",
       "url": "https://github.com/prompiriyag/CTF-Writeups",
-      "source": "GitHub · CTF writeup",
+      "source": "GitHub · CTF writeups",
       "source_id": "github-search",
-      "platform": "CTF writeup",
+      "platform": "CTF writeups",
       "type": "ctf_writeup",
       "category": "UNCATEGORIZED",
       "author": "prompiriyag",
@@ -4857,74 +5330,6 @@
         "github"
       ],
       "summary": "Public CTF writeup repository",
-      "priority": 70,
-      "metadata_checked": true
-    },
-    {
-      "id": "7c036e317adbf5ea74e33c2c286208a075cca0502239c5ea0b208f920fb85250",
-      "title": "cirosantilli/china-dictatorship",
-      "url": "https://github.com/cirosantilli/china-dictatorship",
-      "source": "GitHub · AI Security",
-      "source_id": "github-search",
-      "platform": "AI Security",
-      "type": "ctf_writeup",
-      "category": "WEB-EXPLOITATION",
-      "author": "cirosantilli",
-      "published_at": "2026-11-22T07:06:06Z",
-      "discovered_at": "2026-11-21T20:39:51.865550+00:00",
-      "tags": [
-        "996",
-        "censorship",
-        "censorship-circumvention",
-        "china",
-        "china-dictatorship",
-        "chinese-communist-party",
-        "covid-19",
-        "covid-19-china",
-        "ctf",
-        "dictator",
-        "dictatorship",
-        "falun-gong",
-        "gfw",
-        "github",
-        "great-firewall",
-        "human-rights",
-        "shadowsocks",
-        "socks5",
-        "tiananmen",
-        "totalitarian",
-        "xi-jinping",
-        "xinjiang"
-      ],
-      "summary": "反中共政治宣传库。Anti Chinese government propaganda. 住在中国真名用户的网友请别给星星，不然你要被警察请喝茶。常见问答集，新闻集和饭店和音乐建议。卐习万岁卐。冠状病毒审查郝海东新疆改造中心六四事件法轮功 996.ICU709大抓捕巴拿马文件邓家贵低端人口西藏骚乱。Friends who live in China and have real name on account, please don't star this repo, or else the police might pay you a visit. Home to the mega-FAQ, news compilation, restaurant and music recommendations.Heil Xi 卐. 大陆修宪香港恶法台湾武统朝鲜毁约美中冷战等都是王沪宁愚弄习思想极左命运共同体的大策划中共窃国这半个多世纪所犯下的滔天罪恶，前期是毛泽东策划的，中期6.4前后是邓小平策划的，黄牛数据分析后期是毛的极左追随者三朝罪恶元凶王沪宁策划的。王沪宁高小肆业因文革政治和情报需要保送“学院外语班“红色仕途翻身，所以王的本质是极左的。他是在上海底层弄堂长大的，因其本性也促成其瘪三下三滥个性，所以也都说他有易主“变色龙”哈巴狗“的天性。大陆像王沪宁这样学马列政治所谓\"法学\"专业的人，在除朝鲜古巴所有国家特别是在文明发达国家是无法找到专业对口工作必定失业，唯独在大陆却是重用的紧缺“人才”，6.4后中共信仰大危机更是最重用的救党“人才”。这也就是像王沪宁此类工农兵假“大学生”平步青云的原因，他们最熟悉毛泽东历次运动的宫庭内斗经验手段和残酷的阶级斗争等暴力恐怖的“政治学”。王沪宁能平步青云靠他这马毛伪“政治学”资本和头衔，不是什么真才实学，能干实事有点真才实学的或许在他手下的谋士及",
-      "priority": 70,
-      "metadata_checked": true
-    },
-    {
-      "id": "809e5c77a834e4e7ae7ecad89d77c3ae927697b1a841b140273a897f308f854e",
-      "title": "gege-circle/.github",
-      "url": "https://github.com/gege-circle/.github",
-      "source": "GitHub · AI Security",
-      "source_id": "github-search",
-      "platform": "AI Security",
-      "type": "ctf_writeup",
-      "category": "WEB-EXPLOITATION",
-      "author": "gege-circle",
-      "published_at": "2026-11-22T05:19:28Z",
-      "discovered_at": "2026-11-21T20:39:51.890420+00:00",
-      "tags": [
-        "a-soul",
-        "acfun",
-        "bilibili",
-        "china",
-        "ctf",
-        "gege-circle",
-        "github",
-        "message-board",
-        "vtuber",
-        "vup"
-      ],
-      "summary": "这里是GitHub的草场，也是戈戈圈爱好者的交流地，主要讨论动漫、游戏、科技、人文、生活等所有话题，欢迎各位小伙伴们在此讨论趣事。This is GitHub grassland, and the community place for Gege circle lovers, mainly discusses anime, games, technology, lifing and other topics. You are welcome to share interest things here. 缺氧修改器 捏脸 反光板 MySQL数据库 玉米杂草数据集 销售系统开发 疫情期间网民情绪识别比赛 996icu 预测结果导出 赖伟林刺杀小说家 购物商场 英语词汇量小程序 联级选择器Bitcoin区块链 技术面试必备基础知识 Leetcode 计算机操作系统 计算机网络 系统设计 Java学习 面试指南 一份涵盖大部分 Java 程序员所需要掌握的核心知识 准备 Java 面试 首选 JavaGuide Python 1 天从新手到大师刷算法全靠套路 认准 labuladong 就够了 免费的计算机编程类中文书籍 欢迎投稿用动画的形式呈现解LeetCode题目的思路 互联网 Java 工程师进阶知识完全扫盲 涵盖高并发 分布式 高可用 微服务 海量数据处理等领域知识后端架构师技术图谱mall项目是一套电商系统 包括前台商城系统及后台管理系统 基于SpringBoot MyBatis实现 采用Docker容器化部署 前台商城系统包含首页门户 商品推荐 商品搜索 商品展示 购物车 订单流程 会员中心 客户服务 帮助中心等模块 后台管理系统包含商品管理 订单管理 会员管理 促销管理 运营管理 内容管理 统计报表 财务管理 权限管理 设置等模块 微信小程序开发资源汇总 最全中华古诗",
       "priority": 70,
       "metadata_checked": true
     },
@@ -5244,9 +5649,9 @@
       "id": "da4f6f18f2be22107906453d9d9bd60b5db0b5661e35494cad81cfcc527112a5",
       "title": "ffdasw-0/ctf-writeups",
       "url": "https://github.com/ffdasw-0/ctf-writeups",
-      "source": "GitHub · CTF writeup",
+      "source": "GitHub · CTF writeups",
       "source_id": "github-search",
-      "platform": "CTF writeup",
+      "platform": "CTF writeups",
       "type": "ctf_writeup",
       "category": "UNCATEGORIZED",
       "author": "ffdasw-0",
@@ -5264,9 +5669,9 @@
       "id": "575812d1760251057e606fc0b8dee665a50d3886f89b326a274c277f780bfb38",
       "title": "1ndraabot/cyber-frontier-2026-wu",
       "url": "https://github.com/1ndraabot/cyber-frontier-2026-wu",
-      "source": "GitHub · CTF writeup",
+      "source": "GitHub · CTF writeups",
       "source_id": "github-search",
-      "platform": "CTF writeup",
+      "platform": "CTF writeups",
       "type": "ctf_writeup",
       "category": "UNCATEGORIZED",
       "author": "1ndraabot",
@@ -5731,9 +6136,9 @@
       "id": "ecb1ff310e4734d14e0b5bb44ffa0beb52feb9a7b1fb49bcb7292e39f4f91d28",
       "title": "0xdnd/ctf-tracker",
       "url": "https://github.com/0xdnd/ctf-tracker",
-      "source": "GitHub · TryHackMe",
+      "source": "GitHub · Hack The Box",
       "source_id": "github-search",
-      "platform": "TryHackMe",
+      "platform": "Hack The Box",
       "type": "ctf_writeup",
       "category": "REVERSE-ENGINEERING",
       "author": "0xdnd",
@@ -6130,26 +6535,6 @@
         "github"
       ],
       "summary": "Curated collection of 47+ CTF writeups and reverse- engineering walkthroughs from Ethiopian cybersecurity competitions (ADWA CTF, BunaByte). Obsidian Vault ready.",
-      "priority": 70,
-      "metadata_checked": true
-    },
-    {
-      "id": "60870c434a7d676ddb573781f5408d6e17c016791d7e04b0f3aabc7c970a9f03",
-      "title": "mRFWq7LwNPZjaVv5v6eo/cihna-dictattorshrip-8",
-      "url": "https://github.com/mRFWq7LwNPZjaVv5v6eo/cihna-dictattorshrip-8",
-      "source": "GitHub · AI Security",
-      "source_id": "github-search",
-      "platform": "AI Security",
-      "type": "ctf_writeup",
-      "category": "WEB-EXPLOITATION",
-      "author": "mRFWq7LwNPZjaVv5v6eo",
-      "published_at": "2026-11-20T03:49:07Z",
-      "discovered_at": "2026-11-21T20:39:51.873874+00:00",
-      "tags": [
-        "ctf",
-        "github"
-      ],
-      "summary": "反中共政治宣传库。Anti Chinese government propaganda. https://github.com/cirosantilli/china-dictatorship 的备份backup. 住在中国真名用户的网友请别给星星，不然你要被警察请喝茶。常见问答集，新闻集和饭店和音乐建议。卐习万岁卐。冠状病毒审查郝海东新疆改造中心六四事件法轮功 996.ICU709大抓捕巴拿马文件邓家贵低端人口西藏骚乱。Friends who live in China and have real name on account, please don't star this repo, or else the police might pay you a visit. Home to the mega-FAQ, news compilation, restaurant and music recommendations.Heil Xi 卐. 大陆修宪香港恶法台湾武统朝鲜毁约美中冷战等都是王沪宁愚弄习思想极左命运共同体的大策划中共窃国这半个多世纪所犯下的滔天罪恶，前期是毛泽东策划的，中期6.4前后是邓小平策划的，黄牛数据分析后期是毛的极左追随者三朝罪恶元凶王沪宁策划的。王沪宁高小肆业因文革政治和情报需要保送“学院外语班“红色仕途翻身，所以王的本质是极左的。他是在上海底层弄堂长大的，因其本性也促成其瘪三下三滥个性，所以也都说他有易主“变色龙”哈巴狗“的天性。大陆像王沪宁这样学马列政治所谓\"法学\"专业的人，在除朝鲜古巴所有国家特别是在文明发达国家是无法找到专业对口工作必定失业，唯独在大陆却是重用的紧缺“人才”，6.4后中共信仰大危机更是最重用的救党“人才”。这也就是像王沪宁此类工农兵假“大学生”平步青云的原因，他们最熟悉毛泽东历次运动的宫庭内斗经验手段和残酷的阶级斗争等暴力恐怖",
       "priority": 70,
       "metadata_checked": true
     },
@@ -7463,6 +7848,26 @@
       "metadata_checked": true
     },
     {
+      "id": "e371ebd47dc8ee4023ff73b43c212df3c5df7ac730619007b6137c4b34b7af71",
+      "title": "niepanjun/CTF-WriteUps",
+      "url": "https://github.com/niepanjun/CTF-WriteUps",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "BINARY-EXPLOITATION",
+      "author": "niepanjun",
+      "published_at": "2026-11-12T12:54:11Z",
+      "discovered_at": "2026-11-22T16:18:38.515297+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "CTF pwn相关学习历程 | BUUCTF等解题思路",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "19f68b5a7843c781e37857a67c0d0f589a2d7c87c9c16c8ee37c83d592b40ce7",
       "title": "Omkar0069/security-writeups",
       "url": "https://github.com/Omkar0069/security-writeups",
@@ -7486,9 +7891,9 @@
       "id": "e4470ae9f1b25c7589048714ef9d3e4d6de3c68c3849daa294597007baa76183",
       "title": "jojin1709/hunter-archive",
       "url": "https://github.com/jojin1709/hunter-archive",
-      "source": "GitHub · CTF writeups",
+      "source": "GitHub · CTF writeup",
       "source_id": "github-search",
-      "platform": "CTF writeups",
+      "platform": "CTF writeup",
       "type": "ctf_writeup",
       "category": "UNCATEGORIZED",
       "author": "jojin1709",
@@ -7561,6 +7966,26 @@
         "github"
       ],
       "summary": "Public CTF writeup repository",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "8beb789fd945d9e67a6a7cab424cdd7691b417e7fb381a4a97c3302a731aa1d3",
+      "title": "winsmunt/ctf-writeups",
+      "url": "https://github.com/winsmunt/ctf-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "winsmunt",
+      "published_at": "2026-11-12T08:59:34Z",
+      "discovered_at": "2026-11-22T16:18:38.514463+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Write-ups from CTFs and security challenges, focused on my investigation process, tools used, and lessons learned.",
       "priority": 70,
       "metadata_checked": true
     },
@@ -8103,6 +8528,26 @@
       "metadata_checked": true
     },
     {
+      "id": "205348265f77a9e9f9253cf9fe6a8535b36b36a2c8f069c71c808116b31f8901",
+      "title": "ezlx1/CTF_Writeups",
+      "url": "https://github.com/ezlx1/CTF_Writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "ezlx1",
+      "published_at": "2026-11-10T22:07:51Z",
+      "discovered_at": "2026-11-22T16:18:38.516787+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "A github repo for my CTF_Writeups",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "3060effe5f292f8effb10c6c630cc692adecf6663af44ee4b171babdb461fec5",
       "title": "akramyennoune/Writeups",
       "url": "https://github.com/akramyennoune/Writeups",
@@ -8321,6 +8766,26 @@
       "metadata_checked": true
     },
     {
+      "id": "c80d2e85e8e560a73bdb176740252d35d7165e0176db7c3fad8dc46cce668d74",
+      "title": "0xBisc/0xBisc.github.io",
+      "url": "https://github.com/0xBisc/0xBisc.github.io",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "0xBisc",
+      "published_at": "2026-11-09T16:27:40Z",
+      "discovered_at": "2026-11-22T16:18:38.518806+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Personal cybersecurity blog, CTF writeups, and security notes.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "e9e2a64ea2f54a3071291950f0eaca6b778a2fea2c442c74f9429ae21a2b317d",
       "title": "papura-octavian/reverse-engineering-lab",
       "url": "https://github.com/papura-octavian/reverse-engineering-lab",
@@ -8337,6 +8802,26 @@
         "github"
       ],
       "summary": "Reverse engineering writeups, keygens and solve scripts for crackmes and CTF challenges.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "347aa63633f6085091d17cf278263bd88cb7bcd0e7d50b2577b1d0e3412edaba",
+      "title": "Telieou-source/Try_Hack_Me_Writeups",
+      "url": "https://github.com/Telieou-source/Try_Hack_Me_Writeups",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "Telieou-source",
+      "published_at": "2026-11-09T15:47:41Z",
+      "discovered_at": "2026-11-22T16:18:43.941828+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Writeups for TryHackMe CTFs",
       "priority": 70,
       "metadata_checked": true
     },
@@ -8565,6 +9050,46 @@
       "metadata_checked": true
     },
     {
+      "id": "f33621c5b55b1c367f276c61fba4c8d142172f66bb30ba919efccdc2a62374cf",
+      "title": "fatehahmad0509/TryHackMe-Writeups",
+      "url": "https://github.com/fatehahmad0509/TryHackMe-Writeups",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "fatehahmad0509",
+      "published_at": "2026-11-08T13:36:56Z",
+      "discovered_at": "2026-11-22T16:18:43.943057+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Public CTF writeup repository",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "1e7271d9886eac85efcdcb80a64cebf04ed452b4206d5c7fa55389ba5b43ee3a",
+      "title": "I-am-p0wer/CTF-Writeups",
+      "url": "https://github.com/I-am-p0wer/CTF-Writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "I-am-p0wer",
+      "published_at": "2026-11-08T12:18:23Z",
+      "discovered_at": "2026-11-22T16:18:38.516990+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Public CTF writeup repository",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "f96b1a34eb5608dd52aef3d8047a105664c49f897f923c16e79277ed1790572f",
       "title": "cmry9775/ctf-writeups",
       "url": "https://github.com/cmry9775/ctf-writeups",
@@ -8591,9 +9116,9 @@
       "id": "55d642bb911c85311ddfaa7fa6c777c7a39f6940dcf0cab4e41b00cff4da4774",
       "title": "JIMIT-PARIKH-01/ctf-extras-toolkit",
       "url": "https://github.com/JIMIT-PARIKH-01/ctf-extras-toolkit",
-      "source": "GitHub · CTF writeup",
+      "source": "GitHub · CTF writeups",
       "source_id": "github-search",
-      "platform": "CTF writeup",
+      "platform": "CTF writeups",
       "type": "ctf_writeup",
       "category": "DIGITAL-FORENSICS",
       "author": "JIMIT-PARIKH-01",
@@ -8808,6 +9333,26 @@
         "writeups"
       ],
       "summary": "Complete HI Cyber Con 2026 / HI CyberCon CTF collection: all 69 challenges documented with writeups, credited solution summaries & solver scripts. Fr4ctur3 (Only_AI), 2nd of 1,119 teams. Web, pwn, crypto, reverse engineering, forensics, OSINT, steg, blockchain, hardware & AI.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "3096039ae92e62f22122ee213864f114658963176e7b92959a38c2d5cfb94006",
+      "title": "kokoromiruu/ctf-writeups",
+      "url": "https://github.com/kokoromiruu/ctf-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "kokoromiruu",
+      "published_at": "2026-11-06T01:37:18Z",
+      "discovered_at": "2026-11-22T16:18:38.516011+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Public CTF writeup repository",
       "priority": 70,
       "metadata_checked": true
     },
@@ -9802,9 +10347,9 @@
       "id": "def4485c544c66dafd1faa8569e0687831dd42797ee5cfee8c82a7b0e3ba65cf",
       "title": "elyqs1/CTF-Writeups",
       "url": "https://github.com/elyqs1/CTF-Writeups",
-      "source": "GitHub · CTF writeup",
+      "source": "GitHub · CTF writeups",
       "source_id": "github-search",
-      "platform": "CTF writeup",
+      "platform": "CTF writeups",
       "type": "ctf_writeup",
       "category": "UNCATEGORIZED",
       "author": "elyqs1",
@@ -10306,6 +10851,34 @@
         "github"
       ],
       "summary": "Writeups for the ECU x NCNG CTF (HackTheBox): web, OAuth, mobile/API, AI prompt injection, and malware forensics.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "0467b83926cc4c21185295ddb2a39701ba5004fa089cf0c15ba62cdac555d42c",
+      "title": "CryptoGate-hub/cyber-writeups",
+      "url": "https://github.com/CryptoGate-hub/cyber-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "CryptoGate-hub",
+      "published_at": "2026-10-27T22:17:19Z",
+      "discovered_at": "2026-11-22T16:18:38.518563+00:00",
+      "tags": [
+        "ctf",
+        "ctf-writeup",
+        "cybersecurity",
+        "github",
+        "hackthebox",
+        "linux",
+        "pentest",
+        "portswigger",
+        "web-security",
+        "writeup"
+      ],
+      "summary": "Writeups HTB - PortSwigger - pwn.college - CTF | chaines d'attaque, commandes completes, lecons retenues",
       "priority": 70,
       "metadata_checked": true
     },
@@ -11061,6 +11634,32 @@
       "metadata_checked": true
     },
     {
+      "id": "b021061c628221ed30e6d7672aaafbe15f7d69d65949fc87407865f276ddf60d",
+      "title": "3s0boz/ctf-writeups",
+      "url": "https://github.com/3s0boz/ctf-writeups",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "3s0boz",
+      "published_at": "2026-10-16T10:31:56Z",
+      "discovered_at": "2026-11-22T16:18:43.943362+00:00",
+      "tags": [
+        "ctf",
+        "ejpt",
+        "github",
+        "hackthebox",
+        "ine",
+        "pentest",
+        "tryhackme",
+        "writeups"
+      ],
+      "summary": "Methodology-first writeups from TryHackMe, INE (eJPT), and HackTheBox",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "0009096522287ce49ed13cbeb2f03ec947782afdcd342dc4e8d85a1834ca54b2",
       "title": "ShahiTukda/CTF-Writeups",
       "url": "https://github.com/ShahiTukda/CTF-Writeups",
@@ -11549,9 +12148,9 @@
       "id": "3791ede6a1b75400d833dda639ace25d549d2f0cc0c99768ebf4e4c34d0410c8",
       "title": "FS08/Cybersecurity-Notes",
       "url": "https://github.com/FS08/Cybersecurity-Notes",
-      "source": "GitHub · CTF writeup",
+      "source": "GitHub · CTF writeups",
       "source_id": "github-search",
-      "platform": "CTF writeup",
+      "platform": "CTF writeups",
       "type": "ctf_writeup",
       "category": "UNCATEGORIZED",
       "author": "FS08",
@@ -12609,6 +13208,26 @@
         "github"
       ],
       "summary": "A collection of beginner Capture The Flag (CTF) challenge solutions and notes. Includes tasks like Base64 decoding, metadata analysis, and simple web exploitation. Documents your learning journey in cybersecurity.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "97419a74bcff2576b4b1943d42b3b3bd03e564d507ff0c336117c5ee997e94b0",
+      "title": "febriyansyah-id/HACKTHEBOX",
+      "url": "https://github.com/febriyansyah-id/HACKTHEBOX",
+      "source": "GitHub · Hack The Box",
+      "source_id": "github-search",
+      "platform": "Hack The Box",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "febriyansyah-id",
+      "published_at": "2026-09-11T04:07:30Z",
+      "discovered_at": "2026-11-22T16:18:42.428081+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Retired Only — writeups & notes for retired HTB machines/challenges/sherlocks/fortresses. No active content.",
       "priority": 70,
       "metadata_checked": true
     },
@@ -15990,6 +16609,56 @@
       "metadata_checked": true
     },
     {
+      "id": "a21643684495fd56836b10aba7b053267ec7074ae9ca546f26df608c0cf9ef36",
+      "title": "How I Cracked the Burp Suite Certified Practitioner (BSCP) Exam — And How You Can Too!",
+      "url": "https://infosecwriteups.com/how-i-cracked-the-burp-suite-certified-practitioner-bscp-exam-and-how-you-can-too-90ffa87b3097?source=rss----7b722bfd1b8d---4",
+      "source": "InfoSec Write-ups",
+      "source_id": "infosecwriteups",
+      "platform": "InfoSec Write-ups",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "Mukilan Baskaran",
+      "published_at": "Sun, 22 Nov 2026 12:13:37 GMT",
+      "discovered_at": "2026-11-22T16:18:34.616903+00:00",
+      "tags": [
+        "bug-bounty",
+        "ctf",
+        "cybersecurity",
+        "ethical-hacking",
+        "hacking",
+        "infosec",
+        "writeup"
+      ],
+      "summary": "&#x23f1;&#xfe0f; 4 Hours. &#x1f310; 2 Web Applications. &#x1f513; 6 Vulnerabilities. &#x1f4dd; Zero Reports to Write. Continue reading on InfoSec Write-ups »",
+      "priority": 55,
+      "metadata_checked": true
+    },
+    {
+      "id": "2f2daf3567d17812fe274145f2a2705069c35b9ae979a10842d80b29786598f7",
+      "title": "The Ultimate Guide to SSRF: Hunting, Bypassing and Exploiting in Modern Bug Bounty",
+      "url": "https://infosecwriteups.com/the-ultimate-guide-to-ssrf-hunting-bypassing-and-exploiting-in-modern-bug-bounty-a43fa34ba324?source=rss----7b722bfd1b8d---4",
+      "source": "InfoSec Write-ups",
+      "source_id": "infosecwriteups",
+      "platform": "InfoSec Write-ups",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "",
+      "published_at": "Sun, 22 Nov 2026 12:12:24 GMT",
+      "discovered_at": "2026-11-22T16:18:34.617046+00:00",
+      "tags": [
+        "bug-bounty",
+        "ctf",
+        "cybersecurity",
+        "hacking",
+        "pentesting",
+        "technology",
+        "writeup"
+      ],
+      "summary": "A complete, hands-on guide to hunting hidden SSRF vulnerabilities, bypassing WAFs and filters and escalating impact from cloud metadata&#x2026; Continue reading on InfoSec Write-ups »",
+      "priority": 55,
+      "metadata_checked": true
+    },
+    {
       "id": "c762d216734f1c1ecc952b56fa8d88467353ee53fcbaf59503df23ea74e88cdd",
       "title": "14/14 on HTB CPTS, First Attempt: What Actually Mattered",
       "url": "https://infosecwriteups.com/14-14-on-htb-cpts-first-attempt-what-actually-mattered-34ab2910551b?source=rss----7b722bfd1b8d---4",
@@ -19169,7 +19838,7 @@
     "rss_entries": 201,
     "github_repositories": 653,
     "social_links": 0,
-    "new_entries": 19,
+    "new_entries": 47,
     "failures": [
       {
         "source": "X/Twitter",
