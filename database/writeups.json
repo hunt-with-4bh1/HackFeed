@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "updated_at": "2026-11-22T16:19:17.876554+00:00",
-  "total": 913,
+  "updated_at": "2026-11-22T22:29:20.899061+00:00",
+  "total": 938,
   "items": [
     {
       "id": "0d2765f5f0cc0b873851a2c8f64ccff379b7aa3684f61b9ab8cd1805a493b5cf",
@@ -1228,7 +1228,10 @@
       ],
       "summary": "Tags: writeup, reverseengineering, reverse, ctf",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "Based on  the provided information, the writeup titled \"UIUCTF 2026 — glyphs\" is categorized as \"UNCATEGORIZED\" on CTFtime and includes tags for \"writeup,\" \"reverseengineering,\" \"reverse,\" and \"ctf.\" Specific technical details are not provided in the excerpt.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "a1e7d2e5e84a9fe74bbc4126afe8d6c92c0034b70d73cec17665723a764f0d9f",
@@ -1249,7 +1252,10 @@
       ],
       "summary": "Tags: writeup, osint, ctf",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "Based on the provided information, the article is a CTFwriteup categorized under OSINT for the UIUCTF 2026 event titled \"Something Handmade.\" Further technical details are limited in the excerpt.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "08bd5d4017a03a94b5f1ee119e2a6355a26346c7c7af929f7369dd407db5adc4",
@@ -1298,7 +1304,10 @@
       ],
       "summary": "Tags: ctf, pwn, exploitation, binary, exploit, binaryexploitation, writeup",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "Information is limited, but the provided text indicates that \"UIUCTF 2026 — Sparxie: Vanishing Encore\" is a binary exploitation writeup published on CTFtime.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "9e313c871bab1b603cc00e1f093daa6e1f09bb50c7b0bc863429dc8235aa0615",
@@ -1319,7 +1328,10 @@
       ],
       "summary": "Tags: writeup, crypto, ctf",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This CTFtime writeup listing is for the \"scriptCTF 2026 — Misdirection\" challenge in the cryptography category. The excerpt indicates that the article is tagged as a crypto writeup, but no further technical details are provided.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "63b1012569cc44a4ad678e479a2c02e5c214a15531da334c50553125081f33e7",
@@ -1341,7 +1353,10 @@
       ],
       "summary": "Tags: writeup, reverseengineering, reverse, ctf",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "Based on the provided information, the CTFtime listing titled \"scriptCTF 2026 — F**K\" is categorized under \"UNCATEGORIZED\" and includes tags for writeups and reverse engineering. Further technical details are not provided in the excerpt.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "beb8e4103a43e9f812cdb70d1c3c88b4ba07901923cf71c53168a88cdef6d4db",
@@ -1360,7 +1375,10 @@
       ],
       "summary": "Tags: sqlite",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "The FAUST CTF 2026 writeup titled \"Interstellar Mission Control\" is categorized under uncategorized platforms and is tagged with sqlite, though specific technical details are otherwise limited in the provided excerpt.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "5e9d7a73d4fe62c3930d9042407e36400ec7055dec3c1e75968dfd0b5e596cf5",
@@ -1377,7 +1395,10 @@
       "tags": [],
       "summary": "Tags:",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "The provided text for the KubSTU CTF writeup titled \"The Deterministic Fog\" on CTFtime contains no descriptive excerpt or technical details beyond its title and category. Therefore, no further factual summary can be provided.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "f1df71e167b62850ccb92f9da0ad62c900d3393c6e0729f934706e32eaa336a0",
@@ -4476,6 +4497,75 @@
       "metadata_checked": true
     },
     {
+      "id": "27707a63e10994120a7a30d579fcfb89aace64ac2f252ea4bb21efa25b3d222e",
+      "title": "GateKeeper Reverse engineering challenge on Picoctf",
+      "url": "https://kerowael.medium.com/gatekeeper-reverse-engineering-challenge-on-picoctf-4f4041e3e905?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "platform": "Medium",
+      "type": "ctf_writeup",
+      "category": "REVERSE-ENGINEERING",
+      "author": "kero_wael",
+      "published_at": "Sun, 22 Nov 2026 22:19:08 GMT",
+      "discovered_at": "2026-11-22T22:28:33.107933+00:00",
+      "tags": [
+        "c-language",
+        "ctf",
+        "cybersecurity",
+        "reverse-engineering",
+        "software-engineering"
+      ],
+      "summary": "hello wizards i&apos;m back and today we are going to solve gatekeeper picoctf RE medium challenge. Continue reading on Medium »",
+      "priority": 75,
+      "metadata_checked": true
+    },
+    {
+      "id": "ee72ed4de03e49b4999c55abe28395253ab914fd6b79fc0ef67a1f8b8cb04803",
+      "title": "MemLabs Lab 0 Walkthrough: Windows Memory Forensics with Volatility 3",
+      "url": "https://medium.com/@aishikmitra356/memlabs-lab-0-walkthrough-windows-memory-forensics-with-volatility-3-213e3739eddb?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "platform": "Medium",
+      "type": "ctf_writeup",
+      "category": "CRYPTOGRAPHY",
+      "author": "Aishikmitra",
+      "published_at": "Sun, 22 Nov 2026 20:07:44 GMT",
+      "discovered_at": "2026-11-22T22:28:33.108575+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "digital-forensics",
+        "information-security",
+        "kali-linux"
+      ],
+      "summary": "Solving &#x201c;Never Too Late Mister&#x201d; on Kali Linux: carving UTF-16LE console buffers, XOR decoding, and NTLM cracking Continue reading on Medium »",
+      "priority": 75,
+      "metadata_checked": true
+    },
+    {
+      "id": "160d367afca2c3b84c330111ec8ee03bda24cbf59ede0adae3873e9811b2290d",
+      "title": "NahamCon CTF 2026 Signal Bleed: Forensics Write-Up & Solution",
+      "url": "https://medium.com/@milon-das/nahamcon-ctf-2026-signal-bleed-forensics-write-up-solution-04ba4fb26c89?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "platform": "Medium",
+      "type": "ctf_writeup",
+      "category": "CRYPTOGRAPHY",
+      "author": "CYBER_SPACE",
+      "published_at": "Sun, 22 Nov 2026 19:40:42 GMT",
+      "discovered_at": "2026-11-22T22:28:33.109021+00:00",
+      "tags": [
+        "blue-team",
+        "cryptography",
+        "ctf",
+        "cybersecurity",
+        "digital-forensics"
+      ],
+      "summary": "A practical walkthrough of MP4 stream analysis, QR/DTMF decoding, FLAC LSB steganography, and DUAL-FOLD v2.3 decryption. Continue reading on Medium »",
+      "priority": 75,
+      "metadata_checked": true
+    },
+    {
       "id": "b3d80e03a2e05bfcfa7208be2bab6993e6ba1e9f036d1d9e88c120facec61795",
       "title": "VmDak and Jordak: What I Wanted You to Learn From My TJnull Machines",
       "url": "https://medium.com/@alidak/vmdak-and-jordak-what-i-wanted-you-to-learn-from-my-tjnull-machines-9a2923c55ff5?source=rss------ctf-5",
@@ -4914,6 +5004,132 @@
       ],
       "summary": "Summary The target was running a vulnerable version of ActiveMQ. The user account had a sudo rule allowing it to run nginx, which could be abused to execute commands as root — leading to privilege escalation. Recommendation Upgrade ActiveMQ to the latest version, and periodically check that all software and packages are kept up to date. Close off any ports that don’t need to be reachable from outside. Remove the sudo rule allowing nginx to be run by this user. More generally, apply the principle of least privilege to sudoers entries. Enumeration First of all, let's enumerate open ports using namp . sudo nmap -sS -Pn -p- --open -n --min-rate 5000 -oA scan_all 10.129.230.87 ports = $( grep -oP '\\d+/open' scan_all.gnmap | cut -d / -f1 | paste -sd , ) sudo nmap -sS -Pn -p \" $ports \" -A -oN sca",
       "priority": 75,
+      "metadata_checked": true
+    },
+    {
+      "id": "dc362d1c72f8fe0cab6cb0ad23152c0ccadc048454650c387ea5484f0e40c6ea",
+      "title": "Vohkidas0x/martina-ctf-2026-writeups",
+      "url": "https://github.com/Vohkidas0x/martina-ctf-2026-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "Vohkidas0x",
+      "published_at": "2026-11-22T21:50:55Z",
+      "discovered_at": "2026-11-22T22:28:37.151970+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Public CTF writeup repository",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "92a44f3e5036f0266217b4fb6c9a56e85249a2bbb7d436b6035e07f42aae1cb0",
+      "title": "PCutta/cybersecurity-ctf-writeups",
+      "url": "https://github.com/PCutta/cybersecurity-ctf-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "PCutta",
+      "published_at": "2026-11-22T21:05:10Z",
+      "discovered_at": "2026-11-22T22:28:37.152981+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Public CTF writeup repository",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "39161ae2fc05c13ce33e30c77824d0e16d5a2e8fe123fca3ea3187b7f6028aa5",
+      "title": "Vladaa904/tryhackme-writeups",
+      "url": "https://github.com/Vladaa904/tryhackme-writeups",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "Vladaa904",
+      "published_at": "2026-11-22T20:18:48Z",
+      "discovered_at": "2026-11-22T22:28:42.083863+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Структурированные отчёты (Write-ups) по расследованию инцидентов и анализу уязвимостей на платформе TryHackMe",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "d37dd299369e3cd6b4f3cb87b26c3ba694b4c5de2678083285d3d0ffde1a7a01",
+      "title": "Fanghuowang/Outback-Overflow-CTF-2026",
+      "url": "https://github.com/Fanghuowang/Outback-Overflow-CTF-2026",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "Fanghuowang",
+      "published_at": "2026-11-22T17:37:19Z",
+      "discovered_at": "2026-11-22T22:28:37.158891+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Writeup for OO CTF",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "157b83773919c3196de35c808268a018121bc1ebfd6b54099380e3c0aa48eabc",
+      "title": "aymane2004-2004/Pentest_Writeups",
+      "url": "https://github.com/aymane2004-2004/Pentest_Writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "aymane2004-2004",
+      "published_at": "2026-11-22T17:09:59Z",
+      "discovered_at": "2026-11-22T22:28:37.153645+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Pentest & CTF writeups for the ethical hacking community: HTB, THM, Vulnyx, HackerLabs, HackMyVM & GOAD. Learn from recon to root. Everyone welcome!",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "4aac83e7d33ed7a31da043d38c038935eda612a2414da13406ad812c832ff33f",
+      "title": "fbustamante55/MSV-CTF-WRITEUPS-",
+      "url": "https://github.com/fbustamante55/MSV-CTF-WRITEUPS-",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "REVERSE-ENGINEERING",
+      "author": "fbustamante55",
+      "published_at": "2026-11-22T16:55:59Z",
+      "discovered_at": "2026-11-22T22:28:37.160408+00:00",
+      "tags": [
+        "android-security",
+        "ctf",
+        "ctf-writeups",
+        "frida",
+        "github",
+        "mobile-security",
+        "owasp-masvs",
+        "reverse-engineering"
+      ],
+      "summary": "Writeups de los 18 retos de Ecos del Xolotlán, CTF de seguridad móvil Android (NicaHackFest · MSV 2026) — Top 6. Solvers en Python/Frida y mapeo a OWASP MASVS v2.",
+      "priority": 70,
       "metadata_checked": true
     },
     {
@@ -6542,9 +6758,9 @@
       "id": "57d5a77ace427ad251aa1ebbcc7443b93c234f14527ab43fdcfd33f891a5e066",
       "title": "Lo4pca/NoobCTF",
       "url": "https://github.com/Lo4pca/NoobCTF",
-      "source": "GitHub · CTF writeup",
+      "source": "GitHub · CTF writeups",
       "source_id": "github-search",
-      "platform": "CTF writeup",
+      "platform": "CTF writeups",
       "type": "ctf_writeup",
       "category": "UNCATEGORIZED",
       "author": "Lo4pca",
@@ -6597,6 +6813,26 @@
         "github"
       ],
       "summary": "a collection of my hackthebox writeups",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "64e74275c5455c09bdc04d9db4d0aa98468e897c8b4f60a3ecafeb4e75e5b2eb",
+      "title": "thecyberfarhan/CTF-Writeups",
+      "url": "https://github.com/thecyberfarhan/CTF-Writeups",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "thecyberfarhan",
+      "published_at": "2026-11-19T19:22:49Z",
+      "discovered_at": "2026-11-22T22:28:42.084996+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Writeups and notes from TryHackMe, PortSwigger, Hack The Box, and CTF challenges.",
       "priority": 70,
       "metadata_checked": true
     },
@@ -6948,6 +7184,26 @@
       "metadata_checked": true
     },
     {
+      "id": "b24c410b7ca4c1c613f7bc6fd8e094d8a3c7ac97c003b4463a5840730dac0155",
+      "title": "Simrankaur1000/CTF-Writeups",
+      "url": "https://github.com/Simrankaur1000/CTF-Writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "Simrankaur1000",
+      "published_at": "2026-11-18T05:09:00Z",
+      "discovered_at": "2026-11-22T22:28:37.158108+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "CTF challenge writeups, exploitation techniques, and hands-on security research.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "1ead37f994076bc44f73aae4d7dea40d7517b506ac869acc3cdf06fcbe8adefe",
       "title": "princeg80900-sys/InIt-CTF-Writeups",
       "url": "https://github.com/princeg80900-sys/InIt-CTF-Writeups",
@@ -7133,9 +7389,9 @@
       "id": "c1ad2faab490dc4d73634c2dd525ebe13840ea5653b0f6b487135c84f7e640ed",
       "title": "nguyenthanhvu240/ctf-writeups",
       "url": "https://github.com/nguyenthanhvu240/ctf-writeups",
-      "source": "GitHub · CTF writeup",
+      "source": "GitHub · CTF writeups",
       "source_id": "github-search",
-      "platform": "CTF writeup",
+      "platform": "CTF writeups",
       "type": "ctf_writeup",
       "category": "UNCATEGORIZED",
       "author": "nguyenthanhvu240",
@@ -7669,6 +7925,28 @@
       "metadata_checked": true
     },
     {
+      "id": "6c6dbd3ef8e3166fab4b6e4783d545ff717d6a8f6eb06ba6e7e6f744f04cf531",
+      "title": "actear/actear.github.io",
+      "url": "https://github.com/actear/actear.github.io",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "actear",
+      "published_at": "2026-11-13T04:14:20Z",
+      "discovered_at": "2026-11-22T22:28:37.159367+00:00",
+      "tags": [
+        "blog",
+        "ctf",
+        "github",
+        "hexo"
+      ],
+      "summary": "我的个人博客，用来记录ctf writeup 和学习笔记",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "4573a10e22d695ee88709bfc9a2b1b981b0803cb5a9376a595c4cbed70e7baca",
       "title": "ethanbauer10/Obsidian",
       "url": "https://github.com/ethanbauer10/Obsidian",
@@ -7888,6 +8166,26 @@
       "metadata_checked": true
     },
     {
+      "id": "e3712d938c06b28aca3c96bc0ce07437bd4f9b7236be2349a9f46a48d0532238",
+      "title": "skyylord0/CTF-Labs-Writeups",
+      "url": "https://github.com/skyylord0/CTF-Labs-Writeups",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "skyylord0",
+      "published_at": "2026-11-12T12:15:57Z",
+      "discovered_at": "2026-11-22T22:28:42.086234+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "A personal collection of CTF and lab write-ups (TryHackMe, HTB, Hack Smarter, etc.). This repository stores my process notes, step-by-step solutions, and short playbooks — primarily for learning and portfolio purposes.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "e4470ae9f1b25c7589048714ef9d3e4d6de3c68c3849daa294597007baa76183",
       "title": "jojin1709/hunter-archive",
       "url": "https://github.com/jojin1709/hunter-archive",
@@ -7966,6 +8264,26 @@
         "github"
       ],
       "summary": "Public CTF writeup repository",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "3952db15b2293937533855371e7088a95f5b3d14b7ed05799096f50862fb7c88",
+      "title": "qdiss/SOC-Level-1-Path-THM",
+      "url": "https://github.com/qdiss/SOC-Level-1-Path-THM",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "qdiss",
+      "published_at": "2026-11-12T09:31:03Z",
+      "discovered_at": "2026-11-22T22:28:42.082482+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Writeups and notes from the TryHackMe SOC Level 1 learning path - documenting my transition into cybersecurity/SOC analysis.",
       "priority": 70,
       "metadata_checked": true
     },
@@ -8220,6 +8538,30 @@
         "github"
       ],
       "summary": "Ire subiendo los writeups que vaya haciendo sobre maquinas",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "5313cc1a9bf218fb0d8c9cf5c614305ee3394736fd651b4be144d262f3aaa6ed",
+      "title": "joe-s58/ctf-writeups",
+      "url": "https://github.com/joe-s58/ctf-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "joe-s58",
+      "published_at": "2026-11-11T18:48:26Z",
+      "discovered_at": "2026-11-22T22:28:37.152568+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "github",
+        "hackerdna",
+        "penetration-testing",
+        "writeups"
+      ],
+      "summary": "Write-ups of CTF and security labs, with methodology and remediation notes",
       "priority": 70,
       "metadata_checked": true
     },
@@ -8548,6 +8890,26 @@
       "metadata_checked": true
     },
     {
+      "id": "d7781e95053ab14194109dac3622b03b98243071f583fde3e382d3b5aca3f796",
+      "title": "aleksandrsmernov/CTF-writeups",
+      "url": "https://github.com/aleksandrsmernov/CTF-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "aleksandrsmernov",
+      "published_at": "2026-11-10T21:46:02Z",
+      "discovered_at": "2026-11-22T22:28:37.160822+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Public CTF writeup repository",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "3060effe5f292f8effb10c6c630cc692adecf6663af44ee4b171babdb461fec5",
       "title": "akramyennoune/Writeups",
       "url": "https://github.com/akramyennoune/Writeups",
@@ -8653,6 +9015,31 @@
         "tryhackme-writeups"
       ],
       "summary": "My Personal Collection of CTF & lab write-ups for ( TryHackMe - Hack The Box)",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "1e37a900760d0ba57cdaa0150041f6c52a2fd60740fe0386957fcbe6f794f9a8",
+      "title": "gokul-dev47/cybersecurity-portfolio",
+      "url": "https://github.com/gokul-dev47/cybersecurity-portfolio",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "gokul-dev47",
+      "published_at": "2026-11-10T16:06:46Z",
+      "discovered_at": "2026-11-22T22:28:37.161753+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "github",
+        "pentration-testing",
+        "python",
+        "sql-injection",
+        "web-security"
+      ],
+      "summary": "Web application security tools, vulnerability scanners, and CTF writeups",
       "priority": 70,
       "metadata_checked": true
     },
@@ -9010,6 +9397,26 @@
       "metadata_checked": true
     },
     {
+      "id": "4074da8d473cb553815cf4b65e051c4f9ec27782e17907a16bdb4df2c81eea9e",
+      "title": "igor-andrade-dev/ctf-writeups",
+      "url": "https://github.com/igor-andrade-dev/ctf-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "igor-andrade-dev",
+      "published_at": "2026-11-08T16:51:45Z",
+      "discovered_at": "2026-11-22T22:28:37.154528+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "My cybersecurity and CTF journey",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "645ebf0d05f9e5d94868d7e7c31a54901e757d4b06c60e0c8b1df6cb38612a0a",
       "title": "Soulsagate/thm-writeups",
       "url": "https://github.com/Soulsagate/thm-writeups",
@@ -9176,9 +9583,9 @@
       "id": "7b0c2c0f9b735c1a50a2be911eb82d784426eaf5108ee9dff39d8a4d19c6dde8",
       "title": "axk8/ctf-writeups",
       "url": "https://github.com/axk8/ctf-writeups",
-      "source": "GitHub · CTF writeups",
+      "source": "GitHub · CTF writeup",
       "source_id": "github-search",
-      "platform": "CTF writeups",
+      "platform": "CTF writeup",
       "type": "ctf_writeup",
       "category": "UNCATEGORIZED",
       "author": "axk8",
@@ -9737,9 +10144,9 @@
       "id": "2a40383aadc70c5c63a0cc0747cc2e28567ed8873bda8bb877be1763fdf78fbc",
       "title": "sankarcyber26-cyber/CTF-Writeups",
       "url": "https://github.com/sankarcyber26-cyber/CTF-Writeups",
-      "source": "GitHub · TryHackMe",
+      "source": "GitHub · picoCTF",
       "source_id": "github-search",
-      "platform": "TryHackMe",
+      "platform": "picoCTF",
       "type": "ctf_writeup",
       "category": "UNCATEGORIZED",
       "author": "sankarcyber26-cyber",
@@ -10159,6 +10566,26 @@
       "metadata_checked": true
     },
     {
+      "id": "ab6adf03b72cbe00aef8fb32f062e5e5caa6252c713b624a118733273de2a2ea",
+      "title": "EmptyOlive/CTF_Writeups",
+      "url": "https://github.com/EmptyOlive/CTF_Writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "EmptyOlive",
+      "published_at": "2026-11-02T04:12:33Z",
+      "discovered_at": "2026-11-22T22:28:37.156969+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "HTB write up's to show completion of both active and retired machines.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "a9d3e2b96b8b496e28f2542ad6cbd6100deb52678aac3d5fb287133998693111",
       "title": "ismael-bagate/ctf-writeups",
       "url": "https://github.com/ismael-bagate/ctf-writeups",
@@ -10340,6 +10767,26 @@
         "tryhackme"
       ],
       "summary": "Writeups for TryHackMe and HackTheBox.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "c07386e9eef03994ee1810ae3a4e41a9f5ae45820516b15e8bc53ff7b16097da",
+      "title": "Leon00-max/cybersecurity-ctf-writeups",
+      "url": "https://github.com/Leon00-max/cybersecurity-ctf-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "Leon00-max",
+      "published_at": "2026-10-31T21:49:25Z",
+      "discovered_at": "2026-11-22T22:28:37.154105+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "my leveling up in cyber",
       "priority": 70,
       "metadata_checked": true
     },
@@ -11263,6 +11710,49 @@
         "github"
       ],
       "summary": "Challenges, writeups and solve scripts from the CS Week CTF I wrote and ran at IIITDM Kancheepuram. Crypto, forensics, OSINT, misc.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "ffbe57d2c6536755b37c252c1ae89f74f7714e590b1340952167c8bf4181d67a",
+      "title": "love09010224/my_ctf_challenge",
+      "url": "https://github.com/love09010224/my_ctf_challenge",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "BINARY-EXPLOITATION",
+      "author": "love09010224",
+      "published_at": "2026-10-22T08:21:33Z",
+      "discovered_at": "2026-11-22T22:28:37.157206+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "github",
+        "linux-kernel",
+        "pwn"
+      ],
+      "summary": "CTF challenge portfolio — source, solutions, deployment, and writeups",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "ef1e93ab29a5e6854579f0759280a199be02c818895fb497a7bfbb2433a1ad51",
+      "title": "ipzenn/CTF-Writeups",
+      "url": "https://github.com/ipzenn/CTF-Writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "ipzenn",
+      "published_at": "2026-10-21T10:45:46Z",
+      "discovered_at": "2026-11-22T22:28:37.158498+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Public CTF writeup repository",
       "priority": 70,
       "metadata_checked": true
     },
@@ -12600,6 +13090,26 @@
       "metadata_checked": true
     },
     {
+      "id": "81d32b723ddca255bf49d8ab82195d179f065fc4b26645e79afc2a51ce9a4dae",
+      "title": "vpadival/ctf-writeups",
+      "url": "https://github.com/vpadival/ctf-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "vpadival",
+      "published_at": "2026-10-02T16:42:05Z",
+      "discovered_at": "2026-11-22T22:28:37.157606+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Public CTF writeup repository",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "19a6330b8d95d6752560652cbb0d348b139828a382387187dc796ec24eabd269",
       "title": "ManHazz/ctf-writeups",
       "url": "https://github.com/ManHazz/ctf-writeups",
@@ -12748,6 +13258,26 @@
         "github"
       ],
       "summary": "My CTF writeups: forensics, crypto and OSINT challenges with solution scripts",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "c4e3f976f8f4101f368405dcb735b4ea42563819f1ae705f400d21ae97dd24d7",
+      "title": "mwshishi/mwshishi.github.io",
+      "url": "https://github.com/mwshishi/mwshishi.github.io",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "mwshishi",
+      "published_at": "2026-09-29T17:54:41Z",
+      "discovered_at": "2026-11-22T22:28:37.159828+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "My personal page for: CTF Writeups, Cybersec Projects, Notes",
       "priority": 70,
       "metadata_checked": true
     },
@@ -15524,6 +16054,26 @@
         "github"
       ],
       "summary": "Writeup for HackTheBox Active machine",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "ac7eb96e04d3dfcbc2e9587900e5a958cfe63bab3924a66dacb291c37cbb4fa9",
+      "title": "intranautic/ctf",
+      "url": "https://github.com/intranautic/ctf",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "intranautic",
+      "published_at": "2025-12-12T04:56:40Z",
+      "discovered_at": "2026-11-22T22:28:37.154922+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "collection of ctf solutions and writeups",
       "priority": 70,
       "metadata_checked": true
     },
