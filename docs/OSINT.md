@@ -2,8 +2,8 @@
 
 | Date | CTF / Challenge / Repository | Platform | Category | Author / Team | Source |
 |---|---|---|---|---|---|
-| 2026-11-21T20:09 | [Kali Team - CTF 26 — S1l3nt<br><sub>Tags: writeup, osint, kaliteamctf, ctf</sub>](https://ctftime.org/writeup/41096) | CTFtime | OSINT | Abdelkader | CTFtime |
-| 2026-11-21T20:09 | [Kali Team - CTF 26 — Havok<br><sub>Tags: writeup, osint, kaliteamctf, ctf</sub>](https://ctftime.org/writeup/41097) | CTFtime | OSINT | Abdelkader | CTFtime |
+| 2026-11-21T20:09 | [Kali Team - CTF 26 — S1l3nt<br><sub>This CTFtime writeup listing is titled "Kali Team - CTF 26 — S1l3nt" and falls under the OSINT category, with tags indicating it is a writeup for the Kali Team CTF.</sub>](https://ctftime.org/writeup/41096) | CTFtime | OSINT | Abdelkader | CTFtime |
+| 2026-11-21T20:09 | [Kali Team - CTF 26 — Havok<br><sub>This CTFtime writeup listing is titled "Kali Team - CTF 26 — Havok" and falls under the OSINT category. Due to limited information in the provided excerpt, no further technical details about the challenge or solution are available.</sub>](https://ctftime.org/writeup/41097) | CTFtime | OSINT | Abdelkader | CTFtime |
 | 2026-11-21T20:09 | [UIUCTF 2026 — Something Handmade<br><sub>Tags: writeup, osint, ctf</sub>](https://ctftime.org/writeup/41117) | CTFtime | OSINT | Abdelkader | CTFtime |
 | 2026-11-21T20:09 | [PINK+ CTF 2026 Absolute Craziness team VG Team<br><sub>[click on title to read] URL: https://ctftime.org/writeup/41142 Topics: osint&nbsp; Rating: not rated</sub>](https://ctftime.org/writeup/41142) | CTFtime | OSINT |  | CTFtime |
 | 2026-11-21T20:09 | [PINK+ CTF 2026 Cyber team VG Team<br><sub>[click on title to read] URL: https://ctftime.org/writeup/41143 Topics: osint&nbsp; Rating: not rated</sub>](https://ctftime.org/writeup/41143) | CTFtime | OSINT |  | CTFtime |
