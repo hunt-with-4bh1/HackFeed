@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "updated_at": "2026-11-22T22:29:20.899061+00:00",
-  "total": 938,
+  "updated_at": "2026-11-23T03:44:37.978388+00:00",
+  "total": 951,
   "items": [
     {
       "id": "0d2765f5f0cc0b873851a2c8f64ccff379b7aa3684f61b9ab8cd1805a493b5cf",
@@ -1279,7 +1279,10 @@
       ],
       "summary": "Tags: ctf, pwn, exploitation, exploit, binaryexploitation, writeup",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "Based on the provided title and feed excerpt, the UIUCTF 2026 \"Firefly: Complete Combustion\" writeup covers a binary exploitation (pwn) challenge. Further technical details are not mentioned in the excerpt.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "7cd1b3884bc40b5a19c92b0250100efd22b128a61aba2695a7f2827938fa24b9",
@@ -1415,7 +1418,10 @@
       "tags": [],
       "summary": "Tags:",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "The provided text for the \"KubSTU CTF — Bday party\" writeup on CTFtime lists the category as uncategorized and contains no descriptive excerpt, so technical details are unavailable.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "ba82d3535599693269096fe9c9f4bafbae38f10806aba8ac9c25480c75888ab1",
@@ -1432,7 +1438,10 @@
       "tags": [],
       "summary": "Tags:",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "The provided excerpt for the KubSTU CTF writeup titled \"[Bounty] The Eyes of the Ranger\" contains no descriptive text or tags, so technical details are currently unavailable.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "64b5c67920228fd5aa66d060bcba706d40526a06e6fc4b7a4309ee4884e501fa",
@@ -1449,7 +1458,10 @@
       "tags": [],
       "summary": "Tags:",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "The KubSTU CTF writeup titled \"WEB-3 Casino\" is categorized as UNCATEGORIZED on CTFtime. The provided feed excerpt lacks additional technical details or descriptive information about the event.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "b407d5497860d9c51918b03a822280329f3dcacddbe5811ac638483e3226903c",
@@ -1466,7 +1478,10 @@
       "tags": [],
       "summary": "Tags:",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "The KubSTU CTF writeup titled \"Ouroboros\" on CTFtime is listed under the uncategorized category, though further technical details are limited as the feed excerpt contains no tags or description.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "04d061400d184d7d94a8101dbd46541545707311da5360edb29084f144eac928",
@@ -1483,7 +1498,10 @@
       "tags": [],
       "summary": "Tags:",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This CTFtime writeup listing is titled \"KubSTU CTF — RISC-V\" and is categorized as uncategorized. Because the feed excerpt contains no text or tags beyond the category label, further technical details are not available.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "7e6bfd0009e0b3476334258444f7b33d357069a09f7de352a6080c2405b6f25b",
@@ -1500,7 +1518,10 @@
       "tags": [],
       "summary": "[click on title to read] URL: https://ctftime.org/writeup/41129 Rating: not rated",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This CTFtime writeup listing is for the \"KubSTU CTF [STEGO] Subway 2 team mpei_larpers\" writeup in the uncategorized category. The provided excerpt does not contain any technical details about the solution.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "f0cdd0e1214675e4374475347876435b7dbc876e06c9d79a9807addadddf3122",
@@ -1517,7 +1538,10 @@
       "tags": [],
       "summary": "[click on title to read] URL: https://ctftime.org/writeup/41130 Rating: not rated",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This CTFtime writeup listing is titled \"KubSTU CTF madk1dify team mpei_larpers\" and falls under the \"Uncategorized\" category. The provided excerpt does not contain any technical details or a summary of the writeup's content.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "f4237bc2503489335a677647865cb3e57f97b91d235e1253520ab77370bc9e0e",
@@ -4787,6 +4811,73 @@
       "metadata_checked": true
     },
     {
+      "id": "cfa323c5a5175adb0345da573776911697052e1e17c8467bfc929590ac599edf",
+      "title": "Running a national CTF on AWS: $515 of usage, $335 paid, and the bill line by line",
+      "url": "https://dev.to/hi3ris/running-a-national-ctf-on-aws-515-of-usage-335-paid-and-the-bill-line-by-line-1m4f",
+      "source": "DEV.to · CTF",
+      "source_id": "devto-ctf",
+      "platform": "DEV.to",
+      "type": "ctf_writeup",
+      "category": "NETWORK",
+      "author": "h13ris",
+      "published_at": "Mon, 23 Nov 2026 03:21:07 +0000",
+      "discovered_at": "2026-11-23T03:44:08.885637+00:00",
+      "tags": [
+        "aws",
+        "cloud",
+        "ctf",
+        "devops"
+      ],
+      "summary": "When you plan the infrastructure for a CTF, you worry about the event: the launch rush, the scoreboard at 3 a.m., player containers spawned on demand by people who are actively trying to break them. Then the bill arrives, and the biggest line has little to do with the event itself. This article is the bill of a national CTF, line by line, with the architecture that produced it. All figures come from AWS Cost Explorer as of 21 November 2026, in USD before tax. They cover cloud hosting only: not the venue, not the prizes, not anyone's time. Context: NCTF26 in three lines NCTF26 is the 4th edition of the National CTF of Togo, organized by CERT.tg. I was the technical lead. It ran in two phases: a 29-hour online qualifier (6 Nov 19:00 → 7 Nov 23:59 UTC, more than 350 registered players, 60 tea",
+      "priority": 75,
+      "metadata_checked": true
+    },
+    {
+      "id": "848b64f66d723b96b1e11fa5afde5bab02f0497d956c97d772850fee9b01d242",
+      "title": "EyesOpensCTF WRITE UP : The Impossible Street (CLOUD)",
+      "url": "https://medium.com/@meloproacc/eyesopensctf-write-up-the-impossible-street-cloud-3a2c8df06b41?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "platform": "Medium",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "Meloproacc",
+      "published_at": "Mon, 23 Nov 2026 01:42:36 GMT",
+      "discovered_at": "2026-11-23T03:44:08.634301+00:00",
+      "tags": [
+        "cloud",
+        "ctf",
+        "ctf-writeup",
+        "cybersecurity"
+      ],
+      "summary": "Challenge Name: The Impossible Street Continue reading on Medium »",
+      "priority": 75,
+      "metadata_checked": true
+    },
+    {
+      "id": "196dd3abcfa65a84ff0399eccd6a5bf34e6d9490bade6c0ddf4d2e4768f15217",
+      "title": "Management — HTB Write-up",
+      "url": "https://medium.com/@yossefmohamedsalah2001/management-htb-write-up-8e0ba469c179?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "platform": "Medium",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "Y0s_0x_IBM",
+      "published_at": "Mon, 23 Nov 2026 00:27:52 GMT",
+      "discovered_at": "2026-11-23T03:44:08.636146+00:00",
+      "tags": [
+        "capture-the-flag",
+        "ctf",
+        "ctf-writeup",
+        "hacker",
+        "hackthebox"
+      ],
+      "summary": "&#x62a;&#x648;&#x643;&#x644;&#x646;&#x627; &#x639;&#x644;&#x649; &#x648;&#x644;&#x627; &#x62d;&#x648;&#x644; &#x648;&#x644;&#x627; &#x642;&#x648;&#x647; &#x627;&#x644;&#x627; &#x628;&#x627;&#x644;&#x644;&#x647; Continue reading on Medium »",
+      "priority": 75,
+      "metadata_checked": true
+    },
+    {
       "id": "16be8ef0d7c080e3f4d16b729fec27d1f0e2788786bfad7e14d79433c979f545",
       "title": "How an AI agent swarm solved 25 CTF challenges in 24 hours (and what it means for security testing)",
       "url": "https://dev.to/croxsec/how-an-ai-agent-swarm-solved-25-ctf-challenges-in-24-hours-and-what-it-means-for-security-testing-3odc",
@@ -5007,6 +5098,208 @@
       "metadata_checked": true
     },
     {
+      "id": "75955fbf42405e9cbd41577624fa029d92b5770d14fee8714f9b7ee30d4bc4b8",
+      "title": "h2-r6/AHAU-ctf-writeup",
+      "url": "https://github.com/h2-r6/AHAU-ctf-writeup",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "h2-r6",
+      "published_at": "2026-11-23T03:15:55Z",
+      "discovered_at": "2026-11-23T03:44:12.314297+00:00",
+      "tags": [
+        "ctf",
+        "ctf-writeups",
+        "cybersecurity",
+        "github",
+        "pentesting",
+        "web-security",
+        "writeup"
+      ],
+      "summary": "🏆 1er lugar · Writeups del Kernel CTF (AHAU Team) — Network & Web",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "809e5c77a834e4e7ae7ecad89d77c3ae927697b1a841b140273a897f308f854e",
+      "title": "gege-circle/.github",
+      "url": "https://github.com/gege-circle/.github",
+      "source": "GitHub · AI Security",
+      "source_id": "github-search",
+      "platform": "AI Security",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "gege-circle",
+      "published_at": "2026-11-23T03:01:38Z",
+      "discovered_at": "2026-11-21T20:39:51.890420+00:00",
+      "tags": [
+        "a-soul",
+        "acfun",
+        "bilibili",
+        "china",
+        "ctf",
+        "gege-circle",
+        "github",
+        "message-board",
+        "vtuber",
+        "vup"
+      ],
+      "summary": "这里是GitHub的草场，也是戈戈圈爱好者的交流地，主要讨论动漫、游戏、科技、人文、生活等所有话题，欢迎各位小伙伴们在此讨论趣事。This is GitHub grassland, and the community place for Gege circle lovers, mainly discusses anime, games, technology, lifing and other topics. You are welcome to share interest things here. 缺氧修改器 捏脸 反光板 MySQL数据库 玉米杂草数据集 销售系统开发 疫情期间网民情绪识别比赛 996icu 预测结果导出 赖伟林刺杀小说家 购物商场 英语词汇量小程序 联级选择器Bitcoin区块链 技术面试必备基础知识 Leetcode 计算机操作系统 计算机网络 系统设计 Java学习 面试指南 一份涵盖大部分 Java 程序员所需要掌握的核心知识 准备 Java 面试 首选 JavaGuide Python 1 天从新手到大师刷算法全靠套路 认准 labuladong 就够了 免费的计算机编程类中文书籍 欢迎投稿用动画的形式呈现解LeetCode题目的思路 互联网 Java 工程师进阶知识完全扫盲 涵盖高并发 分布式 高可用 微服务 海量数据处理等领域知识后端架构师技术图谱mall项目是一套电商系统 包括前台商城系统及后台管理系统 基于SpringBoot MyBatis实现 采用Docker容器化部署 前台商城系统包含首页门户 商品推荐 商品搜索 商品展示 购物车 订单流程 会员中心 客户服务 帮助中心等模块 后台管理系统包含商品管理 订单管理 会员管理 促销管理 运营管理 内容管理 统计报表 财务管理 权限管理 设置等模块 微信小程序开发资源汇总 最全中华古诗",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "f3331da34eeda367772ba1b1f92579e09aa1d3e524a75f26d6933e1b9de6ac10",
+      "title": "ygormendesx/Writeups-CTF2026",
+      "url": "https://github.com/ygormendesx/Writeups-CTF2026",
+      "source": "GitHub · Web Exploitation",
+      "source_id": "github-search",
+      "platform": "Web Exploitation",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "ygormendesx",
+      "published_at": "2026-11-23T01:54:48Z",
+      "discovered_at": "2026-11-21T20:39:20.072045+00:00",
+      "tags": [
+        "cryptography",
+        "ctf",
+        "ctf-challenges",
+        "ctf-writeups",
+        "exploit-development",
+        "github",
+        "offensive-security",
+        "pwn",
+        "reverse-engineered",
+        "security-research",
+        "web-exploitation"
+      ],
+      "summary": "CTF writeups across Web, Pwn, Crypto, Reverse Engineering, Blockchain, Forensics, OSINT, and more. A growing collection of technical analyses and exploits.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "1aea11129899cb51c68584ecdf713294edd520945c101ef30e0cdeea64785439",
+      "title": "Putta03/tryhackme-dfir-intro-writeup",
+      "url": "https://github.com/Putta03/tryhackme-dfir-intro-writeup",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "Putta03",
+      "published_at": "2026-11-23T01:43:09Z",
+      "discovered_at": "2026-11-23T03:44:17.496616+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "TryHackMe DFIR: An Introduction room writeup and notes",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "ae1b6a5ce3a09c6e968d93a2cad96bfda4a35891eca0dc6c37d436bc41577a8c",
+      "title": "mentro999/ensate-ctf-writeups",
+      "url": "https://github.com/mentro999/ensate-ctf-writeups",
+      "source": "GitHub · Digital Forensics",
+      "source_id": "github-search",
+      "platform": "Digital Forensics",
+      "type": "ctf_writeup",
+      "category": "CRYPTOGRAPHY",
+      "author": "mentro999",
+      "published_at": "2026-11-22T23:43:53Z",
+      "discovered_at": "2026-11-23T03:44:28.460362+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Writeups for CTF challenges: misc, crypto, IoT, forensics, DFIR)",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "58930348cf641a0d727b0246e90e8923858f251309a8d4ed207c98e16daa97ea",
+      "title": "not2negative/cybersecurity-writeups",
+      "url": "https://github.com/not2negative/cybersecurity-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "not2negative",
+      "published_at": "2026-11-22T23:30:36Z",
+      "discovered_at": "2026-11-23T03:44:12.317184+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Technical penetration testing writeups, root-cause analyses, and remediation guides for Hack The Box & CTFs.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "d95f6df27440c9d09002e19cc56495474395147874027b86cd2686df026ca916",
+      "title": "MathiasNordZ/CTF-writeups",
+      "url": "https://github.com/MathiasNordZ/CTF-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "MathiasNordZ",
+      "published_at": "2026-11-22T23:24:04Z",
+      "discovered_at": "2026-11-23T03:44:12.317670+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Public CTF writeup repository",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "7c036e317adbf5ea74e33c2c286208a075cca0502239c5ea0b208f920fb85250",
+      "title": "cirosantilli/china-dictatorship",
+      "url": "https://github.com/cirosantilli/china-dictatorship",
+      "source": "GitHub · AI Security",
+      "source_id": "github-search",
+      "platform": "AI Security",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "cirosantilli",
+      "published_at": "2026-11-22T22:32:54Z",
+      "discovered_at": "2026-11-21T20:39:51.865550+00:00",
+      "tags": [
+        "996",
+        "censorship",
+        "censorship-circumvention",
+        "china",
+        "china-dictatorship",
+        "chinese-communist-party",
+        "covid-19",
+        "covid-19-china",
+        "ctf",
+        "dictator",
+        "dictatorship",
+        "falun-gong",
+        "gfw",
+        "github",
+        "great-firewall",
+        "human-rights",
+        "shadowsocks",
+        "socks5",
+        "tiananmen",
+        "totalitarian",
+        "xi-jinping",
+        "xinjiang"
+      ],
+      "summary": "反中共政治宣传库。Anti Chinese government propaganda. 住在中国真名用户的网友请别给星星，不然你要被警察请喝茶。常见问答集，新闻集和饭店和音乐建议。卐习万岁卐。冠状病毒审查郝海东新疆改造中心六四事件法轮功 996.ICU709大抓捕巴拿马文件邓家贵低端人口西藏骚乱。Friends who live in China and have real name on account, please don't star this repo, or else the police might pay you a visit. Home to the mega-FAQ, news compilation, restaurant and music recommendations.Heil Xi 卐. 大陆修宪香港恶法台湾武统朝鲜毁约美中冷战等都是王沪宁愚弄习思想极左命运共同体的大策划中共窃国这半个多世纪所犯下的滔天罪恶，前期是毛泽东策划的，中期6.4前后是邓小平策划的，黄牛数据分析后期是毛的极左追随者三朝罪恶元凶王沪宁策划的。王沪宁高小肆业因文革政治和情报需要保送“学院外语班“红色仕途翻身，所以王的本质是极左的。他是在上海底层弄堂长大的，因其本性也促成其瘪三下三滥个性，所以也都说他有易主“变色龙”哈巴狗“的天性。大陆像王沪宁这样学马列政治所谓\"法学\"专业的人，在除朝鲜古巴所有国家特别是在文明发达国家是无法找到专业对口工作必定失业，唯独在大陆却是重用的紧缺“人才”，6.4后中共信仰大危机更是最重用的救党“人才”。这也就是像王沪宁此类工农兵假“大学生”平步青云的原因，他们最熟悉毛泽东历次运动的宫庭内斗经验手段和残酷的阶级斗争等暴力恐怖的“政治学”。王沪宁能平步青云靠他这马毛伪“政治学”资本和头衔，不是什么真才实学，能干实事有点真才实学的或许在他手下的谋士及",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "dc362d1c72f8fe0cab6cb0ad23152c0ccadc048454650c387ea5484f0e40c6ea",
       "title": "Vohkidas0x/martina-ctf-2026-writeups",
       "url": "https://github.com/Vohkidas0x/martina-ctf-2026-writeups",
@@ -5168,46 +5461,6 @@
         "writeups"
       ],
       "summary": "Chronological portfolio of TryHackMe rooms across offensive security, blue team, DFIR, malware analysis and security operations: enumeration output, exploit scripts, decoded artefacts and writeups. All credentials and keys are ephemeral lab data.",
-      "priority": 70,
-      "metadata_checked": true
-    },
-    {
-      "id": "7c036e317adbf5ea74e33c2c286208a075cca0502239c5ea0b208f920fb85250",
-      "title": "cirosantilli/china-dictatorship",
-      "url": "https://github.com/cirosantilli/china-dictatorship",
-      "source": "GitHub · AI Security",
-      "source_id": "github-search",
-      "platform": "AI Security",
-      "type": "ctf_writeup",
-      "category": "WEB-EXPLOITATION",
-      "author": "cirosantilli",
-      "published_at": "2026-11-22T15:55:18Z",
-      "discovered_at": "2026-11-21T20:39:51.865550+00:00",
-      "tags": [
-        "996",
-        "censorship",
-        "censorship-circumvention",
-        "china",
-        "china-dictatorship",
-        "chinese-communist-party",
-        "covid-19",
-        "covid-19-china",
-        "ctf",
-        "dictator",
-        "dictatorship",
-        "falun-gong",
-        "gfw",
-        "github",
-        "great-firewall",
-        "human-rights",
-        "shadowsocks",
-        "socks5",
-        "tiananmen",
-        "totalitarian",
-        "xi-jinping",
-        "xinjiang"
-      ],
-      "summary": "反中共政治宣传库。Anti Chinese government propaganda. 住在中国真名用户的网友请别给星星，不然你要被警察请喝茶。常见问答集，新闻集和饭店和音乐建议。卐习万岁卐。冠状病毒审查郝海东新疆改造中心六四事件法轮功 996.ICU709大抓捕巴拿马文件邓家贵低端人口西藏骚乱。Friends who live in China and have real name on account, please don't star this repo, or else the police might pay you a visit. Home to the mega-FAQ, news compilation, restaurant and music recommendations.Heil Xi 卐. 大陆修宪香港恶法台湾武统朝鲜毁约美中冷战等都是王沪宁愚弄习思想极左命运共同体的大策划中共窃国这半个多世纪所犯下的滔天罪恶，前期是毛泽东策划的，中期6.4前后是邓小平策划的，黄牛数据分析后期是毛的极左追随者三朝罪恶元凶王沪宁策划的。王沪宁高小肆业因文革政治和情报需要保送“学院外语班“红色仕途翻身，所以王的本质是极左的。他是在上海底层弄堂长大的，因其本性也促成其瘪三下三滥个性，所以也都说他有易主“变色龙”哈巴狗“的天性。大陆像王沪宁这样学马列政治所谓\"法学\"专业的人，在除朝鲜古巴所有国家特别是在文明发达国家是无法找到专业对口工作必定失业，唯独在大陆却是重用的紧缺“人才”，6.4后中共信仰大危机更是最重用的救党“人才”。这也就是像王沪宁此类工农兵假“大学生”平步青云的原因，他们最熟悉毛泽东历次运动的宫庭内斗经验手段和残酷的阶级斗争等暴力恐怖的“政治学”。王沪宁能平步青云靠他这马毛伪“政治学”资本和头衔，不是什么真才实学，能干实事有点真才实学的或许在他手下的谋士及",
       "priority": 70,
       "metadata_checked": true
     },
@@ -5391,34 +5644,6 @@
         "github"
       ],
       "summary": "CTF writeup tiếng Việt.",
-      "priority": 70,
-      "metadata_checked": true
-    },
-    {
-      "id": "809e5c77a834e4e7ae7ecad89d77c3ae927697b1a841b140273a897f308f854e",
-      "title": "gege-circle/.github",
-      "url": "https://github.com/gege-circle/.github",
-      "source": "GitHub · AI Security",
-      "source_id": "github-search",
-      "platform": "AI Security",
-      "type": "ctf_writeup",
-      "category": "WEB-EXPLOITATION",
-      "author": "gege-circle",
-      "published_at": "2026-11-22T10:08:16Z",
-      "discovered_at": "2026-11-21T20:39:51.890420+00:00",
-      "tags": [
-        "a-soul",
-        "acfun",
-        "bilibili",
-        "china",
-        "ctf",
-        "gege-circle",
-        "github",
-        "message-board",
-        "vtuber",
-        "vup"
-      ],
-      "summary": "这里是GitHub的草场，也是戈戈圈爱好者的交流地，主要讨论动漫、游戏、科技、人文、生活等所有话题，欢迎各位小伙伴们在此讨论趣事。This is GitHub grassland, and the community place for Gege circle lovers, mainly discusses anime, games, technology, lifing and other topics. You are welcome to share interest things here. 缺氧修改器 捏脸 反光板 MySQL数据库 玉米杂草数据集 销售系统开发 疫情期间网民情绪识别比赛 996icu 预测结果导出 赖伟林刺杀小说家 购物商场 英语词汇量小程序 联级选择器Bitcoin区块链 技术面试必备基础知识 Leetcode 计算机操作系统 计算机网络 系统设计 Java学习 面试指南 一份涵盖大部分 Java 程序员所需要掌握的核心知识 准备 Java 面试 首选 JavaGuide Python 1 天从新手到大师刷算法全靠套路 认准 labuladong 就够了 免费的计算机编程类中文书籍 欢迎投稿用动画的形式呈现解LeetCode题目的思路 互联网 Java 工程师进阶知识完全扫盲 涵盖高并发 分布式 高可用 微服务 海量数据处理等领域知识后端架构师技术图谱mall项目是一套电商系统 包括前台商城系统及后台管理系统 基于SpringBoot MyBatis实现 采用Docker容器化部署 前台商城系统包含首页门户 商品推荐 商品搜索 商品展示 购物车 订单流程 会员中心 客户服务 帮助中心等模块 后台管理系统包含商品管理 订单管理 会员管理 促销管理 运营管理 内容管理 统计报表 财务管理 权限管理 设置等模块 微信小程序开发资源汇总 最全中华古诗",
       "priority": 70,
       "metadata_checked": true
     },
@@ -6213,9 +6438,9 @@
       "id": "2aa30c8c2732adff64f231fe62cfc0fc426c44946e3a682bf70f6c98836a9f6c",
       "title": "faresturkigarayoussef/ctf-writeups-manager",
       "url": "https://github.com/faresturkigarayoussef/ctf-writeups-manager",
-      "source": "GitHub · CTF writeups",
+      "source": "GitHub · CTF writeup",
       "source_id": "github-search",
-      "platform": "CTF writeups",
+      "platform": "CTF writeup",
       "type": "ctf_writeup",
       "category": "UNCATEGORIZED",
       "author": "faresturkigarayoussef",
@@ -7473,6 +7698,26 @@
       "metadata_checked": true
     },
     {
+      "id": "5786ba647b3ff466116e04977b79a011fbe5e42b29f2492a03a0f502ce74958b",
+      "title": "b6star/ctf-writeups",
+      "url": "https://github.com/b6star/ctf-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "b6star",
+      "published_at": "2026-11-17T01:39:29Z",
+      "discovered_at": "2026-11-23T03:44:12.316589+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Public CTF writeup repository",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "6cd83be938d23ff5524eaba61eac4bb45e757bdfad602f0bb58720b3812e4f5a",
       "title": "Makis6/CTF-Writeups",
       "url": "https://github.com/Makis6/CTF-Writeups",
@@ -7513,26 +7758,6 @@
         "writeups"
       ],
       "summary": "Writeups for CSAW CTF 2026 Finals - 26 challenges across web, crypto, rev, jail, forensics, misc and OSINT",
-      "priority": 70,
-      "metadata_checked": true
-    },
-    {
-      "id": "f3331da34eeda367772ba1b1f92579e09aa1d3e524a75f26d6933e1b9de6ac10",
-      "title": "ygormendesx/Writeups-CTF2026",
-      "url": "https://github.com/ygormendesx/Writeups-CTF2026",
-      "source": "GitHub · Web Exploitation",
-      "source_id": "github-search",
-      "platform": "Web Exploitation",
-      "type": "ctf_writeup",
-      "category": "WEB-EXPLOITATION",
-      "author": "ygormendesx",
-      "published_at": "2026-11-16T20:15:22Z",
-      "discovered_at": "2026-11-21T20:39:20.072045+00:00",
-      "tags": [
-        "ctf",
-        "github"
-      ],
-      "summary": "CTF writeups covering Web, Pwn, Reverse Engineering, Cryptography, Blockchain, Forensics, OSINT, and more. Exploits, technical analysis, and offensive security research.",
       "priority": 70,
       "metadata_checked": true
     },
@@ -7847,6 +8072,26 @@
         "github"
       ],
       "summary": "Hands-on lab writeups from my TryHackMe Pre Security (SEC0) and Cyber Security 101 (SEC1) paths — Linux, Windows & Active Directory, networking, and defensive security.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "05b46a471642eb463330ba5bbbe66262d6938df4f104e5e02bca82a7f7265fff",
+      "title": "matw0/CTFs",
+      "url": "https://github.com/matw0/CTFs",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "matw0",
+      "published_at": "2026-11-13T22:24:48Z",
+      "discovered_at": "2026-11-23T03:44:12.318591+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "CTF Writeups from past competitions, explaining my approach and methodologies to certain challenges across different types of challenges.",
       "priority": 70,
       "metadata_checked": true
     },
@@ -8873,9 +9118,9 @@
       "id": "205348265f77a9e9f9253cf9fe6a8535b36b36a2c8f069c71c808116b31f8901",
       "title": "ezlx1/CTF_Writeups",
       "url": "https://github.com/ezlx1/CTF_Writeups",
-      "source": "GitHub · CTF writeup",
+      "source": "GitHub · CTF writeups",
       "source_id": "github-search",
-      "platform": "CTF writeup",
+      "platform": "CTF writeups",
       "type": "ctf_writeup",
       "category": "UNCATEGORIZED",
       "author": "ezlx1",
@@ -12518,9 +12763,9 @@
       "id": "5e0a92ef874e51f623f5afe13769c5b10cb632106ba7801c3c563700de131c75",
       "title": "hax1ng/null-origin-ctf-2026",
       "url": "https://github.com/hax1ng/null-origin-ctf-2026",
-      "source": "GitHub · Digital Forensics",
+      "source": "GitHub · OSINT",
       "source_id": "github-search",
-      "platform": "Digital Forensics",
+      "platform": "OSINT",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "hax1ng",
@@ -14826,6 +15071,26 @@
       "metadata_checked": true
     },
     {
+      "id": "5e2f9bab67d127c9ccfca6480e3cf7c4b40164ef4127e16ddc17eec997ede6cb",
+      "title": "JustinApplebury/Cyber-Security-Portfolio",
+      "url": "https://github.com/JustinApplebury/Cyber-Security-Portfolio",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "JustinApplebury",
+      "published_at": "2026-07-19T05:39:51Z",
+      "discovered_at": "2026-11-23T03:44:12.314827+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "A collection of my cybersecurity writeups, from CTFs, exercises and labs.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "52791a230f1a987cb5d45e924c577cdd9774fb03a8b8d9040c134e66b972e868",
       "title": "shwetakanth09/ctf-writeups",
       "url": "https://github.com/shwetakanth09/ctf-writeups",
@@ -15329,6 +15594,28 @@
       "metadata_checked": true
     },
     {
+      "id": "1fb2509b8408c080418dc98a0d3943b31a72c364c28e4bcc2ada681bae70fcce",
+      "title": "Calana2/CTF_Writeups",
+      "url": "https://github.com/Calana2/CTF_Writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "Calana2",
+      "published_at": "2026-06-14T17:09:50Z",
+      "discovered_at": "2026-11-23T03:44:12.315291+00:00",
+      "tags": [
+        "ctf",
+        "ctf-challenges",
+        "ctf-writeups",
+        "github"
+      ],
+      "summary": "WriteUps de competiciones de ciberseguridad",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "fcad4c74ac2970221b8b93848addeb08c5f16e3a6975ddf42f523519a5c93bb8",
       "title": "Haemanthvj/CTF-Writeups",
       "url": "https://github.com/Haemanthvj/CTF-Writeups",
@@ -15593,6 +15880,26 @@
         "github"
       ],
       "summary": "To track my writeups for sites like Project Euler and CTFlearn or CTF contests.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "053a4bdba8ec7c69d9ee8f6f5ebcd2595814239fdf6d85487f236bdb999a37ea",
+      "title": "rgyu-gao/rgyu-gao-CTF-Writeups",
+      "url": "https://github.com/rgyu-gao/rgyu-gao-CTF-Writeups",
+      "source": "GitHub · Cryptography",
+      "source_id": "github-search",
+      "platform": "Cryptography",
+      "type": "ctf_writeup",
+      "category": "CRYPTOGRAPHY",
+      "author": "rgyu-gao",
+      "published_at": "2026-05-12T15:48:12Z",
+      "discovered_at": "2026-11-23T03:44:26.077014+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Writeups, codes, and logic for CTF competitions. Focus: Cryptography, Binary Exploitation, and C-implementation.",
       "priority": 70,
       "metadata_checked": true
     },
@@ -20388,7 +20695,7 @@
     "rss_entries": 201,
     "github_repositories": 653,
     "social_links": 0,
-    "new_entries": 47,
+    "new_entries": 22,
     "failures": [
       {
         "source": "X/Twitter",
