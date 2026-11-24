@@ -2,6 +2,7 @@
 
 | Date | CTF / Challenge / Repository | Platform | Category | Author / Team | Source |
 |---|---|---|---|---|---|
+| 2026-11-23T03:15 | [h2-r6/AHAU-ctf-writeup<br><sub>🏆 1er lugar · Writeups del Kernel CTF (AHAU Team) — Network & Web</sub>](https://github.com/h2-r6/AHAU-ctf-writeup) | CTF writeups | WEB-EXPLOITATION | h2-r6 | GitHub · CTF writeups |
 | 2026-11-22T07:12 | [prompiriyag/CTF-Writeups<br><sub>Public CTF writeup repository</sub>](https://github.com/prompiriyag/CTF-Writeups) | CTF writeups | UNCATEGORIZED | prompiriyag | GitHub · CTF writeups |
 | 2026-11-21T16:08 | [ffdasw-0/ctf-writeups<br><sub>集合自己的ctf比赛的题解</sub>](https://github.com/ffdasw-0/ctf-writeups) | CTF writeups | UNCATEGORIZED | ffdasw-0 | GitHub · CTF writeups |
 | 2026-11-21T15:57 | [1ndraabot/cyber-frontier-2026-wu<br><sub>WriteUp CTF Cyber Frontier Semarang 2026 - Semarang Siber Sentinel</sub>](https://github.com/1ndraabot/cyber-frontier-2026-wu) | CTF writeups | UNCATEGORIZED | 1ndraabot | GitHub · CTF writeups |

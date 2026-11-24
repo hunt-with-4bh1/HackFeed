@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "updated_at": "2026-11-23T14:43:14.995181+00:00",
-  "total": 977,
+  "updated_at": "2026-11-24T02:15:35.782444+00:00",
+  "total": 1025,
   "items": [
     {
       "id": "0d2765f5f0cc0b873851a2c8f64ccff379b7aa3684f61b9ab8cd1805a493b5cf",
@@ -1558,8 +1558,7 @@
       "priority": 100,
       "metadata_checked": true,
       "ai_summary": "This CTFtime listing provides a writeup titled \"KubSTU CTF [Beginner] Clearline team mpei_larpers\" categorized under uncategorized, with no further technical details provided in the excerpt.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "5000bac5b332c4ed4ff46a8b4fdd5e67392a33f9af049374861d854ef2a46864",
@@ -1578,8 +1577,7 @@
       "priority": 100,
       "metadata_checked": true,
       "ai_summary": "A writeup titled \"KubSTU CTF [Beginner] Gridlock team mpei_larpers\" has been posted on CTFtime under the uncategorized category. The provided excerpt does not contain any technical details about the solution.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "9a1b1c7b16fb46828203368d2c5de314d9e120487b3aa42c8a3b784cb08ff1c0",
@@ -1598,8 +1596,7 @@
       "priority": 100,
       "metadata_checked": true,
       "ai_summary": "The provided text for the KubSTU CTF [Beginner] Honeyleaf team mpei_ larpers writeup on CTFtime lacks a descriptive excerpt, providing only the title, URL, and an unrated status. Therefore, specific technical details about the writeup are limited.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "aeb107618ca1bda5beaef2adf2c6757f3f07c00d4cbea8a28f8b47e4ac718f32",
@@ -1618,8 +1615,7 @@
       "priority": 100,
       "metadata_checked": true,
       "ai_summary": "Based on the provided information, there are no technical details available in the excerpt to summarize other than it being a writeup for KubSTU CTF [Beginner] by the team mpei_larpers, published on CTFtime in the uncategorized category.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "219846f9fbd00b679a1d3bca753560c8b58ec594bb5504dd837b3d00b08de81c",
@@ -1638,8 +1634,7 @@
       "priority": 100,
       "metadata_checked": true,
       "ai_summary": "The provided feed excerpt contains no technical details about the \"KubSTU CTF [Beginner] Mobile Waf 2 team mpei_larpers\" writeup beyond its title and a link to the CTFtime page.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "816e6d4222e4f50fa56c29a62e23cc4023b3f12f77d7edbff16e3e0ce529b248",
@@ -1656,7 +1651,10 @@
       "tags": [],
       "summary": "[click on title to read] URL: https://ctftime.org/writeup/41136 Rating: not rated",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "The provided feed excerpt for the KubSTU CTF HellDriver team GR3B0M4 writeup on CTFtime contains no technical details or summary information.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "aff294e7a5b1ac37721c111f0bec22c59f3b60ad98159e5a431806f665ea700d",
@@ -1675,8 +1673,7 @@
       "priority": 100,
       "metadata_checked": true,
       "ai_summary": "Based on the provided information, the CTFtime writeup titled  \"JerseyCTF VI Fix Your Ship team NYUSEC\" covers a digital forensics challenge involving file repair, hex editing, magic bytes, and various file formats such as JPEG, MP4, and PNG.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "21ec373604e7ec1fa22222383a755a79f860a471216fbbd616160f861af972b4",
@@ -1695,8 +1692,7 @@
       "priority": 100,
       "metadata_checked": true,
       "ai_summary": "This CTFtime writeup listing for \"JerseyCTF VI Recovered Signal File team NYUSEC\" falls under the digital forensics category. The excerpt indicates the article covers topics including a Caesar cipher, Base64, and forensics, but provides no further technical details.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "71275f9c608b29264d6a8051c7102e95ea617df318305571add13dc502f52d7c",
@@ -1713,7 +1709,10 @@
       "tags": [],
       "summary": "[click on title to read] URL: https://ctftime.org/writeup/41139 Topics: http,&nbsp;base64,&nbsp;pcap,&nbsp;wireshark,&nbsp;forensics&nbsp; Rating: not rated Original writeup",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This CTFtime writeup listing for the team NYUSEC covers the \"qaStaH nuq\" challenge from JerseyCTF VI. Based on the provided excerpt, the writeup relates to the digital forensics category and involves topics such as HTTP, base64, PCAP, and Wireshark.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "8f5de4d8f77f5d757ed37062b8ae07067b661f8722060d65036a2413ca3c7c8a",
@@ -1730,7 +1729,10 @@
       "tags": [],
       "summary": "[click on title to read] URL: https://ctftime.org/writeup/41140 Topics: gcd,&nbsp;cryptography,&nbsp;rsa&nbsp; Rating: 5.0 Original writeup",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This CTFtime writeup listing for JerseyCTF VI Relay Artifact TX-7 by team NYUSEC covers a cryptography challenge involving RSA and gcd. Specific technical details beyond the listed topics are not provided in the excerpt.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "c22e4d8b32ed5781c4077bd3704861952a83e81d47ebbf459e89641850756acd",
@@ -1747,7 +1749,10 @@
       "tags": [],
       "summary": "[click on title to read] URL: https://ctftime.org/writeup/41141 Rating: 1.0",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "The provided feed excerpt contains no technical details about the \"L3akCTF 2026 Relizane is Down! team Cyber Pullingo\" writeup on CTFtime.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "16866be06e2cde08d3d423393fe51e983305bb1b0d0b34b1572c10b2af7de4dd",
@@ -1781,7 +1786,10 @@
       "tags": [],
       "summary": "[click on title to read] URL: https://ctftime.org/writeup/41143 Topics: osint&nbsp; Rating: not rated",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This is a CTFtime writeup listing titled \"PINK+ CTF 2026 Cyber team VG Team\" for an OSINT category challenge. The provided excerpt does not contain further technical details about the solution.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "0a85bf5c96af6a350ce86013c29c339175c2bfbc5cf76590aba57eff75bc3611",
@@ -1798,7 +1806,10 @@
       "tags": [],
       "summary": "[click on title to read] URL: https://ctftime.org/writeup/41144 Topics: osint,&nbsp;geoint&nbsp; Rating: not rated",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "The article titled \"PINK+ CTF 2026 ? team VG Team\" is a CTFtime writeup in the OSINT category, focusing on topics such as osint and geoint. Further technical details are not provided in the excerpt.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "9b01f0e62617031775ff6e743cb82da829f6d30f85e1154c96a774585984a1bc",
@@ -1815,7 +1826,10 @@
       "tags": [],
       "summary": "[click on title to read] URL: https://ctftime.org/writeup/41145 Topics: geoint,&nbsp;osint&nbsp; Rating: not rated",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This CTFtime writeup listing for the \"PINK+ CTF 2026 Big Mountains team VG Team\" covers the OSINT and geoint categories. Further technical details are limited as the provided excerpt contains no additional information.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "8feb480063ec0355e25abb98fb91665b155f8a88274cb5357866aede7c113673",
@@ -4197,6 +4211,570 @@
       "metadata_checked": true
     },
     {
+      "id": "55a4856e6fcb25be7a101d2fb4b44409c70843ccc9ffc99860f6952f4b0951a2",
+      "title": "Security Assessment: BlackField (Hack The Box) — Penetration Testing Report",
+      "url": "https://dev.to/araizcorp/security-assessment-blackfield-hack-the-box-penetration-testing-report-4o89",
+      "source": "DEV.to · Hack The Box",
+      "source_id": "devto-htb",
+      "platform": "Hack The Box",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "AraizCorp",
+      "published_at": "Mon, 23 Nov 2026 22:13:01 +0000",
+      "discovered_at": "2026-11-24T02:14:47.839592+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "hackthebox",
+        "htb",
+        "infosec",
+        "pentesting"
+      ],
+      "summary": "Security Assessment Report: BlackField Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment BlackField hosted on Hack The Box , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Public-Facing Network Service Exploitation Privilege Escalation Vector: Local Privilege Escalation Engagement Outcome: Complete Host Compromise ( Us",
+      "priority": 80,
+      "metadata_checked": true
+    },
+    {
+      "id": "64e4b2ada3490e605670c31b537d143628b4ed59a1b49969360b6029b9168f5e",
+      "title": "Security Assessment: BitLab (Hack The Box) — Penetration Testing Report",
+      "url": "https://dev.to/araizcorp/security-assessment-bitlab-hack-the-box-penetration-testing-report-5aja",
+      "source": "DEV.to · Hack The Box",
+      "source_id": "devto-htb",
+      "platform": "Hack The Box",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "AraizCorp",
+      "published_at": "Mon, 23 Nov 2026 22:11:41 +0000",
+      "discovered_at": "2026-11-24T02:14:47.841212+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "hackthebox",
+        "htb",
+        "infosec",
+        "pentesting"
+      ],
+      "summary": "Security Assessment Report: BitLab Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment BitLab hosted on Hack The Box , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Public-Facing Network Service Exploitation Privilege Escalation Vector: Local Privilege Escalation Engagement Outcome: Complete Host Compromise ( User Proof",
+      "priority": 80,
+      "metadata_checked": true
+    },
+    {
+      "id": "1cbdbb8cd2cfa3513746cce4af192af4d1e1a5ee4b08d2b096c5593b5cd05bfd",
+      "title": "Security Assessment: Beep (Hack The Box) — Penetration Testing Report",
+      "url": "https://dev.to/araizcorp/security-assessment-beep-hack-the-box-penetration-testing-report-fgd",
+      "source": "DEV.to · Hack The Box",
+      "source_id": "devto-htb",
+      "platform": "Hack The Box",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "AraizCorp",
+      "published_at": "Mon, 23 Nov 2026 22:05:20 +0000",
+      "discovered_at": "2026-11-24T02:14:47.842548+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "hackthebox",
+        "htb",
+        "infosec",
+        "pentesting"
+      ],
+      "summary": "Security Assessment Report: Beep Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment Beep hosted on Hack The Box , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Public-Facing Network Service Exploitation Privilege Escalation Vector: Local Privilege Escalation Engagement Outcome: Complete Host Compromise ( User Proof and",
+      "priority": 80,
+      "metadata_checked": true
+    },
+    {
+      "id": "80abad49f25129486f7026021b06c10fcc1a87d2a07340f15b1ebc44fd206416",
+      "title": "Security Assessment: Bastion (Hack The Box) — Penetration Testing Report",
+      "url": "https://dev.to/araizcorp/security-assessment-bastion-hack-the-box-penetration-testing-report-23eh",
+      "source": "DEV.to · Hack The Box",
+      "source_id": "devto-htb",
+      "platform": "Hack The Box",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "AraizCorp",
+      "published_at": "Mon, 23 Nov 2026 22:04:09 +0000",
+      "discovered_at": "2026-11-24T02:14:47.843971+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "hackthebox",
+        "htb",
+        "infosec",
+        "pentesting"
+      ],
+      "summary": "Security Assessment Report: Bastion Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment Bastion hosted on Hack The Box , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Public-Facing Network Service Exploitation Privilege Escalation Vector: Local Privilege Escalation Engagement Outcome: Complete Host Compromise ( User Pro",
+      "priority": 80,
+      "metadata_checked": true
+    },
+    {
+      "id": "80f854e7b3cb171359144cb6799098a54dded3be03cf00812d0eda93266088d8",
+      "title": "Security Assessment: Basterd (Hack The Box) — Penetration Testing Report",
+      "url": "https://dev.to/araizcorp/security-assessment-basterd-hack-the-box-penetration-testing-report-5533",
+      "source": "DEV.to · Hack The Box",
+      "source_id": "devto-htb",
+      "platform": "Hack The Box",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "AraizCorp",
+      "published_at": "Mon, 23 Nov 2026 21:57:48 +0000",
+      "discovered_at": "2026-11-24T02:14:47.845398+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "hackthebox",
+        "htb",
+        "infosec",
+        "pentesting"
+      ],
+      "summary": "Security Assessment Report: Basterd Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment Basterd hosted on Hack The Box , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Drupal 7.54 RCE (Drupalgeddon) Privilege Escalation Vector: CVE-2015-1701 Windows Kernel Exploit (APT28) Engagement Outcome: Complete Host Compromise ( Us",
+      "priority": 80,
+      "metadata_checked": true
+    },
+    {
+      "id": "0353e13e9c2cb27ad30910254a6862ede803bb0eb0bc9c43ce8069c174669104",
+      "title": "Security Assessment: Bashed (Hack The Box) — Penetration Testing Report",
+      "url": "https://dev.to/araizcorp/security-assessment-bashed-hack-the-box-penetration-testing-report-4oph",
+      "source": "DEV.to · Hack The Box",
+      "source_id": "devto-htb",
+      "platform": "Hack The Box",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "AraizCorp",
+      "published_at": "Mon, 23 Nov 2026 21:56:38 +0000",
+      "discovered_at": "2026-11-24T02:14:47.846668+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "hackthebox",
+        "htb",
+        "infosec",
+        "pentesting"
+      ],
+      "summary": "Security Assessment Report: Bashed Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment Bashed hosted on Hack The Box , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Public-Facing Network Service Exploitation Privilege Escalation Vector: Local Privilege Escalation Engagement Outcome: Complete Host Compromise ( User Proof",
+      "priority": 80,
+      "metadata_checked": true
+    },
+    {
+      "id": "447aab989d832f7db2a3eea16318da55ab6a69ff014920b390fd7e5f0d0db9d4",
+      "title": "Security Assessment: Bart (Hack The Box) — Penetration Testing Report",
+      "url": "https://dev.to/araizcorp/security-assessment-bart-hack-the-box-penetration-testing-report-clk",
+      "source": "DEV.to · Hack The Box",
+      "source_id": "devto-htb",
+      "platform": "Hack The Box",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "AraizCorp",
+      "published_at": "Mon, 23 Nov 2026 21:50:17 +0000",
+      "discovered_at": "2026-11-24T02:14:47.848166+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "hackthebox",
+        "htb",
+        "infosec",
+        "pentesting"
+      ],
+      "summary": "Security Assessment Report: Bart Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment Bart hosted on Hack The Box , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Public-Facing Network Service Exploitation Privilege Escalation Vector: Local Privilege Escalation Engagement Outcome: Complete Host Compromise ( User Proof and",
+      "priority": 80,
+      "metadata_checked": true
+    },
+    {
+      "id": "eade9ddc86de197df148bdd27046d68f168035780086457d2826c0dd9c3d5bbb",
+      "title": "Security Assessment: BankRobber (Hack The Box) — Penetration Testing Report",
+      "url": "https://dev.to/araizcorp/security-assessment-bankrobber-hack-the-box-penetration-testing-report-5487",
+      "source": "DEV.to · Hack The Box",
+      "source_id": "devto-htb",
+      "platform": "Hack The Box",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "AraizCorp",
+      "published_at": "Mon, 23 Nov 2026 21:49:06 +0000",
+      "discovered_at": "2026-11-24T02:14:47.850602+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "hackthebox",
+        "htb",
+        "infosec",
+        "pentesting"
+      ],
+      "summary": "Security Assessment Report: BankRobber Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment BankRobber hosted on Hack The Box , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Public-Facing Network Service Exploitation Privilege Escalation Vector: Local Privilege Escalation Engagement Outcome: Complete Host Compromise ( Us",
+      "priority": 80,
+      "metadata_checked": true
+    },
+    {
+      "id": "79948696345b2571b00e6b644d9596390deeb9881d6faf9951b5844ab4c557a0",
+      "title": "Security Assessment: Atom (Hack The Box) — Penetration Testing Report",
+      "url": "https://dev.to/araizcorp/security-assessment-atom-hack-the-box-penetration-testing-report-2ebi",
+      "source": "DEV.to · Hack The Box",
+      "source_id": "devto-htb",
+      "platform": "Hack The Box",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "AraizCorp",
+      "published_at": "Mon, 23 Nov 2026 21:42:45 +0000",
+      "discovered_at": "2026-11-24T02:14:47.852548+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "hackthebox",
+        "htb",
+        "infosec",
+        "pentesting"
+      ],
+      "summary": "Security Assessment Report: Atom Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment Atom hosted on Hack The Box , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Public-Facing Network Service Exploitation Privilege Escalation Vector: Local Privilege Escalation Engagement Outcome: Complete Host Compromise ( User Proof and",
+      "priority": 80,
+      "metadata_checked": true
+    },
+    {
+      "id": "a5532755195dbf4d23f56c39d72226e9edc534b0dff2fd6f5f6965405a7c8959",
+      "title": "Security Assessment: Arctic (Hack The Box) — Penetration Testing Report",
+      "url": "https://dev.to/araizcorp/security-assessment-arctic-hack-the-box-penetration-testing-report-35ln",
+      "source": "DEV.to · Hack The Box",
+      "source_id": "devto-htb",
+      "platform": "Hack The Box",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "AraizCorp",
+      "published_at": "Mon, 23 Nov 2026 21:41:34 +0000",
+      "discovered_at": "2026-11-24T02:14:47.854010+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "hackthebox",
+        "htb",
+        "infosec",
+        "pentesting"
+      ],
+      "summary": "Security Assessment Report: Arctic Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment Arctic hosted on Hack The Box , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: ColdFusion 8 Directory Traversal + Admin Panel + JSP Webshell Privilege Escalation Vector: local_exploit_suggester + Kernel Exploit (sin hotfixes) Engagemen",
+      "priority": 80,
+      "metadata_checked": true
+    },
+    {
+      "id": "64d8c8433e4ac473cf777d5bbf5d4a0b1112b0b240f441ea753afdc9808d22e5",
+      "title": "Security Assessment: Adminer (Hack The Box) — Penetration Testing Report",
+      "url": "https://dev.to/araizcorp/security-assessment-adminer-hack-the-box-penetration-testing-report-4dkg",
+      "source": "DEV.to · Hack The Box",
+      "source_id": "devto-htb",
+      "platform": "Hack The Box",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "AraizCorp",
+      "published_at": "Mon, 23 Nov 2026 21:35:12 +0000",
+      "discovered_at": "2026-11-24T02:14:47.855679+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "hackthebox",
+        "htb",
+        "infosec",
+        "pentesting"
+      ],
+      "summary": "Security Assessment Report: Adminer Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment Adminer hosted on Hack The Box , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Public-Facing Network Service Exploitation Privilege Escalation Vector: Local Privilege Escalation Engagement Outcome: Complete Host Compromise ( User Pro",
+      "priority": 80,
+      "metadata_checked": true
+    },
+    {
+      "id": "59a7f62d6a3451a934358bb2724070fece2418471f3da6073f91ce20edce19b1",
+      "title": "Security Assessment: Active (Hack The Box) — Penetration Testing Report",
+      "url": "https://dev.to/araizcorp/security-assessment-active-hack-the-box-penetration-testing-report-am0",
+      "source": "DEV.to · Hack The Box",
+      "source_id": "devto-htb",
+      "platform": "Hack The Box",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "AraizCorp",
+      "published_at": "Mon, 23 Nov 2026 21:34:01 +0000",
+      "discovered_at": "2026-11-24T02:14:47.857083+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "hackthebox",
+        "htb",
+        "infosec",
+        "pentesting"
+      ],
+      "summary": "Security Assessment Report: Active Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment Active hosted on Hack The Box , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Public-Facing Network Service Exploitation Privilege Escalation Vector: Local Privilege Escalation Engagement Outcome: Complete Host Compromise ( User Proof",
+      "priority": 80,
+      "metadata_checked": true
+    },
+    {
+      "id": "3e9ad72d40dc424a580d19b31f69036151b6ef49cf0054316417ee908a7beb63",
+      "title": "Security Assessment: You Got Mail (TryHackMe) — Penetration Testing Report",
+      "url": "https://dev.to/araizcorp/offsec-assessment-you-got-mail-tryhackme-penetration-testing-report-d6a",
+      "source": "DEV.to · TryHackMe",
+      "source_id": "devto-thm",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "AraizCorp",
+      "published_at": "Mon, 23 Nov 2026 21:13:47 +0000",
+      "discovered_at": "2026-11-24T02:14:48.070357+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "infosec",
+        "pentesting",
+        "tryhackme"
+      ],
+      "summary": "Security Assessment Report: You Got Mail Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment You Got Mail hosted on TryHackMe , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Web Application Exploitation / Default Credentials Privilege Escalation Vector: Abuse of SUID Binaries / Sudo Misconfiguration Engagement Outcome: ",
+      "priority": 80,
+      "metadata_checked": true
+    },
+    {
+      "id": "653d631554a15be3e1cd0a1a25a32e708667efc9924645eb9d4fba1f38afc74d",
+      "title": "Security Assessment: Year of the Rabbit (TryHackMe) — Penetration Testing Report",
+      "url": "https://dev.to/araizcorp/offsec-assessment-year-of-the-rabbit-tryhackme-penetration-testing-report-23ld",
+      "source": "DEV.to · TryHackMe",
+      "source_id": "devto-thm",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "AraizCorp",
+      "published_at": "Mon, 23 Nov 2026 21:12:37 +0000",
+      "discovered_at": "2026-11-24T02:14:48.071580+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "infosec",
+        "pentesting",
+        "tryhackme"
+      ],
+      "summary": "Security Assessment Report: Year of the Rabbit Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment Year of the Rabbit hosted on TryHackMe , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Web Application Exploitation / Default Credentials Privilege Escalation Vector: Abuse of SUID Binaries / Sudo Misconfiguration Engageme",
+      "priority": 80,
+      "metadata_checked": true
+    },
+    {
+      "id": "adea446c039d5cf2c76d3e558be4f0a414f2deaf5cfbff1f430c810f73d2e453",
+      "title": "Security Assessment: Wgel CTF (TryHackMe) — Penetration Testing Report",
+      "url": "https://dev.to/araizcorp/offsec-assessment-wgel-ctf-tryhackme-penetration-testing-report-57k7",
+      "source": "DEV.to · TryHackMe",
+      "source_id": "devto-thm",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "AraizCorp",
+      "published_at": "Mon, 23 Nov 2026 21:06:16 +0000",
+      "discovered_at": "2026-11-24T02:14:48.072641+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "infosec",
+        "pentesting",
+        "tryhackme"
+      ],
+      "summary": "Security Assessment Report: Wgel CTF Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment Wgel CTF hosted on TryHackMe , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Web Application Exploitation / Default Credentials Privilege Escalation Vector: Abuse of SUID Binaries / Sudo Misconfiguration Engagement Outcome: Complete",
+      "priority": 80,
+      "metadata_checked": true
+    },
+    {
+      "id": "2860b94478507925542c13a6b340d763135352408a98a7bf8065d7e71cdfb854",
+      "title": "Security Assessment: tomghost (TryHackMe) — Penetration Testing Report",
+      "url": "https://dev.to/araizcorp/offsec-assessment-tomghost-tryhackme-penetration-testing-report-bdp",
+      "source": "DEV.to · TryHackMe",
+      "source_id": "devto-thm",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "AraizCorp",
+      "published_at": "Mon, 23 Nov 2026 21:05:00 +0000",
+      "discovered_at": "2026-11-24T02:14:48.073848+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "infosec",
+        "pentesting",
+        "tryhackme"
+      ],
+      "summary": "Security Assessment Report: tomghost Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment tomghost hosted on TryHackMe , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Web Application Exploitation / Default Credentials Privilege Escalation Vector: Abuse of SUID Binaries / Sudo Misconfiguration Engagement Outcome: Complete",
+      "priority": 80,
+      "metadata_checked": true
+    },
+    {
+      "id": "b7bb6af7a83281c748c6efbbc87ecc3e08b2cf9626470342ca7f06d651e74d65",
+      "title": "Security Assessment: Startup (TryHackMe) — Penetration Testing Report",
+      "url": "https://dev.to/araizcorp/offsec-assessment-startup-tryhackme-penetration-testing-report-5cbi",
+      "source": "DEV.to · TryHackMe",
+      "source_id": "devto-thm",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "AraizCorp",
+      "published_at": "Mon, 23 Nov 2026 20:58:39 +0000",
+      "discovered_at": "2026-11-24T02:14:48.075088+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "infosec",
+        "pentesting",
+        "tryhackme"
+      ],
+      "summary": "Security Assessment Report: Startup Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment Startup hosted on TryHackMe , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Web Application Exploitation / Default Credentials Privilege Escalation Vector: Abuse of SUID Binaries / Sudo Misconfiguration Engagement Outcome: Complete H",
+      "priority": 80,
+      "metadata_checked": true
+    },
+    {
+      "id": "9da8c7baaee6d3c50c8935eb0d7b6184cb745ba23cc859949eb525dd2a35ff7c",
+      "title": "Security Assessment: Simple (TryHackMe) — Penetration Testing Report",
+      "url": "https://dev.to/araizcorp/offsec-assessment-simple-tryhackme-penetration-testing-report-27jd",
+      "source": "DEV.to · TryHackMe",
+      "source_id": "devto-thm",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "AraizCorp",
+      "published_at": "Mon, 23 Nov 2026 20:57:28 +0000",
+      "discovered_at": "2026-11-24T02:14:48.076188+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "infosec",
+        "pentesting",
+        "tryhackme"
+      ],
+      "summary": "Security Assessment Report: Simple Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment Simple hosted on TryHackMe , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Web Application Exploitation / Default Credentials Privilege Escalation Vector: Abuse of SUID Binaries / Sudo Misconfiguration Engagement Outcome: Complete Hos",
+      "priority": 80,
+      "metadata_checked": true
+    },
+    {
+      "id": "671527dfe984c5e4ccdd7b64f93b89ec1fbacea95bad0462c07a59d5fed0ccab",
+      "title": "Security Assessment: Silver Platter (TryHackMe) — Penetration Testing Report",
+      "url": "https://dev.to/araizcorp/offsec-assessment-silver-platter-tryhackme-penetration-testing-report-47eb",
+      "source": "DEV.to · TryHackMe",
+      "source_id": "devto-thm",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "AraizCorp",
+      "published_at": "Mon, 23 Nov 2026 20:51:07 +0000",
+      "discovered_at": "2026-11-24T02:14:48.077213+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "infosec",
+        "pentesting",
+        "tryhackme"
+      ],
+      "summary": "Security Assessment Report: Silver Platter Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment Silver Platter hosted on TryHackMe , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Web Application Exploitation / Default Credentials Privilege Escalation Vector: Abuse of SUID Binaries / Sudo Misconfiguration Engagement Outco",
+      "priority": 80,
+      "metadata_checked": true
+    },
+    {
+      "id": "d2a9bce34d69662131dbe80bf031de99ee442a7e015846129a01905d34cbea6a",
+      "title": "Security Assessment: Ollie (TryHackMe) — Penetration Testing Report",
+      "url": "https://dev.to/araizcorp/offsec-assessment-ollie-tryhackme-penetration-testing-report-94h",
+      "source": "DEV.to · TryHackMe",
+      "source_id": "devto-thm",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "AraizCorp",
+      "published_at": "Mon, 23 Nov 2026 20:49:57 +0000",
+      "discovered_at": "2026-11-24T02:14:48.077973+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "infosec",
+        "pentesting",
+        "tryhackme"
+      ],
+      "summary": "Security Assessment Report: Ollie Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment Ollie hosted on TryHackMe , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Web Application Exploitation / Default Credentials Privilege Escalation Vector: Abuse of SUID Binaries / Sudo Misconfiguration Engagement Outcome: Complete Host ",
+      "priority": 80,
+      "metadata_checked": true
+    },
+    {
+      "id": "f003cee79664e8cbb0d59ec14fd40ec90fdfb27894ff6d0029f30c88a5e460c6",
+      "title": "Security Assessment: Neighbour (TryHackMe) — Penetration Testing Report",
+      "url": "https://dev.to/araizcorp/offsec-assessment-neighbour-tryhackme-penetration-testing-report-3lnj",
+      "source": "DEV.to · TryHackMe",
+      "source_id": "devto-thm",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "AraizCorp",
+      "published_at": "Mon, 23 Nov 2026 20:43:36 +0000",
+      "discovered_at": "2026-11-24T02:14:48.078832+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "infosec",
+        "pentesting",
+        "tryhackme"
+      ],
+      "summary": "Security Assessment Report: Neighbour Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment Neighbour hosted on TryHackMe , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Web Application Exploitation / Default Credentials Privilege Escalation Vector: Abuse of SUID Binaries / Sudo Misconfiguration Engagement Outcome: Comple",
+      "priority": 80,
+      "metadata_checked": true
+    },
+    {
+      "id": "53bf8b44230b548f4b46aebd8ebc8343a181d8157cc931e415fc0910b95cf1e2",
+      "title": "Security Assessment: Lookings_Glass (TryHackMe) — Penetration Testing Report",
+      "url": "https://dev.to/araizcorp/offsec-assessment-lookingsglass-tryhackme-penetration-testing-report-jfe",
+      "source": "DEV.to · TryHackMe",
+      "source_id": "devto-thm",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "AraizCorp",
+      "published_at": "Mon, 23 Nov 2026 20:42:25 +0000",
+      "discovered_at": "2026-11-24T02:14:48.079849+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "infosec",
+        "pentesting",
+        "tryhackme"
+      ],
+      "summary": "Security Assessment Report: Lookings_Glass Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment Lookings_Glass hosted on TryHackMe , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Web Application Exploitation / Default Credentials Privilege Escalation Vector: Abuse of SUID Binaries / Sudo Misconfiguration Engagement Outco",
+      "priority": 80,
+      "metadata_checked": true
+    },
+    {
+      "id": "d159a0f565ef94400cb42e22f162cd875542cb10547a6ae1ee9481372c996904",
+      "title": "Security Assessment: Lo-Fi (TryHackMe) — Penetration Testing Report",
+      "url": "https://dev.to/araizcorp/offsec-assessment-lo-fi-tryhackme-penetration-testing-report-1pje",
+      "source": "DEV.to · TryHackMe",
+      "source_id": "devto-thm",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "AraizCorp",
+      "published_at": "Mon, 23 Nov 2026 20:36:04 +0000",
+      "discovered_at": "2026-11-24T02:14:48.080733+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "infosec",
+        "pentesting",
+        "tryhackme"
+      ],
+      "summary": "Security Assessment Report: Lo-Fi Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment Lo-Fi hosted on TryHackMe , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Web Application Exploitation / Default Credentials Privilege Escalation Vector: Abuse of SUID Binaries / Sudo Misconfiguration Engagement Outcome: Complete Host ",
+      "priority": 80,
+      "metadata_checked": true
+    },
+    {
+      "id": "2685ff303c2425794996786c53c924ac6dda1d6e25e398d8f491f765ad9c7030",
+      "title": "Security Assessment: Light (TryHackMe) — Penetration Testing Report",
+      "url": "https://dev.to/araizcorp/offsec-assessment-light-tryhackme-penetration-testing-report-101i",
+      "source": "DEV.to · TryHackMe",
+      "source_id": "devto-thm",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "AraizCorp",
+      "published_at": "Mon, 23 Nov 2026 20:34:53 +0000",
+      "discovered_at": "2026-11-24T02:14:48.081483+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "infosec",
+        "pentesting",
+        "tryhackme"
+      ],
+      "summary": "Security Assessment Report: Light Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment Light hosted on TryHackMe , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Web Application Exploitation / Default Credentials Privilege Escalation Vector: Abuse of SUID Binaries / Sudo Misconfiguration Engagement Outcome: Complete Host ",
+      "priority": 80,
+      "metadata_checked": true
+    },
+    {
       "id": "85ce2f5216120763a1b962f6c760cc065167b55abc450bad0eeba5cad67af7c3",
       "title": "CyLab Writeup: Picker II",
       "url": "https://medium.com/@sobatistacyber/cylab-writeup-picker-ii-121bfd3835fd?source=rss------picoctf-5",
@@ -4854,6 +5432,52 @@
       "metadata_checked": true
     },
     {
+      "id": "1268e3d3b5095ac03aef28af1801eff17a180685330d27b97abe8c43e7407ae0",
+      "title": "Bellingcat Challenge #116 “Rendered Rendering” : how a video game screenshot became a trip through…",
+      "url": "https://medium.com/@zetrocleirbag/bellingcat-challenge-116-rendered-rendering-how-a-video-game-screenshot-became-a-trip-through-b780a2b590e2?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "platform": "Medium",
+      "type": "ctf_writeup",
+      "category": "OSINT",
+      "author": "Zetroc Leirbag",
+      "published_at": "Mon, 23 Nov 2026 17:01:56 GMT",
+      "discovered_at": "2026-11-24T02:14:48.259735+00:00",
+      "tags": [
+        "ctf",
+        "ctf-writeup",
+        "cybersecurity",
+        "osint",
+        "osint-investigation"
+      ],
+      "summary": "From a Kingdom Come screenshot to a Czech heritage PDF: how a carriage bumper and a Google dork cracked Bellingcat Challenge #116 Continue reading on Medium »",
+      "priority": 75,
+      "metadata_checked": true
+    },
+    {
+      "id": "6e2dd996da39fd5dee886c78db2f7d1c93ed8971a4bd26248dd7697d8af3740c",
+      "title": "Siber Güvenliğe İlk Adım: OverTheWire Bandit (Level 0–14) Çözüm Raporu ve Öğrendiklerim",
+      "url": "https://medium.com/@bensuogutt/siber-g%C3%BCvenli%C4%9Fe-i%CC%87lk-ad%C4%B1m-overthewire-bandit-level-0-14-%C3%A7%C3%B6z%C3%BCm-raporu-ve-%C3%B6%C4%9Frendiklerim-008178bad63f?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "platform": "Medium",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "Bensu Öğüt",
+      "published_at": "Mon, 23 Nov 2026 16:39:21 GMT",
+      "discovered_at": "2026-11-24T02:14:48.261161+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "linux",
+        "overthewire",
+        "siber-güvenlik"
+      ],
+      "summary": "Siber g&#xfc;venlik alan&#x131;na ad&#x131;m atarken kar&#x15f;&#x131;la&#x15f;&#x131;lan ilk ger&#xe7;ek, bir terminal ekran&#x131;yla ba&#x15f; ba&#x15f;a kalmakt&#x131;r. Komut sat&#x131;r&#x131;n&#x131; &#xf6;&#x11f;renmenin en&#x2026; Continue reading on Medium »",
+      "priority": 75,
+      "metadata_checked": true
+    },
+    {
       "id": "0ef86d5c12345698767688a0a1f6f5dbb808e7a6e3be0cf4c8e515fc0443baaa",
       "title": "Ghost Render CTF Walkthrough: SQL Injection, Jinja2 SSTI and Reverse Shell (09/50)",
       "url": "https://medium.com/@deepabelvat/ghost-render-ctf-walkthrough-sql-injection-jinja2-ssti-and-reverse-shell-09-50-19f9b2910872?source=rss------ctf-5",
@@ -5185,6 +5809,502 @@
       "metadata_checked": true
     },
     {
+      "id": "33c4ef8417033f5c434beeee818df290d3e5587916aad82e6c11b8b8e599b3cc",
+      "title": "hedifandouli3-hash/ctf-writeups",
+      "url": "https://github.com/hedifandouli3-hash/ctf-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "hedifandouli3-hash",
+      "published_at": "2026-11-24T02:06:26Z",
+      "discovered_at": "2026-11-24T02:14:52.726562+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Public CTF writeup repository",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "7c036e317adbf5ea74e33c2c286208a075cca0502239c5ea0b208f920fb85250",
+      "title": "cirosantilli/china-dictatorship",
+      "url": "https://github.com/cirosantilli/china-dictatorship",
+      "source": "GitHub · AI Security",
+      "source_id": "github-search",
+      "platform": "AI Security",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "cirosantilli",
+      "published_at": "2026-11-24T02:01:50Z",
+      "discovered_at": "2026-11-21T20:39:51.865550+00:00",
+      "tags": [
+        "996",
+        "censorship",
+        "censorship-circumvention",
+        "china",
+        "china-dictatorship",
+        "chinese-communist-party",
+        "covid-19",
+        "covid-19-china",
+        "ctf",
+        "dictator",
+        "dictatorship",
+        "falun-gong",
+        "gfw",
+        "github",
+        "great-firewall",
+        "human-rights",
+        "shadowsocks",
+        "socks5",
+        "tiananmen",
+        "totalitarian",
+        "xi-jinping",
+        "xinjiang"
+      ],
+      "summary": "反中共政治宣传库。Anti Chinese government propaganda. 住在中国真名用户的网友请别给星星，不然你要被警察请喝茶。常见问答集，新闻集和饭店和音乐建议。卐习万岁卐。冠状病毒审查郝海东新疆改造中心六四事件法轮功 996.ICU709大抓捕巴拿马文件邓家贵低端人口西藏骚乱。Friends who live in China and have real name on account, please don't star this repo, or else the police might pay you a visit. Home to the mega-FAQ, news compilation, restaurant and music recommendations.Heil Xi 卐. 大陆修宪香港恶法台湾武统朝鲜毁约美中冷战等都是王沪宁愚弄习思想极左命运共同体的大策划中共窃国这半个多世纪所犯下的滔天罪恶，前期是毛泽东策划的，中期6.4前后是邓小平策划的，黄牛数据分析后期是毛的极左追随者三朝罪恶元凶王沪宁策划的。王沪宁高小肆业因文革政治和情报需要保送“学院外语班“红色仕途翻身，所以王的本质是极左的。他是在上海底层弄堂长大的，因其本性也促成其瘪三下三滥个性，所以也都说他有易主“变色龙”哈巴狗“的天性。大陆像王沪宁这样学马列政治所谓\"法学\"专业的人，在除朝鲜古巴所有国家特别是在文明发达国家是无法找到专业对口工作必定失业，唯独在大陆却是重用的紧缺“人才”，6.4后中共信仰大危机更是最重用的救党“人才”。这也就是像王沪宁此类工农兵假“大学生”平步青云的原因，他们最熟悉毛泽东历次运动的宫庭内斗经验手段和残酷的阶级斗争等暴力恐怖的“政治学”。王沪宁能平步青云靠他这马毛伪“政治学”资本和头衔，不是什么真才实学，能干实事有点真才实学的或许在他手下的谋士及",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "a58d67c6bb8a93837d1479c3891750849a300ad5db033b37272010c4ec87a116",
+      "title": "Rebellionxkid/ctf_writeups",
+      "url": "https://github.com/Rebellionxkid/ctf_writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "Rebellionxkid",
+      "published_at": "2026-11-24T01:30:39Z",
+      "discovered_at": "2026-11-24T02:14:52.721984+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Write up's for tasks from CTF's",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "395dd5e87606a917f91df4a737db45a301fbddb72c9ec10695d557a0343927d5",
+      "title": "undestined/tryhackme-writeups-unfiltered",
+      "url": "https://github.com/undestined/tryhackme-writeups-unfiltered",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "undestined",
+      "published_at": "2026-11-24T00:47:24Z",
+      "discovered_at": "2026-11-24T02:14:58.793453+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "A repository to dump whatever I understood from the tryhackme rooms I complete",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "2acc7311d20e2eb727a8384490d5de5bf61607aeaa75137c8f77cca99a700b3e",
+      "title": "loistchoumba/Writeup_Umbrella_THM",
+      "url": "https://github.com/loistchoumba/Writeup_Umbrella_THM",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "loistchoumba",
+      "published_at": "2026-11-23T23:56:02Z",
+      "discovered_at": "2026-11-24T02:14:58.793692+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Writeup de la room 'Umbrella' sur Tryhackme",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "e3cc6af8bc39976aed3939294eb6db24e6cf29a13170ead5220d99af88c347c3",
+      "title": "kadohack12/everything-for-hacking",
+      "url": "https://github.com/kadohack12/everything-for-hacking",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "DIGITAL-FORENSICS",
+      "author": "kadohack12",
+      "published_at": "2026-11-23T22:44:15Z",
+      "discovered_at": "2026-11-21T20:12:45.307002+00:00",
+      "tags": [
+        "ctf",
+        "ctf-writeups",
+        "cybersecurity",
+        "education",
+        "fcsc",
+        "french",
+        "github",
+        "hackropole",
+        "hackthebox",
+        "koth",
+        "learning",
+        "linux",
+        "network",
+        "owasp",
+        "penetration-testing",
+        "privilege-escalation",
+        "pwn",
+        "reverse-engineering",
+        "tryhackme",
+        "wireshark",
+        "writeups"
+      ],
+      "summary": "Writeups CTF en français (TryHackMe, Hackropole/FCSC, KoTH, VulnHub, PortSwigger) et 5 cours de cybersécurité (réseau & Wireshark, privesc Linux, OWASP, reverse, pwntools). Markdown, index auto, CI vérifiée, site en ligne. Contributions bienvenues.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "a2b36660d50e942da0515b145e7b9e8689679462d05299e128f4836b7488f1f6",
+      "title": "othmane01-bin/othmane01-bin.github.io",
+      "url": "https://github.com/othmane01-bin/othmane01-bin.github.io",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "othmane01-bin",
+      "published_at": "2026-11-23T22:16:00Z",
+      "discovered_at": "2026-11-22T08:00:34.178965+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "A personal collection of CTF (Capture The Flag) writeups, web security experiments, and cybersecurity insights. This site showcases detailed explanations, step-by-step approaches, and lessons learned from various challenges.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "dcf41517c95414de4a325a06bcf425271e22e3475a3ad2d66df67ea997a16251",
+      "title": "petyalol3/ctf-writeups",
+      "url": "https://github.com/petyalol3/ctf-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "petyalol3",
+      "published_at": "2026-11-23T21:51:23Z",
+      "discovered_at": "2026-11-24T02:14:52.723113+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Public CTF writeup repository",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "879756a42bbaedafa05eaf3ad6d8946b26f1312ed512e20211b335248b70b1aa",
+      "title": "iib4di3/ctf-writeups",
+      "url": "https://github.com/iib4di3/ctf-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "iib4di3",
+      "published_at": "2026-11-23T21:41:09Z",
+      "discovered_at": "2026-11-24T02:14:52.724025+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "writeups for ctfs that i solve you might find some of them interesting check them out",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "2565e5e4165f0cca7d1719ea074dcc0c28eabd1058bb3e59cf660c9cf605eb5d",
+      "title": "zNotDiamond/Writeups",
+      "url": "https://github.com/zNotDiamond/Writeups",
+      "source": "GitHub · Root-Me",
+      "source_id": "github-search",
+      "platform": "Root-Me",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "zNotDiamond",
+      "published_at": "2026-11-23T21:16:32Z",
+      "discovered_at": "2026-11-21T20:12:45.948365+00:00",
+      "tags": [
+        "cryptohack",
+        "ctf",
+        "cybersecurity-writeups",
+        "github",
+        "hackropole",
+        "root-me",
+        "tryhackme"
+      ],
+      "summary": "Cybersecurity writeups: TryHackMe, CryptoHack, Hackropole, Root-Me",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "c2ee5c74482101d33da149a4027b3d797fc1d15e84bdf69369359e13a9f3f064",
+      "title": "yusefAlmouhamad/picoCTF_writeups",
+      "url": "https://github.com/yusefAlmouhamad/picoCTF_writeups",
+      "source": "GitHub · picoCTF",
+      "source_id": "github-search",
+      "platform": "picoCTF",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "yusefAlmouhamad",
+      "published_at": "2026-11-23T20:54:59Z",
+      "discovered_at": "2026-11-24T02:14:54.850266+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "My personal writeups, scripts, and solutions for picoCTF challenges.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "ecb1ff310e4734d14e0b5bb44ffa0beb52feb9a7b1fb49bcb7292e39f4f91d28",
+      "title": "0xdnd/ctf-tracker",
+      "url": "https://github.com/0xdnd/ctf-tracker",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "REVERSE-ENGINEERING",
+      "author": "0xdnd",
+      "published_at": "2026-11-23T19:47:10Z",
+      "discovered_at": "2026-11-21T20:12:44.735453+00:00",
+      "tags": [
+        "capture-the-flag",
+        "cheatsheet",
+        "cpts",
+        "ctf",
+        "ctf-tool",
+        "ctf-tools",
+        "ctf-tracker",
+        "cybersecurity",
+        "github",
+        "hacking",
+        "hackthebox",
+        "infosec",
+        "offensive-security",
+        "offline-first",
+        "oscp",
+        "oscp-prep",
+        "penetration-testing",
+        "pentesting",
+        "reverse-shell",
+        "tryhackme",
+        "writeups"
+      ],
+      "summary": "Free offline CTF tracker for HackTheBox & TryHackMe — OSCP/CPTS/CRTO exam simulator, writeups, cheatsheets.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "09f35bbec8c9cdd43fc8e9a81b6239b2c8a5dc0f3ecc8cdc9f6912e9b49a31bb",
+      "title": "f4zzie/MyNotes",
+      "url": "https://github.com/f4zzie/MyNotes",
+      "source": "GitHub · Reverse Engineering",
+      "source_id": "github-search",
+      "platform": "Reverse Engineering",
+      "type": "ctf_writeup",
+      "category": "BINARY-EXPLOITATION",
+      "author": "f4zzie",
+      "published_at": "2026-11-23T19:40:42Z",
+      "discovered_at": "2026-11-21T20:12:44.079729+00:00",
+      "tags": [
+        "astro",
+        "binary-exploitation",
+        "ctf",
+        "cybersecurity",
+        "github",
+        "hackthebox",
+        "malware-analysis",
+        "picoctf",
+        "pwn",
+        "reverse-engineering",
+        "writeups"
+      ],
+      "summary": "Obsidian vault + Astro site behind f4zzie.dev — 84 hands-on writeups: binary exploitation, malware analysis, reverse engineering, HTB & CTF (picoCTF, perfectRootCTF).",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "6c716282d2885087492b9023ad17756d827a107e8933cf4b6fb6863ed894dd48",
+      "title": "sultanrabea4/rsa-ctf-writeup-neighbour-rsa",
+      "url": "https://github.com/sultanrabea4/rsa-ctf-writeup-neighbour-rsa",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "CRYPTOGRAPHY",
+      "author": "sultanrabea4",
+      "published_at": "2026-11-23T19:22:55Z",
+      "discovered_at": "2026-11-24T02:14:52.725382+00:00",
+      "tags": [
+        "cryptography",
+        "ctf",
+        "ctf-writeup",
+        "github",
+        "python",
+        "rsa"
+      ],
+      "summary": "EQCTF 2025 Neighbour-RSA write-up: breaking RSA with close primes using Fermat factorisation.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "881b92312e48064f2af4156d70895c72a6e001ada758529efb71a5fda1625bc2",
+      "title": "Vaibhav-48-iiit/ctf-writeups",
+      "url": "https://github.com/Vaibhav-48-iiit/ctf-writeups",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "Vaibhav-48-iiit",
+      "published_at": "2026-11-23T17:24:18Z",
+      "discovered_at": "2026-11-23T14:42:38.641498+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Walkthroughs of TryHackMe rooms and CTFs, with methodology, lessons learned, and defensive notes.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "bd0ff2ecff9d11197869bfc8df5a5f2830ba3eafd5aaed7bdfcf7faa70ab38b3",
+      "title": "loistchoumba/Writeup_Brige_THM",
+      "url": "https://github.com/loistchoumba/Writeup_Brige_THM",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "loistchoumba",
+      "published_at": "2026-11-23T16:51:27Z",
+      "discovered_at": "2026-11-24T02:14:58.795540+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Writeup de la room 'The London Bridge' sur Tryhackme",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "c0190258d6caa80c0f1a4ff5bd2e8f0c6ff6cfa8e6ebae2a8ab6debd532a2007",
+      "title": "GigglyBeaver/tryhackme-writeups",
+      "url": "https://github.com/GigglyBeaver/tryhackme-writeups",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "GigglyBeaver",
+      "published_at": "2026-11-23T16:21:18Z",
+      "discovered_at": "2026-11-24T02:14:58.795786+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "TryHackMe room write-ups, methodologies and learning experiences.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "246b67cfac06053a91d0ba0e9aa6431b8bc9c05cde570f5b048fbae0258461c8",
+      "title": "dobsnotnull/writeups",
+      "url": "https://github.com/dobsnotnull/writeups",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "dobsnotnull",
+      "published_at": "2026-11-23T15:59:32Z",
+      "discovered_at": "2026-11-24T02:14:58.796014+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "OverTheWire and TryHackMe writeups. Methods, not flags.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "43a1d83731f4d4d598f11a9f5777869ff227efb198db558df27490072e49fd38",
+      "title": "conradfriedrich/htb-sherlock-writeups",
+      "url": "https://github.com/conradfriedrich/htb-sherlock-writeups",
+      "source": "GitHub · Hack The Box",
+      "source_id": "github-search",
+      "platform": "Hack The Box",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "conradfriedrich",
+      "published_at": "2026-11-23T15:50:13Z",
+      "discovered_at": "2026-11-24T02:14:57.207053+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Collection of my writeups from Sherlock on hackthebox.com",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "b058878f97a72d59eb134a13e495cf2caa8823febe2120572d7ef5e61b0827d3",
+      "title": "Cymerican/ctf-writeups",
+      "url": "https://github.com/Cymerican/ctf-writeups",
+      "source": "GitHub · Digital Forensics",
+      "source_id": "github-search",
+      "platform": "Digital Forensics",
+      "type": "ctf_writeup",
+      "category": "DIGITAL-FORENSICS",
+      "author": "Cymerican",
+      "published_at": "2026-11-23T15:42:12Z",
+      "discovered_at": "2026-11-24T02:15:11.643340+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Writeups from MSU Cyber Club CTF challenges: Linux forensics, log analysis, and incident response.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "1de4a2e33b9d1820f669f44a63ac5002218c826fd5e1d20610c08001ef5c60c8",
+      "title": "cirosantilli/china-dictatroship-7",
+      "url": "https://github.com/cirosantilli/china-dictatroship-7",
+      "source": "GitHub · AI Security",
+      "source_id": "github-search",
+      "platform": "AI Security",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "cirosantilli",
+      "published_at": "2026-11-23T14:52:21Z",
+      "discovered_at": "2026-11-21T20:39:51.881979+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "反中共政治宣传库。Anti Chinese government propaganda. https://github.com/cirosantilli/china-dictatorship 的备份backup. 住在中国真名用户的网友请别给星星，不然你要被警察请喝茶。常见问答集，新闻集和饭店和音乐建议。卐习万岁卐。冠状病毒审查郝海东新疆改造中心六四事件法轮功 996.ICU709大抓捕巴拿马文件邓家贵低端人口西藏骚乱。Friends who live in China and have real name on account, please don't star this repo, or else the police might pay you a visit. Home to the mega-FAQ, news compilation, restaurant and music recommendations.Heil Xi 卐. 大陆修宪香港恶法台湾武统朝鲜毁约美中冷战等都是王沪宁愚弄习思想极左命运共同体的大策划中共窃国这半个多世纪所犯下的滔天罪恶，前期是毛泽东策划的，中期6.4前后是邓小平策划的，黄牛数据分析后期是毛的极左追随者三朝罪恶元凶王沪宁策划的。王沪宁高小肆业因文革政治和情报需要保送“学院外语班“红色仕途翻身，所以王的本质是极左的。他是在上海底层弄堂长大的，因其本性也促成其瘪三下三滥个性，所以也都说他有易主“变色龙”哈巴狗“的天性。大陆像王沪宁这样学马列政治所谓\"法学\"专业的人，在除朝鲜古巴所有国家特别是在文明发达国家是无法找到专业对口工作必定失业，唯独在大陆却是重用的紧缺“人才”，6.4后中共信仰大危机更是最重用的救党“人才”。这也就是像王沪宁此类工农兵假“大学生”平步青云的原因，他们最熟悉毛泽东历次运动的宫庭内斗经验手段和残酷的阶级斗争等暴力恐怖",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "57a939bbea722b7be8e8ef0d11c69d38c06fdc0db73c642ce58266b45111da63",
       "title": "dl-portfolio/ctf-writeups",
       "url": "https://github.com/dl-portfolio/ctf-writeups",
@@ -5265,46 +6385,6 @@
       "metadata_checked": true
     },
     {
-      "id": "7c036e317adbf5ea74e33c2c286208a075cca0502239c5ea0b208f920fb85250",
-      "title": "cirosantilli/china-dictatorship",
-      "url": "https://github.com/cirosantilli/china-dictatorship",
-      "source": "GitHub · AI Security",
-      "source_id": "github-search",
-      "platform": "AI Security",
-      "type": "ctf_writeup",
-      "category": "WEB-EXPLOITATION",
-      "author": "cirosantilli",
-      "published_at": "2026-11-23T13:18:47Z",
-      "discovered_at": "2026-11-21T20:39:51.865550+00:00",
-      "tags": [
-        "996",
-        "censorship",
-        "censorship-circumvention",
-        "china",
-        "china-dictatorship",
-        "chinese-communist-party",
-        "covid-19",
-        "covid-19-china",
-        "ctf",
-        "dictator",
-        "dictatorship",
-        "falun-gong",
-        "gfw",
-        "github",
-        "great-firewall",
-        "human-rights",
-        "shadowsocks",
-        "socks5",
-        "tiananmen",
-        "totalitarian",
-        "xi-jinping",
-        "xinjiang"
-      ],
-      "summary": "反中共政治宣传库。Anti Chinese government propaganda. 住在中国真名用户的网友请别给星星，不然你要被警察请喝茶。常见问答集，新闻集和饭店和音乐建议。卐习万岁卐。冠状病毒审查郝海东新疆改造中心六四事件法轮功 996.ICU709大抓捕巴拿马文件邓家贵低端人口西藏骚乱。Friends who live in China and have real name on account, please don't star this repo, or else the police might pay you a visit. Home to the mega-FAQ, news compilation, restaurant and music recommendations.Heil Xi 卐. 大陆修宪香港恶法台湾武统朝鲜毁约美中冷战等都是王沪宁愚弄习思想极左命运共同体的大策划中共窃国这半个多世纪所犯下的滔天罪恶，前期是毛泽东策划的，中期6.4前后是邓小平策划的，黄牛数据分析后期是毛的极左追随者三朝罪恶元凶王沪宁策划的。王沪宁高小肆业因文革政治和情报需要保送“学院外语班“红色仕途翻身，所以王的本质是极左的。他是在上海底层弄堂长大的，因其本性也促成其瘪三下三滥个性，所以也都说他有易主“变色龙”哈巴狗“的天性。大陆像王沪宁这样学马列政治所谓\"法学\"专业的人，在除朝鲜古巴所有国家特别是在文明发达国家是无法找到专业对口工作必定失业，唯独在大陆却是重用的紧缺“人才”，6.4后中共信仰大危机更是最重用的救党“人才”。这也就是像王沪宁此类工农兵假“大学生”平步青云的原因，他们最熟悉毛泽东历次运动的宫庭内斗经验手段和残酷的阶级斗争等暴力恐怖的“政治学”。王沪宁能平步青云靠他这马毛伪“政治学”资本和头衔，不是什么真才实学，能干实事有点真才实学的或许在他手下的谋士及",
-      "priority": 70,
-      "metadata_checked": true
-    },
-    {
       "id": "890f9d55a03b38f3acf5045983dc6652e23cbb4c645fea38644350c68de76ab0",
       "title": "agnusdei1207/kali",
       "url": "https://github.com/agnusdei1207/kali",
@@ -5381,65 +6461,6 @@
         "github"
       ],
       "summary": "HackTheBox-Writeups",
-      "priority": 70,
-      "metadata_checked": true
-    },
-    {
-      "id": "1de4a2e33b9d1820f669f44a63ac5002218c826fd5e1d20610c08001ef5c60c8",
-      "title": "cirosantilli/china-dictatroship-7",
-      "url": "https://github.com/cirosantilli/china-dictatroship-7",
-      "source": "GitHub · AI Security",
-      "source_id": "github-search",
-      "platform": "AI Security",
-      "type": "ctf_writeup",
-      "category": "WEB-EXPLOITATION",
-      "author": "cirosantilli",
-      "published_at": "2026-11-23T10:35:23Z",
-      "discovered_at": "2026-11-21T20:39:51.881979+00:00",
-      "tags": [
-        "ctf",
-        "github"
-      ],
-      "summary": "反中共政治宣传库。Anti Chinese government propaganda. https://github.com/cirosantilli/china-dictatorship 的备份backup. 住在中国真名用户的网友请别给星星，不然你要被警察请喝茶。常见问答集，新闻集和饭店和音乐建议。卐习万岁卐。冠状病毒审查郝海东新疆改造中心六四事件法轮功 996.ICU709大抓捕巴拿马文件邓家贵低端人口西藏骚乱。Friends who live in China and have real name on account, please don't star this repo, or else the police might pay you a visit. Home to the mega-FAQ, news compilation, restaurant and music recommendations.Heil Xi 卐. 大陆修宪香港恶法台湾武统朝鲜毁约美中冷战等都是王沪宁愚弄习思想极左命运共同体的大策划中共窃国这半个多世纪所犯下的滔天罪恶，前期是毛泽东策划的，中期6.4前后是邓小平策划的，黄牛数据分析后期是毛的极左追随者三朝罪恶元凶王沪宁策划的。王沪宁高小肆业因文革政治和情报需要保送“学院外语班“红色仕途翻身，所以王的本质是极左的。他是在上海底层弄堂长大的，因其本性也促成其瘪三下三滥个性，所以也都说他有易主“变色龙”哈巴狗“的天性。大陆像王沪宁这样学马列政治所谓\"法学\"专业的人，在除朝鲜古巴所有国家特别是在文明发达国家是无法找到专业对口工作必定失业，唯独在大陆却是重用的紧缺“人才”，6.4后中共信仰大危机更是最重用的救党“人才”。这也就是像王沪宁此类工农兵假“大学生”平步青云的原因，他们最熟悉毛泽东历次运动的宫庭内斗经验手段和残酷的阶级斗争等暴力恐怖",
-      "priority": 70,
-      "metadata_checked": true
-    },
-    {
-      "id": "ecb1ff310e4734d14e0b5bb44ffa0beb52feb9a7b1fb49bcb7292e39f4f91d28",
-      "title": "0xdnd/ctf-tracker",
-      "url": "https://github.com/0xdnd/ctf-tracker",
-      "source": "GitHub · TryHackMe",
-      "source_id": "github-search",
-      "platform": "TryHackMe",
-      "type": "ctf_writeup",
-      "category": "REVERSE-ENGINEERING",
-      "author": "0xdnd",
-      "published_at": "2026-11-23T10:34:21Z",
-      "discovered_at": "2026-11-21T20:12:44.735453+00:00",
-      "tags": [
-        "capture-the-flag",
-        "cheatsheet",
-        "cpts",
-        "ctf",
-        "ctf-tool",
-        "ctf-tools",
-        "ctf-tracker",
-        "cybersecurity",
-        "github",
-        "hacking",
-        "hackthebox",
-        "infosec",
-        "offensive-security",
-        "offline-first",
-        "oscp",
-        "oscp-prep",
-        "penetration-testing",
-        "pentesting",
-        "reverse-shell",
-        "tryhackme",
-        "writeups"
-      ],
-      "summary": "Free offline CTF tracker for HackTheBox & TryHackMe — OSCP/CPTS/CRTO exam simulator, writeups, cheatsheets.",
       "priority": 70,
       "metadata_checked": true
     },
@@ -5595,9 +6616,9 @@
       "id": "75955fbf42405e9cbd41577624fa029d92b5770d14fee8714f9b7ee30d4bc4b8",
       "title": "h2-r6/AHAU-ctf-writeup",
       "url": "https://github.com/h2-r6/AHAU-ctf-writeup",
-      "source": "GitHub · CTF writeup",
+      "source": "GitHub · CTF writeups",
       "source_id": "github-search",
-      "platform": "CTF writeup",
+      "platform": "CTF writeups",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "h2-r6",
@@ -6553,37 +7574,6 @@
         "github"
       ],
       "summary": "CTF writeups, walkthroughs, and cybersecurity documenting, challenges, techniques",
-      "priority": 70,
-      "metadata_checked": true
-    },
-    {
-      "id": "e3cc6af8bc39976aed3939294eb6db24e6cf29a13170ead5220d99af88c347c3",
-      "title": "kadohack12/everything-for-hacking",
-      "url": "https://github.com/kadohack12/everything-for-hacking",
-      "source": "GitHub · TryHackMe",
-      "source_id": "github-search",
-      "platform": "TryHackMe",
-      "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
-      "author": "kadohack12",
-      "published_at": "2026-11-21T15:05:13Z",
-      "discovered_at": "2026-11-21T20:12:45.307002+00:00",
-      "tags": [
-        "collaboration",
-        "ctf",
-        "cybersecurity",
-        "education",
-        "fcsc",
-        "french",
-        "github",
-        "hackropole",
-        "hackthebox",
-        "owasp",
-        "privilege-escalation",
-        "tryhackme",
-        "writeups"
-      ],
-      "summary": "Writeups CTF collaboratifs (Hack The Box, TryHackMe, Hackropole/FCSC) et cours de cybersécurité. Contributions libres sur les writeups, cours verrouillés et vérifiés par empreinte.",
       "priority": 70,
       "metadata_checked": true
     },
@@ -8069,26 +9059,6 @@
       "metadata_checked": true
     },
     {
-      "id": "881b92312e48064f2af4156d70895c72a6e001ada758529efb71a5fda1625bc2",
-      "title": "Vaibhav-48-iiit/ctf-writeups",
-      "url": "https://github.com/Vaibhav-48-iiit/ctf-writeups",
-      "source": "GitHub · TryHackMe",
-      "source_id": "github-search",
-      "platform": "TryHackMe",
-      "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
-      "author": "Vaibhav-48-iiit",
-      "published_at": "2026-11-16T17:31:11Z",
-      "discovered_at": "2026-11-23T14:42:38.641498+00:00",
-      "tags": [
-        "ctf",
-        "github"
-      ],
-      "summary": "Walkthroughs of TryHackMe rooms and CTFs, with methodology, lessons learned, and defensive notes.",
-      "priority": 70,
-      "metadata_checked": true
-    },
-    {
       "id": "734d90ed7e8a2a6f0b33d0849afbd40896ec577afcc528f3382f6d1831ab7754",
       "title": "TheXyberis/ctf-writeups",
       "url": "https://github.com/TheXyberis/ctf-writeups",
@@ -8232,6 +9202,26 @@
         "web-exploitation"
       ],
       "summary": "Collection of my CTF writeups by category: web, pwn, reverse, crypto, forensics, OSINT, misc, boot2root",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "f95c5d919e8a52db03596b833f3bed0b142aed68f1fa4bbbb55328fdfde45801",
+      "title": "Abel-MV/cybersecurity-labs",
+      "url": "https://github.com/Abel-MV/cybersecurity-labs",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "Abel-MV",
+      "published_at": "2026-11-15T15:00:52Z",
+      "discovered_at": "2026-11-24T02:14:58.794838+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Hands-on cybersecurity labs from TryHackMe, Hack The Box and CyberDefenders, with technical writeups, practical analysis and supporting evidence.",
       "priority": 70,
       "metadata_checked": true
     },
@@ -8536,26 +9526,6 @@
         "github"
       ],
       "summary": "Writeups and notes from CTFs and vulnerable machines across TryHackMe, HackTheBox, VulnHub, CyLab Security Academy, and other platforms.",
-      "priority": 70,
-      "metadata_checked": true
-    },
-    {
-      "id": "a2b36660d50e942da0515b145e7b9e8689679462d05299e128f4836b7488f1f6",
-      "title": "othmane01-bin/othmane01-bin.github.io",
-      "url": "https://github.com/othmane01-bin/othmane01-bin.github.io",
-      "source": "GitHub · CTF writeup",
-      "source_id": "github-search",
-      "platform": "CTF writeup",
-      "type": "ctf_writeup",
-      "category": "WEB-EXPLOITATION",
-      "author": "othmane01-bin",
-      "published_at": "2026-11-12T15:39:38Z",
-      "discovered_at": "2026-11-22T08:00:34.178965+00:00",
-      "tags": [
-        "ctf",
-        "github"
-      ],
-      "summary": "A personal collection of CTF (Capture The Flag) writeups, web security experiments, and cybersecurity insights. This site showcases detailed explanations, step-by-step approaches, and lessons learned from various challenges.",
       "priority": 70,
       "metadata_checked": true
     },
@@ -9179,35 +10149,6 @@
       "metadata_checked": true
     },
     {
-      "id": "09f35bbec8c9cdd43fc8e9a81b6239b2c8a5dc0f3ecc8cdc9f6912e9b49a31bb",
-      "title": "f4zzie/MyNotes",
-      "url": "https://github.com/f4zzie/MyNotes",
-      "source": "GitHub · Reverse Engineering",
-      "source_id": "github-search",
-      "platform": "Reverse Engineering",
-      "type": "ctf_writeup",
-      "category": "BINARY-EXPLOITATION",
-      "author": "f4zzie",
-      "published_at": "2026-11-11T15:50:54Z",
-      "discovered_at": "2026-11-21T20:12:44.079729+00:00",
-      "tags": [
-        "astro",
-        "binary-exploitation",
-        "ctf",
-        "cybersecurity",
-        "github",
-        "hackthebox",
-        "malware-analysis",
-        "picoctf",
-        "pwn",
-        "reverse-engineering",
-        "writeups"
-      ],
-      "summary": "Obsidian vault + Astro site behind f4zzie.dev — 84 hands-on writeups: binary exploitation, malware analysis, reverse engineering, HTB & CTF (picoCTF, perfectRootCTF).",
-      "priority": 70,
-      "metadata_checked": true
-    },
-    {
       "id": "ce6ed3d0eab7918c633a1113e53411ab9089cb7ef2d6b7214cca51e245ecaba1",
       "title": "ysus696-bit/htb-writeups",
       "url": "https://github.com/ysus696-bit/htb-writeups",
@@ -9612,6 +10553,26 @@
       "metadata_checked": true
     },
     {
+      "id": "0b343ab5ecd5a3a94e5c9ea5351beb2c9978242d8bc07c7ad34814772b9bde7c",
+      "title": "Roamal/ctf-writeups",
+      "url": "https://github.com/Roamal/ctf-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "Roamal",
+      "published_at": "2026-11-10T16:08:29Z",
+      "discovered_at": "2026-11-24T02:14:52.726126+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "There my CTF writeups",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "1e37a900760d0ba57cdaa0150041f6c52a2fd60740fe0386957fcbe6f794f9a8",
       "title": "gokul-dev47/cybersecurity-portfolio",
       "url": "https://github.com/gokul-dev47/cybersecurity-portfolio",
@@ -9677,6 +10638,26 @@
       "metadata_checked": true
     },
     {
+      "id": "c19491b2f1a909e689286cbd3d1c74c5a33a8e65ade51faa4291ea9956cd6bfe",
+      "title": "osacc1/ctfl-writeups",
+      "url": "https://github.com/osacc1/ctfl-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "osacc1",
+      "published_at": "2026-11-10T01:46:06Z",
+      "discovered_at": "2026-11-24T02:14:52.722218+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Public CTF writeup repository",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "53aa009970ca3c8ec18ee10814ff9d0ed5031056e423769dfdec750fd532f978",
       "title": "Idan-Babayan/IdanLab",
       "url": "https://github.com/Idan-Babayan/IdanLab",
@@ -9722,6 +10703,26 @@
         "github"
       ],
       "summary": "Workspace multi-agent CTF : skills vendorés, exécution Exegol, mémoire (KB + rétros), writeups Obsidian",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "84baab83dcc5d0054c9d9ae49f12ec419ec7d9a27c4a79544a453bbf4c8104d0",
+      "title": "akkqx/writeups",
+      "url": "https://github.com/akkqx/writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "akkqx",
+      "published_at": "2026-11-09T16:41:15Z",
+      "discovered_at": "2026-11-24T02:14:52.725567+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "My CTF writeups",
       "priority": 70,
       "metadata_checked": true
     },
@@ -10253,31 +11254,6 @@
       "metadata_checked": true
     },
     {
-      "id": "2565e5e4165f0cca7d1719ea074dcc0c28eabd1058bb3e59cf660c9cf605eb5d",
-      "title": "zNotDiamond/Writeups",
-      "url": "https://github.com/zNotDiamond/Writeups",
-      "source": "GitHub · Root-Me",
-      "source_id": "github-search",
-      "platform": "Root-Me",
-      "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
-      "author": "zNotDiamond",
-      "published_at": "2026-11-06T18:31:02Z",
-      "discovered_at": "2026-11-21T20:12:45.948365+00:00",
-      "tags": [
-        "cryptohack",
-        "ctf",
-        "cybersecurity-writeups",
-        "github",
-        "hackropole",
-        "root-me",
-        "tryhackme"
-      ],
-      "summary": "Cybersecurity writeups: TryHackMe, CryptoHack, Hackropole, Root-Me",
-      "priority": 70,
-      "metadata_checked": true
-    },
-    {
       "id": "eec098ff30e8bcfc985680be9c1a34d0598c39fb92db7a5ad67282c29c7b53bc",
       "title": "shauryarathore357-hub/SecLeaf-CTF-Writeup",
       "url": "https://github.com/shauryarathore357-hub/SecLeaf-CTF-Writeup",
@@ -10780,6 +11756,26 @@
       "metadata_checked": true
     },
     {
+      "id": "3f100a3101ea2f03b6d39a27b73b8187b42ce4b27007c4cc077dc96912a517da",
+      "title": "oni-chan128/potatoSalad_CTF_tools_-_writeups",
+      "url": "https://github.com/oni-chan128/potatoSalad_CTF_tools_-_writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "oni-chan128",
+      "published_at": "2026-11-03T20:36:54Z",
+      "discovered_at": "2026-11-24T02:14:52.725037+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "scripts and write ups made by yours truly(and Claude of course)",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "a54778d9c9b1ccd4a677efc5d6650d5e5a36597f0e00d5edbe7eea9c1f02a597",
       "title": "roglicm/HTB-Sherlocks-Writeups",
       "url": "https://github.com/roglicm/HTB-Sherlocks-Writeups",
@@ -11045,6 +12041,26 @@
         "github"
       ],
       "summary": "Documentation and walkthroughs of PicoCTF Labs for reference and practice.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "9fea8776f0701a7cf353d9c404400f1239b3a3cb95ec826690265dc1bedad7d4",
+      "title": "0xkarma13/ctf-writeups",
+      "url": "https://github.com/0xkarma13/ctf-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "0xkarma13",
+      "published_at": "2026-11-02T18:57:27Z",
+      "discovered_at": "2026-11-24T02:14:52.722912+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "My CTF write-ups",
       "priority": 70,
       "metadata_checked": true
     },
@@ -11931,6 +12947,26 @@
         "github"
       ],
       "summary": "Writeups for the ECU x NCNG CTF (HackTheBox): web, OAuth, mobile/API, AI prompt injection, and malware forensics.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "e0af109cbddf4946b9baf4c378e3e418cc9bd1f1b10b69d7b5ce875245f409a3",
+      "title": "4krog/4krog",
+      "url": "https://github.com/4krog/4krog",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "4krog",
+      "published_at": "2026-10-28T01:01:23Z",
+      "discovered_at": "2026-11-24T02:14:52.722719+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Personal cybersecurity portfolio and CTF writeups.",
       "priority": 70,
       "metadata_checked": true
     },
@@ -15038,6 +16074,26 @@
       "metadata_checked": true
     },
     {
+      "id": "b12929dea025a53080ca45823bed3e18cd31e60aa3374265b55847a7729b5671",
+      "title": "suyog-jadhav/Web-Security-Playbook",
+      "url": "https://github.com/suyog-jadhav/Web-Security-Playbook",
+      "source": "GitHub · Web Exploitation",
+      "source_id": "github-search",
+      "platform": "Web Exploitation",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "suyog-jadhav",
+      "published_at": "2026-08-24T18:27:30Z",
+      "discovered_at": "2026-11-24T02:15:15.296563+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "A collection of educational web exploitation writeups covering common web vulnerabilities, attack methodologies, and corresponding security lessons learned through CTFs and labs.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "3f38f6361703ae4ed8c60981624a0ee28af56db12947837753b9217e0dbccac5",
       "title": "HOZAIFAN/hackthebox-writeups.",
       "url": "https://github.com/HOZAIFAN/hackthebox-writeups.",
@@ -15269,6 +16325,26 @@
         "github"
       ],
       "summary": "Writeups and walkthroughs of CTF challenges covering Digital Forensics, OSINT, Cryptography, Reverse Engineering, Web Security, and Network Analysis.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "32d95578401aa033c5e5dc1647f4f897080312439908ca1a6b8b32b1b1952649",
+      "title": "shoraimw/UCTF-Writeup",
+      "url": "https://github.com/shoraimw/UCTF-Writeup",
+      "source": "GitHub · OSINT",
+      "source_id": "github-search",
+      "platform": "OSINT",
+      "type": "ctf_writeup",
+      "category": "OSINT",
+      "author": "shoraimw",
+      "published_at": "2026-08-10T19:59:45Z",
+      "discovered_at": "2026-11-24T02:15:06.127779+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "OSINT writeup for the Fire in the Sky challenge from Universal CTF.",
       "priority": 70,
       "metadata_checked": true
     },
@@ -21263,7 +22339,7 @@
     "rss_entries": 201,
     "github_repositories": 653,
     "social_links": 0,
-    "new_entries": 43,
+    "new_entries": 62,
     "failures": [
       {
         "source": "X/Twitter",

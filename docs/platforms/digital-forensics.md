@@ -2,6 +2,7 @@
 
 | Date | CTF / Challenge / Repository | Platform | Category | Author / Team | Source |
 |---|---|---|---|---|---|
+| 2026-11-23T15:42 | [Cymerican/ctf-writeups<br><sub>Writeups from MSU Cyber Club CTF challenges: Linux forensics, log analysis, and incident response.</sub>](https://github.com/Cymerican/ctf-writeups) | Digital Forensics | DIGITAL-FORENSICS | Cymerican | GitHub · Digital Forensics |
 | 2026-11-22T23:43 | [mentro999/ensate-ctf-writeups<br><sub>Writeups for CTF challenges: misc, crypto, IoT, forensics, DFIR)</sub>](https://github.com/mentro999/ensate-ctf-writeups) | Digital Forensics | CRYPTOGRAPHY | mentro999 | GitHub · Digital Forensics |
 | 2026-11-18T02:52 | [princeg80900-sys/InIt-CTF-Writeups<br><sub>InIt CTF PDFs in categorized folders (Web, Crypto, Forensics, Misc, OSINT). Use a clean README.md index table detailing challenge names, topics, and direct links to showcase your work professionally.</sub>](https://github.com/princeg80900-sys/InIt-CTF-Writeups) | Digital Forensics | WEB-EXPLOITATION | princeg80900-sys | GitHub · Digital Forensics |
 | 2026-11-16T21:29 | [TALELMN/csaw-2026-finals-writeups<br><sub>Writeups for CSAW CTF 2026 Finals - 26 challenges across web, crypto, rev, jail, forensics, misc and OSINT</sub>](https://github.com/TALELMN/csaw-2026-finals-writeups) | Digital Forensics | WEB-EXPLOITATION | TALELMN | GitHub · Digital Forensics |
