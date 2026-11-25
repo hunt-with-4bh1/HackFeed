@@ -2,6 +2,7 @@
 
 | Date | CTF / Challenge / Repository | Platform | Category | Author / Team | Source |
 |---|---|---|---|---|---|
+| Wed, 25 Nov 2026 | [Basic Malware RE \| TryHackMe \| Writeup<br><sub>Challenge Overview Continue reading on Medium »</sub>](https://siapaheker.medium.com/basic-malware-re-tryhackme-writeup-56828a37eb85?source=rss------ctf-5) | Medium | UNCATEGORIZED | SiapaHeker | Medium · CTF |
 | Tue, 24 Nov 2026 | [Wireshark: The Basics — TryHackMe<br><sub>I am continuing to learn how to use Wireshark and expand my knowledge of it. I have used Wireshark in the past, so I already have some&#x2026; Continue reading on Medium »</sub>](https://medium.com/@computerfreako2/wireshark-the-basics-tryhackme-099bd3f5c00b?source=rss------ctf-5) | Medium | DIGITAL-FORENSICS | The Computer Freak | Medium · CTF |
 | Tue, 24 Nov 2026 | [TryHackMe — Internal<br><sub>One foothold. One hidden network. A deeper path to root. Continue reading on Medium »</sub>](https://medium.com/@zeliharich/tryhackme-internal-619663320773?source=rss------ctf-5) | Medium | NETWORK | Zeliha Zengin | Medium · CTF |
 | Tue, 24 Nov 2026 | [TryHackMe 404 Room Walkthrough: Exploiting an Exposed Git Repository (10/50)<br><sub>Introduction Continue reading on Medium »</sub>](https://medium.com/@deepabelvat/tryhackme-404-room-walkthrough-exploiting-an-exposed-git-repository-10-50-01fd9e5c9fd6?source=rss------ctf-5) | Medium | UNCATEGORIZED | sai_prasad_belvat | Medium · CTF |
