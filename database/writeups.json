@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "updated_at": "2026-11-26T09:33:56.635624+00:00",
-  "total": 1160,
+  "updated_at": "2026-11-26T19:38:54.809167+00:00",
+  "total": 1190,
   "items": [
     {
       "id": "107dbe66672ba43877f3e93fab3d038b3f318bf23c8c5ef9989e36f20d711cc0",
@@ -18,7 +18,10 @@
       "tags": [],
       "summary": "[click on title to read] URL: https://ctftime.org/writeup/41159 Topics: web,&nbsp;php,&nbsp;lfi&nbsp; Rating: not rated Original writeup",
       "priority": 100,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This CTFtime writeup listing for the \"ISITDTU CTF 2020 Finals RapViet team STeam\" is categorized under web exploitation. The provided excerpt contains no additional technical details.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "0d2765f5f0cc0b873851a2c8f64ccff379b7aa3684f61b9ab8cd1805a493b5cf",
@@ -2790,8 +2793,7 @@
       "priority": 95,
       "metadata_checked": true,
       "ai_summary": "This HTB: VariaType writeup details the exploitation of a Flask and PHP font foundry platform. The process involves recovering source code from an exposed Git repository, bypassing a file-download filter, and leveraging vulnerabilities in font generation and validation tools to achieve a foothold and user pivot.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "459c3bb1ddec1af0ffd29aa84cad01ce34492121a962d4c422ca541fc1579e18",
@@ -2817,8 +2819,7 @@
       "priority": 95,
       "metadata_checked": true,
       "ai_summary": "**Summary:**\nThis 0xdf writeup for the Linux box \"Facts\" covers exploiting a mass assignment vulnerability in the Camaleon CMS to gain administrator access, retrieving an encrypted SSH key from a MinIO S3 service, and using a sudo rule on Puppet's `facter` tool to escalate privileges to root.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "17cbbc083aa1c28f7575ea7a83a076e9d70b752fbd0d26da76463900e0b1e85b",
@@ -2842,8 +2843,7 @@
       "priority": 95,
       "metadata_checked": true,
       "ai_summary": "The 0xdf CTF writeup titled \"AI Glossary\" explores foundational terminology within the fast-moving AI-SECURITY sector, covering concepts such as models, harnesses, labs, and initiatives.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "75c3eb6ea46ec0a10ad251a0b21123233be7e3a0dd6e5582a94f1149f96cd0ac",
@@ -2869,8 +2869,7 @@
       "priority": 95,
       "metadata_checked": true,
       "ai_summary": "Based on the provided excerpt, \"HTB: Interpreter\" is a Linux-based Hack The Box writeup covering the exploitation of an unauthenticated XStream deserialization vulnerability in Mirth Connect to achieve remote code execution. The author then extracts database credentials to crack a user password for a lateral move, and finally achieves root access by exploiting a localhost Flask notification server that evaluates XML-supplied fields in an f-string.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "37566577a5010529f29f2ab1f5395668a51aed2492eda3bed046731e47e9bd0a",
@@ -2896,8 +2895,7 @@
       "priority": 95,
       "metadata_checked": true,
       "ai_summary": "This CTF writeup for HTB: MonitorsFour covers exploiting an authenticated API endpoint using a PHP type juggling flaw to dump password hashes. Further exploitation involves leveraging CVE-2025-24367 in Cacti to drop a webshell within a Docker container running on a WSL2 backend, followed by using CVE-2025-9074 to mount the Windows host's drive and read the root flag.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "f2e72f6de270239e9ca15c3f1837134a46e244042264bffb25554e34851efb43",
@@ -2923,8 +2921,7 @@
       "priority": 95,
       "metadata_checked": true,
       "ai_summary": "This writeup covers the HackTheBox machine Pterodactyl, detailing the exploitation of an unauthenticated directory traversal in a game-server management panel to achieve initial access. From there, the author pivots users, leverages a PAM environment-variable flaw, and exploits a libblockdev/udisks vulnerability to escalate privileges to root.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "e94a080d02a4a0f1bef4023fbb0df65edf828458001df7c27be68c2556aa8172",
@@ -2950,8 +2947,7 @@
       "priority": 95,
       "metadata_checked": true,
       "ai_summary": "This Hack The Box writeup outlines the exploitation of the \"Overwatch\" machine, which involves anonymous SMB access to reverse engineer a .NET binary, recovering SQL credentials, abusing an AD-integrated DNS zone with Responder, gaining user access via WinRM, and achieving system execution through a WCF command injection sink.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "128e2b9779970f7a2e03507e486dcca7ba8a6ecd30ac3d7dc55fef35b9ea2544",
@@ -2977,8 +2973,7 @@
       "priority": 95,
       "metadata_checked": true,
       "ai_summary": "The \"HTB: Sorcery\" writeup on 0xdf covers the \"WEB-EXPLOITATION\" category and details exploiting a Linux box featuring a Rust Rocket web app, Neo4j, Gitea, and Kafka. The excerpt outlines techniques including Cypher injection, XSS, SSRF, RCE, and credential recovery, though specific steps beyond the listed technologies and vulnerabilities are cut off.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "0943c68bd145ad8e1352d1cb6af6c1ea7f3d3c52755a0f6829f60f65d8014afb",
@@ -3002,7 +2997,10 @@
       ],
       "summary": "AirTouch simulates a wireless network environment. I’ll start by pulling a default password from SNMP to SSH as a consultant user inside a container with virtual wireless interfaces. From there, I’ll capture and crack a WPA2-PSK handshake to join the tablet network, then decrypt the captured traffic in WireShark to recover session cookies for a router management site. A client-side role cookie gates an admin upload feature, where I’ll bypass the PHP extension filter with a phtml file to get RCE. Hardcoded credentials in the source give me the next user, and sudo gets me root, where I find the CA and server certs for the corporate wireless network. I’ll use those with eaphammer to stand up an evil twin of AirTouch-Office and capture a PEAP-MSCHAPv2 challenge, which cracks to reveal a user’s",
       "priority": 95,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "Based on the provided title and excerpt, the author details a walkthrough for the HTB \"AirTouch\" challenge involving SNMP, SSH, WPA2-PSK handshake cracking, Wireshark traffic decryption, PHP extension filtering bypass for RCE, and privilege escalation using hardcoded credentials and sudo. Further specific technical details are limited by the truncated excerpt.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "24e8be570f80c593f0bef5d3dfd83aa7c78c8f55ebc0281b1eccb1fa593fa1ed",
@@ -3026,7 +3024,10 @@
       ],
       "summary": "Eighteen is a Windows Server 2025 assume-breach box starting with MSSQL credentials. I’ll use MSSQL login impersonation to access the financial planner database and recover a Werkzeug PBKDF2 hash for the web admin. After cracking the hash and spraying the password against domain users, I’ll get a WinRM shell. From there, I’ll identify that the domain is running at the Windows 2025 functional level and exploit Bad Successor, abusing the dMSA migration feature to create a delegated managed service account that inherits the Administrator’s group memberships, giving full domain admin access.",
       "priority": 95,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "Based on the provided excerpt, \"HTB: Eighteen\" is a web-exploitation CTF writeup for a Windows Server 2025 box that involves using MSSQL credentials and login impersonation to recover a password hash for the web admin. The attacker then cracks the hash to gain a WinRM shell and exploits the Bad Successor vulnerability involving dMSA migration to achieve full domain admin access.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "f4395af5c1b0139bee4f453d2e1a15bd489816be82b60ca5057ca9ddc1e450b4",
@@ -3050,7 +3051,10 @@
       ],
       "summary": "DarkZero is an assume breach Windows box with two forests connected by a bidirectional cross-forest trust. Starting with given credentials, I’ll enumerate MSSQL on DC01 and find a linked server to DC02 in the other forest where the mapped account is sysadmin. I’ll enable xp_cmdshell on DC02 to get a shell as the SQL service account. To escalate to SYSTEM on DC02, I’ll show four paths: recovering SeImpersonatePrivilege from the original logon token via named pipe impersonation, using ADCS certificate enrollment to get an NT hash and change the password for a service logon with RunAsCS, NTLM authentication reflection using the CMTI DNS record trick to relay the machine account back to its own LDAPS, and CVE-2024-30088. As SYSTEM on DC02, I’ll abuse the cross-forest TGT delegation to capture ",
       "priority": 95,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "Based on the provided title and excerpt, the article details a walkthrough for the Hack The  Box machine \"DarkZero,\" an assume breach Windows box featuring two forests connected by a bidirectional trust. The author demonstrates how to enumerate MSSQL, leverage a linked server from DC01 to DC02, enable `xp_cmdshell` to obtain a SQL service account shell, and utilize four distinct paths to escalate privileges to SYSTEM on DC02.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "b5c664c7326d1e867d7dd84fea14ee70b787202d30cefd9c45aa866fbea7d986",
@@ -3074,7 +3078,10 @@
       ],
       "summary": "Snapped is a Linux box hosting a static site behind nginx, with an Nginx UI admin panel. I’ll exploit CVE-2026-27944 to decrypt a backup download from the Nginx UI to find bcrypt password hashes in a SQLite database. I’ll crack one to get SSH access. To escalate to root, I’ll exploit CVE-2026-3888, a recent vulnerability in snapd where systemd-tmpfiles deletes snap-confine’s private temp directory, allowing me to win a race condition and replace the dynamic linker with a malicious payload that runs as root.",
       "priority": 95,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This CTF writeup for \"HTB: Snapped\" on 0xdf details the exploitation of CVE-2026-27944 on an Nginx UI admin panel to obtain password hashes for SSH access. It then explains how to escalate to root by exploiting a snapd vulnerability (CVE-2026-3888) via a race condition.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "8252b131396a25c1e327eb68c1dcd3cbc03d797acf213e6cd652ba14400eec2e",
@@ -3098,7 +3105,10 @@
       ],
       "summary": "Principal is a Linux box with a Java web application using pac4j for JWT authentication. I’ll exploit a vulnerability in pac4j-jwt that allows forging encrypted JWTs using only the server’s public RSA key, bypassing signature verification to access the admin dashboard. From there, I’ll find credentials in the settings and spray them against SSH to get a shell as svc-deploy. For root, I’ll abuse access to an SSH certificate authority private key to sign a certificate for the root principal and SSH in.",
       "priority": 95,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This write-up details the exploitation of Principal, a Linux box featuring a Java web application that uses pac4j for JWT authentication. The author gains access to the admin dashboard by exploiting a pac4j-jwt vulnerability to forge encrypted JWTs using the server's public RSA key, subsequently obtaining a shell via credential spraying and elevating privileges by abusing an SSH certificate authority private key.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "915ffe6ab02a2815d0660b7382379d846933aab36435f2069045c7f42942ea46",
@@ -3122,7 +3132,10 @@
       ],
       "summary": "Browsed is a Linux box hosting a browser extension repository where uploaded extensions are tested in a headless Chrome instance. I’ll analyze the Chrome debug logs to discover an internal Gitea instance and a Python Flask app running on localhost. By crafting a malicious Chrome extension with a background service worker, I’ll perform SSRF to reach the internal Flask app and exploit a Bash arithmetic evaluation injection in a shell script to get remote code execution. For root, I’ll abuse a world-writable pycache directory to poison a Python bytecode file imported by a sudo-allowed script, getting code execution as root.",
       "priority": 95,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "Based on the provided excerpt, \"HTB: Browsed\" is a Linux-based web exploitation challenge involving a browser extension repository and a headless Chrome instance. The writeup details using a malicious Chrome extension to perform SSRF, exploiting a Bash arithmetic evaluation injection for remote code execution, and poisoning a Python bytecode file in a world-writable pycache directory to escalate privileges to root.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "255e4aeeb72836a903e6f9242090518c72de61b4e54b5d5db9612bf75fe2f37b",
@@ -3146,7 +3159,10 @@
       ],
       "summary": "Conversor is a Linux box hosting a Flask web application that converts nmap XML output to HTML using XSLT. I’ll find the source code and exploit insecure use of os.path.join to write a Python reverse shell into a cron-executed scripts directory, or alternatively abuse XSLT’s exslt:document extension to write files to the server. From there, I’ll find an MD5-hashed password in the SQLite database and crack it to pivot to the next user. For root, I’ll exploit CVE-2024-48990 in needrestart by poisoning the PYTHONPATH environment variable, or abuse needrestart’s Perl config file to get direct code execution.",
       "priority": 95,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This writeup for the Hack The Box machine \"Conversor\" covers exploiting a Flask web application that converts nmap XML output to HTML. It details gaining initial access via insecure file writes or XSLT abuse, pivoting using a cracked SQLite database password, and escalating to root via vulnerabilities in needrestart.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "61c1a6fab08e89e21732afa22ac43c7711449c4e6f155f9680c5775b83b8a569",
@@ -6164,6 +6180,118 @@
       "metadata_checked": true
     },
     {
+      "id": "450251331c1c0aa70e5c4c183adb56baa55378735c9966230ab6d9c1e7a56f1f",
+      "title": "The custom SUID binary and the PATH mistake behind it",
+      "url": "https://dev.to/rockyyy/the-custom-suid-binary-and-the-path-mistake-behind-it-3hga",
+      "source": "DEV.to · CTF",
+      "source_id": "devto-ctf",
+      "platform": "DEV.to",
+      "type": "ctf_writeup",
+      "category": "CLOUD",
+      "author": "Rocky",
+      "published_at": "Thu, 26 Nov 2026 18:06:03 +0000",
+      "discovered_at": "2026-11-26T19:38:03.913429+00:00",
+      "tags": [
+        "ctf",
+        "linux",
+        "pentesting",
+        "security"
+      ],
+      "summary": "You run the SUID search on a Linux host and get forty lines back. Thirty-nine of them are things you have seen before. This post is about the fortieth. Find the list find / -perm -4000 -type f 2 &gt; /dev/null This prints every file that runs with its owner's privileges. On a normal system you will see passwd , sudo , mount , su and similar. Compare the output with what the distribution ships. A binary in /usr/local/bin , /opt or a user's home directory is a custom build, and custom code is where mistakes live. Read it before you run it strings /usr/local/bin/backup-helper You are looking for command names inside the output. Suppose you see service apache2 restart . If that string is passed to system() , the program asks the shell to locate service by searching PATH. A full path such as /u",
+      "priority": 75,
+      "metadata_checked": true
+    },
+    {
+      "id": "a0ced341e6af4fa95d98b27ab20f204061a8b88d8660ce55ac681df44629270f",
+      "title": "HTB “An Unusual Sighting” Write-Up",
+      "url": "https://medium.com/@rhafafarell5/htb-an-unusual-sighting-write-up-41a13f82f826?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "platform": "Medium",
+      "type": "ctf_writeup",
+      "category": "DIGITAL-FORENSICS",
+      "author": "Rhafafarell",
+      "published_at": "Thu, 26 Nov 2026 17:41:45 GMT",
+      "discovered_at": "2026-11-26T19:38:03.616865+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "digital-forensics",
+        "hackthebox",
+        "soc-analyst"
+      ],
+      "summary": "Category: Forensics Continue reading on Medium »",
+      "priority": 75,
+      "metadata_checked": true
+    },
+    {
+      "id": "04c2160e1412d591d3e3b8d57920412ffde83f5547fa1806e86118be78384677",
+      "title": "Echoes in the Archive — Netanix CTF Writeup",
+      "url": "https://medium.com/@Alone-737/echoes-in-the-archive-netanix-ctf-writeup-7393bfabefd1?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "platform": "Medium",
+      "type": "ctf_writeup",
+      "category": "MISC",
+      "author": "Alone",
+      "published_at": "Thu, 26 Nov 2026 16:31:36 GMT",
+      "discovered_at": "2026-11-26T19:38:03.617891+00:00",
+      "tags": [
+        "ctf",
+        "ctf-writeup",
+        "cybersecurity",
+        "netanixctf"
+      ],
+      "summary": "Misc, Medium, 600 pts. Twelve &#x201c;healthy&#x201d; diagnostic snapshots, two noisy fields, and one base64 stream hiding in the diffs. Continue reading on Medium »",
+      "priority": 75,
+      "metadata_checked": true
+    },
+    {
+      "id": "2c1678db474602740afba84a451803cd8bf38e5428857eef355d31ad3cc9993f",
+      "title": "TryHackMe Blue Room Walkthrough: EternalBlue, MS17–010 and Windows Privilege Escalation (13/50)",
+      "url": "https://medium.com/@deepabelvat/tryhackme-blue-room-walkthrough-eternalblue-ms17-010-and-windows-privilege-escalation-13-50-10b686bc936f?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "platform": "Medium",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "sai_prasad_belvat",
+      "published_at": "Thu, 26 Nov 2026 15:33:33 GMT",
+      "discovered_at": "2026-11-26T19:38:03.618864+00:00",
+      "tags": [
+        "blues",
+        "ctf",
+        "hacking",
+        "tryhackme"
+      ],
+      "summary": "Introduction Continue reading on Medium »",
+      "priority": 75,
+      "metadata_checked": true
+    },
+    {
+      "id": "3c6fbe01e1892f789f1fc9e6ab48991e6e4f6e56fbfb08a8d1efc0836b91b73f",
+      "title": "TryHackMe RootMe: Complete Walkthrough — From Web Exploitation to Root Access | Th3BlackHol3",
+      "url": "https://th3blackhol3.medium.com/tryhackme-rootme-complete-walkthrough-from-web-exploitation-to-root-access-th3blackhol3-435a3302ad7c?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "platform": "Medium",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "Th3BlackHol3",
+      "published_at": "Thu, 26 Nov 2026 10:19:19 GMT",
+      "discovered_at": "2026-11-26T19:38:03.618910+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "linux",
+        "penetration-testing",
+        "tryhackme"
+      ],
+      "summary": "Continue reading on Medium »",
+      "priority": 75,
+      "metadata_checked": true
+    },
+    {
       "id": "0a08ae7e149a6f014fe232d92e9404313093ff524c89a1e4e4fee6d2205c41ce",
       "title": "TryHackMe: Bounty Hacker — Complete CTF Walkthrough",
       "url": "https://medium.com/@shahzadamiad320/tryhackme-bounty-hacker-complete-ctf-walkthrough-47ae75cba131?source=rss------ctf-5",
@@ -6920,42 +7048,59 @@
       "metadata_checked": true
     },
     {
-      "id": "c1095e1189d6d0ecd2e28d8bb86c2045f76ae891be1fc1d164165785ebccb1d2",
-      "title": "natenapaS/ctf-writeups",
-      "url": "https://github.com/natenapaS/ctf-writeups",
-      "source": "GitHub · CTF writeup",
-      "source_id": "github-search",
-      "platform": "CTF writeup",
-      "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
-      "author": "natenapaS",
-      "published_at": "2026-11-26T09:30:53Z",
-      "discovered_at": "2026-11-24T23:02:03.629145+00:00",
-      "tags": [
-        "ctf",
-        "github"
-      ],
-      "summary": "Public CTF writeup repository",
-      "priority": 70,
-      "metadata_checked": true
-    },
-    {
-      "id": "ff97d006a603f5f5351b2c05758a6bfa6560a9785673d92bf596fbd7c23d274b",
-      "title": "b-draoui/sherpa",
-      "url": "https://github.com/b-draoui/sherpa",
+      "id": "2343572bac8d895143469e2683042da7a7f6596ba5cf216de0a3fc64e4f838c6",
+      "title": "rikinhuh/ctf-writeups",
+      "url": "https://github.com/rikinhuh/ctf-writeups",
       "source": "GitHub · TryHackMe",
       "source_id": "github-search",
       "platform": "TryHackMe",
       "type": "ctf_writeup",
-      "category": "AI-SECURITY",
-      "author": "b-draoui",
-      "published_at": "2026-11-26T09:14:35Z",
-      "discovered_at": "2026-11-26T09:33:30.869005+00:00",
+      "category": "UNCATEGORIZED",
+      "author": "rikinhuh",
+      "published_at": "2026-11-26T19:34:44Z",
+      "discovered_at": "2026-11-26T19:38:15.227409+00:00",
       "tags": [
         "ctf",
-        "github"
+        "github",
+        "penetration-testing",
+        "privilege-escalation",
+        "tryhackme",
+        "vulnhub",
+        "writeups"
       ],
-      "summary": "Sherpa is an open-source CTF coach that guides you through a hacking practice box instead of solving it for you. It runs recon, maps the path, then gives graded hints: a nudge first, the answer only if you keep asking. Built so you learn on TryHackMe & HackTheBox, not copy a writeup. Python, any LLM, Claude Code plugin.",
+      "summary": "VulnHub & TryHackMe walkthroughs: DC: 1, DC: 2, symfonos: 1, GoldenEye: 1, Mr Robot",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "b25314100fdca7ab98f694b156d99be60ea0bee7ccfdd5fbdc6557abc4f07c0d",
+      "title": "Cajac/picoCTF-Writeups",
+      "url": "https://github.com/Cajac/picoCTF-Writeups",
+      "source": "GitHub · picoCTF",
+      "source_id": "github-search",
+      "platform": "picoCTF",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "Cajac",
+      "published_at": "2026-11-26T19:26:43Z",
+      "discovered_at": "2026-11-21T20:39:12.913836+00:00",
+      "tags": [
+        "bash",
+        "bash-scripting",
+        "ctf",
+        "ctf-solutions",
+        "ctf-writeup",
+        "ctf-writeups",
+        "github",
+        "picoctf",
+        "picoctfsolutions",
+        "python",
+        "python3",
+        "writeup",
+        "writeup-ctf",
+        "writeups"
+      ],
+      "summary": "More than 275 writeups for picoCTF challenges",
       "priority": 70,
       "metadata_checked": true
     },
@@ -6969,7 +7114,7 @@
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "cirosantilli",
-      "published_at": "2026-11-26T07:35:10Z",
+      "published_at": "2026-11-26T19:09:29Z",
       "discovered_at": "2026-11-21T20:39:51.865550+00:00",
       "tags": [
         "996",
@@ -6996,6 +7141,475 @@
         "xinjiang"
       ],
       "summary": "反中共政治宣传库。Anti Chinese government propaganda. 住在中国真名用户的网友请别给星星，不然你要被警察请喝茶。常见问答集，新闻集和饭店和音乐建议。卐习万岁卐。冠状病毒审查郝海东新疆改造中心六四事件法轮功 996.ICU709大抓捕巴拿马文件邓家贵低端人口西藏骚乱。Friends who live in China and have real name on account, please don't star this repo, or else the police might pay you a visit. Home to the mega-FAQ, news compilation, restaurant and music recommendations.Heil Xi 卐. 大陆修宪香港恶法台湾武统朝鲜毁约美中冷战等都是王沪宁愚弄习思想极左命运共同体的大策划中共窃国这半个多世纪所犯下的滔天罪恶，前期是毛泽东策划的，中期6.4前后是邓小平策划的，黄牛数据分析后期是毛的极左追随者三朝罪恶元凶王沪宁策划的。王沪宁高小肆业因文革政治和情报需要保送“学院外语班“红色仕途翻身，所以王的本质是极左的。他是在上海底层弄堂长大的，因其本性也促成其瘪三下三滥个性，所以也都说他有易主“变色龙”哈巴狗“的天性。大陆像王沪宁这样学马列政治所谓\"法学\"专业的人，在除朝鲜古巴所有国家特别是在文明发达国家是无法找到专业对口工作必定失业，唯独在大陆却是重用的紧缺“人才”，6.4后中共信仰大危机更是最重用的救党“人才”。这也就是像王沪宁此类工农兵假“大学生”平步青云的原因，他们最熟悉毛泽东历次运动的宫庭内斗经验手段和残酷的阶级斗争等暴力恐怖的“政治学”。王沪宁能平步青云靠他这马毛伪“政治学”资本和头衔，不是什么真才实学，能干实事有点真才实学的或许在他手下的谋士及",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "62262a048ff19b66b72b189b735c26c24e759bc5c181c406cabb83dce867bb5c",
+      "title": "bcaglarr/mercimek-ctf",
+      "url": "https://github.com/bcaglarr/mercimek-ctf",
+      "source": "GitHub · Digital Forensics",
+      "source_id": "github-search",
+      "platform": "Digital Forensics",
+      "type": "ctf_writeup",
+      "category": "DIGITAL-FORENSICS",
+      "author": "bcaglarr",
+      "published_at": "2026-11-26T18:54:30Z",
+      "discovered_at": "2026-11-26T19:38:28.096514+00:00",
+      "tags": [
+        "ctf",
+        "forensics",
+        "github",
+        "python",
+        "security",
+        "steganography"
+      ],
+      "summary": "Forensics and steganography CTF challenge for ETUSEC — challenge files, generator tools, and writeup.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "909dfb5a1b4e3f98efe397c088d5d8bb262030c30a2db806c2a06585dbb519e4",
+      "title": "Serhat-92/ctf-writeups",
+      "url": "https://github.com/Serhat-92/ctf-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "Serhat-92",
+      "published_at": "2026-11-26T18:53:00Z",
+      "discovered_at": "2026-11-26T19:38:09.086361+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Public CTF writeup repository",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "5d5f76ee835b696ef0daa997eb5c741efad286810b0c5d061c6502e0cebd1eab",
+      "title": "Null-Trace0/CTF-Writeups",
+      "url": "https://github.com/Null-Trace0/CTF-Writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "Null-Trace0",
+      "published_at": "2026-11-26T18:37:27Z",
+      "discovered_at": "2026-11-26T19:38:09.086685+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Official and standalone CTF writeups and solutions",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "fbae9e48ac2b6edf14acea76adae9c87f80ac815710d791036efe6fbcbf915ce",
+      "title": "SuryadevChippada/Cybersecurity-Journey",
+      "url": "https://github.com/SuryadevChippada/Cybersecurity-Journey",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "SuryadevChippada",
+      "published_at": "2026-11-26T17:03:34Z",
+      "discovered_at": "2026-11-26T19:38:09.087917+00:00",
+      "tags": [
+        "ctf",
+        "ctf-writeups",
+        "cybersecurity",
+        "github",
+        "information-security",
+        "knowledge-base",
+        "learning-journey",
+        "linux",
+        "networking",
+        "security-labs"
+      ],
+      "summary": "My personal cybersecurity knowledge base: notes, labs, CTF writeups and projects from my learning journey.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "0ad6bf955cdc286d84d0458706c28d7bad5e0191ed027b7f2d7ef93579edec69",
+      "title": "ImJaisSaksham/ctf-writeups",
+      "url": "https://github.com/ImJaisSaksham/ctf-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "ImJaisSaksham",
+      "published_at": "2026-11-26T16:10:21Z",
+      "discovered_at": "2026-11-26T19:38:09.089631+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "My cybersecurity CTF write-ups, practical challenges, methodologies, and technical learnings.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "f2ab399861639a66d38e7a254e95ec59519274c9512ceff307b298dcea32da8f",
+      "title": "ashorishicx/ctf-writeups",
+      "url": "https://github.com/ashorishicx/ctf-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "ashorishicx",
+      "published_at": "2026-11-26T15:51:05Z",
+      "discovered_at": "2026-11-26T19:38:09.088525+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Public CTF writeup repository",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "afa0be0bc64bd0b28d69070a26fb047f66325d5dd37bf0cbc29b248af819af9b",
+      "title": "udaytammali-prog/CYLAB-CTF-Writeups",
+      "url": "https://github.com/udaytammali-prog/CYLAB-CTF-Writeups",
+      "source": "GitHub · Web Exploitation",
+      "source_id": "github-search",
+      "platform": "Web Exploitation",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "udaytammali-prog",
+      "published_at": "2026-11-26T15:12:15Z",
+      "discovered_at": "2026-11-26T19:38:32.054757+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Cybersecurity CTF Writeups | Web Exploitation, JWT, Privilege Escalation & Ethical Hacking.| PicoCTF 2026 Java Code Analysis?!?",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "2bff12cc1c5530b54ead13f0e3e9fb0e502d84d163bbae31b5319224fab076be",
+      "title": "panbinibn/OpenPacketFix_",
+      "url": "https://github.com/panbinibn/OpenPacketFix_",
+      "source": "GitHub · AI Security",
+      "source_id": "github-search",
+      "platform": "AI Security",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "panbinibn",
+      "published_at": "2026-11-26T14:58:35Z",
+      "discovered_at": "2026-11-21T20:39:51.907470+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "大陆修宪香港恶法台湾武统朝鲜毁约美中冷战等都是王沪宁愚弄习思想极左命运共同体的大策划中共窃国这半个多世纪所犯下的滔天罪恶，前期是毛泽东策划的，中期6.4前后是邓小平策划的，黄牛数据分析后期是毛的极左追随者三朝罪恶元凶王沪宁策划的。王沪宁高小肆业因文革政治和情报需要保送“学院外语班“红色仕途翻身，所以王的本质是极左的。他是在上海底层弄堂长大的，因其本性也促成其瘪三下三滥个性，所以也都说他有易主“变色龙”哈巴狗“的天性。大陆像王沪宁这样学马列政治所谓\"法学\"专业的人，在除朝鲜古巴所有国家特别是在文明发达国家是无法找到专业对口工作必定失业，唯独在大陆却是重用的紧缺“人才”，6.4后中共信仰大危机更是最重用的救党“人才”。这也就是像王沪宁此类工农兵假“大学生”平步青云的原因，他们最熟悉毛泽东历次运动的宫庭内斗经验手段和残酷的阶级斗争等暴力恐怖的“政治学”。王沪宁能平步青云靠他这马毛伪“政治学”资本和头衔，不是什么真才实学，能干实事有点真才实学的或许在他手下的谋士及秘书班子中可以找到。王沪宁的“真才实学”只不过是一个只读四年小学的人，大半辈子在社会上磨炼特别是在中共官场滚打炼出的的手段和经验而已，他和习近平等保送的工农兵假“大学生”都一样，无法从事原“专业”都凭红资本而从政。六四学运期间各界一边倒支持学生，王沪宁一度去法国躲避和筹谋，他还加入了反学运签名，成为极少有的反学运者仕途突显，在六四和苏联垮台后中共意识形态危机，江泽民上台看上唯一能应急的王沪宁聚谋士泡制的\"稳定统一领导\"和之后的\"新权威\"谬论。左转被邓小平南巡阻止后，王策划顺邓经济改革却将政治改革逐步全面终止和倒退，泡制“三个代表”为极左转建立庞大牢固的红色既得利益集团。因此六四后各重大决策和危机难题都摆在中共中央政策研究室王沪宁桌面上，使王沪宁成了此后中共三朝都无法摆脱的幕后最有决策性实权的人，中共中央政策研究室是王为其野",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "da685ec8bfc7caf7271c748292284ef8f250096bc8d3bdeb43a48d6ec025691d",
+      "title": "cchyse/ctf-writeups",
+      "url": "https://github.com/cchyse/ctf-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "cchyse",
+      "published_at": "2026-11-26T14:56:12Z",
+      "discovered_at": "2026-11-26T19:38:09.092654+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Step-by-step writeups for capture the flag challenges (CTF)",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "4d9c11324a25b6448f0c42be92c31ca6a98b098e566c6caab0e467e434d02de8",
+      "title": "EtienneQuarteyPapafio/CTFs",
+      "url": "https://github.com/EtienneQuarteyPapafio/CTFs",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "EtienneQuarteyPapafio",
+      "published_at": "2026-11-26T14:08:21Z",
+      "discovered_at": "2026-11-26T19:38:09.092983+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Writeups of some CTFs that I have participated in",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "bbd2f13012c73ab2112d19913379879b9c80cfafcbf832ae15d7b8bc961e1b55",
+      "title": "MonkeyDLuffy13/MonkeyDLuffy13",
+      "url": "https://github.com/MonkeyDLuffy13/MonkeyDLuffy13",
+      "source": "GitHub · picoCTF",
+      "source_id": "github-search",
+      "platform": "picoCTF",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "MonkeyDLuffy13",
+      "published_at": "2026-11-26T12:41:13Z",
+      "discovered_at": "2026-11-21T20:39:12.911413+00:00",
+      "tags": [
+        "burp-suite",
+        "ctf",
+        "github",
+        "portswigger",
+        "security",
+        "web-security-academy",
+        "writeups"
+      ],
+      "summary": "Portfolio: PortSwigger (273 labs) | CyLab/picoCTF (100 writeups) | HTB CPTS prep (22 machines) | 8kSec Android & iOS labs | cheatsheets",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "e37b2a4b68bee2bd7d7c75cca401f22072ee8bd1bd31f6b40516ebfc30a49b5c",
+      "title": "websterghoul/arkx-ctf-writeup",
+      "url": "https://github.com/websterghoul/arkx-ctf-writeup",
+      "source": "GitHub · AI Security",
+      "source_id": "github-search",
+      "platform": "AI Security",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "websterghoul",
+      "published_at": "2026-11-26T12:31:46Z",
+      "discovered_at": "2026-11-21T20:39:51.853901+00:00",
+      "tags": [
+        "a2a",
+        "aes-ecb",
+        "ai-agents",
+        "ai-security",
+        "ctf",
+        "ctf-writeups",
+        "cyberark",
+        "deserialization",
+        "exploit-development",
+        "github",
+        "llm-security",
+        "mcp",
+        "model-context-protocol",
+        "owasp-llm-top-10",
+        "path-traversal",
+        "penetration-testing",
+        "prompt-injection",
+        "red-team",
+        "ssrf",
+        "stack-overflow",
+        "writeup"
+      ],
+      "summary": "ARKX CTF writeup — all 27 AI agent & MCP security challenges solved: prompt injection, MCP tool exposure, SSRF, YAML deserialization, AES-ECB forgery, aarch64 ret2stack.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "fae234da4ca45161be0c74b3e81c559b9ee5b9e95437fd7d2e53acd429be1d96",
+      "title": "sudoparasite/security-writeups",
+      "url": "https://github.com/sudoparasite/security-writeups",
+      "source": "GitHub · Web Exploitation",
+      "source_id": "github-search",
+      "platform": "Web Exploitation",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "sudoparasite",
+      "published_at": "2026-11-26T12:22:14Z",
+      "discovered_at": "2026-11-26T19:38:32.054969+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Writeups and notes from hands-on offensive security labs — PortSwigger Web Security Academy, HackTheBox, and CTFs. Documenting vulnerability classes, exploitation steps, and remediation as I build toward a career in penetration testing.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "03f1e5fde0ab45d740bc984f54c3d28d1358890e4bb05d8b5bad64faa54c8e2e",
+      "title": "dazhuqi/Curtin_CTF4_writeup",
+      "url": "https://github.com/dazhuqi/Curtin_CTF4_writeup",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "dazhuqi",
+      "published_at": "2026-11-26T12:05:13Z",
+      "discovered_at": "2026-11-25T17:16:00.338840+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "This repository contains the writeups for the \"dump\" team in the 2026 Curtin CTF.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "6b8c9f41223cbaa1fafc460386e361f7b3c2dd18b43d08af1031a57c4f5b4f3f",
+      "title": "Sanchit404/CTF-writeups",
+      "url": "https://github.com/Sanchit404/CTF-writeups",
+      "source": "GitHub · Digital Forensics",
+      "source_id": "github-search",
+      "platform": "Digital Forensics",
+      "type": "ctf_writeup",
+      "category": "DIGITAL-FORENSICS",
+      "author": "Sanchit404",
+      "published_at": "2026-11-26T11:29:08Z",
+      "discovered_at": "2026-11-26T19:38:28.093222+00:00",
+      "tags": [
+        "ctf",
+        "ctf-writeups",
+        "cybersecurity",
+        "github",
+        "linux",
+        "picoctf",
+        "python"
+      ],
+      "summary": "Structured CTF writeups and methodology notes covering Linux fundamentals, networking, forensics, and Python scripting.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "1de4a2e33b9d1820f669f44a63ac5002218c826fd5e1d20610c08001ef5c60c8",
+      "title": "cirosantilli/china-dictatroship-7",
+      "url": "https://github.com/cirosantilli/china-dictatroship-7",
+      "source": "GitHub · AI Security",
+      "source_id": "github-search",
+      "platform": "AI Security",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "cirosantilli",
+      "published_at": "2026-11-26T11:19:54Z",
+      "discovered_at": "2026-11-21T20:39:51.881979+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "反中共政治宣传库。Anti Chinese government propaganda. https://github.com/cirosantilli/china-dictatorship 的备份backup. 住在中国真名用户的网友请别给星星，不然你要被警察请喝茶。常见问答集，新闻集和饭店和音乐建议。卐习万岁卐。冠状病毒审查郝海东新疆改造中心六四事件法轮功 996.ICU709大抓捕巴拿马文件邓家贵低端人口西藏骚乱。Friends who live in China and have real name on account, please don't star this repo, or else the police might pay you a visit. Home to the mega-FAQ, news compilation, restaurant and music recommendations.Heil Xi 卐. 大陆修宪香港恶法台湾武统朝鲜毁约美中冷战等都是王沪宁愚弄习思想极左命运共同体的大策划中共窃国这半个多世纪所犯下的滔天罪恶，前期是毛泽东策划的，中期6.4前后是邓小平策划的，黄牛数据分析后期是毛的极左追随者三朝罪恶元凶王沪宁策划的。王沪宁高小肆业因文革政治和情报需要保送“学院外语班“红色仕途翻身，所以王的本质是极左的。他是在上海底层弄堂长大的，因其本性也促成其瘪三下三滥个性，所以也都说他有易主“变色龙”哈巴狗“的天性。大陆像王沪宁这样学马列政治所谓\"法学\"专业的人，在除朝鲜古巴所有国家特别是在文明发达国家是无法找到专业对口工作必定失业，唯独在大陆却是重用的紧缺“人才”，6.4后中共信仰大危机更是最重用的救党“人才”。这也就是像王沪宁此类工农兵假“大学生”平步青云的原因，他们最熟悉毛泽东历次运动的宫庭内斗经验手段和残酷的阶级斗争等暴力恐怖",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "809e5c77a834e4e7ae7ecad89d77c3ae927697b1a841b140273a897f308f854e",
+      "title": "gege-circle/.github",
+      "url": "https://github.com/gege-circle/.github",
+      "source": "GitHub · AI Security",
+      "source_id": "github-search",
+      "platform": "AI Security",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "gege-circle",
+      "published_at": "2026-11-26T11:19:48Z",
+      "discovered_at": "2026-11-21T20:39:51.890420+00:00",
+      "tags": [
+        "a-soul",
+        "acfun",
+        "bilibili",
+        "china",
+        "ctf",
+        "gege-circle",
+        "github",
+        "message-board",
+        "vtuber",
+        "vup"
+      ],
+      "summary": "这里是GitHub的草场，也是戈戈圈爱好者的交流地，主要讨论动漫、游戏、科技、人文、生活等所有话题，欢迎各位小伙伴们在此讨论趣事。This is GitHub grassland, and the community place for Gege circle lovers, mainly discusses anime, games, technology, lifing and other topics. You are welcome to share interest things here. 缺氧修改器 捏脸 反光板 MySQL数据库 玉米杂草数据集 销售系统开发 疫情期间网民情绪识别比赛 996icu 预测结果导出 赖伟林刺杀小说家 购物商场 英语词汇量小程序 联级选择器Bitcoin区块链 技术面试必备基础知识 Leetcode 计算机操作系统 计算机网络 系统设计 Java学习 面试指南 一份涵盖大部分 Java 程序员所需要掌握的核心知识 准备 Java 面试 首选 JavaGuide Python 1 天从新手到大师刷算法全靠套路 认准 labuladong 就够了 免费的计算机编程类中文书籍 欢迎投稿用动画的形式呈现解LeetCode题目的思路 互联网 Java 工程师进阶知识完全扫盲 涵盖高并发 分布式 高可用 微服务 海量数据处理等领域知识后端架构师技术图谱mall项目是一套电商系统 包括前台商城系统及后台管理系统 基于SpringBoot MyBatis实现 采用Docker容器化部署 前台商城系统包含首页门户 商品推荐 商品搜索 商品展示 购物车 订单流程 会员中心 客户服务 帮助中心等模块 后台管理系统包含商品管理 订单管理 会员管理 促销管理 运营管理 内容管理 统计报表 财务管理 权限管理 设置等模块 微信小程序开发资源汇总 最全中华古诗",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "667f64a3049ae60c195d6b2a0265883821473b625c2ba24275c257fac367edf1",
+      "title": "Karman1818/tryhackme-writeups",
+      "url": "https://github.com/Karman1818/tryhackme-writeups",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "Karman1818",
+      "published_at": "2026-11-26T11:03:14Z",
+      "discovered_at": "2026-11-26T19:38:15.232245+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "TryHackMe write-ups and lab notes. Documenting my cybersecurity learning journey, covering networking, systems, and defensive security.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "525b750b872c5063d74b10e200ce3fd6b72778f104a4ec0542eef4a8641355b4",
+      "title": "zamir-naufal/CTF-Writeups",
+      "url": "https://github.com/zamir-naufal/CTF-Writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "zamir-naufal",
+      "published_at": "2026-11-26T10:58:11Z",
+      "discovered_at": "2026-11-26T19:38:09.090987+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "These are collections of CTF writeups made by me and my team",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "c1095e1189d6d0ecd2e28d8bb86c2045f76ae891be1fc1d164165785ebccb1d2",
+      "title": "natenapaS/ctf-writeups",
+      "url": "https://github.com/natenapaS/ctf-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "natenapaS",
+      "published_at": "2026-11-26T09:37:40Z",
+      "discovered_at": "2026-11-24T23:02:03.629145+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "A collection of my CTF writeups from various platforms and competitions.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "ff97d006a603f5f5351b2c05758a6bfa6560a9785673d92bf596fbd7c23d274b",
+      "title": "b-draoui/sherpa",
+      "url": "https://github.com/b-draoui/sherpa",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "AI-SECURITY",
+      "author": "b-draoui",
+      "published_at": "2026-11-26T09:14:35Z",
+      "discovered_at": "2026-11-26T09:33:30.869005+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Sherpa is an open-source CTF coach that guides you through a hacking practice box instead of solving it for you. It runs recon, maps the path, then gives graded hints: a nudge first, the answer only if you keep asking. Built so you learn on TryHackMe & HackTheBox, not copy a writeup. Python, any LLM, Claude Code plugin.",
       "priority": 70,
       "metadata_checked": true
     },
@@ -7139,34 +7753,6 @@
         "github"
       ],
       "summary": "A collection of hands-on Capture The Flag (CTF) write-ups covering Linux privilege escalation, web exploitation, enumeration, vulnerability analysis, and practical cybersecurity techniques.",
-      "priority": 70,
-      "metadata_checked": true
-    },
-    {
-      "id": "809e5c77a834e4e7ae7ecad89d77c3ae927697b1a841b140273a897f308f854e",
-      "title": "gege-circle/.github",
-      "url": "https://github.com/gege-circle/.github",
-      "source": "GitHub · AI Security",
-      "source_id": "github-search",
-      "platform": "AI Security",
-      "type": "ctf_writeup",
-      "category": "WEB-EXPLOITATION",
-      "author": "gege-circle",
-      "published_at": "2026-11-26T02:05:53Z",
-      "discovered_at": "2026-11-21T20:39:51.890420+00:00",
-      "tags": [
-        "a-soul",
-        "acfun",
-        "bilibili",
-        "china",
-        "ctf",
-        "gege-circle",
-        "github",
-        "message-board",
-        "vtuber",
-        "vup"
-      ],
-      "summary": "这里是GitHub的草场，也是戈戈圈爱好者的交流地，主要讨论动漫、游戏、科技、人文、生活等所有话题，欢迎各位小伙伴们在此讨论趣事。This is GitHub grassland, and the community place for Gege circle lovers, mainly discusses anime, games, technology, lifing and other topics. You are welcome to share interest things here. 缺氧修改器 捏脸 反光板 MySQL数据库 玉米杂草数据集 销售系统开发 疫情期间网民情绪识别比赛 996icu 预测结果导出 赖伟林刺杀小说家 购物商场 英语词汇量小程序 联级选择器Bitcoin区块链 技术面试必备基础知识 Leetcode 计算机操作系统 计算机网络 系统设计 Java学习 面试指南 一份涵盖大部分 Java 程序员所需要掌握的核心知识 准备 Java 面试 首选 JavaGuide Python 1 天从新手到大师刷算法全靠套路 认准 labuladong 就够了 免费的计算机编程类中文书籍 欢迎投稿用动画的形式呈现解LeetCode题目的思路 互联网 Java 工程师进阶知识完全扫盲 涵盖高并发 分布式 高可用 微服务 海量数据处理等领域知识后端架构师技术图谱mall项目是一套电商系统 包括前台商城系统及后台管理系统 基于SpringBoot MyBatis实现 采用Docker容器化部署 前台商城系统包含首页门户 商品推荐 商品搜索 商品展示 购物车 订单流程 会员中心 客户服务 帮助中心等模块 后台管理系统包含商品管理 订单管理 会员管理 促销管理 运营管理 内容管理 统计报表 财务管理 权限管理 设置等模块 微信小程序开发资源汇总 最全中华古诗",
       "priority": 70,
       "metadata_checked": true
     },
@@ -7473,26 +8059,6 @@
         "github"
       ],
       "summary": "Public CTF writeup repository",
-      "priority": 70,
-      "metadata_checked": true
-    },
-    {
-      "id": "1de4a2e33b9d1820f669f44a63ac5002218c826fd5e1d20610c08001ef5c60c8",
-      "title": "cirosantilli/china-dictatroship-7",
-      "url": "https://github.com/cirosantilli/china-dictatroship-7",
-      "source": "GitHub · AI Security",
-      "source_id": "github-search",
-      "platform": "AI Security",
-      "type": "ctf_writeup",
-      "category": "WEB-EXPLOITATION",
-      "author": "cirosantilli",
-      "published_at": "2026-11-25T14:36:26Z",
-      "discovered_at": "2026-11-21T20:39:51.881979+00:00",
-      "tags": [
-        "ctf",
-        "github"
-      ],
-      "summary": "反中共政治宣传库。Anti Chinese government propaganda. https://github.com/cirosantilli/china-dictatorship 的备份backup. 住在中国真名用户的网友请别给星星，不然你要被警察请喝茶。常见问答集，新闻集和饭店和音乐建议。卐习万岁卐。冠状病毒审查郝海东新疆改造中心六四事件法轮功 996.ICU709大抓捕巴拿马文件邓家贵低端人口西藏骚乱。Friends who live in China and have real name on account, please don't star this repo, or else the police might pay you a visit. Home to the mega-FAQ, news compilation, restaurant and music recommendations.Heil Xi 卐. 大陆修宪香港恶法台湾武统朝鲜毁约美中冷战等都是王沪宁愚弄习思想极左命运共同体的大策划中共窃国这半个多世纪所犯下的滔天罪恶，前期是毛泽东策划的，中期6.4前后是邓小平策划的，黄牛数据分析后期是毛的极左追随者三朝罪恶元凶王沪宁策划的。王沪宁高小肆业因文革政治和情报需要保送“学院外语班“红色仕途翻身，所以王的本质是极左的。他是在上海底层弄堂长大的，因其本性也促成其瘪三下三滥个性，所以也都说他有易主“变色龙”哈巴狗“的天性。大陆像王沪宁这样学马列政治所谓\"法学\"专业的人，在除朝鲜古巴所有国家特别是在文明发达国家是无法找到专业对口工作必定失业，唯独在大陆却是重用的紧缺“人才”，6.4后中共信仰大危机更是最重用的救党“人才”。这也就是像王沪宁此类工农兵假“大学生”平步青云的原因，他们最熟悉毛泽东历次运动的宫庭内斗经验手段和残酷的阶级斗争等暴力恐怖",
       "priority": 70,
       "metadata_checked": true
     },
@@ -7843,26 +8409,6 @@
         "github"
       ],
       "summary": "Technical penetration testing writeups, root-cause analyses, and remediation guides for Hack The Box & CTFs.",
-      "priority": 70,
-      "metadata_checked": true
-    },
-    {
-      "id": "2bff12cc1c5530b54ead13f0e3e9fb0e502d84d163bbae31b5319224fab076be",
-      "title": "panbinibn/OpenPacketFix_",
-      "url": "https://github.com/panbinibn/OpenPacketFix_",
-      "source": "GitHub · AI Security",
-      "source_id": "github-search",
-      "platform": "AI Security",
-      "type": "ctf_writeup",
-      "category": "WEB-EXPLOITATION",
-      "author": "panbinibn",
-      "published_at": "2026-11-24T23:01:56Z",
-      "discovered_at": "2026-11-21T20:39:51.907470+00:00",
-      "tags": [
-        "ctf",
-        "github"
-      ],
-      "summary": "大陆修宪香港恶法台湾武统朝鲜毁约美中冷战等都是王沪宁愚弄习思想极左命运共同体的大策划中共窃国这半个多世纪所犯下的滔天罪恶，前期是毛泽东策划的，中期6.4前后是邓小平策划的，黄牛数据分析后期是毛的极左追随者三朝罪恶元凶王沪宁策划的。王沪宁高小肆业因文革政治和情报需要保送“学院外语班“红色仕途翻身，所以王的本质是极左的。他是在上海底层弄堂长大的，因其本性也促成其瘪三下三滥个性，所以也都说他有易主“变色龙”哈巴狗“的天性。大陆像王沪宁这样学马列政治所谓\"法学\"专业的人，在除朝鲜古巴所有国家特别是在文明发达国家是无法找到专业对口工作必定失业，唯独在大陆却是重用的紧缺“人才”，6.4后中共信仰大危机更是最重用的救党“人才”。这也就是像王沪宁此类工农兵假“大学生”平步青云的原因，他们最熟悉毛泽东历次运动的宫庭内斗经验手段和残酷的阶级斗争等暴力恐怖的“政治学”。王沪宁能平步青云靠他这马毛伪“政治学”资本和头衔，不是什么真才实学，能干实事有点真才实学的或许在他手下的谋士及秘书班子中可以找到。王沪宁的“真才实学”只不过是一个只读四年小学的人，大半辈子在社会上磨炼特别是在中共官场滚打炼出的的手段和经验而已，他和习近平等保送的工农兵假“大学生”都一样，无法从事原“专业”都凭红资本而从政。六四学运期间各界一边倒支持学生，王沪宁一度去法国躲避和筹谋，他还加入了反学运签名，成为极少有的反学运者仕途突显，在六四和苏联垮台后中共意识形态危机，江泽民上台看上唯一能应急的王沪宁聚谋士泡制的\"稳定统一领导\"和之后的\"新权威\"谬论。左转被邓小平南巡阻止后，王策划顺邓经济改革却将政治改革逐步全面终止和倒退，泡制“三个代表”为极左转建立庞大牢固的红色既得利益集团。因此六四后各重大决策和危机难题都摆在中共中央政策研究室王沪宁桌面上，使王沪宁成了此后中共三朝都无法摆脱的幕后最有决策性实权的人，中共中央政策研究室是王为其野",
       "priority": 70,
       "metadata_checked": true
     },
@@ -8939,6 +9485,26 @@
         "github"
       ],
       "summary": "HackTheBox-Writeups",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "d1595cdcd1684fa210dc1d435a4b9bd964bd1ad751fea78aea72ebcadc7a118d",
+      "title": "SamAlex-22/TryHackMe-WriteUps",
+      "url": "https://github.com/SamAlex-22/TryHackMe-WriteUps",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "SamAlex-22",
+      "published_at": "2026-11-23T10:31:53Z",
+      "discovered_at": "2026-11-26T19:38:15.227757+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Public CTF writeup repository",
       "priority": 70,
       "metadata_checked": true
     },
@@ -10241,26 +10807,6 @@
       "metadata_checked": true
     },
     {
-      "id": "03f1e5fde0ab45d740bc984f54c3d28d1358890e4bb05d8b5bad64faa54c8e2e",
-      "title": "dazhuqi/Curtin_CTF4_writeup",
-      "url": "https://github.com/dazhuqi/Curtin_CTF4_writeup",
-      "source": "GitHub · CTF writeup",
-      "source_id": "github-search",
-      "platform": "CTF writeup",
-      "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
-      "author": "dazhuqi",
-      "published_at": "2026-11-21T00:54:44Z",
-      "discovered_at": "2026-11-25T17:16:00.338840+00:00",
-      "tags": [
-        "ctf",
-        "github"
-      ],
-      "summary": "This repository contains the writeups for the \"dump\" team in the 2026 Curtin CTF.",
-      "priority": 70,
-      "metadata_checked": true
-    },
-    {
       "id": "4bf8ba224633909ff3766b4e6b654eb0f5557c47d907276302e07223bbb507b4",
       "title": "justcovv/soc-notes",
       "url": "https://github.com/justcovv/soc-notes",
@@ -11200,45 +11746,6 @@
       "metadata_checked": true
     },
     {
-      "id": "e37b2a4b68bee2bd7d7c75cca401f22072ee8bd1bd31f6b40516ebfc30a49b5c",
-      "title": "websterghoul/arkx-ctf-writeup",
-      "url": "https://github.com/websterghoul/arkx-ctf-writeup",
-      "source": "GitHub · AI Security",
-      "source_id": "github-search",
-      "platform": "AI Security",
-      "type": "ctf_writeup",
-      "category": "WEB-EXPLOITATION",
-      "author": "websterghoul",
-      "published_at": "2026-11-17T19:12:36Z",
-      "discovered_at": "2026-11-21T20:39:51.853901+00:00",
-      "tags": [
-        "a2a",
-        "aes-ecb",
-        "ai-agents",
-        "ai-security",
-        "ctf",
-        "ctf-writeups",
-        "cyberark",
-        "deserialization",
-        "exploit-development",
-        "github",
-        "llm-security",
-        "mcp",
-        "model-context-protocol",
-        "owasp-llm-top-10",
-        "path-traversal",
-        "penetration-testing",
-        "prompt-injection",
-        "red-team",
-        "ssrf",
-        "stack-overflow",
-        "writeup"
-      ],
-      "summary": "ARKX CTF writeup — all 27 AI agent & MCP security challenges solved: prompt injection, MCP tool exposure, SSRF, YAML deserialization, AES-ECB forgery, aarch64 ret2stack.",
-      "priority": 70,
-      "metadata_checked": true
-    },
-    {
       "id": "6f7e1a7d646c095d0cdccfa1f9543e8e88401082099fbb2a53b01f482969e0ff",
       "title": "sonyahack1/red-team-labs",
       "url": "https://github.com/sonyahack1/red-team-labs",
@@ -11301,9 +11808,9 @@
       "id": "c1ad2faab490dc4d73634c2dd525ebe13840ea5653b0f6b487135c84f7e640ed",
       "title": "nguyenthanhvu240/ctf-writeups",
       "url": "https://github.com/nguyenthanhvu240/ctf-writeups",
-      "source": "GitHub · CTF writeups",
+      "source": "GitHub · CTF writeup",
       "source_id": "github-search",
-      "platform": "CTF writeups",
+      "platform": "CTF writeup",
       "type": "ctf_writeup",
       "category": "UNCATEGORIZED",
       "author": "nguyenthanhvu240",
@@ -12376,6 +12883,26 @@
       "metadata_checked": true
     },
     {
+      "id": "bfb5a40063a0bf917eb73da4b03ff2556b52264654cb6c7b4dabd9ab91f22fea",
+      "title": "danghieu0411/CTF-WriteUp",
+      "url": "https://github.com/danghieu0411/CTF-WriteUp",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "danghieu0411",
+      "published_at": "2026-11-12T08:27:32Z",
+      "discovered_at": "2026-11-26T19:38:09.093646+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Public CTF writeup repository",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "4121e3ef290a2c7f7230dcaa6100914d83ab5ebfef353b8ac55a25ea6a14c8d3",
       "title": "ayushkumarjha-dev/Obsqura",
       "url": "https://github.com/ayushkumarjha-dev/Obsqura",
@@ -12792,9 +13319,9 @@
       "id": "2a08f1a5ff6fe7ed79aa4c5f19ae26650a60244ff195262ff06cc3c9ccc3d720",
       "title": "ghost-squad/ghost-squad.github.io",
       "url": "https://github.com/ghost-squad/ghost-squad.github.io",
-      "source": "GitHub · CTF writeup",
+      "source": "GitHub · CTF writeups",
       "source_id": "github-search",
-      "platform": "CTF writeup",
+      "platform": "CTF writeups",
       "type": "ctf_writeup",
       "category": "UNCATEGORIZED",
       "author": "ghost-squad",
@@ -13139,6 +13666,26 @@
         "github"
       ],
       "summary": "Personal notes and writeups from TryHackMe rooms and other cybersecurity learning for my own reference, messy, ongoing, and mostly for future-me.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "9c5f2388b38eabe3fdf86fa2bda17083ecb1c541ab12df11fe96c5d05f4cdf78",
+      "title": "SyedAbdulRauf-12/cybersecurity-portfolio",
+      "url": "https://github.com/SyedAbdulRauf-12/cybersecurity-portfolio",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "SyedAbdulRauf-12",
+      "published_at": "2026-11-10T09:45:07Z",
+      "discovered_at": "2026-11-26T19:38:09.096391+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "This repository is a practical portfolio documenting my cybersecurity journey and growth. Everything I learn, build and work on is documented here, cheatsheets, CTF writeups, scripts, and projects built through real hands-on learning.",
       "priority": 70,
       "metadata_checked": true
     },
@@ -13981,38 +14528,6 @@
       "metadata_checked": true
     },
     {
-      "id": "b25314100fdca7ab98f694b156d99be60ea0bee7ccfdd5fbdc6557abc4f07c0d",
-      "title": "Cajac/picoCTF-Writeups",
-      "url": "https://github.com/Cajac/picoCTF-Writeups",
-      "source": "GitHub · picoCTF",
-      "source_id": "github-search",
-      "platform": "picoCTF",
-      "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
-      "author": "Cajac",
-      "published_at": "2026-11-05T07:39:47Z",
-      "discovered_at": "2026-11-21T20:39:12.913836+00:00",
-      "tags": [
-        "bash",
-        "bash-scripting",
-        "ctf",
-        "ctf-solutions",
-        "ctf-writeup",
-        "ctf-writeups",
-        "github",
-        "picoctf",
-        "picoctfsolutions",
-        "python",
-        "python3",
-        "writeup",
-        "writeup-ctf",
-        "writeups"
-      ],
-      "summary": "More than 275 writeups for picoCTF challenges",
-      "priority": 70,
-      "metadata_checked": true
-    },
-    {
       "id": "f7b5d88420cf673d0470852e58c8af70fac43ac35b048d2f003e07f21d64fb4b",
       "title": "SanketBaraiya/CTFlearn-Solutions",
       "url": "https://github.com/SanketBaraiya/CTFlearn-Solutions",
@@ -14075,6 +14590,26 @@
         "github"
       ],
       "summary": "Python automation pipeline for Huntress CTF 2026 (91st of 2,304, top 4%). A daily Windows scheduled task pulls challenges from the game API, solves them across forensics, malware/script analysis, binary, web, and mobile categories, and generates a write-up for each solve.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "d454312e5e186d296fa702fc7625c381360db3c88e4660ec2c8566d043348490",
+      "title": "Shreyas993/ctf-writeups",
+      "url": "https://github.com/Shreyas993/ctf-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "Shreyas993",
+      "published_at": "2026-11-04T17:50:24Z",
+      "discovered_at": "2026-11-26T19:38:09.097413+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "My CTF and cybersecurity lab writeups",
       "priority": 70,
       "metadata_checked": true
     },
@@ -15174,31 +15709,6 @@
         "github"
       ],
       "summary": "My TryHackMe cybersecurity and penetration testing write-ups, notes, and practical walkthroughs.",
-      "priority": 70,
-      "metadata_checked": true
-    },
-    {
-      "id": "bbd2f13012c73ab2112d19913379879b9c80cfafcbf832ae15d7b8bc961e1b55",
-      "title": "MonkeyDLuffy13/MonkeyDLuffy13",
-      "url": "https://github.com/MonkeyDLuffy13/MonkeyDLuffy13",
-      "source": "GitHub · picoCTF",
-      "source_id": "github-search",
-      "platform": "picoCTF",
-      "type": "ctf_writeup",
-      "category": "WEB-EXPLOITATION",
-      "author": "MonkeyDLuffy13",
-      "published_at": "2026-10-29T19:51:44Z",
-      "discovered_at": "2026-11-21T20:39:12.911413+00:00",
-      "tags": [
-        "burp-suite",
-        "ctf",
-        "github",
-        "portswigger",
-        "security",
-        "web-security-academy",
-        "writeups"
-      ],
-      "summary": "Portfolio: PortSwigger (273 labs) | CyLab/picoCTF (100 writeups) | 8kSec Android & iOS labs | cheatsheets + the gear pentest CLI",
       "priority": 70,
       "metadata_checked": true
     },
@@ -16775,6 +17285,26 @@
       "metadata_checked": true
     },
     {
+      "id": "7af3a101d856520fca7d88f9bf645b4d628b5e0e466d0ef5448f22a250563b73",
+      "title": "hcn617/ctf_writeup",
+      "url": "https://github.com/hcn617/ctf_writeup",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "hcn617",
+      "published_at": "2026-10-12T19:57:28Z",
+      "discovered_at": "2026-11-26T19:38:09.098223+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "ctfのれんしゅう",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "f1a3b456d8fc269cceb8ddb9c355c1757cac2b142ca2e0d50f08a17212da809d",
       "title": "hax1ng/H7CTF-2026-Quals",
       "url": "https://github.com/hax1ng/H7CTF-2026-Quals",
@@ -17486,6 +18016,26 @@
         "github"
       ],
       "summary": "Public CTF writeup repository",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "d8f601275e1ad6066cda300cd28259511d979c00e605dfa4723f94b5640d92e4",
+      "title": "rafaortiz1810/portafolio-ciberseguridad",
+      "url": "https://github.com/rafaortiz1810/portafolio-ciberseguridad",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "rafaortiz1810",
+      "published_at": "2026-10-02T09:25:00Z",
+      "discovered_at": "2026-11-26T19:38:15.231772+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Portafolio de ciberseguridad — Blue Team/SOC: labs, writeups y evidencia práctica (TryHackMe, HTB, CompTIA CySA+, CISCO).",
       "priority": 70,
       "metadata_checked": true
     },
@@ -18761,9 +19311,9 @@
       "id": "28bc3190ff31b4945168227ae6363d8b6aea9bdd40961937e8f22e42d631f2c5",
       "title": "CharlesTChapman/ctf-writeups",
       "url": "https://github.com/CharlesTChapman/ctf-writeups",
-      "source": "GitHub · Web Exploitation",
+      "source": "GitHub · Reverse Engineering",
       "source_id": "github-search",
-      "platform": "Web Exploitation",
+      "platform": "Reverse Engineering",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "CharlesTChapman",
@@ -18928,6 +19478,26 @@
         "web"
       ],
       "summary": "Full writeups and working proof-of-concept scripts for all 30/30 challenges solved in Cyber Operations CTF (Nexus Defenders, 22–23 Aug 2026), a 48-hour online CTF spanning Web Exploitation, Cryptography, Digital Forensics, OSINT, Misc, and Pwn.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "3ec59b5eeb3a030ed8fa7b8923ee1aacd8fa88d7487a71c7fa3dca39a0389742",
+      "title": "axelheng/ctf-writeups",
+      "url": "https://github.com/axelheng/ctf-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "axelheng",
+      "published_at": "2026-08-23T10:12:12Z",
+      "discovered_at": "2026-11-26T19:38:09.090644+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Public CTF writeup repository",
       "priority": 70,
       "metadata_checked": true
     },
@@ -19136,6 +19706,27 @@
         "github"
       ],
       "summary": "Writeups and walkthroughs of CTF challenges covering Digital Forensics, OSINT, Cryptography, Reverse Engineering, Web Security, and Network Analysis.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "6b88a34ebcae8a684934ccfe7f26c6da3db8a71e743120b2dd3b98a394c1e191",
+      "title": "uriel0byte/Cybersecurity-Writeups",
+      "url": "https://github.com/uriel0byte/Cybersecurity-Writeups",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "DIGITAL-FORENSICS",
+      "author": "uriel0byte",
+      "published_at": "2026-08-12T11:12:46Z",
+      "discovered_at": "2026-11-26T19:38:15.231284+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "github"
+      ],
+      "summary": "IR reports, PCAP analysis, and CTF walkthroughs across CyberDefenders, TryHackMe, HackTheBox, picoCTF, etc.",
       "priority": 70,
       "metadata_checked": true
     },
@@ -20087,6 +20678,26 @@
       "metadata_checked": true
     },
     {
+      "id": "e6c1a17a4e7b8733316ca2d8c18c0122ff510c75106922f388c8234fb13d3b4b",
+      "title": "dechamithsilva/CTF-Writeups",
+      "url": "https://github.com/dechamithsilva/CTF-Writeups",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "dechamithsilva",
+      "published_at": "2026-06-02T07:04:23Z",
+      "discovered_at": "2026-11-26T19:38:15.232629+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "🛡️ CTF writeups and notes | HackTheBox & TryHackMe | Cybersecurity journey 🚀",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "98204c432614862342ca59467e6320d59080b802665e279558b64cfb299b2e43",
       "title": "bxkthwlei/Cybersecurity-Portfolio",
       "url": "https://github.com/bxkthwlei/Cybersecurity-Portfolio",
@@ -20517,9 +21128,9 @@
       "id": "734cb0083190b7ee074496d46c00bf2804d90441b951e47234de909d4fa0c33f",
       "title": "aq358237-alt/cybersecurity-portfolio",
       "url": "https://github.com/aq358237-alt/cybersecurity-portfolio",
-      "source": "GitHub · CTF writeup",
+      "source": "GitHub · CTF writeups",
       "source_id": "github-search",
-      "platform": "CTF writeup",
+      "platform": "CTF writeups",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "aq358237-alt",
@@ -20550,6 +21161,26 @@
         "github"
       ],
       "summary": "Cybersecurity Writeups & CTF Solutions | Comprehensive walkthroughs for HackTheBox, TryHackMe, Root-Me, PicoCTF, and competitive CTF events. Categorized by platform and difficulty.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "2a8034b15955eb4df3439d4586453f79d53565f2b0f5405f8859b4953286045b",
+      "title": "kriti-1-9/Cyber-Security-portfolio",
+      "url": "https://github.com/kriti-1-9/Cyber-Security-portfolio",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "kriti-1-9",
+      "published_at": "2026-04-09T15:18:43Z",
+      "discovered_at": "2026-11-26T19:38:09.099763+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Cybersecurity portfolio: automation scripts, CTF writeups, and machine testing writeups.",
       "priority": 70,
       "metadata_checked": true
     },
@@ -20894,6 +21525,26 @@
         "root-me"
       ],
       "summary": "Writeup for the root-me CTF challenges",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "c127b401e14007831fe1ba98493068cc7b761e39dae66fb8a3c0c1c8c66d527a",
+      "title": "UserLH1/cyber-writeups",
+      "url": "https://github.com/UserLH1/cyber-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "UserLH1",
+      "published_at": "2025-12-02T14:28:08Z",
+      "discovered_at": "2026-11-26T19:38:09.090329+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "My writeups for ctf on diferent platforms",
       "priority": 70,
       "metadata_checked": true
     },
@@ -25365,10 +26016,10 @@
   ],
   "last_run": {
     "ctftime_entries": 30,
-    "rss_entries": 200,
+    "rss_entries": 199,
     "github_repositories": 653,
     "social_links": 0,
-    "new_entries": 23,
+    "new_entries": 56,
     "failures": [
       {
         "source": "X/Twitter",

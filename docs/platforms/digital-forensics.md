@@ -2,6 +2,8 @@
 
 | Date | CTF / Challenge / Repository | Platform | Category | Author / Team | Source |
 |---|---|---|---|---|---|
+| 2026-11-26T18:54 | [bcaglarr/mercimek-ctf<br><sub>Forensics and steganography CTF challenge for ETUSEC — challenge files, generator tools, and writeup.</sub>](https://github.com/bcaglarr/mercimek-ctf) | Digital Forensics | DIGITAL-FORENSICS | bcaglarr | GitHub · Digital Forensics |
+| 2026-11-26T11:29 | [Sanchit404/CTF-writeups<br><sub>Structured CTF writeups and methodology notes covering Linux fundamentals, networking, forensics, and Python scripting.</sub>](https://github.com/Sanchit404/CTF-writeups) | Digital Forensics | DIGITAL-FORENSICS | Sanchit404 | GitHub · Digital Forensics |
 | 2026-11-25T11:15 | [pasmud/ctf-writeups-2025<br><sub>Reproducible offline CTF-style forensics exercises and writeups</sub>](https://github.com/pasmud/ctf-writeups-2025) | Digital Forensics | DIGITAL-FORENSICS | pasmud | GitHub · Digital Forensics |
 | 2026-11-25T10:05 | [mfscpayload-690/vyuham26_CTF<br><sub>An archive of challenge artifacts, forensic investigations, custom exploit tooling, and writeups produced by team BinaryBandits during the CTF competition.</sub>](https://github.com/mfscpayload-690/vyuham26_CTF) | Digital Forensics | DIGITAL-FORENSICS | mfscpayload-690 | GitHub · Digital Forensics |
 | 2026-11-23T15:42 | [Cymerican/ctf-writeups<br><sub>Writeups from MSU Cyber Club CTF challenges: Linux forensics, log analysis, and incident response.</sub>](https://github.com/Cymerican/ctf-writeups) | Digital Forensics | DIGITAL-FORENSICS | Cymerican | GitHub · Digital Forensics |
