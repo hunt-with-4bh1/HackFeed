@@ -2,6 +2,7 @@
 
 | Date | CTF / Challenge / Repository | Platform | Category | Author / Team | Source |
 |---|---|---|---|---|---|
+| Wed, 25 Nov 2026 | [THM — Rubber Stamp<br><sub>From IIS to Domain Admin. Chain a seemingly minor web flaw into a full network takeover. Continue reading on Medium »</sub>](https://medium.com/@0xSAF/thm-rubber-stamp-89901eafa949?source=rss------ctf-5) | Medium | WEB-EXPLOITATION | S4F4L | Medium · CTF |
 | Wed, 25 Nov 2026 | [CyLab “Trust But Verify” Writeup: Why You Can’t Just Trust the AI<br><sub>Alright, so this next challenge from the CyLab Security Academy is a bit different from your standard terminal or coding stuff. It falls&#x2026; Continue reading on Medium »</sub>](https://medium.com/@mico01/cylab-trust-but-verify-writeup-why-you-cant-just-trust-the-ai-4fc2ec2afce5?source=rss------ctf-5) | Medium | AI-SECURITY | Rakshika | Medium · CTF |
 | Wed, 25 Nov 2026 | [TryHackMe Jackpot — Understanding ATM Jackpotting and Weak Authentication(11/50)<br><sub>Introduction Continue reading on Medium »</sub>](https://medium.com/@deepabelvat/tryhackme-jackpot-understanding-atm-jackpotting-and-weak-authentication-11-50-35f0b9859646?source=rss------ctf-5) | Medium | UNCATEGORIZED | sai_prasad_belvat | Medium · CTF |
 | Wed, 25 Nov 2026 | [Basic Malware RE \| TryHackMe \| Writeup<br><sub>Challenge Overview Continue reading on Medium »</sub>](https://siapaheker.medium.com/basic-malware-re-tryhackme-writeup-56828a37eb85?source=rss------ctf-5) | Medium | UNCATEGORIZED | SiapaHeker | Medium · CTF |

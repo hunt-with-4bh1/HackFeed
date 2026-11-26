@@ -2,6 +2,7 @@
 
 | Date | CTF / Challenge / Repository | Platform | Category | Author / Team | Source |
 |---|---|---|---|---|---|
+| 2026-11-25T17:55 | [RIAO124/CTF-writeups<br><sub>picoCTF write-ups and security notes: crypto, forensics, reverse engineering, binary exploitation</sub>](https://github.com/RIAO124/CTF-writeups) | Reverse Engineering | CRYPTOGRAPHY | RIAO124 | GitHub · Reverse Engineering |
 | 2026-11-23T19:40 | [f4zzie/MyNotes<br><sub>Obsidian vault + Astro site behind f4zzie.dev — 84 hands-on writeups: binary exploitation, malware analysis, reverse engineering, HTB & CTF (picoCTF, perfectRootCTF).</sub>](https://github.com/f4zzie/MyNotes) | Reverse Engineering | BINARY-EXPLOITATION | f4zzie | GitHub · Reverse Engineering |
 | 2026-11-23T13:48 | [Gantosay/CTF-Writeups<br><sub>Step-by-step writeups and Python exploit scripts for Binary Exploitation (Pwn) challenges (x86/x64, Stack/Heap, ROP). And Reverse Engineering. BUUCTF - HackTheBox -TryHackMe - PICOCTF - SIGPwny - spbctf</sub>](https://github.com/Gantosay/CTF-Writeups) | Reverse Engineering | BINARY-EXPLOITATION | Gantosay | GitHub · Reverse Engineering |
 | 2026-11-22T03:05 | [khaled970r/ctf-writeups<br><sub>CTF write-up: from a PCAP to a macOS info-stealer, using Wireshark, IDA reverse engineering and AES/RC4 decryption.</sub>](https://github.com/khaled970r/ctf-writeups) | Reverse Engineering | CRYPTOGRAPHY | khaled970r | GitHub · Reverse Engineering |
