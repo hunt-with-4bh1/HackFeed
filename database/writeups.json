@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "updated_at": "2026-11-27T12:26:21.658821+00:00",
-  "total": 1210,
+  "updated_at": "2026-11-27T21:59:23.140977+00:00",
+  "total": 1235,
   "items": [
     {
       "id": "107dbe66672ba43877f3e93fab3d038b3f318bf23c8c5ef9989e36f20d711cc0",
@@ -3388,8 +3388,7 @@
       "priority": 95,
       "metadata_checked": true,
       "ai_summary": "This CTF writeup for \"HTB: Breach\" details the exploitation of a Windows domain controller by capturing a NetNTLMv2 hash via a writable SMB share, kerberoasting an MSSQL service account, forging a silver ticket, and using GodPotato to escalate privileges to SYSTEM.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "6ae053217b7925adb2dfeb0ce4180446867eb571c8683b509be137a759658c94",
@@ -3439,8 +3438,7 @@
       "priority": 90,
       "metadata_checked": true,
       "ai_summary": "Hack The Box has released a new Job Role Path on HTB Academy designed to help users unlock their potential as SOC Analysts. Specific technical details are limited in the provided text.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "f22e8672f939df5a53487327ab90af34a6aa3987e59df928e19f0c8e1246824a",
@@ -3463,8 +3461,7 @@
       "priority": 90,
       "metadata_checked": true,
       "ai_summary": "This Hack The Box writeup, titled \"PwnOS: From Admin to Root—Exploiting CVE-2024-9474,\" details the exploitation of CVE-2024-9474 on the PwnOS platform. The excerpt indicates that the guide covers reconnaissance, exploitation, flag retrieval, and defensive guidance.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "964a1f1be8652b65f29b3e46e5670286e7174f6720635239162d54f558353525",
@@ -3487,8 +3484,7 @@
       "priority": 90,
       "metadata_checked": true,
       "ai_summary": "This Hack The Box digital forensics writeup, titled \"Creating Linux Symbol Tables for Volatility: Step-by-step guide,\" discusses the Volatility memory analysis framework. Specific technical steps for creating the symbol tables are not detailed in the provided excerpt.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "2ee20744a1b8ad127e063902058e72a3c23b92cb2dcb2d85e00922d32c3894d8",
@@ -3511,8 +3507,7 @@
       "priority": 90,
       "metadata_checked": true,
       "ai_summary": "The Hack The Box digital forensics writeup titled \"CyberJunkie explains: Data exfiltration via Windows Sandbox\" covers topics including the attack, forensics and defense, traditional artifacts versus Windows Sandbox, technique, and mitigations based on the provided excerpt.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "b73e1c20fd3d702154454fd55ee39558fb91f930d540e550f12e97de0fdde54e",
@@ -3535,8 +3530,7 @@
       "priority": 90,
       "metadata_checked": true,
       "ai_summary": "This Hack The Box CTF writeup for \"Business CTF 2022: Defeating modern malware techniques - Mr Abilgate\" outlines the process of analyzing and unpacking a packed executable. Specific steps covered include examining entropy and segment sizes, decrypting encrypted strings, defeating function resolution and anti-debugging mechanisms, understanding the malware logic, and decrypting an .xls file.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "b4206b8227fa1edc5ae84a47e67f8a29c89173ff344c33e13adb0a5a02a3a58a",
@@ -3559,8 +3553,7 @@
       "priority": 90,
       "metadata_checked": true,
       "ai_summary": "This Hack The Box writeup titled \"Invalid curve attack - 400 Curves\" is categorized as uncategorized. Based on the provided excerpt, the article covers analyzing source code, the mathematics of the exploitation, and connecting to the server to retrieve the flag.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "9972ca56c5579b972c4964226ed3037a2257e19e453a068c6710685fe2c0fba7",
@@ -3581,7 +3574,10 @@
       ],
       "summary": "Table of Contents Challenge Summary 📄 Challenge Motives 🧭 Challenge Write-up ✍️ Application At-a-glance 🕵️ &nbsp; HTTP/2 request smuggling in varnish 🐇 &nbsp; Bypassing ACL with the H2.CL Desync 🧱 Finding SSTI via source-code review 🔎 Digging into Twig Template Engine for RCE ⛏️ Bypassing Twig sandbox policy for RCE 📦 Impacts as seen in the bug bounty reports 📝 Past research on HTTPRS and SSTI 📖",
       "priority": 90,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "Based on the provided title and excerpt, this Hack The Box web exploitation CTF writeup details the exploitation of HTTP/2 request smuggling (via Varnish) and Server-Side Template Injection (SSTI) leading to remote code execution (RCE) in Twig.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "3c44394a98219eccbfb743d17af8226f7ec8710ccd07c1abaa19dcd809fb04a5",
@@ -3602,7 +3598,10 @@
       ],
       "summary": "Table of Contents Challenge summary 📄 Challenge motives 🧭 Challenge write-up ✍️ Application at-a-glance 🕵️ Application stack overview 🧩 Redis execution via socket injection 💉 PHP messenger component deserialization 🐘 Finding a custom POP chain 🔍 Exploiting deserialization via message queue 📥",
       "priority": 90,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "The \"UNIX socket injection to custom RCE POP chain - Spell Orsterra\" writeup for UNI CTF 2022 on Hack The Box details the exploitation of a web challenge involving Redis execution via socket injection and PHP deserialization via a custom POP chain.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "a074d759a8f467b08c00654fc363dacc6ec63f693229728d97ceac1327086401",
@@ -3623,7 +3622,10 @@
       ],
       "summary": "Table of Contents Description 📄 The idea 💡 The application at-a-glance 🔍 Analyzing the source code 📖 server.py encryption.py Searching for the bugs 👾 Exploitation 🔓 Connecting to the server Getting the public key Forging the signature Getting the flag Unintended solutions and patching 🧯 Last-minute changes Maths gone wrong",
       "priority": 90,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "The writeup titled \"Business CTF 2022: Bleichenbacher's '06 RSA signature forgery - BBGun06\" for Hack The Box covers a cryptography challenge involving source code analysis, vulnerability hunting, and exploiting Bleichenbacher's '06 RSA signature forgery to retrieve the flag.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "004705b626b14c6f213256d594e7bdc7af305b96252143f9b29e061def583eba",
@@ -3644,7 +3646,10 @@
       ],
       "summary": "Table of Contents Challenge Summary 📄 Challenge Motives 🧭 Challenge Write-up ✍️ Application At-a-glance 🕵️ Figuring out the challenge goal 🎯 Reviewing source code in search for XSS 🔍 Chaining Self XSS with Cache Poisoning 🧪 &nbsp; Impacts as seen in the bug bounty reports 📝",
       "priority": 90,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This Hack The Box web exploitation CTF writeup covers the \"Felonious Forums\" challenge from the Business CTF 2022. It details source code analysis and the process of chaining a Self-XSS vulnerability with cache poisoning.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "f0429e1db3d30525ae33882f4c670fe71a480e6083daec3a2a0ddc9419db624e",
@@ -3664,7 +3669,10 @@
       ],
       "summary": "Solution of the recruitment CTF of Direction Générale de la Sécurité Extérieur (DGSE) during April 2025",
       "priority": 85,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This Root-Me CTF writeup provides the solution for the recruitment CTF held by the Direction Générale de la Sécurité Extérieure (DGSE) in April 2025. Specific technical details from the challenge were not provided in the excerpt.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "b5fe9062c863635a73a2c7e18b0a946af7c3a3c09813e44494035b15325948b9",
@@ -3684,7 +3692,10 @@
       ],
       "summary": "Challenge Description This challenge, authored by @Ethnical and @fadam, involves exploiting a vulnerability in a blockchain network server that processes incoming network messages. The vulnerability allows an attacker to cause a Denial of Service (DoS) by exhausting the server&rsquo;s memory. Vulnerability Overview 🛑 Vulnerability: The vulnerability lies in the unchecked allocation of memory based on user-controlled input length, leading to potential memory exhaustion. Technical Analysis Vulnerability Details Unchecked Length Parameter:",
       "priority": 85,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "The Root-Me network challenge \"Code Snippet Serie - 02 - Memory Exhaustion via Unchecked Input Length,\" authored by @Ethnical and @fadam, involves exploiting a vulnerability in a blockchain network server. The writeup listing indicates that the flaw allows attackers to cause a Denial of Service (DoS) through memory exhaustion caused by unchecked allocation based on user-controlled input length.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "80c7924d0a6c39d1434de605b9b7418ec9a08962a8f7715e45b9615666433d9e",
@@ -3704,7 +3715,10 @@
       ],
       "summary": "Challenge Description This challenge, authored by @KLM, involves exploiting a vulnerability in a vyper smart contract that utilize a Cross-Function-Reentrancy due to a problem in the vyper version. This smart contract is made for a company to sell shares on the blockchain to help and ensure everything is secure, tracked and transparent. Vulnerability Overview 🛑 Vulnerability: The vulnerability lies in the insecure version of Vyper that desynchronise the values of the @nonreentrant(&quot;lock&quot;) between function in a contract and the bad execution flow management.",
       "priority": 85,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This Root-Me CTF writeup titled \"Code Snippet Serie - 03 - Cross-Function-Reentrancy\" covers the exploitation of a cross-function reentrancy vulnerability in a Vyper smart contract used for selling shares. According to the excerpt, the vulnerability stems from an insecure Vyper version that desynchronizes `@nonreentrant(\"lock\")` values between functions and causes poor execution flow management.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "535f67f51eaf776f481186ed3c5431bfe0a604f6af5ece72af824e179bf11700",
@@ -3724,7 +3738,10 @@
       ],
       "summary": "Writeup of the &lsquo;Perfect Notes&rsquo; challenge during the Root-Me CTF 10k",
       "priority": 85,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This listing provides a writeup for the \"Perfect Notes\" challenge from the Root-Me CTF 10k event. Specific technical details regarding the challenge category and solution are not provided in the excerpt.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "5a679340381ae0921f630362de050feeb318a4a687f04adcce13990b8dc44a2e",
@@ -5607,6 +5624,30 @@
       "metadata_checked": true
     },
     {
+      "id": "e227a88d4f01db4f9c4d0310c2f0f5cbf099147cc1f6e344135253e3c804c85c",
+      "title": "picoCTF: triple-secure — Write-up",
+      "url": "https://medium.com/@ryukisuou/picoctf-triple-secure-write-up-f4cec796c861?source=rss------picoctf-5",
+      "source": "Medium · picoCTF",
+      "source_id": "medium-picoctf",
+      "platform": "picoCTF",
+      "type": "ctf_writeup",
+      "category": "CRYPTOGRAPHY",
+      "author": "David",
+      "published_at": "Fri, 27 Nov 2026 16:11:39 GMT",
+      "discovered_at": "2026-11-27T21:58:52.506065+00:00",
+      "tags": [
+        "cryptography",
+        "ctf",
+        "ctf-writeup",
+        "cybersecurity",
+        "mathematics",
+        "picoctf"
+      ],
+      "summary": "Challenge Description Continue reading on Medium »",
+      "priority": 80,
+      "metadata_checked": true
+    },
+    {
       "id": "3acf159e0f7fe2028df031702b5f923efceb4ff9ba0252f5787ae623c0c6a32e",
       "title": "CyLab Writeup: GDB baby step 4",
       "url": "https://medium.com/@sobatistacyber/cylab-writeup-gdb-baby-step-4-fc99a355ddae?source=rss------picoctf-5",
@@ -6929,6 +6970,163 @@
       "metadata_checked": true
     },
     {
+      "id": "db015dfb42f98d0545c0c7d66578616dc617699eb15e9b1503341883336b6ede",
+      "title": "DefCamp CTF 2026 Forensics -Kameosa Writeup",
+      "url": "https://medium.com/@s_28.I7/defcamp-ctf-2026-forensics-kameosa-writeup-7e79eb61b1f3?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "platform": "Medium",
+      "type": "ctf_writeup",
+      "category": "DIGITAL-FORENSICS",
+      "author": "Sohaib Qunaibi",
+      "published_at": "Fri, 27 Nov 2026 19:59:48 GMT",
+      "discovered_at": "2026-11-27T21:58:53.841547+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "digital-forensics",
+        "malware",
+        "windows"
+      ],
+      "summary": "This is my write-up for the &#x2018; Kameosa&#x2019; in DefCamp Capture the Flag 2026. Continue reading on Medium »",
+      "priority": 75,
+      "metadata_checked": true
+    },
+    {
+      "id": "e23211d19f712113400fbe172295e3ef765be39e82038d8027b8ff44885b811b",
+      "title": "TryHackMe Deja Vu CTF Walkthrough: Exploiting ExifTool RCE to Gain Root Access | Th3BlackHol3",
+      "url": "https://th3blackhol3.medium.com/tryhackme-deja-vu-ctf-walkthrough-exploiting-exiftool-rce-to-gain-root-access-th3blackhol3-e8f8ca5d38f6?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "platform": "Medium",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "Th3BlackHol3",
+      "published_at": "Fri, 27 Nov 2026 16:37:53 GMT",
+      "discovered_at": "2026-11-27T21:58:53.841716+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "penetration-testing",
+        "red-team",
+        "tryhackme"
+      ],
+      "summary": "A Complete Boot2Root Penetration Testing Guide: Web Application Reconnaissance, API Enumeration, CVE-2021&#x2013;22204 Exploitation, Metasploit&#x2026; Continue reading on Medium »",
+      "priority": 75,
+      "metadata_checked": true
+    },
+    {
+      "id": "1343171e684e99aadf031b99c4f38e1e2d064ad50a51fd893caf8829c35a3f76",
+      "title": "TryHackMe Simple CTF Walkthrough: From SQL Injection to Root Access",
+      "url": "https://medium.com/@gokhan.karadag/tryhackme-simple-ctf-walkthrough-from-sql-injection-to-root-access-d96915eac4ad?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "platform": "Medium",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "By Han",
+      "published_at": "Fri, 27 Nov 2026 16:12:56 GMT",
+      "discovered_at": "2026-11-27T21:58:53.841897+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "linux",
+        "sql-injection",
+        "tryhackme"
+      ],
+      "summary": "Patron, Simple CTF notlar&#x131;n&#x131; &#x130;ngilizce Medium yaz&#x131;s&#x131; olarak d&#xfc;zenledim. SSH komutlar&#x131;nda 2222 portunu kulland&#x131;m, Python 2/3 ayr&#x131;m&#x131;n&#x131;&#x2026; Continue reading on Medium »",
+      "priority": 75,
+      "metadata_checked": true
+    },
+    {
+      "id": "b49907e0d75a891853a417e705c5b0636a06eafca358decdcaa06b2363e36a5b",
+      "title": "TryHackMe Simple CTF Walkthrough: SQL Injection, Hash Cracking and Vim Privilege Escalation (15/50)",
+      "url": "https://medium.com/@deepabelvat/tryhackme-simple-ctf-walkthrough-sql-injection-hash-cracking-and-vim-privilege-escalation-15-50-8e1f4512db48?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "platform": "Medium",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "sai_prasad_belvat",
+      "published_at": "Fri, 27 Nov 2026 16:01:17 GMT",
+      "discovered_at": "2026-11-27T21:58:53.842040+00:00",
+      "tags": [
+        "ctf",
+        "hacking",
+        "tryhackme"
+      ],
+      "summary": "Introduction Continue reading on Medium »",
+      "priority": 75,
+      "metadata_checked": true
+    },
+    {
+      "id": "08529786fc80bcec522ad0e0dc13b2521538de7168190667c9765d78dd2d1dac",
+      "title": "TryHackMe Crack the Hash: Password Recovery and Hash Analysis",
+      "url": "https://medium.com/@gokhan.karadag/tryhackme-crack-the-hash-password-recovery-and-hash-analysis-7fe771041977?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "platform": "Medium",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "By Han",
+      "published_at": "Fri, 27 Nov 2026 15:56:32 GMT",
+      "discovered_at": "2026-11-27T21:58:53.843336+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "hashcat",
+        "password-security",
+        "tryhackme"
+      ],
+      "summary": "TryHackMe Crack the Hash: Password Recovery and Hash Analysis Continue reading on Medium »",
+      "priority": 75,
+      "metadata_checked": true
+    },
+    {
+      "id": "efd4e49cd071c375c5603d3ee1688829ae9814aa589861dfa5015b2566be9e89",
+      "title": "Root-Me — Web-Client ch25: Client-side authentication bypass",
+      "url": "https://medium.com/@mikgrimaldi7/root-me-web-client-ch25-client-side-authentication-bypass-198e2bfa85a5?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "platform": "Medium",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "Michele Grimaldi",
+      "published_at": "Fri, 27 Nov 2026 14:32:40 GMT",
+      "discovered_at": "2026-11-27T21:58:53.843479+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "ethical-hacking"
+      ],
+      "summary": "The login form (auth-login, authbutton) had both fields marked disabled. This is a purely client-side restriction: it only lives in the&#x2026; Continue reading on Medium »",
+      "priority": 75,
+      "metadata_checked": true
+    },
+    {
+      "id": "1a11554b06aa14165f9a80816a9b1523619039d53f89c00adcfb4fb44f417fed",
+      "title": "SLAY CTF 2026: Writeups",
+      "url": "https://medium.com/@vishvpruthi/slay-ctf-2026-writeups-b5172ecf2fc2?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "platform": "Medium",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "Vishvpruthi",
+      "published_at": "Fri, 27 Nov 2026 12:27:17 GMT",
+      "discovered_at": "2026-11-27T21:58:53.845124+00:00",
+      "tags": [
+        "ctf",
+        "ctf-writeup",
+        "hacking",
+        "learn-new",
+        "slayctf"
+      ],
+      "summary": "Team: HACKER Platform: SLAY CTF 2026 Event: Organized by Zero Logon, JGEC Continue reading on Medium »",
+      "priority": 75,
+      "metadata_checked": true
+    },
+    {
       "id": "ef3d0a78efae83f86142c310a9d1d9356094662b4f4e3b0d98d283ab2fc5d09c",
       "title": "TryHackMe Kenobi Walkthrough: SMB Enumeration, ProFTPD Exploitation and Linux Privilege Escalation…",
       "url": "https://medium.com/@deepabelvat/tryhackme-kenobi-walkthrough-smb-enumeration-proftpd-exploitation-and-linux-privilege-escalation-969f992f4f8b?source=rss------ctf-5",
@@ -7148,6 +7346,287 @@
       "metadata_checked": true
     },
     {
+      "id": "2aafc368942b53e6e30f29043f354a7bafcbb6426c11f3361312a95913ee060a",
+      "title": "ranjitgautam828-eng/hack-the-box-reports",
+      "url": "https://github.com/ranjitgautam828-eng/hack-the-box-reports",
+      "source": "GitHub · Hack The Box",
+      "source_id": "github-search",
+      "platform": "Hack The Box",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "ranjitgautam828-eng",
+      "published_at": "2026-11-27T21:04:17Z",
+      "discovered_at": "2026-11-27T21:59:01.919415+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "hackthebox htb walkthrough writeup cybersecurity ethical-hacking penetration-testing nmap smb ftp telnet kali-linux",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "c9a5225b28dd2e6911fc06cf69b4d2021d904d882d16a2ecefd67b1a86d4ae44",
+      "title": "Hershade/CTFS-Writeups",
+      "url": "https://github.com/Hershade/CTFS-Writeups",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "Hershade",
+      "published_at": "2026-11-27T20:17:11Z",
+      "discovered_at": "2026-11-27T21:59:03.474706+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Colección de writeups de TryHackMe, Hack The Box y competencias CTF.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "8aad4d1a60e1259b7aafa6273d34108c91a5d369e4e2a72ca3c3619c613ffaac",
+      "title": "Arnold-26/cylab-academy-writeups",
+      "url": "https://github.com/Arnold-26/cylab-academy-writeups",
+      "source": "GitHub · picoCTF",
+      "source_id": "github-search",
+      "platform": "picoCTF",
+      "type": "ctf_writeup",
+      "category": "CRYPTOGRAPHY",
+      "author": "Arnold-26",
+      "published_at": "2026-11-27T19:49:39Z",
+      "discovered_at": "2026-11-27T12:25:56.405858+00:00",
+      "tags": [
+        "cryptography",
+        "ctf",
+        "cylab-academy",
+        "forensics",
+        "github",
+        "picoctf",
+        "pwn",
+        "reversing",
+        "security",
+        "writeups"
+      ],
+      "summary": "521 CyLab Academy writeups (picoCTF 2019 to 2026 re-hosts, picoMini, AI Foundations I), organised by category, with 163 solve scripts",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "66e41134e2ad4ba01a4ba155dd3d7d3836f6d56e469cdc7e56f74e1ef39c9bf6",
+      "title": "imcalledhadi/cybersecurity-labs-and-writeups",
+      "url": "https://github.com/imcalledhadi/cybersecurity-labs-and-writeups",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "imcalledhadi",
+      "published_at": "2026-11-27T18:35:51Z",
+      "discovered_at": "2026-11-27T21:59:03.477575+00:00",
+      "tags": [
+        "appsec",
+        "ctf",
+        "cybersecurity",
+        "github",
+        "owasp",
+        "portswigger",
+        "tryhackme"
+      ],
+      "summary": "Hands-on cybersecurity labs and writeups across TryHackMe and PortSwigger Web Security Academy.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "d94c1354d58c7f2f5c007125d82474ab644af83ff5447f154ffa4eff35d94836",
+      "title": "rif-x43/ctf-writeups",
+      "url": "https://github.com/rif-x43/ctf-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "rif-x43",
+      "published_at": "2026-11-27T18:34:25Z",
+      "discovered_at": "2026-11-27T21:58:58.140056+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Public CTF writeup repository",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "205348265f77a9e9f9253cf9fe6a8535b36b36a2c8f069c71c808116b31f8901",
+      "title": "ezlx1/CTF_Writeups",
+      "url": "https://github.com/ezlx1/CTF_Writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "ezlx1",
+      "published_at": "2026-11-27T18:02:31Z",
+      "discovered_at": "2026-11-22T16:18:38.516787+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "A github repo for my CTF_Writeups",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "7a227e72011e16bc5ab8b8a43ba8e959aac7eabe646438ee46c3e50d52f361ec",
+      "title": "0xgbreil/CyberTalents-Digital-Forensics-CTFs",
+      "url": "https://github.com/0xgbreil/CyberTalents-Digital-Forensics-CTFs",
+      "source": "GitHub · Digital Forensics",
+      "source_id": "github-search",
+      "platform": "Digital Forensics",
+      "type": "ctf_writeup",
+      "category": "DIGITAL-FORENSICS",
+      "author": "0xgbreil",
+      "published_at": "2026-11-27T17:41:22Z",
+      "discovered_at": "2026-11-21T20:39:48.719036+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "This repository contains writeups and solutions for all Digital Forensics challenges on the CyberTalents platform.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "3a096941699980678b5aae6fd0c0b9099f1bb3bcd2b62bd3b4bfd705919a233e",
+      "title": "Arsalanamin404/ethical-hacking-writeups",
+      "url": "https://github.com/Arsalanamin404/ethical-hacking-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "NETWORK",
+      "author": "Arsalanamin404",
+      "published_at": "2026-11-27T17:16:02Z",
+      "discovered_at": "2026-11-27T21:58:58.152172+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Hands-on ethical hacking & pentesting write-ups: methodology, findings, and remediation for intentionally vulnerable machines, CTFs, and authorized labs. #ethical-hacking #penetration-testing #writeups #ctf #cybersecurity #network-security #vulnerability-assessment #nmap #metasploit #kali-linux",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "a9da95441401b684a4d7fcfaece91a7948244f032497df2b66404ac09fde3204",
+      "title": "IbrahimTi/CTF-Writeups",
+      "url": "https://github.com/IbrahimTi/CTF-Writeups",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "IbrahimTi",
+      "published_at": "2026-11-27T16:58:49Z",
+      "discovered_at": "2026-11-27T21:59:03.480112+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "My hands-on CTF writeups covering TryHackMe, Hack The Box, and other platforms. Documenting challenges, enumeration, exploitation techniques, vulnerabilities, and practical learning experiences.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "e0df4b31d1f587bed9f2c378074c53d4592c146f30c8d710dfde99fdb8e055ea",
+      "title": "abdul-samad1000/tryhackme-writeups",
+      "url": "https://github.com/abdul-samad1000/tryhackme-writeups",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "abdul-samad1000",
+      "published_at": "2026-11-27T15:38:54Z",
+      "discovered_at": "2026-11-27T21:59:03.481881+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Public CTF writeup repository",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "809e5c77a834e4e7ae7ecad89d77c3ae927697b1a841b140273a897f308f854e",
+      "title": "gege-circle/.github",
+      "url": "https://github.com/gege-circle/.github",
+      "source": "GitHub · AI Security",
+      "source_id": "github-search",
+      "platform": "AI Security",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "gege-circle",
+      "published_at": "2026-11-27T15:11:03Z",
+      "discovered_at": "2026-11-21T20:39:51.890420+00:00",
+      "tags": [
+        "a-soul",
+        "acfun",
+        "bilibili",
+        "china",
+        "ctf",
+        "gege-circle",
+        "github",
+        "message-board",
+        "vtuber",
+        "vup"
+      ],
+      "summary": "这里是GitHub的草场，也是戈戈圈爱好者的交流地，主要讨论动漫、游戏、科技、人文、生活等所有话题，欢迎各位小伙伴们在此讨论趣事。This is GitHub grassland, and the community place for Gege circle lovers, mainly discusses anime, games, technology, lifing and other topics. You are welcome to share interest things here. 缺氧修改器 捏脸 反光板 MySQL数据库 玉米杂草数据集 销售系统开发 疫情期间网民情绪识别比赛 996icu 预测结果导出 赖伟林刺杀小说家 购物商场 英语词汇量小程序 联级选择器Bitcoin区块链 技术面试必备基础知识 Leetcode 计算机操作系统 计算机网络 系统设计 Java学习 面试指南 一份涵盖大部分 Java 程序员所需要掌握的核心知识 准备 Java 面试 首选 JavaGuide Python 1 天从新手到大师刷算法全靠套路 认准 labuladong 就够了 免费的计算机编程类中文书籍 欢迎投稿用动画的形式呈现解LeetCode题目的思路 互联网 Java 工程师进阶知识完全扫盲 涵盖高并发 分布式 高可用 微服务 海量数据处理等领域知识后端架构师技术图谱mall项目是一套电商系统 包括前台商城系统及后台管理系统 基于SpringBoot MyBatis实现 采用Docker容器化部署 前台商城系统包含首页门户 商品推荐 商品搜索 商品展示 购物车 订单流程 会员中心 客户服务 帮助中心等模块 后台管理系统包含商品管理 订单管理 会员管理 促销管理 运营管理 内容管理 统计报表 财务管理 权限管理 设置等模块 微信小程序开发资源汇总 最全中华古诗",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "5eafc581d5bee5d53c3951da075a2320f3179a03b7f2269d422a9d6d2cb24132",
+      "title": "safctlx/tryhackme-writeups",
+      "url": "https://github.com/safctlx/tryhackme-writeups",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "safctlx",
+      "published_at": "2026-11-27T12:50:25Z",
+      "discovered_at": "2026-11-27T21:59:03.482289+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Tryhackme lab writeups.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "b3d00b12c6ead25b38ca00313924a66cf17666eaf333ca862753c6a630c9ed3d",
+      "title": "charuka-ishan/charuka-ishan.github.io",
+      "url": "https://github.com/charuka-ishan/charuka-ishan.github.io",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "charuka-ishan",
+      "published_at": "2026-11-27T12:39:12Z",
+      "discovered_at": "2026-11-27T21:58:58.148214+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Cybersecurity lab, CTF writeups, security research and personal projects.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "f853682b47c0ae110a4073e5ccdbdce0ef31fc4c616badb68b460f01ae114a40",
       "title": "HERO-all820/CTF-Writeups",
       "url": "https://github.com/HERO-all820/CTF-Writeups",
@@ -7273,34 +7752,6 @@
         "github"
       ],
       "summary": "Writeups and analysis notes for challenges from Blackout CTF, covering reverse engineering, steganography, encoding, and digital forensics.",
-      "priority": 70,
-      "metadata_checked": true
-    },
-    {
-      "id": "8aad4d1a60e1259b7aafa6273d34108c91a5d369e4e2a72ca3c3619c613ffaac",
-      "title": "Arnold-26/cylab-academy-writeups",
-      "url": "https://github.com/Arnold-26/cylab-academy-writeups",
-      "source": "GitHub · picoCTF",
-      "source_id": "github-search",
-      "platform": "picoCTF",
-      "type": "ctf_writeup",
-      "category": "CRYPTOGRAPHY",
-      "author": "Arnold-26",
-      "published_at": "2026-11-27T08:08:56Z",
-      "discovered_at": "2026-11-27T12:25:56.405858+00:00",
-      "tags": [
-        "cryptography",
-        "ctf",
-        "cylab-academy",
-        "forensics",
-        "github",
-        "picoctf",
-        "pwn",
-        "reversing",
-        "security",
-        "writeups"
-      ],
-      "summary": "521 writeups CyLab Academy (re-host picoCTF 2019-2026, picoMini, AI Foundations I) - organised by category, with flags",
       "priority": 70,
       "metadata_checked": true
     },
@@ -7441,26 +7892,6 @@
         "github"
       ],
       "summary": "Documenting my TryHackMe Pre Security journey through interconnected cybersecurity concepts, visual learning maps, hands-on labs, real-world examples, technical write-ups, and attacker and defender perspectives. Learning how systems work before learning how to secure them.",
-      "priority": 70,
-      "metadata_checked": true
-    },
-    {
-      "id": "205348265f77a9e9f9253cf9fe6a8535b36b36a2c8f069c71c808116b31f8901",
-      "title": "ezlx1/CTF_Writeups",
-      "url": "https://github.com/ezlx1/CTF_Writeups",
-      "source": "GitHub · CTF writeup",
-      "source_id": "github-search",
-      "platform": "CTF writeup",
-      "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
-      "author": "ezlx1",
-      "published_at": "2026-11-26T23:58:53Z",
-      "discovered_at": "2026-11-22T16:18:38.516787+00:00",
-      "tags": [
-        "ctf",
-        "github"
-      ],
-      "summary": "A github repo for my CTF_Writeups",
       "priority": 70,
       "metadata_checked": true
     },
@@ -7944,34 +8375,6 @@
         "python"
       ],
       "summary": "Structured CTF writeups and methodology notes covering Linux fundamentals, networking, forensics, and Python scripting.",
-      "priority": 70,
-      "metadata_checked": true
-    },
-    {
-      "id": "809e5c77a834e4e7ae7ecad89d77c3ae927697b1a841b140273a897f308f854e",
-      "title": "gege-circle/.github",
-      "url": "https://github.com/gege-circle/.github",
-      "source": "GitHub · AI Security",
-      "source_id": "github-search",
-      "platform": "AI Security",
-      "type": "ctf_writeup",
-      "category": "WEB-EXPLOITATION",
-      "author": "gege-circle",
-      "published_at": "2026-11-26T11:19:48Z",
-      "discovered_at": "2026-11-21T20:39:51.890420+00:00",
-      "tags": [
-        "a-soul",
-        "acfun",
-        "bilibili",
-        "china",
-        "ctf",
-        "gege-circle",
-        "github",
-        "message-board",
-        "vtuber",
-        "vup"
-      ],
-      "summary": "这里是GitHub的草场，也是戈戈圈爱好者的交流地，主要讨论动漫、游戏、科技、人文、生活等所有话题，欢迎各位小伙伴们在此讨论趣事。This is GitHub grassland, and the community place for Gege circle lovers, mainly discusses anime, games, technology, lifing and other topics. You are welcome to share interest things here. 缺氧修改器 捏脸 反光板 MySQL数据库 玉米杂草数据集 销售系统开发 疫情期间网民情绪识别比赛 996icu 预测结果导出 赖伟林刺杀小说家 购物商场 英语词汇量小程序 联级选择器Bitcoin区块链 技术面试必备基础知识 Leetcode 计算机操作系统 计算机网络 系统设计 Java学习 面试指南 一份涵盖大部分 Java 程序员所需要掌握的核心知识 准备 Java 面试 首选 JavaGuide Python 1 天从新手到大师刷算法全靠套路 认准 labuladong 就够了 免费的计算机编程类中文书籍 欢迎投稿用动画的形式呈现解LeetCode题目的思路 互联网 Java 工程师进阶知识完全扫盲 涵盖高并发 分布式 高可用 微服务 海量数据处理等领域知识后端架构师技术图谱mall项目是一套电商系统 包括前台商城系统及后台管理系统 基于SpringBoot MyBatis实现 采用Docker容器化部署 前台商城系统包含首页门户 商品推荐 商品搜索 商品展示 购物车 订单流程 会员中心 客户服务 帮助中心等模块 后台管理系统包含商品管理 订单管理 会员管理 促销管理 运营管理 内容管理 统计报表 财务管理 权限管理 设置等模块 微信小程序开发资源汇总 最全中华古诗",
       "priority": 70,
       "metadata_checked": true
     },
@@ -10792,6 +11195,26 @@
       "metadata_checked": true
     },
     {
+      "id": "4e99c3624f34eea3e46e34b8bfad5723897a5a4582c29301e394a946ecccf519",
+      "title": "Matar-Voniane/THM_WRITEUP",
+      "url": "https://github.com/Matar-Voniane/THM_WRITEUP",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "Matar-Voniane",
+      "published_at": "2026-11-21T17:50:40Z",
+      "discovered_at": "2026-11-27T21:59:03.478945+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "writeup sur les rooms tryhackme",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "6843c9fa6de03d58f9729cf3f4e1db32f084e835ef0767ed3c6899dee8e9908b",
       "title": "shadowxy144/Shadow-ctf-writeup",
       "url": "https://github.com/shadowxy144/Shadow-ctf-writeup",
@@ -12064,6 +12487,31 @@
       "metadata_checked": true
     },
     {
+      "id": "75601045ac2482508c69ddeac1c8e01c1ce3ab3544fc5f2f4ab14285a5bc104c",
+      "title": "Matheos13/ctf-writeups",
+      "url": "https://github.com/Matheos13/ctf-writeups",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "Matheos13",
+      "published_at": "2026-11-18T01:59:27Z",
+      "discovered_at": "2026-11-27T21:59:03.476540+00:00",
+      "tags": [
+        "ctf",
+        "ctf-writeups",
+        "cybersecurity",
+        "github",
+        "hackthebox",
+        "penetration-testing",
+        "tryhackme"
+      ],
+      "summary": "My Hack The Box, TryHackMe and CTF writeups: recon, foothold, privesc and lessons learned.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "34562f9586b398d39fd7e9d00c53b577a827b8ab8b74dd5a2a4130140adfea62",
       "title": "manasarangavalli28503/CTF-Writeups",
       "url": "https://github.com/manasarangavalli28503/CTF-Writeups",
@@ -12124,6 +12572,26 @@
         "github"
       ],
       "summary": "A repo of my writeups for HackTheBox machines I've completed.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "a55c7b11175f335a2036261602a895e9f3c7ae450297fc8e1030252f5152d162",
+      "title": "eufr4nc-SEC/eufr4nc-SEC",
+      "url": "https://github.com/eufr4nc-SEC/eufr4nc-SEC",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "eufr4nc-SEC",
+      "published_at": "2026-11-17T21:14:49Z",
+      "discovered_at": "2026-11-27T21:58:58.138526+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Pentester in training | Web App Security, CTF Writeups & Bug Bounty | Lagos ->",
       "priority": 70,
       "metadata_checked": true
     },
@@ -13146,9 +13614,9 @@
       "id": "e4470ae9f1b25c7589048714ef9d3e4d6de3c68c3849daa294597007baa76183",
       "title": "jojin1709/hunter-archive",
       "url": "https://github.com/jojin1709/hunter-archive",
-      "source": "GitHub · CTF writeups",
+      "source": "GitHub · CTF writeup",
       "source_id": "github-search",
-      "platform": "CTF writeups",
+      "platform": "CTF writeup",
       "type": "ctf_writeup",
       "category": "UNCATEGORIZED",
       "author": "jojin1709",
@@ -14631,6 +15099,26 @@
       "metadata_checked": true
     },
     {
+      "id": "11c9919c75fc45e444d8f459714de24ca49161cfebc52f7089201745064b2d8e",
+      "title": "ItzEfob/ctf-writeups",
+      "url": "https://github.com/ItzEfob/ctf-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "ItzEfob",
+      "published_at": "2026-11-07T21:36:52Z",
+      "discovered_at": "2026-11-27T21:58:58.137834+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Public CTF writeup repository",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "829f3e233471ecb02110b425a1af1c332b7d95584cb245a555778cd336220987",
       "title": "Abzekenzi/WriteUps",
       "url": "https://github.com/Abzekenzi/WriteUps",
@@ -14674,9 +15162,9 @@
       "id": "c085362cfff68b6c1d31aaee5f02e99fb2349638b6ffd4d96285240f8a716d33",
       "title": "spookier/Rainfall",
       "url": "https://github.com/spookier/Rainfall",
-      "source": "GitHub · CTF writeup",
+      "source": "GitHub · CTF writeups",
       "source_id": "github-search",
-      "platform": "CTF writeup",
+      "platform": "CTF writeups",
       "type": "ctf_writeup",
       "category": "BINARY-EXPLOITATION",
       "author": "spookier",
@@ -15224,9 +15712,9 @@
       "id": "afa5a32bafd75a8e0f69f1982a2c8e6fa67b07d5a48f6cded98a8f7155e6f350",
       "title": "thelocalh0st/thelocalh0st.github.io",
       "url": "https://github.com/thelocalh0st/thelocalh0st.github.io",
-      "source": "GitHub · TryHackMe",
+      "source": "GitHub · Hack The Box",
       "source_id": "github-search",
-      "platform": "TryHackMe",
+      "platform": "Hack The Box",
       "type": "ctf_writeup",
       "category": "DIGITAL-FORENSICS",
       "author": "thelocalh0st",
@@ -16086,26 +16574,6 @@
       "metadata_checked": true
     },
     {
-      "id": "7a227e72011e16bc5ab8b8a43ba8e959aac7eabe646438ee46c3e50d52f361ec",
-      "title": "0xgbreil/CyberTalents-Digital-Forensics-CTFs",
-      "url": "https://github.com/0xgbreil/CyberTalents-Digital-Forensics-CTFs",
-      "source": "GitHub · Digital Forensics",
-      "source_id": "github-search",
-      "platform": "Digital Forensics",
-      "type": "ctf_writeup",
-      "category": "DIGITAL-FORENSICS",
-      "author": "0xgbreil",
-      "published_at": "2026-10-30T07:27:36Z",
-      "discovered_at": "2026-11-21T20:39:48.719036+00:00",
-      "tags": [
-        "ctf",
-        "github"
-      ],
-      "summary": "This repository contains writeups and solutions for all Digital Forensics challenges on the CyberTalents platform.",
-      "priority": 70,
-      "metadata_checked": true
-    },
-    {
       "id": "d49639aee83f7712880f48867660c2d45b52fb6343e098cf65f71c3811077f1f",
       "title": "jzterr/TryHackMe-Writeups",
       "url": "https://github.com/jzterr/TryHackMe-Writeups",
@@ -16860,6 +17328,26 @@
       "metadata_checked": true
     },
     {
+      "id": "fc2c1ebacd2651644000aa5c431eb3881181089bbd32072d89bd6eb10f2d911b",
+      "title": "krinoxx/ctf-writeups",
+      "url": "https://github.com/krinoxx/ctf-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "krinoxx",
+      "published_at": "2026-10-22T10:46:56Z",
+      "discovered_at": "2026-11-27T21:58:58.139289+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Public CTF writeup repository",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "80c68ecea4caba49175a0650f8bbef73746a2a645e41fb902950314ad4fa3b86",
       "title": "vital-information-resource-under-siege/PWN-Challenges",
       "url": "https://github.com/vital-information-resource-under-siege/PWN-Challenges",
@@ -17362,9 +17850,9 @@
       "id": "b021061c628221ed30e6d7672aaafbe15f7d69d65949fc87407865f276ddf60d",
       "title": "3s0boz/ctf-writeups",
       "url": "https://github.com/3s0boz/ctf-writeups",
-      "source": "GitHub · Hack The Box",
+      "source": "GitHub · TryHackMe",
       "source_id": "github-search",
-      "platform": "Hack The Box",
+      "platform": "TryHackMe",
       "type": "ctf_writeup",
       "category": "UNCATEGORIZED",
       "author": "3s0boz",
@@ -18047,6 +18535,30 @@
       "metadata_checked": true
     },
     {
+      "id": "32d539b24865894b86c2a6cc18f1006a34dba6b0383a3766e6a86cbefc5e93f1",
+      "title": "k1ubi/CTF_WriteUps",
+      "url": "https://github.com/k1ubi/CTF_WriteUps",
+      "source": "GitHub · Hack The Box",
+      "source_id": "github-search",
+      "platform": "Hack The Box",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "k1ubi",
+      "published_at": "2026-10-09T09:35:31Z",
+      "discovered_at": "2026-11-27T21:59:01.920618+00:00",
+      "tags": [
+        "ctf",
+        "github",
+        "hackthebox",
+        "penetration-testing",
+        "security",
+        "writeups"
+      ],
+      "summary": "HackTheBox writeups — recon to root, every box torn down and documented.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "8159224e7846d29dd3576931d6d5248d06cf3f4665eaffa47ba05def56abb9bc",
       "title": "Quackers-2-0/WRITEUPS",
       "url": "https://github.com/Quackers-2-0/WRITEUPS",
@@ -18268,9 +18780,9 @@
       "id": "2ab5c742e1254b9b84a783fe461d530253ceb73261c9fbc2e710efef1850f011",
       "title": "adiloffops/writeups",
       "url": "https://github.com/adiloffops/writeups",
-      "source": "GitHub · TryHackMe",
+      "source": "GitHub · Hack The Box",
       "source_id": "github-search",
-      "platform": "TryHackMe",
+      "platform": "Hack The Box",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "adiloffops",
@@ -20384,6 +20896,26 @@
       "metadata_checked": true
     },
     {
+      "id": "affa699873ecb8495225e2e4a399a68fac02f3ca5e0b89515a892f6cfff99598",
+      "title": "4f3rg4n/CTF-Events-Writeups",
+      "url": "https://github.com/4f3rg4n/CTF-Events-Writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "4f3rg4n",
+      "published_at": "2026-07-26T04:19:04Z",
+      "discovered_at": "2026-11-27T21:58:58.147734+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Collection of CTF writeups organized by events.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "ecb4bd85ded73bbff57a8b0d2d6d918fb501869eca74b0200cbc8386a1cf5c85",
       "title": "yashodhamadushi03/CyLab-CTF-Writeups-",
       "url": "https://github.com/yashodhamadushi03/CyLab-CTF-Writeups-",
@@ -21534,6 +22066,26 @@
         "github"
       ],
       "summary": "Write-ups de CTF y ciberseguridad — Purple Team & DFIR | TryHackMe · HackTheBox · Análisis forense",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "7ed8a37e2fe9e49f22a6fd46900d3df5c52cecdd425c8ea953467b2386dbc422",
+      "title": "meeribeeri/CTF-Writeups",
+      "url": "https://github.com/meeribeeri/CTF-Writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "meeribeeri",
+      "published_at": "2026-04-19T06:01:57Z",
+      "discovered_at": "2026-11-27T21:58:58.139682+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Public CTF writeup repository",
       "priority": 70,
       "metadata_checked": true
     },
@@ -26469,10 +27021,10 @@
   ],
   "last_run": {
     "ctftime_entries": 30,
-    "rss_entries": 199,
+    "rss_entries": 201,
     "github_repositories": 653,
     "social_links": 0,
-    "new_entries": 16,
+    "new_entries": 41,
     "failures": [
       {
         "source": "X/Twitter",

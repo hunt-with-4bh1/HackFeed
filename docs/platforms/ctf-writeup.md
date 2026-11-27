@@ -2,9 +2,12 @@
 
 | Date | CTF / Challenge / Repository | Platform | Category | Author / Team | Source |
 |---|---|---|---|---|---|
+| 2026-11-27T18:34 | [rif-x43/ctf-writeups<br><sub>Public CTF writeup repository</sub>](https://github.com/rif-x43/ctf-writeups) | CTF writeup | UNCATEGORIZED | rif-x43 | GitHub · CTF writeup |
+| 2026-11-27T18:02 | [ezlx1/CTF_Writeups<br><sub>A github repo for my CTF_Writeups</sub>](https://github.com/ezlx1/CTF_Writeups) | CTF writeup | UNCATEGORIZED | ezlx1 | GitHub · CTF writeup |
+| 2026-11-27T17:16 | [Arsalanamin404/ethical-hacking-writeups<br><sub>Hands-on ethical hacking & pentesting write-ups: methodology, findings, and remediation for intentionally vulnerable machines, CTFs, and authorized labs. #ethical-hacking #penetration-testing #writeups #ctf #cybersecurity #network-security </sub>](https://github.com/Arsalanamin404/ethical-hacking-writeups) | CTF writeup | NETWORK | Arsalanamin404 | GitHub · CTF writeup |
+| 2026-11-27T12:39 | [charuka-ishan/charuka-ishan.github.io<br><sub>Cybersecurity lab, CTF writeups, security research and personal projects.</sub>](https://github.com/charuka-ishan/charuka-ishan.github.io) | CTF writeup | UNCATEGORIZED | charuka-ishan | GitHub · CTF writeup |
 | 2026-11-27T04:25 | [2343243242342/writeups<br><sub>Lab machine and CTF writeups</sub>](https://github.com/2343243242342/writeups) | CTF writeup | UNCATEGORIZED | 2343243242342 | GitHub · CTF writeup |
 | 2026-11-27T02:11 | [mny015/CTF_Writeups<br><sub>Public CTF writeup repository</sub>](https://github.com/mny015/CTF_Writeups) | CTF writeup | UNCATEGORIZED | mny015 | GitHub · CTF writeup |
-| 2026-11-26T23:58 | [ezlx1/CTF_Writeups<br><sub>A github repo for my CTF_Writeups</sub>](https://github.com/ezlx1/CTF_Writeups) | CTF writeup | UNCATEGORIZED | ezlx1 | GitHub · CTF writeup |
 | 2026-11-26T21:45 | [Leon00-max/cybersecurity-ctf-writeups<br><sub>cybersecurity-ctf-writeups</sub>](https://github.com/Leon00-max/cybersecurity-ctf-writeups) | CTF writeup | UNCATEGORIZED | Leon00-max | GitHub · CTF writeup |
 | 2026-11-26T19:49 | [IlescuDumitru/ctf-writeups<br><sub>Writeup of ctf challenges I resolve</sub>](https://github.com/IlescuDumitru/ctf-writeups) | CTF writeup | UNCATEGORIZED | IlescuDumitru | GitHub · CTF writeup |
 | 2026-11-26T18:53 | [Serhat-92/ctf-writeups<br><sub>Public CTF writeup repository</sub>](https://github.com/Serhat-92/ctf-writeups) | CTF writeup | UNCATEGORIZED | Serhat-92 | GitHub · CTF writeup |
@@ -103,6 +106,7 @@
 | 2026-11-18T20:36 | [disaster-offsec/ctf-writeups<br><sub>Public CTF writeup repository</sub>](https://github.com/disaster-offsec/ctf-writeups) | CTF writeup | UNCATEGORIZED | disaster-offsec | GitHub · CTF writeup |
 | 2026-11-18T10:20 | [Nyktor/Pentest-Writeups<br><sub>Writeups on how I solve CTF machines in my way of improving as an Ethical Hacker</sub>](https://github.com/Nyktor/Pentest-Writeups) | CTF writeup | UNCATEGORIZED | Nyktor | GitHub · CTF writeup |
 | 2026-11-18T05:09 | [Simrankaur1000/CTF-Writeups<br><sub>CTF challenge writeups, exploitation techniques, and hands-on security research.</sub>](https://github.com/Simrankaur1000/CTF-Writeups) | CTF writeup | UNCATEGORIZED | Simrankaur1000 | GitHub · CTF writeup |
+| 2026-11-17T21:14 | [eufr4nc-SEC/eufr4nc-SEC<br><sub>Pentester in training \| Web App Security, CTF Writeups & Bug Bounty \| Lagos -></sub>](https://github.com/eufr4nc-SEC/eufr4nc-SEC) | CTF writeup | WEB-EXPLOITATION | eufr4nc-SEC | GitHub · CTF writeup |
 | 2026-11-17T16:20 | [nguyenthanhvu240/ctf-writeups<br><sub>Public CTF writeup repository</sub>](https://github.com/nguyenthanhvu240/ctf-writeups) | CTF writeup | UNCATEGORIZED | nguyenthanhvu240 | GitHub · CTF writeup |
 | 2026-11-17T05:02 | [No-More-Python/ctf-writeups<br><sub>This is my collection of CTF write-ups</sub>](https://github.com/No-More-Python/ctf-writeups) | CTF writeup | REVERSE-ENGINEERING | No-More-Python | GitHub · CTF writeup |
 | 2026-11-17T04:09 | [mito753/Browser-Exploit-Dojo<br><sub>A curated archive of browser exploitation CTF challenges, initially focused on V8/d8, documenting bugs, exploitation primitives, techniques, and writeups.</sub>](https://github.com/mito753/Browser-Exploit-Dojo) | CTF writeup | BINARY-EXPLOITATION | mito753 | GitHub · CTF writeup |
@@ -117,6 +121,7 @@
 | 2026-11-13T04:14 | [actear/actear.github.io<br><sub>我的个人博客，用来记录ctf writeup 和学习笔记</sub>](https://github.com/actear/actear.github.io) | CTF writeup | UNCATEGORIZED | actear | GitHub · CTF writeup |
 | 2026-11-12T16:07 | [Heolecouzz/CTF_Writeups-Reports<br><sub>Public CTF writeup repository</sub>](https://github.com/Heolecouzz/CTF_Writeups-Reports) | CTF writeup | UNCATEGORIZED | Heolecouzz | GitHub · CTF writeup |
 | 2026-11-12T12:54 | [niepanjun/CTF-WriteUps<br><sub>CTF pwn相关学习历程 \| BUUCTF等解题思路</sub>](https://github.com/niepanjun/CTF-WriteUps) | CTF writeup | BINARY-EXPLOITATION | niepanjun | GitHub · CTF writeup |
+| 2026-11-12T12:00 | [jojin1709/hunter-archive<br><sub>Searchable bug bounty writeup & CTF walkthrough archive aggregating 7,400+ reports from Pentester.land, Medium, PortSwigger, Google Project Zero, and GitHub.</sub>](https://github.com/jojin1709/hunter-archive) | CTF writeup | UNCATEGORIZED | jojin1709 | GitHub · CTF writeup |
 | 2026-11-12T11:42 | [cipherstack0/ctf-writeups<br><sub>Public CTF writeup repository</sub>](https://github.com/cipherstack0/ctf-writeups) | CTF writeup | UNCATEGORIZED | cipherstack0 | GitHub · CTF writeup |
 | 2026-11-12T10:51 | [tzayadet/CTF<br><sub>CTF writeups, hacking practice and offensive security exercises.</sub>](https://github.com/tzayadet/CTF) | CTF writeup | UNCATEGORIZED | tzayadet | GitHub · CTF writeup |
 | 2026-11-12T09:09 | [BangkitBayu/my-ctf-writeups<br><sub>This repository is an archive of all the writeups I have completed.</sub>](https://github.com/BangkitBayu/my-ctf-writeups) | CTF writeup | UNCATEGORIZED | BangkitBayu | GitHub · CTF writeup |
@@ -140,7 +145,7 @@
 | 2026-11-08T16:51 | [igor-andrade-dev/ctf-writeups<br><sub>My cybersecurity and CTF journey</sub>](https://github.com/igor-andrade-dev/ctf-writeups) | CTF writeup | UNCATEGORIZED | igor-andrade-dev | GitHub · CTF writeup |
 | 2026-11-08T12:18 | [I-am-p0wer/CTF-Writeups<br><sub>Public CTF writeup repository</sub>](https://github.com/I-am-p0wer/CTF-Writeups) | CTF writeup | UNCATEGORIZED | I-am-p0wer | GitHub · CTF writeup |
 | 2026-11-08T05:09 | [axk8/ctf-writeups<br><sub>Public CTF writeup repository</sub>](https://github.com/axk8/ctf-writeups) | CTF writeup | UNCATEGORIZED | axk8 | GitHub · CTF writeup |
-| 2026-11-07T16:11 | [spookier/Rainfall<br><sub>A binary exploitation 42 CTF, writeups and solutions</sub>](https://github.com/spookier/Rainfall) | CTF writeup | BINARY-EXPLOITATION | spookier | GitHub · CTF writeup |
+| 2026-11-07T21:36 | [ItzEfob/ctf-writeups<br><sub>Public CTF writeup repository</sub>](https://github.com/ItzEfob/ctf-writeups) | CTF writeup | UNCATEGORIZED | ItzEfob | GitHub · CTF writeup |
 | 2026-11-06T01:37 | [kokoromiruu/ctf-writeups<br><sub>Public CTF writeup repository</sub>](https://github.com/kokoromiruu/ctf-writeups) | CTF writeup | UNCATEGORIZED | kokoromiruu | GitHub · CTF writeup |
 | 2026-11-04T17:50 | [Shreyas993/ctf-writeups<br><sub>My CTF and cybersecurity lab writeups</sub>](https://github.com/Shreyas993/ctf-writeups) | CTF writeup | UNCATEGORIZED | Shreyas993 | GitHub · CTF writeup |
 | 2026-11-03T20:36 | [oni-chan128/potatoSalad_CTF_tools_-_writeups<br><sub>scripts and write ups made by yours truly(and Claude of course)</sub>](https://github.com/oni-chan128/potatoSalad_CTF_tools_-_writeups) | CTF writeup | UNCATEGORIZED | oni-chan128 | GitHub · CTF writeup |
@@ -158,6 +163,7 @@
 | 2026-10-25T01:51 | [ryo-ji3636/CTF-writeups<br><sub>I'm studying CTF, and I write my learning path in this repository.</sub>](https://github.com/ryo-ji3636/CTF-writeups) | CTF writeup | UNCATEGORIZED | ryo-ji3636 | GitHub · CTF writeup |
 | 2026-10-23T12:54 | [wjddml/ctf-writeups<br><sub>Public CTF writeup repository</sub>](https://github.com/wjddml/ctf-writeups) | CTF writeup | UNCATEGORIZED | wjddml | GitHub · CTF writeup |
 | 2026-10-23T06:02 | [ng-bao/CTF-Writeups<br><sub>Public CTF writeup repository</sub>](https://github.com/ng-bao/CTF-Writeups) | CTF writeup | UNCATEGORIZED | ng-bao | GitHub · CTF writeup |
+| 2026-10-22T10:46 | [krinoxx/ctf-writeups<br><sub>Public CTF writeup repository</sub>](https://github.com/krinoxx/ctf-writeups) | CTF writeup | UNCATEGORIZED | krinoxx | GitHub · CTF writeup |
 | 2026-10-22T08:21 | [love09010224/my_ctf_challenge<br><sub>CTF challenge portfolio — source, solutions, deployment, and writeups</sub>](https://github.com/love09010224/my_ctf_challenge) | CTF writeup | BINARY-EXPLOITATION | love09010224 | GitHub · CTF writeup |
 | 2026-10-21T10:45 | [ipzenn/CTF-Writeups<br><sub>Public CTF writeup repository</sub>](https://github.com/ipzenn/CTF-Writeups) | CTF writeup | UNCATEGORIZED | ipzenn | GitHub · CTF writeup |
 | 2026-10-20T02:00 | [calonnuotcabe/CTF-writeups<br><sub>My CTF writeups and exploit notes</sub>](https://github.com/calonnuotcabe/CTF-writeups) | CTF writeup | UNCATEGORIZED | calonnuotcabe | GitHub · CTF writeup |
@@ -181,11 +187,13 @@
 | 2026-08-23T10:12 | [axelheng/ctf-writeups<br><sub>Public CTF writeup repository</sub>](https://github.com/axelheng/ctf-writeups) | CTF writeup | UNCATEGORIZED | axelheng | GitHub · CTF writeup |
 | 2026-08-01T11:30 | [holysinner21/CTF-Writeup<br><sub>Kumpulan CTF write up dari CautionWetFloor</sub>](https://github.com/holysinner21/CTF-Writeup) | CTF writeup | UNCATEGORIZED | holysinner21 | GitHub · CTF writeup |
 | 2026-07-29T06:29 | [Tamil-arasan-S/CTF-Writeups<br><sub>Experiencing the dopamine hit when we complete them😉</sub>](https://github.com/Tamil-arasan-S/CTF-Writeups) | CTF writeup | UNCATEGORIZED | Tamil-arasan-S | GitHub · CTF writeup |
+| 2026-07-26T04:19 | [4f3rg4n/CTF-Events-Writeups<br><sub>Collection of CTF writeups organized by events.</sub>](https://github.com/4f3rg4n/CTF-Events-Writeups) | CTF writeup | UNCATEGORIZED | 4f3rg4n | GitHub · CTF writeup |
 | 2026-07-19T05:39 | [JustinApplebury/Cyber-Security-Portfolio<br><sub>A collection of my cybersecurity writeups, from CTFs, exercises and labs.</sub>](https://github.com/JustinApplebury/Cyber-Security-Portfolio) | CTF writeup | UNCATEGORIZED | JustinApplebury | GitHub · CTF writeup |
 | 2026-07-14T19:09 | [MacallanTheRoot/ctf-writeups<br><sub>Public CTF writeup repository</sub>](https://github.com/MacallanTheRoot/ctf-writeups) | CTF writeup | UNCATEGORIZED | MacallanTheRoot | GitHub · CTF writeup |
 | 2026-07-08T01:06 | [mostafatamime99/write-ups-CTF<br><sub>writeups for CTF</sub>](https://github.com/mostafatamime99/write-ups-CTF) | CTF writeup | UNCATEGORIZED | mostafatamime99 | GitHub · CTF writeup |
 | 2026-06-14T17:09 | [Calana2/CTF_Writeups<br><sub>WriteUps de competiciones de ciberseguridad</sub>](https://github.com/Calana2/CTF_Writeups) | CTF writeup | UNCATEGORIZED | Calana2 | GitHub · CTF writeup |
 | 2026-05-13T19:48 | [seal9055/seal9055.github.io<br><sub>Website for my blog posts and ctf writeups</sub>](https://github.com/seal9055/seal9055.github.io) | CTF writeup | UNCATEGORIZED | seal9055 | GitHub · CTF writeup |
+| 2026-04-19T06:01 | [meeribeeri/CTF-Writeups<br><sub>Public CTF writeup repository</sub>](https://github.com/meeribeeri/CTF-Writeups) | CTF writeup | UNCATEGORIZED | meeribeeri | GitHub · CTF writeup |
 | 2026-04-09T15:18 | [kriti-1-9/Cyber-Security-portfolio<br><sub>Cybersecurity portfolio: automation scripts, CTF writeups, and machine testing writeups.</sub>](https://github.com/kriti-1-9/Cyber-Security-portfolio) | CTF writeup | UNCATEGORIZED | kriti-1-9 | GitHub · CTF writeup |
 | 2026-01-16T08:38 | [CTF-STeam/ctf-writeups<br><sub>STeam's CTF writeups</sub>](https://github.com/CTF-STeam/ctf-writeups) | CTF writeup | UNCATEGORIZED | CTF-STeam | GitHub · CTF writeup |
 | 2025-12-12T04:56 | [intranautic/ctf<br><sub>collection of ctf solutions and writeups</sub>](https://github.com/intranautic/ctf) | CTF writeup | UNCATEGORIZED | intranautic | GitHub · CTF writeup |
