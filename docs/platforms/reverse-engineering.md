@@ -2,6 +2,7 @@
 
 | Date | CTF / Challenge / Repository | Platform | Category | Author / Team | Source |
 |---|---|---|---|---|---|
+| 2026-11-27T08:12 | [K2K22K2K22/Blackout-CTF-Writeups<br><sub>Writeups and analysis notes for challenges from Blackout CTF, covering reverse engineering, steganography, encoding, and digital forensics.</sub>](https://github.com/K2K22K2K22/Blackout-CTF-Writeups) | Reverse Engineering | DIGITAL-FORENSICS | K2K22K2K22 | GitHub · Reverse Engineering |
 | 2026-11-26T07:12 | [rongkao/ctf-writeups<br><sub>[Moved to https://github.com/yehanfang7-cmd/ctf-writeups] CTF reverse engineering writeups</sub>](https://github.com/rongkao/ctf-writeups) | Reverse Engineering | REVERSE-ENGINEERING | rongkao | GitHub · Reverse Engineering |
 | 2026-11-26T07:12 | [yehanfang7-cmd/ctf-writeups<br><sub>Binary reverse engineering writeups (Flare-On, KCTF), VM deobfuscation research (Triton/Unicorn/Z3), and defensive Go binary hardening.</sub>](https://github.com/yehanfang7-cmd/ctf-writeups) | Reverse Engineering | REVERSE-ENGINEERING | yehanfang7-cmd | GitHub · Reverse Engineering |
 | 2026-11-25T17:55 | [RIAO124/CTF-writeups<br><sub>picoCTF write-ups and security notes: crypto, forensics, reverse engineering, binary exploitation</sub>](https://github.com/RIAO124/CTF-writeups) | Reverse Engineering | CRYPTOGRAPHY | RIAO124 | GitHub · Reverse Engineering |

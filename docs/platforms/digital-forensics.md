@@ -2,6 +2,7 @@
 
 | Date | CTF / Challenge / Repository | Platform | Category | Author / Team | Source |
 |---|---|---|---|---|---|
+| 2026-11-27T08:15 | [ElkingsDom/EyesOPenCTF26<br><sub>My writeups from EyesOpenCTF (48h, solo, 16th of 90/5400 pts) covering Crypto, Rev, Forensics, Pwn, and an LLM prompt-injection challenge. It includes solved and unsolved challenges.</sub>](https://github.com/ElkingsDom/EyesOPenCTF26) | Digital Forensics | CRYPTOGRAPHY | ElkingsDom | GitHub · Digital Forensics |
 | 2026-11-26T18:54 | [bcaglarr/mercimek-ctf<br><sub>Forensics and steganography CTF challenge for ETUSEC — challenge files, generator tools, and writeup.</sub>](https://github.com/bcaglarr/mercimek-ctf) | Digital Forensics | DIGITAL-FORENSICS | bcaglarr | GitHub · Digital Forensics |
 | 2026-11-26T11:29 | [Sanchit404/CTF-writeups<br><sub>Structured CTF writeups and methodology notes covering Linux fundamentals, networking, forensics, and Python scripting.</sub>](https://github.com/Sanchit404/CTF-writeups) | Digital Forensics | DIGITAL-FORENSICS | Sanchit404 | GitHub · Digital Forensics |
 | 2026-11-25T11:15 | [pasmud/ctf-writeups-2025<br><sub>Reproducible offline CTF-style forensics exercises and writeups</sub>](https://github.com/pasmud/ctf-writeups-2025) | Digital Forensics | DIGITAL-FORENSICS | pasmud | GitHub · Digital Forensics |
