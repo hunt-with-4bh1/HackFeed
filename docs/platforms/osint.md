@@ -2,6 +2,7 @@
 
 | Date | CTF / Challenge / Repository | Platform | Category | Author / Team | Source |
 |---|---|---|---|---|---|
+| 2026-11-26T20:55 | [nievesnu/tryhackme-writeups<br><sub>TryHackMe write-ups: Pre Security, Cyber Security 101 and OSINT/CTF challenges, with flags hidden</sub>](https://github.com/nievesnu/tryhackme-writeups) | OSINT | OSINT | nievesnu | GitHub · OSINT |
 | 2026-11-20T18:09 | [GorillaBrain/osint-ctf-writeups<br><sub>OSINT CTF challenge write-ups and solutions</sub>](https://github.com/GorillaBrain/osint-ctf-writeups) | OSINT | OSINT | GorillaBrain | GitHub · OSINT |
 | 2026-11-19T15:08 | [Sadman-Bin-Morshed/osint-ctf-resources<br><sub>Curated OSINT CTF tools, writeups, and investigation resources for learning and challenge solving.</sub>](https://github.com/Sadman-Bin-Morshed/osint-ctf-resources) | OSINT | OSINT | Sadman-Bin-Morshed | GitHub · OSINT |
 | 2026-11-12T05:01 | [ayushkumarjha-dev/Obsqura<br><sub>A cybersecurity blog sharing hands-on tutorials, CTF writeups, OSINT techniques, and practical security insights.</sub>](https://github.com/ayushkumarjha-dev/Obsqura) | OSINT | OSINT | ayushkumarjha-dev | GitHub · OSINT |
