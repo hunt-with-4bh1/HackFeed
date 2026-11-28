@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-11-28T04:28:04.049755+00:00",
+  "updated_at": "2026-11-28T04:28:51.386216+00:00",
   "total": 1247,
   "items": [
     {
@@ -4582,7 +4582,10 @@
       ],
       "summary": "Security Assessment Report: Tabby Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment Tabby hosted on Hack The Box , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Public-Facing Network Service Exploitation Privilege Escalation Vector: Local Privilege Escalation Engagement Outcome: Complete Host Compromise ( User Proof a",
       "priority": 80,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This technical security assessment and penetration testing report for the Hack The Box target Tabby was conducted using PTES and NIST SP 800-115 methodologies. The assessment identified a critical risk rating involving an unauthenticated remote exploit vector that leads to complete host compromise and administrative takeover via a public-facing network service.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "07686d7effbe24a0bc0c36d40048d52b3743dc18dedd90045827b0e0690c1187",
@@ -4606,7 +4609,10 @@
       ],
       "summary": "Security Assessment Report: SwagShop Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment SwagShop hosted on Hack The Box , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Magento 1.9.0.0 Shoplift SQLi + Admin Panel RCE Privilege Escalation Vector: sudo vi (GTFOBins) Engagement Outcome: Complete Host Compromise ( User Proo",
       "priority": 80,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This security assessment report for the SwagShop target on Hack The Box evaluates vulnerabilities in accordance with PTES and NIST SP 800-115 methodologies. The assessment identified a critical risk rating due to an unauthenticated remote exploit vector utilizing Magento 1.9.0.0 Shoplift SQLi and Admin Panel RCE, leading to complete host compromise and administrative takeover.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "1d266704154e9f3a58c45578436e06d1fc52c4ab25de2a3d65acbc37bceb461e",
@@ -4630,7 +4636,10 @@
       ],
       "summary": "Security Assessment Report: Static Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment Static hosted on Hack The Box , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Public-Facing Network Service Exploitation Privilege Escalation Vector: Local Privilege Escalation Engagement Outcome: Complete Host Compromise ( User Proof",
       "priority": 80,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "Based on the provided text, the technical security assessment and penetration testing report for the Hack The Box target \"Static\" was conducted using PTES and NIST SP 800-115 methodologies. The assessment identified a critical risk rating involving an unauthenticated remote exploit vector that led to complete host compromise and administrative takeover via a public-facing network service.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "b4c24756f918512726da87a7fc5fd778d57a57af12ec045bbd88ba57fb9d8d44",
@@ -4654,7 +4663,10 @@
       ],
       "summary": "The Real Deal: Why Hack The Box CPTS is One of the Best Commercial Pentesting Paths Ever Made For years, the cybersecurity community debated what a \"true\" penetration testing curriculum should look like. Should it be arbitrary capture-the-flag boxes? Should it test memorization, or should it test real-world consulting tradecraft? Enter CPTS (Certified Penetration Tester Specialist) by Hack The Box Academy . 🔥 If you have spent any time in the HTB Academy Penetration Tester Path , you already know the truth: the sheer depth, technical accuracy, and commercial realism of CPTS is phenomenal . It does not rely on arbitrary rabbit holes or guessy puzzles. Instead, it simulates what professional penetration testers encounter on client networks every single week: complex multi-tier infrastructure",
       "priority": 80,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "Based on the provided text, the Hack The Box Certified Penetration Tester Specialist (CPTS) path is praised by the cybersecurity community for its depth, technical accuracy, and simulation of real-world consulting tradecraft rather than relying on arbitrary puzzles.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "66ea218e55f012555f5285fe8e687ef3b102d8d478a657165d06786c878b1812",
@@ -4678,7 +4690,10 @@
       ],
       "summary": "The Real Deal: Why Hack The Box CPTS is One of the Best Commercial Pentesting Courses Ever Made For years, the cybersecurity community debated what a \"true\" penetration testing certification should look like. Should it be 24 hours of capture-the-flag boxes? Should it test memorization, or should it test real-world consulting tradecraft? Enter CPTS (Certified Penetration Tester Specialist) by Hack The Box Academy . 🔥 If you have spent any time in the HTB Academy Penetration Tester Path , you already know the truth: the sheer depth, technical accuracy, and commercial realism of CPTS is phenomenal . It does not rely on arbitrary rabbit holes or guessy puzzles. Instead, it simulates what professional penetration testers encounter on client networks every single week: complex multi-tier infrast",
       "priority": 80,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "The excerpt reviews the Certified Penetration Tester Specialist (CPTS) course by Hack The Box Academy, praising its depth, technical accuracy, and commercial realism compared to traditional capture-the-flag style certifications.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "0deeb0448ace06c7da843e11485d232ccc0bc365152054367fe2afa7ee7957b7",
@@ -4701,7 +4716,10 @@
       ],
       "summary": "1. Introduction In this write-up, I will document my experience completing the LLMborghini room on TryHackMe , focusing on identifying weaknesses in an AI-powered assistant and understanding how prompt injection can bypass intended security restrictions. Unlike traditional web exploitation challenges, this room focuses on the security of Large Language Models (LLMs), particularly how an AI assistant handles confidential information, internal instructions, and user-controlled prompts. During the challenge, I interacted with an AI assistant designed to support employees of a fictional organization. The assistant had access to internal information, including branch schedules, company events, and confidential financial data. My objective was to investigate how the assistant enforced its securi",
       "priority": 80,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This TryHackMe write-up for the \"LLMborghini\" room documents a web exploitation challenge focused on Large Language Model (LLM) security and prompt injection. The room involves interacting with an AI assistant that has access to internal organizational information to demonstrate how security restrictions can be bypassed.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "d6c63f1c11568f045150f9febad8d805ffdb0d632b3cbc52212d126388e63069",
@@ -4724,7 +4742,10 @@
       ],
       "summary": "1. Introduction In this write-up, I will document my experience completing the Intermediate Nmap room on TryHackMe , focusing on network enumeration, service discovery, credential identification, and SSH access. Unlike web application challenges, where I usually start by inspecting HTTP requests, identifying application technologies, or searching for web vulnerabilities, this challenge required a more traditional penetration-testing approach. I started by scanning the target machine to identify exposed services and understand what information could be retrieved from them. During the enumeration process, I discovered an unusual service running on port 31337/tcp . Although Nmap could not identify the service automatically, its fingerprint response contained an interesting message that eventu",
       "priority": 80,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This excerpt documents the author's experience completing the \"Intermediate Nmap\" room on TryHackMe, which focuses on network enumeration, service discovery, credential identification, and SSH access. During the scanning and enumeration process, the author discovered an unusual service running on port 31337/tcp.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "be95db40c0efb413b7f256d7d30eeb2a5d14250b5b9614cca390980f9f528395",
@@ -4747,7 +4768,10 @@
       ],
       "summary": "TryHackMe – Evil-GPT v2: Extracting Internal System Rules Through Prompt Injection 1. Introduction In this write-up, I will document my experience completing the Evil-GPT v2 room on TryHackMe , focusing on exploiting an AI chatbot through prompt injection. Unlike traditional CTF challenges, where I usually start by enumerating network services, identifying software versions, or searching for common vulnerabilities, this challenge takes a different approach. Instead of targeting a traditional application vulnerability, I needed to understand how an AI assistant handled user instructions and whether its internal system rules could be exposed through carefully crafted prompts. The main objective was to investigate the chatbot's behavior, manipulate its instructions, and retrieve information t",
       "priority": 80,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This TryHackMe write-up for the \"Evil-GPT v2\" room documents an exploration of web exploitation through prompt injection against an AI chatbot. The primary objective of the challenge was to understand how the AI assistant handles user instructions and to expose its internal system rules using crafted prompts.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "40bc34da677f1f4b01916acde8c1b9a418a44449b046ecb0064c030e20037345",
@@ -7873,9 +7897,9 @@
       "id": "6a1f5ba5539b810ed9cdfe1d2956c93b701b052169d2d03fefb5c340002c1ad1",
       "title": "Trubl1on/CTF-Inter-Ecole-2026",
       "url": "https://github.com/Trubl1on/CTF-Inter-Ecole-2026",
-      "source": "GitHub · CTF writeup",
+      "source": "GitHub · Digital Forensics",
       "source_id": "github-search",
-      "platform": "CTF writeup",
+      "platform": "Digital Forensics",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "Trubl1on",
@@ -8978,9 +9002,9 @@
       "id": "afa0be0bc64bd0b28d69070a26fb047f66325d5dd37bf0cbc29b248af819af9b",
       "title": "udaytammali-prog/CYLAB-CTF-Writeups",
       "url": "https://github.com/udaytammali-prog/CYLAB-CTF-Writeups",
-      "source": "GitHub · picoCTF",
+      "source": "GitHub · Web Exploitation",
       "source_id": "github-search",
-      "platform": "picoCTF",
+      "platform": "Web Exploitation",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "udaytammali-prog",
@@ -9132,9 +9156,9 @@
       "id": "fae234da4ca45161be0c74b3e81c559b9ee5b9e95437fd7d2e53acd429be1d96",
       "title": "sudoparasite/security-writeups",
       "url": "https://github.com/sudoparasite/security-writeups",
-      "source": "GitHub · Hack The Box",
+      "source": "GitHub · Web Exploitation",
       "source_id": "github-search",
-      "platform": "Hack The Box",
+      "platform": "Web Exploitation",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "sudoparasite",
@@ -9663,9 +9687,9 @@
       "id": "be61cf305f25491e0162f351928d76af9f25b59eec381ebd3832284a7e5889fe",
       "title": "RIAO124/CTF-writeups",
       "url": "https://github.com/RIAO124/CTF-writeups",
-      "source": "GitHub · picoCTF",
+      "source": "GitHub · Reverse Engineering",
       "source_id": "github-search",
-      "platform": "picoCTF",
+      "platform": "Reverse Engineering",
       "type": "ctf_writeup",
       "category": "CRYPTOGRAPHY",
       "author": "RIAO124",
@@ -9691,9 +9715,9 @@
       "id": "347aa63633f6085091d17cf278263bd88cb7bcd0e7d50b2577b1d0e3412edaba",
       "title": "Telieou-source/Try_Hack_Me_Writeups",
       "url": "https://github.com/Telieou-source/Try_Hack_Me_Writeups",
-      "source": "GitHub · TryHackMe",
+      "source": "GitHub · AI Security",
       "source_id": "github-search",
-      "platform": "TryHackMe",
+      "platform": "AI Security",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "Telieou-source",
@@ -11030,9 +11054,9 @@
       "id": "09f35bbec8c9cdd43fc8e9a81b6239b2c8a5dc0f3ecc8cdc9f6912e9b49a31bb",
       "title": "f4zzie/MyNotes",
       "url": "https://github.com/f4zzie/MyNotes",
-      "source": "GitHub · picoCTF",
+      "source": "GitHub · Reverse Engineering",
       "source_id": "github-search",
-      "platform": "picoCTF",
+      "platform": "Reverse Engineering",
       "type": "ctf_writeup",
       "category": "BINARY-EXPLOITATION",
       "author": "f4zzie",
@@ -11277,9 +11301,9 @@
       "id": "3004cb4d7e105da26576f15f23fb8dc898607161c7221fbca0fe453051f76145",
       "title": "Gantosay/CTF-Writeups",
       "url": "https://github.com/Gantosay/CTF-Writeups",
-      "source": "GitHub · Binary Exploitation",
+      "source": "GitHub · Reverse Engineering",
       "source_id": "github-search",
-      "platform": "Binary Exploitation",
+      "platform": "Reverse Engineering",
       "type": "ctf_writeup",
       "category": "BINARY-EXPLOITATION",
       "author": "Gantosay",
@@ -12342,7 +12366,11 @@
       ],
       "summary": "writeup sur les rooms tryhackme",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:40.835731+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "6843c9fa6de03d58f9729cf3f4e1db32f084e835ef0767ed3c6899dee8e9908b",
@@ -12814,9 +12842,9 @@
       "id": "b002c397e1bbdc4e2d59b390ed69ebf4e52e524158f74c318279ece6a782724a",
       "title": "maapik/cybersec-writeups",
       "url": "https://github.com/maapik/cybersec-writeups",
-      "source": "GitHub · OSINT",
+      "source": "GitHub · Reverse Engineering",
       "source_id": "github-search",
-      "platform": "OSINT",
+      "platform": "Reverse Engineering",
       "type": "ctf_writeup",
       "category": "DIGITAL-FORENSICS",
       "author": "maapik",
@@ -13512,9 +13540,9 @@
       "id": "7ca2fb3f3ba3c089fea7e779818229073929cf322318b2f59aea0f6b5a0b37c2",
       "title": "DarthWakamiya/ctf-writeup",
       "url": "https://github.com/DarthWakamiya/ctf-writeup",
-      "source": "GitHub · OSINT",
+      "source": "GitHub · Web Exploitation",
       "source_id": "github-search",
-      "platform": "OSINT",
+      "platform": "Web Exploitation",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "DarthWakamiya",
@@ -13600,9 +13628,9 @@
       "id": "1ead37f994076bc44f73aae4d7dea40d7517b506ac869acc3cdf06fcbe8adefe",
       "title": "princeg80900-sys/InIt-CTF-Writeups",
       "url": "https://github.com/princeg80900-sys/InIt-CTF-Writeups",
-      "source": "GitHub · OSINT",
+      "source": "GitHub · Digital Forensics",
       "source_id": "github-search",
-      "platform": "OSINT",
+      "platform": "Digital Forensics",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "princeg80900-sys",
@@ -13639,7 +13667,11 @@
       ],
       "summary": "My Hack The Box, TryHackMe and CTF writeups: recon, foothold, privesc and lessons learned.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:40.835735+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "34562f9586b398d39fd7e9d00c53b577a827b8ab8b74dd5a2a4130140adfea62",
@@ -13808,9 +13840,9 @@
       "id": "56b995bfbbaf6611fd765428776149cf8f68053fbffb10bfdcc33acdf0d23945",
       "title": "White0xdi3/NullOrigin-CTF-2026-Writeups",
       "url": "https://github.com/White0xdi3/NullOrigin-CTF-2026-Writeups",
-      "source": "GitHub · Cryptography",
+      "source": "GitHub · Reverse Engineering",
       "source_id": "github-search",
-      "platform": "Cryptography",
+      "platform": "Reverse Engineering",
       "type": "ctf_writeup",
       "category": "CRYPTOGRAPHY",
       "author": "White0xdi3",
@@ -13944,9 +13976,9 @@
       "id": "8d4dd411eea1cbf255b93df3b1410a50fe8950ebfecba38589a255418eef63b6",
       "title": "TALELMN/csaw-2026-finals-writeups",
       "url": "https://github.com/TALELMN/csaw-2026-finals-writeups",
-      "source": "GitHub · OSINT",
+      "source": "GitHub · Digital Forensics",
       "source_id": "github-search",
-      "platform": "OSINT",
+      "platform": "Digital Forensics",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "TALELMN",
@@ -14007,7 +14039,11 @@
       ],
       "summary": "A collection of my CTF WriteUps",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:44.090229+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "734d90ed7e8a2a6f0b33d0849afbd40896ec577afcc528f3382f6d1831ab7754",
@@ -14111,9 +14147,9 @@
       "id": "fb200e37aa483f7d187a23167e66800e9788e4589c49dc1b4d70fb72b57a1a72",
       "title": "MoriartyPuth/ctf-writeups",
       "url": "https://github.com/MoriartyPuth/ctf-writeups",
-      "source": "GitHub · OSINT",
+      "source": "GitHub · Digital Forensics",
       "source_id": "github-search",
-      "platform": "OSINT",
+      "platform": "Digital Forensics",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "MoriartyPuth",
@@ -14154,7 +14190,11 @@
       ],
       "summary": "Hands-on cybersecurity labs from TryHackMe, Hack The Box and CyberDefenders, with technical writeups, practical analysis and supporting evidence.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:47.222672+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "ecb4441df4e4da8b9f647dd921aa6e14bd192d5e01751b06a216dc8c5985b59e",
@@ -14175,15 +14215,19 @@
       ],
       "summary": "we're taking part in ctfs. here are some of the writeups",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:44.090237+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "42abdca6cdc93d96a720ba5c7ebedb933d24748e9204ca4c4009ce4f08c4cd96",
       "title": "sh4shir/HackersInIndia-CTF-Writeups",
       "url": "https://github.com/sh4shir/HackersInIndia-CTF-Writeups",
-      "source": "GitHub · Cryptography",
+      "source": "GitHub · Digital Forensics",
       "source_id": "github-search",
-      "platform": "Cryptography",
+      "platform": "Digital Forensics",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "sh4shir",
@@ -14216,7 +14260,11 @@
       ],
       "summary": "Public CTF writeup repository",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:47.222713+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "5db154cf29225e525c7aaa460e5b7836569bc19a05732a31c24bfea2cf97aced",
@@ -14236,7 +14284,11 @@
       ],
       "summary": "Public CTF writeup repository",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:47.222650+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "6d53b7bbbf8e73dbe7e3409ef6ce1dbf81f577b23e62447e58c0e71de35caf10",
@@ -14363,7 +14415,11 @@
       ],
       "summary": "This is a recopilation of the Machines I have been solving during my cibersecurity path. This Machines Write-Ups come from different cibersecurity platforms such as Hack the Box, Try Hack Me and DockerLabs. Hope this helps!",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:40.835711+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "05b46a471642eb463330ba5bbbe66262d6938df4f104e5e02bca82a7f7265fff",
@@ -14497,7 +14553,11 @@
       ],
       "summary": "Public CTF writeup repository",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:47.222658+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "6c6dbd3ef8e3166fab4b6e4783d545ff717d6a8f6eb06ba6e7e6f744f04cf531",
@@ -14579,7 +14639,11 @@
       ],
       "summary": "Public CTF writeup repository",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:44.090223+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "3a4bd0bba29d7f3e2aa0d11d3920f35172cc70f81f17cabfb97e10c1b865eae1",
@@ -14820,7 +14884,11 @@
       ],
       "summary": "Public CTF writeup repository",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:40.835768+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "360264783792da882216249298b9f42e5da3f2e51e469344c76d2d90cf25414f",
@@ -14860,7 +14928,11 @@
       ],
       "summary": "CTF writeups, hacking practice and offensive security exercises.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:40.835765+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "89dfb1801f82baccaae24692ee06f434ba7f463deaf2d8095b37f8b487c381d6",
@@ -14960,7 +15032,11 @@
       ],
       "summary": "Public CTF writeup repository",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:40.835787+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "4121e3ef290a2c7f7230dcaa6100914d83ab5ebfef353b8ac55a25ea6a14c8d3",
@@ -15134,7 +15210,11 @@
       ],
       "summary": "this is a repo full off CTF writeups i have done over many certified websites",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:47.222668+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "da19f2c179e0b68dcb07f322ac1ecbf19b32b32a6bbf1056be99e3e7749291cc",
@@ -15258,7 +15338,11 @@
       ],
       "summary": "CTF WriteUp ?? - React + Vite + Tailwind",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:47.222711+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "ce6ed3d0eab7918c633a1113e53411ab9089cb7ef2d6b7214cca51e245ecaba1",
@@ -15313,7 +15397,7 @@
       "source_id": "github-search",
       "platform": "CTF writeup",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "WEB-EXPLOITATION",
       "author": "Sayeh-1337",
       "published_at": "2026-11-11T12:34:31Z",
       "discovered_at": "2026-11-27T02:52:05.666558+00:00",
@@ -15323,7 +15407,13 @@
       ],
       "summary": "Web3 security lab: post-mortem audits and CTF writeups",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:40.835759+00:00",
+      "ai_category": "WEB-EXPLOITATION",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:28:40.835762+00:00"
     },
     {
       "id": "ad6a1c5aaf556b78135babf95ec3fabbe545c11b5a863a971ba93dcb8792fdaa",
@@ -15459,9 +15549,9 @@
       "id": "1d50e7512e19bfdcacb8ef0f27d92c6933342256b83e0db1afc501ed520400c1",
       "title": "BagaskaraAP-Dev/Writeup-hiCTF-2026-Bagaskara-Amukti-Palapa",
       "url": "https://github.com/BagaskaraAP-Dev/Writeup-hiCTF-2026-Bagaskara-Amukti-Palapa",
-      "source": "GitHub · Cryptography",
+      "source": "GitHub · Reverse Engineering",
       "source_id": "github-search",
-      "platform": "Cryptography",
+      "platform": "Reverse Engineering",
       "type": "ctf_writeup",
       "category": "CRYPTOGRAPHY",
       "author": "BagaskaraAP-Dev",
@@ -15499,9 +15589,9 @@
       "id": "567928f512dfac9ce27a76ef85c8e30f93502a867fc415d7ec91bed9867b8713",
       "title": "BagaskaraAP-Dev/cyber-frontier-2026-beyond-the-attack",
       "url": "https://github.com/BagaskaraAP-Dev/cyber-frontier-2026-beyond-the-attack",
-      "source": "GitHub · OSINT",
+      "source": "GitHub · Digital Forensics",
       "source_id": "github-search",
-      "platform": "OSINT",
+      "platform": "Digital Forensics",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "BagaskaraAP-Dev",
@@ -15633,7 +15723,11 @@
       ],
       "summary": "There my CTF writeups",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:47.222676+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "1e37a900760d0ba57cdaa0150041f6c52a2fd60740fe0386957fcbe6f794f9a8",
@@ -15718,7 +15812,11 @@
       ],
       "summary": "This repository is a practical portfolio documenting my cybersecurity journey and growth. Everything I learn, build and work on is documented here, cheatsheets, CTF writeups, scripts, and projects built through real hands-on learning.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:40.835785+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "c19491b2f1a909e689286cbd3d1c74c5a33a8e65ade51faa4291ea9956cd6bfe",
@@ -15738,7 +15836,11 @@
       ],
       "summary": "Public CTF writeup repository",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:47.222699+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "53aa009970ca3c8ec18ee10814ff9d0ed5031056e423769dfdec750fd532f978",
@@ -15807,7 +15909,11 @@
       ],
       "summary": "My CTF writeups",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:47.222687+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "40f48097939aa6a8c6807eacf1d9070ed29bcd6f623eb458a1ee82ae13e18798",
@@ -15847,7 +15953,11 @@
       ],
       "summary": "个人博客：CTF Writeup / 学习笔记 / 软件配置 / 生活琐事（Hexo 8 + Butterfly 5.7 + Everforest 配色）",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:47.222663+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "c80d2e85e8e560a73bdb176740252d35d7165e0176db7c3fad8dc46cce668d74",
@@ -15953,9 +16063,9 @@
       "id": "3234585e432752ad32bc9cddf7f119e886dbab5a6e56d7fd60aa506dd767042b",
       "title": "SanayKrishna/spookyctf-2026-writeups",
       "url": "https://github.com/SanayKrishna/spookyctf-2026-writeups",
-      "source": "GitHub · OSINT",
+      "source": "GitHub · Digital Forensics",
       "source_id": "github-search",
-      "platform": "OSINT",
+      "platform": "Digital Forensics",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "SanayKrishna",
@@ -16266,7 +16376,11 @@
       ],
       "summary": "Public CTF writeup repository",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:40.835750+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "829f3e233471ecb02110b425a1af1c332b7d95584cb245a555778cd336220987",
@@ -16366,7 +16480,11 @@
       ],
       "summary": "A few writeups to document my cybersecurity journey. Flag will be redacted!",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:44.090218+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "eec098ff30e8bcfc985680be9c1a34d0598c39fb92db7a5ad67282c29c7b53bc",
@@ -16392,9 +16510,9 @@
       "id": "6ce2c6bdb76d8abe9c4399cf845870f5b3981930c29c2383484bc158707ee3b6",
       "title": "ushoxa/HI-Cyber-Con-2026-CTF",
       "url": "https://github.com/ushoxa/HI-Cyber-Con-2026-CTF",
-      "source": "GitHub · OSINT",
+      "source": "GitHub · Reverse Engineering",
       "source_id": "github-search",
-      "platform": "OSINT",
+      "platform": "Reverse Engineering",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "ushoxa",
@@ -16512,9 +16630,9 @@
       "id": "362d9a00863caace7ff02bbb4bd2219857db3157b531a8f46ebd0203e0e66042",
       "title": "dianac00680/HUCTF-2026-Writeups",
       "url": "https://github.com/dianac00680/HUCTF-2026-Writeups",
-      "source": "GitHub · Cryptography",
+      "source": "GitHub · Web Exploitation",
       "source_id": "github-search",
-      "platform": "Cryptography",
+      "platform": "Web Exploitation",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "dianac00680",
@@ -16552,9 +16670,9 @@
       "id": "6a442627baa212064a36cc27f405eb3775e17d703feb6d4e5d15e6c72353e39e",
       "title": "TraceHanami/writeups",
       "url": "https://github.com/TraceHanami/writeups",
-      "source": "GitHub · OSINT",
+      "source": "GitHub · Reverse Engineering",
       "source_id": "github-search",
-      "platform": "OSINT",
+      "platform": "Reverse Engineering",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "TraceHanami",
@@ -16682,15 +16800,19 @@
       ],
       "summary": "My CTF and cybersecurity lab writeups",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:40.835782+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "a60e244c9fc61a9441b63196673748246bd79cd399ad0ff738c1ac0aa072f164",
       "title": "hax1ng/csaw-ctf-quals-2026",
       "url": "https://github.com/hax1ng/csaw-ctf-quals-2026",
-      "source": "GitHub · OSINT",
+      "source": "GitHub · Web Exploitation",
       "source_id": "github-search",
-      "platform": "OSINT",
+      "platform": "Web Exploitation",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "hax1ng",
@@ -16902,7 +17024,11 @@
       ],
       "summary": "scripts and write ups made by yours truly(and Claude of course)",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:47.222691+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "a54778d9c9b1ccd4a677efc5d6650d5e5a36597f0e00d5edbe7eea9c1f02a597",
@@ -16948,9 +17074,9 @@
       "id": "edcb543d4dda2f938b9568e1c86574b4141b68b1031de1c90fd48fd98c5060d8",
       "title": "agurzil-kutama/Cybersecurity",
       "url": "https://github.com/agurzil-kutama/Cybersecurity",
-      "source": "GitHub · Cryptography",
+      "source": "GitHub · Web Exploitation",
       "source_id": "github-search",
-      "platform": "Cryptography",
+      "platform": "Web Exploitation",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "agurzil-kutama",
@@ -17171,7 +17297,11 @@
       ],
       "summary": "Public CTF writeup repository",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:44.090213+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "ce6d827e98bf6fd4d18a8e76744830190df5d7e1fcecb3d02d1cc2e1d23cde82",
@@ -17211,7 +17341,11 @@
       ],
       "summary": "My CTF write-ups",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:47.222694+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "1f6d235cab941b810f6427222ca9cf867f766c5d732bd6155c5c97fba1afd047",
@@ -17271,7 +17405,11 @@
       ],
       "summary": "Public CTF writeup repository",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:47.222705+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "d1e27897dc714d45306b0b4ba0a0f85bb67a51017e08478f1a3aa5b172667850",
@@ -17486,9 +17624,9 @@
       "id": "f01eec98aa9edd86c1aa3c5e064efc57022b34b7328c5db33305313285d7245d",
       "title": "eperdieu/ctf-writeups",
       "url": "https://github.com/eperdieu/ctf-writeups",
-      "source": "GitHub · Cryptography",
+      "source": "GitHub · Web Exploitation",
       "source_id": "github-search",
-      "platform": "Cryptography",
+      "platform": "Web Exploitation",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "eperdieu",
@@ -17741,7 +17879,11 @@
       ],
       "summary": "My TryHackMe cybersecurity and penetration testing write-ups, notes, and practical walkthroughs.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:47.222702+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "0d46cec9783e8e703c12062f59cbe0ed39326f63b29eb90423e5b7df9af7c508",
@@ -17796,9 +17938,9 @@
       "id": "7b2456f9c8ed4ac11afeda18bc8c9c10eff37f5c2cb09494ce33264c2a9a707f",
       "title": "Oualidelaz/Offensive-CTF-Writeups",
       "url": "https://github.com/Oualidelaz/Offensive-CTF-Writeups",
-      "source": "GitHub · Cryptography",
+      "source": "GitHub · Web Exploitation",
       "source_id": "github-search",
-      "platform": "Cryptography",
+      "platform": "Web Exploitation",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "Oualidelaz",
@@ -17930,9 +18072,9 @@
       "id": "e1cd3ea015965d76ae5eb848b85152569c697fb4c07eca35bcdb2663858a4874",
       "title": "nishenmadawa15-collab/ctf-writeups",
       "url": "https://github.com/nishenmadawa15-collab/ctf-writeups",
-      "source": "GitHub · OSINT",
+      "source": "GitHub · Digital Forensics",
       "source_id": "github-search",
-      "platform": "OSINT",
+      "platform": "Digital Forensics",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "nishenmadawa15-collab",
@@ -18032,7 +18174,11 @@
       ],
       "summary": "Personal cybersecurity portfolio and CTF writeups.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:47.222697+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "0467b83926cc4c21185295ddb2a39701ba5004fa089cf0c15ba62cdac555d42c",
@@ -18120,7 +18266,11 @@
       ],
       "summary": "Public CTF writeup repository",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:44.090226+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "74e8d6d1fab9684fcc31605ba177e5e1c24270fea33eeaf811297ba141b3cb8f",
@@ -18175,9 +18325,9 @@
       "id": "8aedfccf86462059dbb5b2ee7bb44631c99a8a674c4271257bba9aa883025e5d",
       "title": "DHRUV-MULANI/zero-trace-ctf-writeups",
       "url": "https://github.com/DHRUV-MULANI/zero-trace-ctf-writeups",
-      "source": "GitHub · OSINT",
+      "source": "GitHub · Web Exploitation",
       "source_id": "github-search",
-      "platform": "OSINT",
+      "platform": "Web Exploitation",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "DHRUV-MULANI",
@@ -18246,9 +18396,9 @@
       "id": "2cfcbe3810ff4823adc90d54fe9c8ea2d7e8c525a75e8c8124f51a739cda6826",
       "title": "Ask99Ayush/The-Sudo-Shebang-Void-CTF-2026-Writeups",
       "url": "https://github.com/Ask99Ayush/The-Sudo-Shebang-Void-CTF-2026-Writeups",
-      "source": "GitHub · Cryptography",
+      "source": "GitHub · Digital Forensics",
       "source_id": "github-search",
-      "platform": "Cryptography",
+      "platform": "Digital Forensics",
       "type": "ctf_writeup",
       "category": "CRYPTOGRAPHY",
       "author": "Ask99Ayush",
@@ -18320,7 +18470,11 @@
       ],
       "summary": "I'm studying CTF, and I write my learning path in this repository.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:44.090202+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "74d4cdeb9d47b804a7708e3f6aa06c77cb57e38555eb1bad04304ea4c36f1679",
@@ -18395,7 +18549,11 @@
       ],
       "summary": "Public CTF writeup repository",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:47.222654+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "774958417d5a0d5cb4286eb84c718f4d00b6b22821fe66118307611b0f2bd7b7",
@@ -18415,7 +18573,11 @@
       ],
       "summary": "Public CTF writeup repository",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:44.090210+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "438d843dc5d5566619607295fb5cfa726554201a54a03f9dddbdd08ff505ab23",
@@ -18495,7 +18657,11 @@
       ],
       "summary": "Public CTF writeup repository",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:40.835747+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "80c68ecea4caba49175a0650f8bbef73746a2a645e41fb902950314ad4fa3b86",
@@ -18529,9 +18695,9 @@
       "id": "40dc9631a6284c0fdf222f442d89743bd17d38c367dbe970e275dc4cb509a892",
       "title": "srioo10/cs-week-ctf",
       "url": "https://github.com/srioo10/cs-week-ctf",
-      "source": "GitHub · OSINT",
+      "source": "GitHub · Digital Forensics",
       "source_id": "github-search",
-      "platform": "OSINT",
+      "platform": "Digital Forensics",
       "type": "ctf_writeup",
       "category": "CRYPTOGRAPHY",
       "author": "srioo10",
@@ -18593,9 +18759,9 @@
       "id": "96ba4256ddf21b9a6aee53448aa642a51eccfc2de9882597b215dc9c1fe6aaf0",
       "title": "Aymwvn/CTF-Writeups",
       "url": "https://github.com/Aymwvn/CTF-Writeups",
-      "source": "GitHub · OSINT",
+      "source": "GitHub · Reverse Engineering",
       "source_id": "github-search",
-      "platform": "OSINT",
+      "platform": "Reverse Engineering",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "Aymwvn",
@@ -18860,9 +19026,9 @@
       "id": "c86ad3f9be51751a3defd3017c0fb33509fb6ac95b5167b5578d4acc3b1543f6",
       "title": "frqXoXo/CyLab-Security-Writeups",
       "url": "https://github.com/frqXoXo/CyLab-Security-Writeups",
-      "source": "GitHub · Cryptography",
+      "source": "GitHub · Web Exploitation",
       "source_id": "github-search",
-      "platform": "Cryptography",
+      "platform": "Web Exploitation",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "frqXoXo",
@@ -18920,9 +19086,9 @@
       "id": "05a6f9581abce4219bc6397bc56b7fd2507345becdd548428e64d32342625506",
       "title": "shabareesh-art/cypher-ctf-writeups",
       "url": "https://github.com/shabareesh-art/cypher-ctf-writeups",
-      "source": "GitHub · Cryptography",
+      "source": "GitHub · Reverse Engineering",
       "source_id": "github-search",
-      "platform": "Cryptography",
+      "platform": "Reverse Engineering",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "shabareesh-art",
@@ -19026,9 +19192,9 @@
       "id": "0009096522287ce49ed13cbeb2f03ec947782afdcd342dc4e8d85a1834ca54b2",
       "title": "ShahiTukda/CTF-Writeups",
       "url": "https://github.com/ShahiTukda/CTF-Writeups",
-      "source": "GitHub · Binary Exploitation",
+      "source": "GitHub · Reverse Engineering",
       "source_id": "github-search",
-      "platform": "Binary Exploitation",
+      "platform": "Reverse Engineering",
       "type": "ctf_writeup",
       "category": "BINARY-EXPLOITATION",
       "author": "ShahiTukda",
@@ -19111,9 +19277,9 @@
       "id": "dfbf519fa21a05a0b489fd131fd662ff6785b0ba510c56c1b7c6f6baaabdff14",
       "title": "umair-aziz025/CTF_WRITEUPS",
       "url": "https://github.com/umair-aziz025/CTF_WRITEUPS",
-      "source": "GitHub · Binary Exploitation",
+      "source": "GitHub · Web Exploitation",
       "source_id": "github-search",
-      "platform": "Binary Exploitation",
+      "platform": "Web Exploitation",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "umair-aziz025",
@@ -19181,7 +19347,11 @@
       ],
       "summary": "HackTheBox Machines to Notion Database for Writeups",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:44.090199+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "489e6dfac578672c238c0695dbb5aca7fdbef0a8e4b54786ed84e7acfa8ac504",
@@ -19319,9 +19489,9 @@
       "id": "134ca424cb1898781cd9aba6f559f0486b11aeb924406f516f90632d7178c4e6",
       "title": "hax1ng/pwnsec-ctf-2026",
       "url": "https://github.com/hax1ng/pwnsec-ctf-2026",
-      "source": "GitHub · OSINT",
+      "source": "GitHub · Web Exploitation",
       "source_id": "github-search",
-      "platform": "OSINT",
+      "platform": "Web Exploitation",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "hax1ng",
@@ -19353,7 +19523,11 @@
       ],
       "summary": "ctfのれんしゅう",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:40.835779+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "f1a3b456d8fc269cceb8ddb9c355c1757cac2b142ca2e0d50f08a17212da809d",
@@ -19619,9 +19793,9 @@
       "id": "6a6500e3bd54591a698eb7f4d138ba0f54bbb34a2a26e5d10b23f1b8ae52d5e6",
       "title": "nomadrai/GoPWNIt-CTF-Writeup",
       "url": "https://github.com/nomadrai/GoPWNIt-CTF-Writeup",
-      "source": "GitHub · Cryptography",
+      "source": "GitHub · Web Exploitation",
       "source_id": "github-search",
-      "platform": "Cryptography",
+      "platform": "Web Exploitation",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "nomadrai",
@@ -19706,7 +19880,11 @@
       ],
       "summary": "HackTheBox writeups — recon to root, every box torn down and documented.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:40.835738+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "8159224e7846d29dd3576931d6d5248d06cf3f4665eaffa47ba05def56abb9bc",
@@ -19890,9 +20068,9 @@
       "id": "2b661038b4f2614c4854c57fd3add926740fb8d25f181ea27b7278f9d319a762",
       "title": "itatipaul/Safaricom-CTF-2026-Writeups",
       "url": "https://github.com/itatipaul/Safaricom-CTF-2026-Writeups",
-      "source": "GitHub · OSINT",
+      "source": "GitHub · Reverse Engineering",
       "source_id": "github-search",
-      "platform": "OSINT",
+      "platform": "Reverse Engineering",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "itatipaul",
@@ -19990,9 +20168,9 @@
       "id": "7dcac2af2775959e69603de3fbf6990a7d6a02f58f4b92e6f952acba680c47c6",
       "title": "Nero265/CTF-Writeups",
       "url": "https://github.com/Nero265/CTF-Writeups",
-      "source": "GitHub · Cryptography",
+      "source": "GitHub · Web Exploitation",
       "source_id": "github-search",
-      "platform": "Cryptography",
+      "platform": "Web Exploitation",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "Nero265",
@@ -20112,7 +20290,11 @@
       ],
       "summary": "Portafolio de ciberseguridad — Blue Team/SOC: labs, writeups y evidencia práctica (TryHackMe, HTB, CompTIA CySA+, CISCO).",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:40.835774+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "19a6330b8d95d6752560652cbb0d348b139828a382387187dc796ec24eabd269",
@@ -20220,7 +20402,11 @@
       ],
       "summary": "A collection of my TryHackMe room write-ups, documenting cybersecurity concepts, hands-on challenges, methodologies, tools, and solutions learned through practical labs.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:44.090191+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "eabb17b626b4dd372d0c97d7797829e4ab84b812c8f090a06ea4215ae91246a3",
@@ -20384,7 +20570,11 @@
       ],
       "summary": "My CTF and HTB/THM writeups",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:44.090215+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "240176f2f50a676bc7cc70f427569c32024a4fc9565587a3c90522dea813308c",
@@ -20410,9 +20600,9 @@
       "id": "8452d63fc399654070b0774c471ccfb19baf48064152c181958569742de72c8d",
       "title": "Nithishb03/picoCTF-writeups",
       "url": "https://github.com/Nithishb03/picoCTF-writeups",
-      "source": "GitHub · Cryptography",
+      "source": "GitHub · Web Exploitation",
       "source_id": "github-search",
-      "platform": "Cryptography",
+      "platform": "Web Exploitation",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "Nithishb03",
@@ -20489,7 +20679,11 @@
       ],
       "summary": "Personal repository for cybersecurity writeups, CTF solutions, and technical notes.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:47.222590+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "0669c67277be9dce3b1f8c08c09914b7280ba75d8599431ee41a978ace21238a",
@@ -20535,9 +20729,9 @@
       "id": "3d44cf21dc89e13ba9af4d8991977bcbba98d7bd8bf2f83a9e7175fa3ef92a7d",
       "title": "aneepatni06-ux/ctf-writeups",
       "url": "https://github.com/aneepatni06-ux/ctf-writeups",
-      "source": "GitHub · Cryptography",
+      "source": "GitHub · Reverse Engineering",
       "source_id": "github-search",
-      "platform": "Cryptography",
+      "platform": "Reverse Engineering",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "aneepatni06-ux",
@@ -20724,7 +20918,11 @@
       ],
       "summary": "Conjunto de writeups de distintos CTF",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:44.090205+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "9cf2d8d156ca70d948f52cab41a1f75a515e4bc3719fe28f86dae484e967c0d3",
@@ -21094,9 +21292,9 @@
       "id": "83365453a15bfead0547257ce4de8d19ca03c0efa544f0e139245df5f833e345",
       "title": "malpinw/writeups",
       "url": "https://github.com/malpinw/writeups",
-      "source": "GitHub · Cryptography",
+      "source": "GitHub · Reverse Engineering",
       "source_id": "github-search",
-      "platform": "Cryptography",
+      "platform": "Reverse Engineering",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "malpinw",
@@ -21177,9 +21375,9 @@
       "id": "c5d6e234e629dffe74557a665ffa3021757ecfc7e0b3a55c0446c783fb9c339e",
       "title": "hax1ng/z0d1ak-ctf-qualifiers-2026",
       "url": "https://github.com/hax1ng/z0d1ak-ctf-qualifiers-2026",
-      "source": "GitHub · OSINT",
+      "source": "GitHub · Web Exploitation",
       "source_id": "github-search",
-      "platform": "OSINT",
+      "platform": "Web Exploitation",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "hax1ng",
@@ -21260,7 +21458,11 @@
       ],
       "summary": "Repositorio para almacenar Write-Ups y soluciones de CTFs durante mi aprendizaje en ciberseguridad, documentando retos, técnicas de explotación y aprendizajes clave.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:47.222643+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "e366ba9446ab849ae076021b1f4ebf0f8bfa4153b39357a4a4585cb23741c25c",
@@ -21366,9 +21568,9 @@
       "id": "f816c9a8167ff86f49565c756eef15133dee4dde1ab0d0f67d07896c2a21240d",
       "title": "ia0lo/writeups",
       "url": "https://github.com/ia0lo/writeups",
-      "source": "GitHub · Cryptography",
+      "source": "GitHub · Web Exploitation",
       "source_id": "github-search",
-      "platform": "Cryptography",
+      "platform": "Web Exploitation",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "ia0lo",
@@ -21574,7 +21776,11 @@
       ],
       "summary": "Public CTF writeup repository",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:44.090169+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "77db60fb0927bf98c72a48997213754061db522204d3958fcb66631e609bfcc5",
@@ -21619,7 +21825,11 @@
       ],
       "summary": "My writeups for completed HackTheBox machines and challenges",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:44.090221+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "ea62afea9200daea32dcc099d3f80e2319cbf7d050e3116a695b74ee5954abfa",
@@ -21722,7 +21932,11 @@
       ],
       "summary": "A collaborative Hack The Box journey with friends, documenting our challenges, progress, methodologies, and lessons learned as we push each other to reach our full potential.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:44.090207+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "1d754242678aed1a76c4acab1c375b9d48900f4b827f03e3d219624eda154139",
@@ -21956,7 +22170,11 @@
       ],
       "summary": "Experiencing the dopamine hit when we complete them😉",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:44.090196+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "e2c44b5afb0dd1f84cb6931b92dabd2627c429767cf50c448e54d5ff08bf3460",
@@ -22063,7 +22281,11 @@
       ],
       "summary": "Collection of CTF writeups organized by events.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:40.835741+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "ecb4bd85ded73bbff57a8b0d2d6d918fb501869eca74b0200cbc8386a1cf5c85",
@@ -22223,7 +22445,11 @@
       ],
       "summary": "Write-ups and notes from my TryHackMe SOC Analyst learning journey.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:40.835756+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "bbeb6265ebd90536d38d6cd78b605bbfdfea09dc1687ed502d070b1d48e4a01f",
@@ -22351,7 +22577,11 @@
       ],
       "summary": "writeups for CTF",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:44.090232+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "4cd0e25a260f0c985a4318c7dde8c24049f25dc9515092eec6f76ac474852e51",
@@ -22810,7 +23040,11 @@
       ],
       "summary": "🛡️ CTF writeups and notes | HackTheBox & TryHackMe | Cybersecurity journey 🚀",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:40.835771+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "98204c432614862342ca59467e6320d59080b802665e279558b64cfb299b2e43",
@@ -22926,7 +23160,11 @@
       ],
       "summary": "Documenting my penetration testing journey — PortSwigger, HTB, TryHackMe",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:40.835753+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "149df5b874e2b5155f9dd8dcbf1ce5c12eadee45ad7c83c636e56da55293ab0b",
@@ -23034,7 +23272,11 @@
       ],
       "summary": "Website for my blog posts and ctf writeups",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:44.090234+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "b94243bd0d219dddd8f88c076e55b385fb9cbf98da129ff5461cd42b22b37d9d",
@@ -23237,7 +23479,11 @@
       ],
       "summary": "Public CTF writeup repository",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:40.835744+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "bd2fa8975fb56e76103d6f208d3a841a8f4f46d84bf4e06645cdbec19ffcd310",
@@ -23337,7 +23583,11 @@
       ],
       "summary": "Cybersecurity portfolio: automation scripts, CTF writeups, and machine testing writeups.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:40.835777+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "9bb38ae4dd8c48931e17cae6cd84b33aea150800046ccf11dd8534273001905b",
@@ -23537,7 +23787,11 @@
       ],
       "summary": "STeam's CTF writeups",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:44.090193+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "13af180afb6c102318a90ff38ff3057b2ebbd76159628236375f8bb5bdc77eb3",
@@ -23701,7 +23955,11 @@
       ],
       "summary": "My writeups for ctf on diferent platforms",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:44.090187+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "04d3290cbbf0435309f6ca6178c911d1922f68515d721ac5774e1f77daf10662",
@@ -24288,7 +24546,11 @@
       ],
       "summary": "CTF (Capture The Flag) Writeups",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:47.222607+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "31ca50e620f8051bba4ee46ec918f4d84c00c9a3d59fb61f72a8ee9a86d144f6",
@@ -24348,7 +24610,11 @@
       ],
       "summary": "hackthebox writeups",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:28:47.222708+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "400716a46737aa17468277adedb35c09705e722029d55a819307a3d044b0d77c",
@@ -28172,26 +28438,10 @@
   "last_run": {
     "ctftime_entries": 30,
     "rss_entries": 201,
-    "github_repositories": 469,
+    "github_repositories": 653,
     "social_links": 0,
     "new_entries": 0,
     "failures": [
-      {
-        "source": "GitHub · Digital Forensics",
-        "error": "403 Client Error: rate limit exceeded for url: https://api.github.com/search/repositories?q=forensics+CTF+writeups+in%3Aname%2Cdescription&sort=updated&order=desc&per_page=50"
-      },
-      {
-        "source": "GitHub · Reverse Engineering",
-        "error": "403 Client Error: rate limit exceeded for url: https://api.github.com/search/repositories?q=reverse+engineering+CTF+writeups+in%3Aname%2Cdescription&sort=updated&order=desc&per_page=50"
-      },
-      {
-        "source": "GitHub · Web Exploitation",
-        "error": "403 Client Error: rate limit exceeded for url: https://api.github.com/search/repositories?q=web+exploitation+CTF+writeups+in%3Aname%2Cdescription&sort=updated&order=desc&per_page=50"
-      },
-      {
-        "source": "GitHub · AI Security",
-        "error": "403 Client Error: rate limit exceeded for url: https://api.github.com/search/repositories?q=AI+security+CTF+writeups+in%3Aname%2Cdescription&sort=updated&order=desc&per_page=50"
-      },
       {
         "source": "X/Twitter",
         "error": "Optional: configure X_BEARER_TOKEN Actions secret"

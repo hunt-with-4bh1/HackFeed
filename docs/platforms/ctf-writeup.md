@@ -2,7 +2,6 @@
 
 | Date | CTF / Challenge / Repository | Platform | Category | Author / Team | Source |
 |---|---|---|---|---|---|
-| 2026-11-28T00:40 | [Trubl1on/CTF-Inter-Ecole-2026<br><sub>Writeups du CTF Inter-École 2026 — 20 challenges (Crypto, Forensic, Fullpwn, IA, ICS, Mobile, Pwn, Web)</sub>](https://github.com/Trubl1on/CTF-Inter-Ecole-2026) | CTF writeup | WEB-EXPLOITATION | Trubl1on | GitHub · CTF writeup |
 | 2026-11-27T22:44 | [andriimikheyenko-afk/CTF-writeups<br><sub>Public CTF writeup repository</sub>](https://github.com/andriimikheyenko-afk/CTF-writeups) | CTF writeup | UNCATEGORIZED | andriimikheyenko-afk | GitHub · CTF writeup |
 | 2026-11-27T22:03 | [abderrahim3333/GCDSTE-CTF-ROOT-FOR-GLORY<br><sub>Original CTF challenges and official writeups. Authored by me. 🚩</sub>](https://github.com/abderrahim3333/GCDSTE-CTF-ROOT-FOR-GLORY) | CTF writeup | UNCATEGORIZED | abderrahim3333 | GitHub · CTF writeup |
 | 2026-11-27T18:34 | [rif-x43/ctf-writeups<br><sub>Public CTF writeup repository</sub>](https://github.com/rif-x43/ctf-writeups) | CTF writeup | UNCATEGORIZED | rif-x43 | GitHub · CTF writeup |
@@ -136,7 +135,7 @@
 | 2026-11-11T19:15 | [Kiwi20003/CTF-WRITEUPS<br><sub>Ire subiendo los writeups que vaya haciendo sobre maquinas</sub>](https://github.com/Kiwi20003/CTF-WRITEUPS) | CTF writeup | UNCATEGORIZED | Kiwi20003 | GitHub · CTF writeup |
 | 2026-11-11T18:48 | [joe-s58/ctf-writeups<br><sub>Write-ups of CTF and security labs, with methodology and remediation notes</sub>](https://github.com/joe-s58/ctf-writeups) | CTF writeup | UNCATEGORIZED | joe-s58 | GitHub · CTF writeup |
 | 2026-11-11T16:10 | [heliumsenbrg/ctf-writeup-blog<br><sub>CTF WriteUp ?? - React + Vite + Tailwind</sub>](https://github.com/heliumsenbrg/ctf-writeup-blog) | CTF writeup | UNCATEGORIZED | heliumsenbrg | GitHub · CTF writeup |
-| 2026-11-11T12:34 | [Sayeh-1337/web3-security-audits<br><sub>Web3 security lab: post-mortem audits and CTF writeups</sub>](https://github.com/Sayeh-1337/web3-security-audits) | CTF writeup | UNCATEGORIZED | Sayeh-1337 | GitHub · CTF writeup |
+| 2026-11-11T12:34 | [Sayeh-1337/web3-security-audits<br><sub>Web3 security lab: post-mortem audits and CTF writeups</sub>](https://github.com/Sayeh-1337/web3-security-audits) | CTF writeup | WEB-EXPLOITATION | Sayeh-1337 | GitHub · CTF writeup |
 | 2026-11-11T10:09 | [Ayadi-Louay/CTF-Writeups<br><sub>My Portfolio</sub>](https://github.com/Ayadi-Louay/CTF-Writeups) | CTF writeup | UNCATEGORIZED | Ayadi-Louay | GitHub · CTF writeup |
 | 2026-11-11T04:50 | [Fecuw/CTF-Writteup<br><sub>今まで解いてきたCTFのWriteup置き場</sub>](https://github.com/Fecuw/CTF-Writteup) | CTF writeup | UNCATEGORIZED | Fecuw | GitHub · CTF writeup |
 | 2026-11-10T21:46 | [aleksandrsmernov/CTF-writeups<br><sub>Public CTF writeup repository</sub>](https://github.com/aleksandrsmernov/CTF-writeups) | CTF writeup | UNCATEGORIZED | aleksandrsmernov | GitHub · CTF writeup |
