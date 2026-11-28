@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-11-28T03:55:34.657594+00:00",
+  "updated_at": "2026-11-28T04:09:15.742794+00:00",
   "total": 1247,
   "items": [
     {
@@ -613,7 +613,7 @@
       "source_id": "ctftime-writeups",
       "platform": "CTFtime",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "WEB-EXPLOITATION",
       "author": "Abdelkader",
       "published_at": "",
       "discovered_at": "2026-11-21T20:09:12.202954+00:00",
@@ -628,7 +628,11 @@
       "metadata_checked": true,
       "ai_summary": "The CTFtime listing for \"Kali Team - CTF 26 — Industry Night\" is categorized as \"UNCATEGORIZED\" with tags for web, writeup, kaliteamctf, and ctf. Beyond the title and these basic tags, no further technical details or writeup content are provided in the excerpt.",
       "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_provider": "Google Gemini",
+      "ai_category": "WEB-EXPLOITATION",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:04.681088+00:00"
     },
     {
       "id": "55d91cf5e27cfd0cf009275fbd4bc4e3bfb96550c8f70eb47886ce1c5c2b1f46",
@@ -638,7 +642,7 @@
       "source_id": "ctftime-writeups",
       "platform": "CTFtime",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "WEB-EXPLOITATION",
       "author": "Abdelkader",
       "published_at": "",
       "discovered_at": "2026-11-21T20:09:12.202642+00:00",
@@ -653,7 +657,11 @@
       "metadata_checked": true,
       "ai_summary": "This CTFtime writeup listing is titled \"Kali Team - CTF 26 — Robots\" and falls under the \"Uncategorized\" category. The provided excerpt lists the tags \"web,\" \"writeup,\" \"kaliteamctf,\" and \"ctf,\" but contains no further technical details about the content.",
       "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_provider": "Google Gemini",
+      "ai_category": "WEB-EXPLOITATION",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:04.681110+00:00"
     },
     {
       "id": "dfa62bafd365615a721bc8d6d4d334d20aaaa834449741f7978a3dd21df7a0f1",
@@ -688,7 +696,7 @@
       "source_id": "ctftime-writeups",
       "platform": "CTFtime",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "REVERSE-ENGINEERING",
       "author": "Abdelkader",
       "published_at": "",
       "discovered_at": "2026-11-21T20:09:12.202261+00:00",
@@ -703,7 +711,11 @@
       "metadata_checked": true,
       "ai_summary": "The Kali Team - CTF 26 — Whispering Feather writeup on CTFtime is categorized as uncategorized and includes tags for writeup, kaliteamctf, reverse, and ctf. Information is otherwise limited based on the provided text.",
       "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_provider": "Google Gemini",
+      "ai_category": "REVERSE-ENGINEERING",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:04.681113+00:00"
     },
     {
       "id": "3613bfede592dbf13e0b0fc182bc1a9162e1bef737b9625b904c28bcdfe7af97",
@@ -914,7 +926,7 @@
       "source_id": "ctftime-writeups",
       "platform": "CTFtime",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "HARDWARE-IOT",
       "author": "Abdelkader",
       "published_at": "",
       "discovered_at": "2026-11-21T20:09:11.705201+00:00",
@@ -929,7 +941,11 @@
       "metadata_checked": true,
       "ai_summary": "Based on the provided title and feed excerpt, the article is a CTFwriteup categorized under \"UNCATEGORIZED\" for the AEROSPACE VILLAGE STARPWN CTF challenge titled \"Connect the Dots.\" Specific technical details are limited in the excerpt.",
       "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_provider": "Google Gemini",
+      "ai_category": "HARDWARE-IOT",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:04.681116+00:00"
     },
     {
       "id": "8ee8d6109860461cf47331413382c526a784f3b6e12b919e45ab355b0b232b32",
@@ -939,7 +955,7 @@
       "source_id": "ctftime-writeups",
       "platform": "CTFtime",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "HARDWARE-IOT",
       "author": "Abdelkader",
       "published_at": "",
       "discovered_at": "2026-11-21T20:09:11.704876+00:00",
@@ -954,7 +970,11 @@
       "metadata_checked": true,
       "ai_summary": "This CTFtime writeup listing for the \"AEROSPACE VILLAGE STARPWN CTF — Deadly Parade\" is categorized as uncategorized and includes the tags writeup, rf, starpwnctf, and ctf. Due to limited information, no further technical details about the challenge can be provided.",
       "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_provider": "Google Gemini",
+      "ai_category": "HARDWARE-IOT",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:04.681119+00:00"
     },
     {
       "id": "cc683c17de3b5c67b7b129df877d90aa0d71de3af734ecd7815edd01e7755828",
@@ -964,7 +984,7 @@
       "source_id": "ctftime-writeups",
       "platform": "CTFtime",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "HARDWARE-IOT",
       "author": "Abdelkader",
       "published_at": "",
       "discovered_at": "2026-11-21T20:09:11.704557+00:00",
@@ -979,7 +999,11 @@
       "metadata_checked": true,
       "ai_summary": "The CTFtime writeup listing titled \"AEROSPACE VILLAGE STARPWN CTF — Beaconing from Above\" falls under the uncategorized category and is tagged with writeup, rf, starpwnctf, and ctf. Due to the limited excerpt, no further technical details about the challenge are available.",
       "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_provider": "Google Gemini",
+      "ai_category": "HARDWARE-IOT",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:04.681121+00:00"
     },
     {
       "id": "7c0344daa0bad36adc5965327d9a3dfde046089ed030d7bdd2fd5ddc94129ed6",
@@ -1061,7 +1085,7 @@
       "source_id": "ctftime-writeups",
       "platform": "CTFtime",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "WEB-EXPLOITATION",
       "author": "Abdelkader",
       "published_at": "",
       "discovered_at": "2026-11-21T20:09:11.703441+00:00",
@@ -1075,7 +1099,11 @@
       "metadata_checked": true,
       "ai_summary": "This CTFtime listing for UIUCTF 2026 features a writeup for the challenge \"Nabi AI,\" categorized as uncategorized with tags for web and writeup.",
       "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_provider": "Google Gemini",
+      "ai_category": "WEB-EXPLOITATION",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:04.681124+00:00"
     },
     {
       "id": "d0d649ac8309b30f9bd1f0e7547e27869b5eb217f4476ff28f6078da3b3ad743",
@@ -1160,7 +1188,7 @@
       "source_id": "ctftime-writeups",
       "platform": "CTFtime",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "REVERSE-ENGINEERING",
       "author": "Abdelkader",
       "published_at": "",
       "discovered_at": "2026-11-21T20:09:11.702971+00:00",
@@ -1175,7 +1203,11 @@
       "metadata_checked": true,
       "ai_summary": "The provided excerpt for the UIUCTF 2026 \"vector-cache\" writeup on CTFtime lists the category as uncategorized and includes tags for writeup, reverse engineering, and ctf. Because the provided information is limited, no further technical details about the article are available.",
       "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_provider": "Google Gemini",
+      "ai_category": "REVERSE-ENGINEERING",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:04.681127+00:00"
     },
     {
       "id": "5d073f063796a369429a32046e283fd6467fe74a12fe6352c19bb4cb05d863be",
@@ -1185,7 +1217,7 @@
       "source_id": "ctftime-writeups",
       "platform": "CTFtime",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "REVERSE-ENGINEERING",
       "author": "Abdelkader",
       "published_at": "",
       "discovered_at": "2026-11-21T20:09:11.702646+00:00",
@@ -1200,7 +1232,11 @@
       "metadata_checked": true,
       "ai_summary": "The CTFtime listing for \"UIUCTF 2026 — GODMODE//999\" is categorized as uncategorized with tags including writeup, reverse engineering, and ctf, though further technical details are not provided in the excerpt.",
       "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_provider": "Google Gemini",
+      "ai_category": "REVERSE-ENGINEERING",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:04.681129+00:00"
     },
     {
       "id": "48cdb3d399eef50f7e0b02306c969da2473cf7bb1d0220ac0bbc84ecb86b88cd",
@@ -1210,7 +1246,7 @@
       "source_id": "ctftime-writeups",
       "platform": "CTFtime",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "REVERSE-ENGINEERING",
       "author": "Abdelkader",
       "published_at": "",
       "discovered_at": "2026-11-21T20:09:11.702321+00:00",
@@ -1225,7 +1261,11 @@
       "metadata_checked": true,
       "ai_summary": "This CTFtime listing for \"UIUCTF 2026 — Veil of Evernight\" falls under the uncategorized category and includes tags for writeup, reverse engineering, reverse, and ctf. No further technical details are provided in the excerpt.",
       "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_provider": "Google Gemini",
+      "ai_category": "REVERSE-ENGINEERING",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:04.681131+00:00"
     },
     {
       "id": "03f029c98eb0a8258979555d87688c2ca3cb9238b7495d3cee22a7c90c51c4b7",
@@ -1235,7 +1275,7 @@
       "source_id": "ctftime-writeups",
       "platform": "CTFtime",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "REVERSE-ENGINEERING",
       "author": "Abdelkader",
       "published_at": "",
       "discovered_at": "2026-11-21T20:09:11.701981+00:00",
@@ -1250,7 +1290,11 @@
       "metadata_checked": true,
       "ai_summary": "Based on  the provided information, the writeup titled \"UIUCTF 2026 — glyphs\" is categorized as \"UNCATEGORIZED\" on CTFtime and includes tags for \"writeup,\" \"reverseengineering,\" \"reverse,\" and \"ctf.\" Specific technical details are not provided in the excerpt.",
       "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_provider": "Google Gemini",
+      "ai_category": "REVERSE-ENGINEERING",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:04.681134+00:00"
     },
     {
       "id": "a1e7d2e5e84a9fe74bbc4126afe8d6c92c0034b70d73cec17665723a764f0d9f",
@@ -1363,7 +1407,7 @@
       "source_id": "ctftime-writeups",
       "platform": "CTFtime",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "REVERSE-ENGINEERING",
       "author": "Abdelkader",
       "published_at": "",
       "discovered_at": "2026-11-21T20:09:11.701021+00:00",
@@ -1378,7 +1422,11 @@
       "metadata_checked": true,
       "ai_summary": "Based on the provided information, the CTFtime listing titled \"scriptCTF 2026 — F**K\" is categorized under \"UNCATEGORIZED\" and includes tags for writeups and reverse engineering. Further technical details are not provided in the excerpt.",
       "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_provider": "Google Gemini",
+      "ai_category": "REVERSE-ENGINEERING",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:04.681137+00:00"
     },
     {
       "id": "beb8e4103a43e9f812cdb70d1c3c88b4ba07901923cf71c53168a88cdef6d4db",
@@ -1388,7 +1436,7 @@
       "source_id": "ctftime-writeups",
       "platform": "CTFtime",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "qiyu",
       "published_at": "",
       "discovered_at": "2026-11-21T20:09:11.700688+00:00",
@@ -1400,7 +1448,11 @@
       "metadata_checked": true,
       "ai_summary": "The FAUST CTF 2026 writeup titled \"Interstellar Mission Control\" is categorized under uncategorized platforms and is tagged with sqlite, though specific technical details are otherwise limited in the provided excerpt.",
       "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_provider": "Google Gemini",
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:04.681139+00:00"
     },
     {
       "id": "5e9d7a73d4fe62c3930d9042407e36400ec7055dec3c1e75968dfd0b5e596cf5",
@@ -1420,7 +1472,11 @@
       "metadata_checked": true,
       "ai_summary": "The provided text for the KubSTU CTF writeup titled \"The Deterministic Fog\" on CTFtime contains no descriptive excerpt or technical details beyond its title and category. Therefore, no further factual summary can be provided.",
       "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_provider": "Google Gemini",
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:04.681141+00:00"
     },
     {
       "id": "f1df71e167b62850ccb92f9da0ad62c900d3393c6e0729f934706e32eaa336a0",
@@ -1440,7 +1496,11 @@
       "metadata_checked": true,
       "ai_summary": "The provided text for the \"KubSTU CTF — Bday party\" writeup on CTFtime lists the category as uncategorized and contains no descriptive excerpt, so technical details are unavailable.",
       "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_provider": "Google Gemini",
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:04.681143+00:00"
     },
     {
       "id": "ba82d3535599693269096fe9c9f4bafbae38f10806aba8ac9c25480c75888ab1",
@@ -1460,7 +1520,11 @@
       "metadata_checked": true,
       "ai_summary": "The provided excerpt for the KubSTU CTF writeup titled \"[Bounty] The Eyes of the Ranger\" contains no descriptive text or tags, so technical details are currently unavailable.",
       "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_provider": "Google Gemini",
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:04.681146+00:00"
     },
     {
       "id": "64b5c67920228fd5aa66d060bcba706d40526a06e6fc4b7a4309ee4884e501fa",
@@ -1470,7 +1534,7 @@
       "source_id": "ctftime-writeups",
       "platform": "CTFtime",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "WEB-EXPLOITATION",
       "author": "mpei_larpers",
       "published_at": "",
       "discovered_at": "2026-11-21T20:09:11.699734+00:00",
@@ -1480,7 +1544,11 @@
       "metadata_checked": true,
       "ai_summary": "The KubSTU CTF writeup titled \"WEB-3 Casino\" is categorized as UNCATEGORIZED on CTFtime. The provided feed excerpt lacks additional technical details or descriptive information about the event.",
       "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_provider": "Google Gemini",
+      "ai_category": "WEB-EXPLOITATION",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:04.681148+00:00"
     },
     {
       "id": "b407d5497860d9c51918b03a822280329f3dcacddbe5811ac638483e3226903c",
@@ -1500,7 +1568,11 @@
       "metadata_checked": true,
       "ai_summary": "The KubSTU CTF writeup titled \"Ouroboros\" on CTFtime is listed under the uncategorized category, though further technical details are limited as the feed excerpt contains no tags or description.",
       "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_provider": "Google Gemini",
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:04.681151+00:00"
     },
     {
       "id": "04d061400d184d7d94a8101dbd46541545707311da5360edb29084f144eac928",
@@ -1510,7 +1582,7 @@
       "source_id": "ctftime-writeups",
       "platform": "CTFtime",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "REVERSE-ENGINEERING",
       "author": "mpei_larpers",
       "published_at": "",
       "discovered_at": "2026-11-21T20:09:11.699271+00:00",
@@ -1520,7 +1592,11 @@
       "metadata_checked": true,
       "ai_summary": "This CTFtime writeup listing is titled \"KubSTU CTF — RISC-V\" and is categorized as uncategorized. Because the feed excerpt contains no text or tags beyond the category label, further technical details are not available.",
       "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_provider": "Google Gemini",
+      "ai_category": "REVERSE-ENGINEERING",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:04.681153+00:00"
     },
     {
       "id": "7e6bfd0009e0b3476334258444f7b33d357069a09f7de352a6080c2405b6f25b",
@@ -1530,7 +1606,7 @@
       "source_id": "ctftime-writeups",
       "platform": "CTFtime",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "",
       "published_at": "",
       "discovered_at": "2026-11-21T20:09:11.209941+00:00",
@@ -1539,7 +1615,11 @@
       "priority": 100,
       "metadata_checked": true,
       "ai_summary": "This CTFtime writeup listing is for the \"KubSTU CTF [STEGO] Subway 2 team mpei_larpers\" writeup in the uncategorized category. The provided excerpt does not contain any technical details about the solution.",
-      "ai_summary_model": "gemini-3.5-flash-lite"
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:04.681155+00:00"
     },
     {
       "id": "f0cdd0e1214675e4374475347876435b7dbc876e06c9d79a9807addadddf3122",
@@ -1558,7 +1638,11 @@
       "priority": 100,
       "metadata_checked": true,
       "ai_summary": "This CTFtime writeup listing is titled \"KubSTU CTF madk1dify team mpei_larpers\" and falls under the \"Uncategorized\" category. The provided excerpt does not contain any technical details or a summary of the writeup's content.",
-      "ai_summary_model": "gemini-3.5-flash-lite"
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:07.780097+00:00"
     },
     {
       "id": "f4237bc2503489335a677647865cb3e57f97b91d235e1253520ab77370bc9e0e",
@@ -1577,7 +1661,11 @@
       "priority": 100,
       "metadata_checked": true,
       "ai_summary": "This CTFtime listing provides a writeup titled \"KubSTU CTF [Beginner] Clearline team mpei_larpers\" categorized under uncategorized, with no further technical details provided in the excerpt.",
-      "ai_summary_model": "gemini-3.5-flash-lite"
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:07.780113+00:00"
     },
     {
       "id": "5000bac5b332c4ed4ff46a8b4fdd5e67392a33f9af049374861d854ef2a46864",
@@ -1596,7 +1684,11 @@
       "priority": 100,
       "metadata_checked": true,
       "ai_summary": "A writeup titled \"KubSTU CTF [Beginner] Gridlock team mpei_larpers\" has been posted on CTFtime under the uncategorized category. The provided excerpt does not contain any technical details about the solution.",
-      "ai_summary_model": "gemini-3.5-flash-lite"
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:07.780116+00:00"
     },
     {
       "id": "9a1b1c7b16fb46828203368d2c5de314d9e120487b3aa42c8a3b784cb08ff1c0",
@@ -1615,7 +1707,11 @@
       "priority": 100,
       "metadata_checked": true,
       "ai_summary": "The provided text for the KubSTU CTF [Beginner] Honeyleaf team mpei_ larpers writeup on CTFtime lacks a descriptive excerpt, providing only the title, URL, and an unrated status. Therefore, specific technical details about the writeup are limited.",
-      "ai_summary_model": "gemini-3.5-flash-lite"
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:07.780118+00:00"
     },
     {
       "id": "aeb107618ca1bda5beaef2adf2c6757f3f07c00d4cbea8a28f8b47e4ac718f32",
@@ -1634,7 +1730,11 @@
       "priority": 100,
       "metadata_checked": true,
       "ai_summary": "Based on the provided information, there are no technical details available in the excerpt to summarize other than it being a writeup for KubSTU CTF [Beginner] by the team mpei_larpers, published on CTFtime in the uncategorized category.",
-      "ai_summary_model": "gemini-3.5-flash-lite"
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:07.780120+00:00"
     },
     {
       "id": "219846f9fbd00b679a1d3bca753560c8b58ec594bb5504dd837b3d00b08de81c",
@@ -1644,7 +1744,7 @@
       "source_id": "ctftime-writeups",
       "platform": "CTFtime",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MOBILE",
       "author": "",
       "published_at": "",
       "discovered_at": "2026-11-21T20:09:11.208611+00:00",
@@ -1653,7 +1753,11 @@
       "priority": 100,
       "metadata_checked": true,
       "ai_summary": "The provided feed excerpt contains no technical details about the \"KubSTU CTF [Beginner] Mobile Waf 2 team mpei_larpers\" writeup beyond its title and a link to the CTFtime page.",
-      "ai_summary_model": "gemini-3.5-flash-lite"
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_category": "MOBILE",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:07.780122+00:00"
     },
     {
       "id": "816e6d4222e4f50fa56c29a62e23cc4023b3f12f77d7edbff16e3e0ce529b248",
@@ -1672,7 +1776,11 @@
       "priority": 100,
       "metadata_checked": true,
       "ai_summary": "The provided feed excerpt for the KubSTU CTF HellDriver team GR3B0M4 writeup on CTFtime contains no technical details or summary information.",
-      "ai_summary_model": "gemini-3.5-flash-lite"
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:07.780124+00:00"
     },
     {
       "id": "aff294e7a5b1ac37721c111f0bec22c59f3b60ad98159e5a431806f665ea700d",
@@ -1767,7 +1875,11 @@
       "priority": 100,
       "metadata_checked": true,
       "ai_summary": "The provided feed excerpt contains no technical details about the \"L3akCTF 2026 Relizane is Down! team Cyber Pullingo\" writeup on CTFtime.",
-      "ai_summary_model": "gemini-3.5-flash-lite"
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:07.780126+00:00"
     },
     {
       "id": "16866be06e2cde08d3d423393fe51e983305bb1b0d0b34b1572c10b2af7de4dd",
@@ -2100,7 +2212,7 @@
       "source_id": "0xdf",
       "platform": "0xdf",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "",
       "published_at": "2026-11-24T13:15:55+00:00",
       "discovered_at": "2026-11-24T23:01:57.732748+00:00",
@@ -2116,7 +2228,11 @@
       "priority": 95,
       "metadata_checked": true,
       "ai_summary": "This 0xdf CTF writeup provides a cheatsheet for performing LDAP enumeration during Windows Active Directory assessments. It outlines a checklist for both authenticated and unauthenticated scenarios, covering techniques such as checking for roastable accounts, gMSA passwords, and collecting BloodHound data.",
-      "ai_summary_model": "gemini-3.5-flash-lite"
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:07.780128+00:00"
     },
     {
       "id": "fb02d66819f4d0c883d35e4c604e83ff1c236a9ece327fc2b4382a900f8e781d",
@@ -2126,7 +2242,7 @@
       "source_id": "0xdf",
       "platform": "0xdf",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "",
       "published_at": "2026-11-21T14:45:00+00:00",
       "discovered_at": "2026-11-21T20:09:12.878160+00:00",
@@ -2142,7 +2258,11 @@
       "priority": 95,
       "metadata_checked": true,
       "ai_summary": "Based on the provided title and excerpt, PingPong is an assume-breach Active Directory CTF box featuring two forests connected by a bidirectional trust. The writeup details exploiting ESC13, tunneling between forests, manipulating group scopes, reading a gMSA password, escaping a JEA endpoint via script blocks, abusing resource-based constrained delegation, and using GodPotato to compromise the second domain.",
-      "ai_summary_model": "gemini-3.5-flash-lite"
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:07.780131+00:00"
     },
     {
       "id": "d427025101eaf99ff1adb47227b40c8091f507ef4d90c28334932896e9312e58",
@@ -2230,7 +2350,7 @@
       "source_id": "0xdf",
       "platform": "0xdf",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "",
       "published_at": "2026-10-24T14:45:00+00:00",
       "discovered_at": "2026-11-21T20:09:12.881460+00:00",
@@ -2246,7 +2366,11 @@
       "priority": 95,
       "metadata_checked": true,
       "ai_summary": "This HTB: Checkpoint writeup outlines an assumed-breach Active Directory attack path starting with the restoration of a deleted user via AD Recycle Bin permissions. The author then details planting a malicious VS Code extension via a share, using the BetterSuccessor technique to obtain an NTLM hash, and finally extracting an administrator hash from VMware backups using vmkatz to achieve full domain compromise.",
-      "ai_summary_model": "gemini-3.5-flash-lite"
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:07.780133+00:00"
     },
     {
       "id": "da9ba22804d96353814de3df757cb4daeeb4b076d3f8476fa6ce32f14c06eda8",
@@ -2256,7 +2380,7 @@
       "source_id": "0xdf",
       "platform": "0xdf",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "WEB-EXPLOITATION",
       "author": "",
       "published_at": "2026-10-17T14:45:00+00:00",
       "discovered_at": "2026-11-21T20:09:12.883038+00:00",
@@ -2272,7 +2396,11 @@
       "priority": 95,
       "metadata_checked": true,
       "ai_summary": "This 0xdf CTF writeup for \"HTB: Eloquia\" details the exploitation of a Windows machine running a Django blogging platform. The process involves leveraging AngularJS template injection to bypass a content security policy, acquiring admin access via cookie theft and OAuth manipulation, uploading a malicious SQLite extension for a shell, and using Python to decrypt saved Edge passwords for a user pivot.",
-      "ai_summary_model": "gemini-3.5-flash-lite"
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_category": "WEB-EXPLOITATION",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:07.780134+00:00"
     },
     {
       "id": "63180d439271fb787e0c2331b0eef026f9be8c0ed2bb272eb6e7084806be71f4",
@@ -2516,7 +2644,7 @@
       "source_id": "0xdf",
       "platform": "0xdf",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "HARDWARE-IOT",
       "author": "",
       "published_at": "2026-08-08T13:45:00+00:00",
       "discovered_at": "2026-11-21T20:09:12.891190+00:00",
@@ -2532,7 +2660,11 @@
       "priority": 95,
       "metadata_checked": true,
       "ai_summary": "This HTB: Helix writeup details gaining a foothold through an anonymously accessible, vulnerable Apache NiFi instance using the H2 database driver to execute Java , pivoting via an SSH key, and exploiting a maintenance console tied to a chemical reactor's temperature threshold to escalate privileges.",
-      "ai_summary_model": "gemini-3.5-flash-lite"
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_category": "HARDWARE-IOT",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:07.780136+00:00"
     },
     {
       "id": "1de45f64ed3e7ff4309a32f2b9c728c7c97319a85a0867bd0657b3fb87d72c18",
@@ -2750,7 +2882,7 @@
       "source_id": "0xdf",
       "platform": "0xdf",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "",
       "published_at": "2026-06-20T13:45:00+00:00",
       "discovered_at": "2026-11-21T20:09:12.900154+00:00",
@@ -2766,7 +2898,11 @@
       "priority": 95,
       "metadata_checked": true,
       "ai_summary": "Based on the provided title and excerpt, the 0xdf writeup for the HTB machine \"NanoCorp\" details exploiting a careers portal with a malicious upload, mapping Active Directory permissions using BloodHound, and abusing CVE-2024-0670 via the Checkmk monitoring agent to achieve a SYSTEM shell.",
-      "ai_summary_model": "gemini-3.5-flash-lite"
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:07.780139+00:00"
     },
     {
       "id": "60292ca4d69c3fca49025c4e24a9f44cef0fed17600eb2a8fafb880056629e09",
@@ -2904,7 +3040,7 @@
       "source_id": "0xdf",
       "platform": "0xdf",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "WEB-EXPLOITATION",
       "author": "",
       "published_at": "2026-05-16T13:45:00+00:00",
       "discovered_at": "2026-11-21T20:09:12.904237+00:00",
@@ -2920,7 +3056,11 @@
       "priority": 95,
       "metadata_checked": true,
       "ai_summary": "This writeup covers the HackTheBox machine Pterodactyl, detailing the exploitation of an unauthenticated directory traversal in a game-server management panel to achieve initial access. From there, the author pivots users, leverages a PAM environment-variable flaw, and exploits a libblockdev/udisks vulnerability to escalate privileges to root.",
-      "ai_summary_model": "gemini-3.5-flash-lite"
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_category": "WEB-EXPLOITATION",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:07.780140+00:00"
     },
     {
       "id": "e94a080d02a4a0f1bef4023fbb0df65edf828458001df7c27be68c2556aa8172",
@@ -3060,7 +3200,7 @@
       "source_id": "0xdf",
       "platform": "0xdf",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "WEB-EXPLOITATION",
       "author": "",
       "published_at": "2026-04-01T09:00:00+00:00",
       "discovered_at": "2026-11-21T20:09:12.908885+00:00",
@@ -3076,7 +3216,11 @@
       "priority": 95,
       "metadata_checked": true,
       "ai_summary": "This CTF writeup for \"HTB: Snapped\" on 0xdf details the exploitation of CVE-2026-27944 on an Nginx UI admin panel to obtain password hashes for SSH access. It then explains how to escalate to root by exploiting a snapd vulnerability (CVE-2026-3888) via a race condition.",
-      "ai_summary_model": "gemini-3.5-flash-lite"
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_category": "WEB-EXPLOITATION",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:07.780143+00:00"
     },
     {
       "id": "8252b131396a25c1e327eb68c1dcd3cbc03d797acf213e6cd652ba14400eec2e",
@@ -3190,7 +3334,7 @@
       "source_id": "0xdf",
       "platform": "0xdf",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "NETWORK",
       "author": "",
       "published_at": "2026-03-07T14:45:00+00:00",
       "discovered_at": "2026-11-21T20:09:12.911134+00:00",
@@ -3206,7 +3350,11 @@
       "priority": 95,
       "metadata_checked": true,
       "ai_summary": "The 0xdf writeup for the Linux box \"Expressway\" covers using `ike-scan` to capture and crack a pre-shared key hash for SSH access, followed by exploiting two different sudo CVEs for privilege escalation. The \"Beyond Root\" section examines the sudo configuration and demonstrates connecting to the IPSec VPN using strongSwan.",
-      "ai_summary_model": "gemini-3.5-flash-lite"
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_category": "NETWORK",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:07.780145+00:00"
     },
     {
       "id": "ea16070c69ac6d9d45bffab7ac646e43b92a6f7962135de5220a81e5b67d0688",
@@ -3216,7 +3364,7 @@
       "source_id": "0xdf",
       "platform": "0xdf",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "WEB-EXPLOITATION",
       "author": "",
       "published_at": "2026-03-03T10:00:00+00:00",
       "discovered_at": "2026-11-21T20:09:12.912615+00:00",
@@ -3232,7 +3380,11 @@
       "priority": 95,
       "metadata_checked": true,
       "ai_summary": "This CTF writeup for the Linux box \"Barrier\" details exploiting a SAML signature bypass in GitLab to log in as admin, using a recovered API token to create an Authentik admin account, and impersonating a user in Apache Guacamole to obtain an initial SSH shell. Further privilege escalation involves extracting database credentials for a private key and utilizing a password found in bash history with sudo to achieve root access.",
-      "ai_summary_model": "gemini-3.5-flash-lite"
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_category": "WEB-EXPLOITATION",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:07.780147+00:00"
     },
     {
       "id": "97a010c5c356ed52643c3b222fe4626dc751574740199068a2e8403bb3e78d31",
@@ -3320,7 +3472,7 @@
       "source_id": "0xdf",
       "platform": "0xdf",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "WEB-EXPLOITATION",
       "author": "",
       "published_at": "2026-02-14T14:45:00+00:00",
       "discovered_at": "2026-11-21T20:09:12.915215+00:00",
@@ -3336,7 +3488,11 @@
       "priority": 95,
       "metadata_checked": true,
       "ai_summary": "This HTB writeup for \"Soulmate\" demonstrates exploiting two authentication bypass CVEs in CrushFTP to gain admin access and upload a PHP webshell. It then details using hardcoded credentials found in an Erlang SSH server to escalate privileges and access the Erlang console as root.",
-      "ai_summary_model": "gemini-3.5-flash-lite"
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_category": "WEB-EXPLOITATION",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:07.780148+00:00"
     },
     {
       "id": "0abe24a6b7bcd2a9894bc8ca67e4448d5b9403d42571f2b8249a0076a0afe209",
@@ -3346,7 +3502,7 @@
       "source_id": "0xdf",
       "platform": "0xdf",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "",
       "published_at": "2026-02-12T10:00:00+00:00",
       "discovered_at": "2026-11-21T20:09:12.916583+00:00",
@@ -3362,7 +3518,11 @@
       "priority": 95,
       "metadata_checked": true,
       "ai_summary": "This CTF writeup for \"HTB: Slonik\" on the 0xdf platform explores Linux techniques involving an insecure NFS mount, credential cracking, PostgreSQL access via port forwarding, and a cron job abusing a backup utility to escalate privileges to root.",
-      "ai_summary_model": "gemini-3.5-flash-lite"
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:07.780150+00:00"
     },
     {
       "id": "e6070d067d323edc19cb3f707ad9775b3fa4dcc5ca5b305cf44bd95f71dda1a9",
@@ -3372,7 +3532,7 @@
       "source_id": "0xdf",
       "platform": "0xdf",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "",
       "published_at": "2026-02-10T10:00:00+00:00",
       "discovered_at": "2026-11-21T20:09:12.917613+00:00",
@@ -3388,7 +3548,11 @@
       "priority": 95,
       "metadata_checked": true,
       "ai_summary": "This CTF writeup for \"HTB: Breach\" details the exploitation of a Windows domain controller by capturing a NetNTLMv2 hash via a writable SMB share, kerberoasting an MSSQL service account, forging a silver ticket, and using GodPotato to escalate privileges to SYSTEM.",
-      "ai_summary_model": "gemini-3.5-flash-lite"
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:11.140480+00:00"
     },
     {
       "id": "6ae053217b7925adb2dfeb0ce4180446867eb571c8683b509be137a759658c94",
@@ -3438,7 +3602,11 @@
       "priority": 90,
       "metadata_checked": true,
       "ai_summary": "Hack The Box has released a new Job Role Path on HTB Academy designed to help users unlock their potential as SOC Analysts. Specific technical details are limited in the provided text.",
-      "ai_summary_model": "gemini-3.5-flash-lite"
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:11.140497+00:00"
     },
     {
       "id": "f22e8672f939df5a53487327ab90af34a6aa3987e59df928e19f0c8e1246824a",
@@ -3448,7 +3616,7 @@
       "source_id": "htb-writeups",
       "platform": "Hack The Box",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "diskordia, End_Of_File",
       "published_at": "Wed, 08 Oct 2025 04:00:00 GMT",
       "discovered_at": "2026-11-21T20:09:13.017675+00:00",
@@ -3461,7 +3629,11 @@
       "priority": 90,
       "metadata_checked": true,
       "ai_summary": "This Hack The Box writeup, titled \"PwnOS: From Admin to Root—Exploiting CVE-2024-9474,\" details the exploitation of CVE-2024-9474 on the PwnOS platform. The excerpt indicates that the guide covers reconnaissance, exploitation, flag retrieval, and defensive guidance.",
-      "ai_summary_model": "gemini-3.5-flash-lite"
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:11.140500+00:00"
     },
     {
       "id": "964a1f1be8652b65f29b3e46e5670286e7174f6720635239162d54f558353525",
@@ -3517,7 +3689,7 @@
       "source_id": "htb-writeups",
       "platform": "Hack The Box",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "REVERSE-ENGINEERING",
       "author": "Shad3",
       "published_at": "Sat, 26 Nov 2022 05:00:00 GMT",
       "discovered_at": "2026-11-21T20:09:13.022119+00:00",
@@ -3530,7 +3702,11 @@
       "priority": 90,
       "metadata_checked": true,
       "ai_summary": "This Hack The Box CTF writeup for \"Business CTF 2022: Defeating modern malware techniques - Mr Abilgate\" outlines the process of analyzing and unpacking a packed executable. Specific steps covered include examining entropy and segment sizes, decrypting encrypted strings, defeating function resolution and anti-debugging mechanisms, understanding the malware logic, and decrypting an .xls file.",
-      "ai_summary_model": "gemini-3.5-flash-lite"
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_category": "REVERSE-ENGINEERING",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:11.140502+00:00"
     },
     {
       "id": "b4206b8227fa1edc5ae84a47e67f8a29c89173ff344c33e13adb0a5a02a3a58a",
@@ -3540,7 +3716,7 @@
       "source_id": "htb-writeups",
       "platform": "Hack The Box",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "CRYPTOGRAPHY",
       "author": "WizardAlfredo",
       "published_at": "Sat, 19 Nov 2022 05:00:00 GMT",
       "discovered_at": "2026-11-21T20:09:13.024982+00:00",
@@ -3553,7 +3729,11 @@
       "priority": 90,
       "metadata_checked": true,
       "ai_summary": "This Hack The Box writeup titled \"Invalid curve attack - 400 Curves\" is categorized as uncategorized. Based on the provided excerpt, the article covers analyzing source code, the mathematics of the exploitation, and connecting to the server to retrieve the flag.",
-      "ai_summary_model": "gemini-3.5-flash-lite"
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_category": "CRYPTOGRAPHY",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:11.140504+00:00"
     },
     {
       "id": "9972ca56c5579b972c4964226ed3037a2257e19e453a068c6710685fe2c0fba7",
@@ -3655,7 +3835,7 @@
       "source_id": "rootme-blog",
       "platform": "Root-Me",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "Root-Me PRO",
       "published_at": "Wed, 07 May 2025 00:00:00 +0000",
       "discovered_at": "2026-11-21T20:09:13.134696+00:00",
@@ -3667,7 +3847,11 @@
       "priority": 85,
       "metadata_checked": true,
       "ai_summary": "This Root-Me CTF writeup provides the solution for the recruitment CTF held by the Direction Générale de la Sécurité Extérieure (DGSE) in April 2025. Specific technical details from the challenge were not provided in the excerpt.",
-      "ai_summary_model": "gemini-3.5-flash-lite"
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:11.140506+00:00"
     },
     {
       "id": "b5fe9062c863635a73a2c7e18b0a946af7c3a3c09813e44494035b15325948b9",
@@ -3699,7 +3883,7 @@
       "source_id": "rootme-blog",
       "platform": "Root-Me",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "WEB-EXPLOITATION",
       "author": "K.L.M",
       "published_at": "Tue, 03 Dec 2024 00:00:00 +0000",
       "discovered_at": "2026-11-21T20:09:13.137416+00:00",
@@ -3711,7 +3895,11 @@
       "priority": 85,
       "metadata_checked": true,
       "ai_summary": "This Root-Me CTF writeup titled \"Code Snippet Serie - 03 - Cross-Function-Reentrancy\" covers the exploitation of a cross-function reentrancy vulnerability in a Vyper smart contract used for selling shares. According to the excerpt, the vulnerability stems from an insecure Vyper version that desynchronizes `@nonreentrant(\"lock\")` values between functions and causes poor execution flow management.",
-      "ai_summary_model": "gemini-3.5-flash-lite"
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_category": "WEB-EXPLOITATION",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:11.140508+00:00"
     },
     {
       "id": "535f67f51eaf776f481186ed3c5431bfe0a604f6af5ece72af824e179bf11700",
@@ -3721,7 +3909,7 @@
       "source_id": "rootme-blog",
       "platform": "Root-Me",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "Kévin_Mizu",
       "published_at": "Thu, 02 Mar 2023 00:00:00 +0000",
       "discovered_at": "2026-11-21T20:09:13.139013+00:00",
@@ -3733,7 +3921,11 @@
       "priority": 85,
       "metadata_checked": true,
       "ai_summary": "This listing provides a writeup for the \"Perfect Notes\" challenge from the Root-Me CTF 10k event. Specific technical details regarding the challenge category and solution are not provided in the excerpt.",
-      "ai_summary_model": "gemini-3.5-flash-lite"
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:11.140510+00:00"
     },
     {
       "id": "5a679340381ae0921f630362de050feeb318a4a687f04adcce13990b8dc44a2e",
@@ -3743,7 +3935,7 @@
       "source_id": "rootme-blog",
       "platform": "Root-Me",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "Kévin_Mizu",
       "published_at": "Thu, 02 Mar 2023 00:00:00 +0000",
       "discovered_at": "2026-11-21T20:09:13.139382+00:00",
@@ -3756,7 +3948,10 @@
       "metadata_checked": true,
       "ai_summary": "This writeup provides a solution for the \"Proxifier\" challenge from the Root-Me CTF 10k event. Specific technical details regarding the challenge's category and solution are not provided in the available excerpt.",
       "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:11.140512+00:00"
     },
     {
       "id": "7a61bdc6a9af12e945283717b827f731138fc323e3879358944f6357c3d4f984",
@@ -3766,7 +3961,7 @@
       "source_id": "rootme-blog",
       "platform": "Root-Me",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "Nishacid",
       "published_at": "Mon, 31 Mar 2025 00:00:00 +0000",
       "discovered_at": "2026-11-21T20:09:13.135082+00:00",
@@ -3779,7 +3974,10 @@
       "metadata_checked": true,
       "ai_summary": "This write-up provides the solution for the ComCyber Marine Nationale recruitment CTF held in March 2025, hosted on the Root-Me platform.",
       "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:11.140513+00:00"
     },
     {
       "id": "33411151859ac5721488fa3ac990eab0cacef6dc8bc854f750d7bcc6cac21b42",
@@ -3789,7 +3987,7 @@
       "source_id": "rootme-blog",
       "platform": "Root-Me",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "Nishacid",
       "published_at": "Mon, 30 Sep 2024 00:00:00 +0000",
       "discovered_at": "2026-11-21T20:09:13.138668+00:00",
@@ -3802,7 +4000,10 @@
       "metadata_checked": true,
       "ai_summary": "This CTF writeup, hosted on Root-Me in the uncategorized category, provides the solution to the ComCyber recruitment CTF held in September 2024.",
       "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:11.140515+00:00"
     },
     {
       "id": "c759df29e4532d07d8f81d3ce91eb6b15bde4749182495f2a7c5c779403accd5",
@@ -3812,7 +4013,7 @@
       "source_id": "rootme-blog",
       "platform": "Root-Me",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "BINARY-EXPLOITATION",
       "author": "baguette",
       "published_at": "Mon, 03 Feb 2025 00:00:00 +0000",
       "discovered_at": "2026-11-21T20:09:13.136176+00:00",
@@ -3825,7 +4026,10 @@
       "metadata_checked": true,
       "ai_summary": "This Root-Me CTF writeup for the \"Code Snippet Serie - 05 - Integer Overflow & Stack Overflow\" challenge details an exploitation process that combines an integer overflow with a stack overflow. Specifically, setting the variable `len` to `-2147483648` triggers an overflow via `abs(len)`, which leads to improper handling and arbitrary writes to the stack using the `read` function.",
       "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_category": "BINARY-EXPLOITATION",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:11.140517+00:00"
     },
     {
       "id": "e5d1d81205bd59be3853a6b63c1df8d501f5fb6e61eccd3d1ab8eec2ac89564e",
@@ -3847,8 +4051,7 @@
       "priority": 85,
       "metadata_checked": true,
       "ai_summary": "The \"Code Snippet Serie - 01 - SQL Like injection\" writeup on Root-Me covers a web exploitation challenge authored by @Elweth. The challenge involves exploiting a vulnerability in a Python-prepared SQL query's LIKE clause to bypass authentication and retrieve an API key.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "a4c54527b98bd35c4ec1ac5b48b7455bf06c03c0814b33ce51d65362b3e1f12f",
@@ -3870,8 +4073,7 @@
       "priority": 85,
       "metadata_checked": true,
       "ai_summary": "The Root-Me web exploitation challenge \"Code Snippet Serie - 04 - SSRF and HTTP Hop-by-Hop Header Injection,\" authored by @baguette, involves exploiting Server-Side Request Forgery and HTTP Hop-by-Hop Header Injection vulnerabilities in a Flask proxy application situated behind Nginx and Varnish.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "923d3d59febde4d8d554e3b0606a805691591b9ddf27be05afada7ef7829b799",
@@ -3897,8 +4099,7 @@
       "priority": 80,
       "metadata_checked": true,
       "ai_summary": "This penetration testing report for the Hack The Box target \"SwagShop\" details a security assessment conducted using PTES and NIST SP 800-115 methodologies. The assessment identified a critical risk rating due to an unauthenticated remote exploit vector involving Magento 1.9.0.0 Shoplift SQLi and Admin Panel RCE, leading to complete host compromise and administrative takeover.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "e418b36fa26f6f0f6532f19e91ea2bc6eb897a422cf60ea003d4644bb339139a",
@@ -3924,8 +4125,7 @@
       "priority": 80,
       "metadata_checked": true,
       "ai_summary": "This Hack The Box CTF writeup covers a security assessment and penetration test of the SolidState target environment conducted in accordance with PTES and NIST SP 800-115 methodologies. The assessment identified a critical risk rating involving an unauthenticated remote exploit vector that led to complete host compromise and administrative takeover.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "94a0e08370e8c4dcf1fb289e12644298f50016049412f9d8a7c6941d2a6b067c",
@@ -3949,7 +4149,10 @@
       ],
       "summary": "Security Assessment Report: Sniper Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment Sniper hosted on Hack The Box , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Public-Facing Network Service Exploitation Privilege Escalation Vector: Local Privilege Escalation Engagement Outcome: Complete Host Compromise ( User Proof",
       "priority": 80,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This technical security assessment report details a penetration test of the \"Sniper\" target on Hack The Box, conducted using PTES and NIST SP 800-115 methodologies. The assessment identified a critical unauthenticated remote exploit vector leading to complete host compromise and administrative takeover via a public-facing network service.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "6d2eebd5fd832b21c7d2bdbfb64da7789bb82740a1e59d74f02838bdfefc77e4",
@@ -3973,7 +4176,10 @@
       ],
       "summary": "Security Assessment Report: Sizzle Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment Sizzle hosted on Hack The Box , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Public-Facing Network Service Exploitation Privilege Escalation Vector: Local Privilege Escalation Engagement Outcome: Complete Host Compromise ( User Proof",
       "priority": 80,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This technical security assessment report details a penetration test of the \"Sizzle\" target environment on Hack The Box, conducted in accordance with NIST SP 800-115 and PTES methodologies. The assessment identified a critical risk rating involving an unauthenticated remote exploit vector that led to complete host compromise and administrative takeover via a public-facing network service.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "ecb2df9798a4de80c40eea3d74da52652689d2d5919f98ef9db25a6860fdf9ce",
@@ -3997,7 +4203,10 @@
       ],
       "summary": "Security Assessment Report: Silo Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment Silo hosted on Hack The Box , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Public-Facing Network Service Exploitation Privilege Escalation Vector: Local Privilege Escalation Engagement Outcome: Complete Host Compromise ( User Proof and",
       "priority": 80,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "Based on the provided excerpt, a technical security assessment and penetration testing report was conducted on the \"Silo\" target on Hack The Box using PTES and NIST SP 800-115 methodologies. The assessment identified a critical risk rating involving an unauthenticated remote exploit vector that leads to complete host compromise and administrative takeover.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "01fdcb6a2388d529092adaa658631d4b531fbf7a4f2556955bcde5e415abced1",
@@ -4021,7 +4230,10 @@
       ],
       "summary": "Security Assessment Report: Reel2 Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment Reel2 hosted on Hack The Box , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Public-Facing Network Service Exploitation Privilege Escalation Vector: Local Privilege Escalation Engagement Outcome: Complete Host Compromise ( User Proof a",
       "priority": 80,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This security assessment report for the Reel2 target on Hack The Box follows PTES and NIST SP 800-115 methodologies to evaluate potential vulnerabilities. It identifies a critical risk rating involving an unauthenticated remote exploit vector that leads to complete host compromise and administrative takeover via a public-facing network service.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "c1bc963992a01bf3bb00fb7f211356cb7fa7f4259e61a07865932bd0c301ecd8",
@@ -4045,7 +4257,10 @@
       ],
       "summary": "Security Assessment Report: Hawk Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment Hawk hosted on Hack The Box , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Public-Facing Network Service Exploitation Privilege Escalation Vector: Local Privilege Escalation Engagement Outcome: Complete Host Compromise ( User Proof and",
       "priority": 80,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This security assessment report for the Hawk target on Hack The Box follows PTES and NIST SP 800-115 methodologies to evaluate operational risks. It identifies a critical risk rating involving an unauthenticated remote exploit vector that leads to complete host compromise and administrative takeover via public-facing network service exploitation.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "455608d182a5c05d2ffc63e624403a587098a53adb9e590a7f561d93fb090227",
@@ -4069,7 +4284,10 @@
       ],
       "summary": "Security Assessment Report: Cronos Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment Cronos hosted on Hack The Box , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Public-Facing Network Service Exploitation Privilege Escalation Vector: Local Privilege Escalation Engagement Outcome: Complete Host Compromise ( User Proof",
       "priority": 80,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "Based on the provided text, this technical security assessment and penetration testing report for the Hack The Box target Cronos followed PTES and NIST SP 800-115 methodologies to evaluate system vulnerabilities. The assessment identified a critical risk rating due to an unauthenticated remote exploit vector leading to complete host compromise and administrative takeover via public-facing network service exploitation.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "74681bf9321842776a51fe6a3d5db20f08da543bdcac8e547e91384e3dac5a52",
@@ -4093,7 +4311,10 @@
       ],
       "summary": "So for this challenge, I decided to use the CyLab webshell, but honestly, you can totally just do this on your own computer if you prefer. Continue reading on Medium »",
       "priority": 80,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This beginner's guide provides a writeup for the picoCTF \"runme.py\" challenge within the MISC category. The author suggests using either the CyLab webshell or a personal computer to complete the challenge.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "317b6bb848816bbd8d2a272550c1cf20e9d0fdc3d78b4050194527d7f4b393df",
@@ -4117,7 +4338,10 @@
       ],
       "summary": "Security Assessment Report: Zetta Technical Security Assessment &amp; Penetration Testing Report conducted on the target environment Zetta hosted on Hack The Box , executed in accordance with PTES and NIST SP 800-115 and PTES (Penetration Testing Execution Standard) methodologies. 📑 1. Executive Summary Assessment Objective: Identify, validate, and exploit security vulnerabilities across the target host to assess operational impact on confidentiality, integrity, and system availability. Risk Rating: CRITICAL (Unauthenticated remote exploit vector leading to complete host compromise and administrative takeover). Initial Access Vector: Public-Facing Network Service Exploitation Privilege Escalation Vector: Local Privilege Escalation Engagement Outcome: Complete Host Compromise ( User Proof a",
       "priority": 80,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This technical security assessment and penetration testing report for the Hack The Box target Zetta was conducted in accordance with PTES and NIST SP 800-115 methodologies. The assessment identified a critical risk rating due to an unauthenticated remote exploit vector via a public-facing network service, leading to complete host compromise and administrative takeover.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "41aa3cc2f94eb84e50fe2e1776b370fa1122ec09d96e82c8116f6a6182f37adc",
@@ -4666,7 +4890,7 @@
       "source_id": "devto-htb",
       "platform": "Hack The Box",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "blue0x1",
       "published_at": "Tue, 11 Aug 2026 21:16:15 +0000",
       "discovered_at": "2026-11-21T20:09:13.940374+00:00",
@@ -4680,7 +4904,11 @@
       ],
       "summary": "Attack Chain Summary The full chain was: Anonymous SMB -&gt; support-tools share -&gt; UserInfo.exe.zip -&gt; LDAP credential extraction -&gt; LDAP enum as ldap -&gt; support user password in LDAP attribute -&gt; create controlled computer account -&gt; set RBCD on DC$ -&gt; S4U Administrator impersonation -&gt; dump secrets / execute as admin Full Writeup: https://medium.com/@chokrihammedi/support-htb-writeup-99482db016ac Video Walkthrough: https://www.youtube.com/watch?v=4XTPhktYgyk",
       "priority": 80,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:11.140520+00:00"
     },
     {
       "id": "45620a9e1c87fda86fb1f8c0f3706a9ddcef72b91c52170b821e0d0d65324bea",
@@ -4690,7 +4918,7 @@
       "source_id": "medium-picoctf",
       "platform": "picoCTF",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "WEB-EXPLOITATION",
       "author": "SiapaHeker",
       "published_at": "Thu, 12 Nov 2026 14:54:07 GMT",
       "discovered_at": "2026-11-21T20:09:13.408184+00:00",
@@ -4703,7 +4931,11 @@
       ],
       "summary": "Challenge Overview Continue reading on Medium »",
       "priority": 80,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "WEB-EXPLOITATION",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:11.140522+00:00"
     },
     {
       "id": "aa5fdf155690edfedcdf0719787fb19bd74605305aec9b62e877c6ed05632dfb",
@@ -4783,7 +5015,7 @@
       "source_id": "medium-picoctf",
       "platform": "picoCTF",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "Aun Raza",
       "published_at": "Sun, 08 Nov 2026 14:13:13 GMT",
       "discovered_at": "2026-11-21T20:09:13.409754+00:00",
@@ -4796,7 +5028,11 @@
       ],
       "summary": "Challenge Overview Continue reading on Medium »",
       "priority": 80,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:11.140524+00:00"
     },
     {
       "id": "7efe92a02f6b2ec1f41fcaf2f0c9d1e712a330aa26c87323c033db1b6cd9fe9c",
@@ -5576,7 +5812,7 @@
       "source_id": "medium-picoctf",
       "platform": "picoCTF",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "Dipu Basak",
       "published_at": "Mon, 16 Nov 2026 09:02:20 GMT",
       "discovered_at": "2026-11-21T20:09:13.406528+00:00",
@@ -5588,7 +5824,11 @@
       ],
       "summary": "walkthrough of some of the &#x2018;General Skill&#x2019; challs of picoCTF26. wrote these during the ctf but forgot to publish&#x1f611; Continue reading on Medium »",
       "priority": 80,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:11.140526+00:00"
     },
     {
       "id": "15467ef0aa7b2bc9aa670f80ee9324d676f584e01efaced572c62792149db206",
@@ -5836,7 +6076,7 @@
       "source_id": "medium-ctf",
       "platform": "Medium",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "HARDWARE-IOT",
       "author": "sai_prasad_belvat",
       "published_at": "Wed, 25 Nov 2026 09:04:30 GMT",
       "discovered_at": "2026-11-25T17:15:55.879824+00:00",
@@ -5847,7 +6087,11 @@
       ],
       "summary": "Introduction Continue reading on Medium »",
       "priority": 75,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "HARDWARE-IOT",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:11.140528+00:00"
     },
     {
       "id": "376dd7067edb6613cc455cc00902ae73c0637e5976e43ed430975b07a892a63a",
@@ -5879,7 +6123,7 @@
       "source_id": "medium-ctf",
       "platform": "Medium",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "REVERSE-ENGINEERING",
       "author": "SiapaHeker",
       "published_at": "Wed, 25 Nov 2026 01:37:49 GMT",
       "discovered_at": "2026-11-25T05:27:51.600760+00:00",
@@ -5892,7 +6136,11 @@
       ],
       "summary": "Challenge Overview Continue reading on Medium »",
       "priority": 75,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "REVERSE-ENGINEERING",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:11.140531+00:00"
     },
     {
       "id": "dfddfd5235d756d86296928c22f02e2cf8bd50957a263fa830512e49f15a1aee",
@@ -6010,7 +6258,7 @@
       "source_id": "medium-ctf",
       "platform": "Medium",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "WEB-EXPLOITATION",
       "author": "sai_prasad_belvat",
       "published_at": "Tue, 24 Nov 2026 14:43:29 GMT",
       "discovered_at": "2026-11-24T23:01:59.480651+00:00",
@@ -6022,7 +6270,11 @@
       ],
       "summary": "Introduction Continue reading on Medium »",
       "priority": 75,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "WEB-EXPLOITATION",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:11.140533+00:00"
     },
     {
       "id": "7b669a0f5bc62f0d4913045cf5178958ce4f3407ca324489562c4084cf306157",
@@ -6032,7 +6284,7 @@
       "source_id": "medium-ctf",
       "platform": "Medium",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "Amal Mohan",
       "published_at": "Tue, 24 Nov 2026 14:25:49 GMT",
       "discovered_at": "2026-11-24T23:01:59.481577+00:00",
@@ -6043,7 +6295,11 @@
       ],
       "summary": "&#x25cf; This is a writeup of Easy Peasy ctf room . I always follow simple enumeration steps to find exposed or flaws in this room . In this room&#x2026; Continue reading on Medium »",
       "priority": 75,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:11.140535+00:00"
     },
     {
       "id": "f7febca3db4b9e72f6114943412c16e39ce56fbb579eaf1fa0947c05f2160427",
@@ -15960,9 +16216,9 @@
       "id": "2a40383aadc70c5c63a0cc0747cc2e28567ed8873bda8bb877be1763fdf78fbc",
       "title": "sankarcyber26-cyber/CTF-Writeups",
       "url": "https://github.com/sankarcyber26-cyber/CTF-Writeups",
-      "source": "GitHub · picoCTF",
+      "source": "GitHub · TryHackMe",
       "source_id": "github-search",
-      "platform": "picoCTF",
+      "platform": "TryHackMe",
       "type": "ctf_writeup",
       "category": "UNCATEGORIZED",
       "author": "sankarcyber26-cyber",
@@ -27318,7 +27574,7 @@
     "rss_entries": 201,
     "github_repositories": 653,
     "social_links": 0,
-    "new_entries": 20,
+    "new_entries": 0,
     "failures": [
       {
         "source": "X/Twitter",
