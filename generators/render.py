@@ -51,7 +51,7 @@ def category_cards(items):
             row.append("<td width=\"33%\"></td>")
         cells.append("<tr>" + "".join(row) + "</tr>")
     cells.append('<tr><td colspan="3" align="center"><a href="docs/CTF-WRITEUPS.md"><strong>📚 Browse all CTF writeups by platform →</strong></a></td></tr>')
-    return '<table>\\n' + "\\n".join(cells) + '\\n</table>\\n'
+    return '<table>\n' + "\n".join(cells) + '\n</table>\n'
 
 def esc(value):
     return str(value or "").replace("|", "\\|").replace("\r", " ").replace("\n", " ").strip()
@@ -113,7 +113,7 @@ def render(data):
     if category_start in readme and category_end in readme:
         before_categories, remainder = readme.split(category_start, 1)
         _, after_categories = remainder.split(category_end, 1)
-        readme = before_categories + category_start + "\\n" + category_cards(ctf_items) + category_end + after_categories
+        readme = before_categories + category_start + "\n" + category_cards(ctf_items) + category_end + after_categories
     start, end = "<!-- HACKFEED:START -->", "<!-- HACKFEED:END -->"
     if start in readme and end in readme:
         before, remainder = readme.split(start, 1)
