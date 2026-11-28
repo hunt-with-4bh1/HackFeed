@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/hunt-with-4bh1/HackFeed/main/assets/hackfeed-mark.svg" width="34" alt="HackFeed mark" /> HackFeed
+# 🛡️ HackFeed
 
 <p align="center">
   <strong>One feed. The CTF writeups worth learning from.</strong><br/>
@@ -23,17 +23,30 @@
 
 ## Browse by category
 
-Choose a topic to explore matching CTF writeups. Category indexes update automatically.
+Explore writeups by security topic. Counts and category indexes refresh automatically with each collection run.
 
 <!-- HACKFEED:CATEGORIES:START -->
 <table>
-<tr><td width="33%" align="center"><a href="docs/WEB-EXPLOITATION.md"><strong>🌐 Web Exploitation</strong></a><br/><sub>313 writeups · Browse</sub></td><td width="33%" align="center"><a href="docs/CRYPTOGRAPHY.md"><strong>🔐 Cryptography</strong></a><br/><sub>63 writeups · Browse</sub></td><td width="33%" align="center"><a href="docs/DIGITAL-FORENSICS.md"><strong>🧩 Digital Forensics</strong></a><br/><sub>59 writeups · Browse</sub></td></tr>
-<tr><td width="33%" align="center"><a href="docs/BINARY-EXPLOITATION.md"><strong>💥 Binary Exploitation / Pwn</strong></a><br/><sub>47 writeups · Browse</sub></td><td width="33%" align="center"><a href="docs/AI-SECURITY.md"><strong>🤖 AI Security</strong></a><br/><sub>24 writeups · Browse</sub></td><td width="33%" align="center"><a href="docs/REVERSE-ENGINEERING.md"><strong>⚙️ Reverse Engineering</strong></a><br/><sub>38 writeups · Browse</sub></td></tr>
-<tr><td width="33%" align="center"><a href="docs/OSINT.md"><strong>🕵️ OSINT</strong></a><br/><sub>23 writeups · Browse</sub></td><td width="33%" align="center"><a href="docs/NETWORK.md"><strong>🌍 Network</strong></a><br/><sub>16 writeups · Browse</sub></td><td width="33%" align="center"><a href="docs/CLOUD.md"><strong>☁️ Cloud</strong></a><br/><sub>4 writeups · Browse</sub></td></tr>
-<tr><td width="33%" align="center"><a href="docs/MOBILE.md"><strong>📱 Mobile</strong></a><br/><sub>1 writeups · Browse</sub></td><td width="33%" align="center"><a href="docs/HARDWARE-IOT.md"><strong>🔌 Hardware / IoT</strong></a><br/><sub>5 writeups · Browse</sub></td><td width="33%" align="center"><a href="docs/MISC.md"><strong>🎯 Miscellaneous</strong></a><br/><sub>55 writeups · Browse</sub></td></tr>
-<tr><td width="33%" align="center"><a href="docs/UNCATEGORIZED.md"><strong>📂 Needs classification</strong></a><br/><sub>453 writeups · Browse</sub></td><td width="33%"></td><td width="33%"></td></tr>
-<tr><td colspan="3" align="center"><a href="docs/CTF-WRITEUPS.md"><strong>📚 Browse all CTF writeups by platform →</strong></a></td></tr>
+<thead><tr><th align="left">Category</th><th align="right">Writeups</th><th align="left">Explore</th></tr></thead>
+<tbody>
+<tr><td>🌐 Web Exploitation</td><td align="right"><strong>313</strong></td><td><a href="docs/WEB-EXPLOITATION.md">View writeups →</a></td></tr>
+<tr><td>🔐 Cryptography</td><td align="right"><strong>63</strong></td><td><a href="docs/CRYPTOGRAPHY.md">View writeups →</a></td></tr>
+<tr><td>🧩 Digital Forensics</td><td align="right"><strong>59</strong></td><td><a href="docs/DIGITAL-FORENSICS.md">View writeups →</a></td></tr>
+<tr><td>🎯 Miscellaneous</td><td align="right"><strong>55</strong></td><td><a href="docs/MISC.md">View writeups →</a></td></tr>
+<tr><td>💥 Binary Exploitation / Pwn</td><td align="right"><strong>47</strong></td><td><a href="docs/BINARY-EXPLOITATION.md">View writeups →</a></td></tr>
+<tr><td>⚙️ Reverse Engineering</td><td align="right"><strong>38</strong></td><td><a href="docs/REVERSE-ENGINEERING.md">View writeups →</a></td></tr>
+<tr><td>🤖 AI Security</td><td align="right"><strong>24</strong></td><td><a href="docs/AI-SECURITY.md">View writeups →</a></td></tr>
+<tr><td>🕵️ OSINT</td><td align="right"><strong>23</strong></td><td><a href="docs/OSINT.md">View writeups →</a></td></tr>
+<tr><td>🌍 Network</td><td align="right"><strong>16</strong></td><td><a href="docs/NETWORK.md">View writeups →</a></td></tr>
+<tr><td>🔌 Hardware / IoT</td><td align="right"><strong>5</strong></td><td><a href="docs/HARDWARE-IOT.md">View writeups →</a></td></tr>
+<tr><td>☁️ Cloud</td><td align="right"><strong>4</strong></td><td><a href="docs/CLOUD.md">View writeups →</a></td></tr>
+<tr><td>📱 Mobile</td><td align="right"><strong>1</strong></td><td><a href="docs/MOBILE.md">View writeups →</a></td></tr>
+</tbody>
 </table>
+
+**📂 [Needs classification](docs/UNCATEGORIZED.md):** 453 writeups awaiting review. The classifier retries records with sufficient available evidence.
+
+📚 **[Browse all CTF writeups by platform](docs/CTF-WRITEUPS.md)**
 <!-- HACKFEED:CATEGORIES:END -->
 
 
