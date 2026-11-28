@@ -29,22 +29,22 @@ Explore writeups by security topic. Counts and category indexes refresh automati
 <table>
 <thead><tr><th align="left">Category</th><th align="right">Writeups</th><th align="left">Explore</th></tr></thead>
 <tbody>
-<tr><td>🌐 Web Exploitation</td><td align="right"><strong>313</strong></td><td><a href="docs/WEB-EXPLOITATION.md">View writeups →</a></td></tr>
-<tr><td>🔐 Cryptography</td><td align="right"><strong>63</strong></td><td><a href="docs/CRYPTOGRAPHY.md">View writeups →</a></td></tr>
-<tr><td>🧩 Digital Forensics</td><td align="right"><strong>59</strong></td><td><a href="docs/DIGITAL-FORENSICS.md">View writeups →</a></td></tr>
-<tr><td>🎯 Miscellaneous</td><td align="right"><strong>55</strong></td><td><a href="docs/MISC.md">View writeups →</a></td></tr>
-<tr><td>💥 Binary Exploitation / Pwn</td><td align="right"><strong>47</strong></td><td><a href="docs/BINARY-EXPLOITATION.md">View writeups →</a></td></tr>
-<tr><td>⚙️ Reverse Engineering</td><td align="right"><strong>38</strong></td><td><a href="docs/REVERSE-ENGINEERING.md">View writeups →</a></td></tr>
-<tr><td>🤖 AI Security</td><td align="right"><strong>24</strong></td><td><a href="docs/AI-SECURITY.md">View writeups →</a></td></tr>
-<tr><td>🕵️ OSINT</td><td align="right"><strong>23</strong></td><td><a href="docs/OSINT.md">View writeups →</a></td></tr>
-<tr><td>🌍 Network</td><td align="right"><strong>16</strong></td><td><a href="docs/NETWORK.md">View writeups →</a></td></tr>
-<tr><td>🔌 Hardware / IoT</td><td align="right"><strong>5</strong></td><td><a href="docs/HARDWARE-IOT.md">View writeups →</a></td></tr>
-<tr><td>☁️ Cloud</td><td align="right"><strong>4</strong></td><td><a href="docs/CLOUD.md">View writeups →</a></td></tr>
-<tr><td>📱 Mobile</td><td align="right"><strong>1</strong></td><td><a href="docs/MOBILE.md">View writeups →</a></td></tr>
+<tr><td>🌐 <strong>Web Exploitation</strong></td><td align="right"><strong>315</strong></td><td><a href="docs/WEB-EXPLOITATION.md">View writeups →</a></td></tr>
+<tr><td>🔐 <strong>Cryptography</strong></td><td align="right"><strong>63</strong></td><td><a href="docs/CRYPTOGRAPHY.md">View writeups →</a></td></tr>
+<tr><td>🧩 <strong>Digital Forensics</strong></td><td align="right"><strong>62</strong></td><td><a href="docs/DIGITAL-FORENSICS.md">View writeups →</a></td></tr>
+<tr><td>🎯 <strong>Miscellaneous</strong></td><td align="right"><strong>55</strong></td><td><a href="docs/MISC.md">View writeups →</a></td></tr>
+<tr><td>💥 <strong>Binary Exploitation / Pwn</strong></td><td align="right"><strong>47</strong></td><td><a href="docs/BINARY-EXPLOITATION.md">View writeups →</a></td></tr>
+<tr><td>⚙️ <strong>Reverse Engineering</strong></td><td align="right"><strong>38</strong></td><td><a href="docs/REVERSE-ENGINEERING.md">View writeups →</a></td></tr>
+<tr><td>🤖 <strong>AI Security</strong></td><td align="right"><strong>24</strong></td><td><a href="docs/AI-SECURITY.md">View writeups →</a></td></tr>
+<tr><td>🕵️ <strong>OSINT</strong></td><td align="right"><strong>23</strong></td><td><a href="docs/OSINT.md">View writeups →</a></td></tr>
+<tr><td>🌍 <strong>Network</strong></td><td align="right"><strong>16</strong></td><td><a href="docs/NETWORK.md">View writeups →</a></td></tr>
+<tr><td>🔌 <strong>Hardware / IoT</strong></td><td align="right"><strong>5</strong></td><td><a href="docs/HARDWARE-IOT.md">View writeups →</a></td></tr>
+<tr><td>☁️ <strong>Cloud</strong></td><td align="right"><strong>4</strong></td><td><a href="docs/CLOUD.md">View writeups →</a></td></tr>
+<tr><td>📱 <strong>Mobile</strong></td><td align="right"><strong>1</strong></td><td><a href="docs/MOBILE.md">View writeups →</a></td></tr>
 </tbody>
 </table>
 
-**📂 [Needs classification](docs/UNCATEGORIZED.md):** 453 writeups awaiting review. The classifier retries records with sufficient available evidence.
+**📂 [Needs classification](docs/UNCATEGORIZED.md):** 448 writeups awaiting review. The classifier retries records with sufficient available evidence.
 
 📚 **[Browse all CTF writeups by platform](docs/CTF-WRITEUPS.md)**
 <!-- HACKFEED:CATEGORIES:END -->
