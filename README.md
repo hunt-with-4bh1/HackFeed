@@ -2,7 +2,9 @@
 
 <p align="center">
   <strong>One feed. The CTF writeups worth learning from.</strong><br/>
-  A community-driven index of public CTF writeups and practical security research.\n\n**1,101 CTF writeup records and 146 security research/writeup records collected (1,247 total)** — browse the latest 100 below or explore the full category and platform indexes.
+  A community-driven index of public CTF writeups and practical security research.
+
+**1,101 CTF writeup records and 146 security research/writeup records collected (1,247 total)** — browse the latest 100 below or explore the full category and platform indexes.
 </p>
 
 <p align="center">
