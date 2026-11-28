@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-11-28T04:16:35.398211+00:00",
+  "updated_at": "2026-11-28T04:28:04.049755+00:00",
   "total": 1247,
   "items": [
     {
@@ -1475,8 +1475,9 @@
       "ai_provider": "Google Gemini",
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:04.681141+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:04.681141+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "f1df71e167b62850ccb92f9da0ad62c900d3393c6e0729f934706e32eaa336a0",
@@ -1499,8 +1500,9 @@
       "ai_provider": "Google Gemini",
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:04.681143+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:04.681143+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "ba82d3535599693269096fe9c9f4bafbae38f10806aba8ac9c25480c75888ab1",
@@ -1523,8 +1525,9 @@
       "ai_provider": "Google Gemini",
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:04.681146+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:04.681146+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "64b5c67920228fd5aa66d060bcba706d40526a06e6fc4b7a4309ee4884e501fa",
@@ -1571,8 +1574,9 @@
       "ai_provider": "Google Gemini",
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:04.681151+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:04.681151+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "04d061400d184d7d94a8101dbd46541545707311da5360edb29084f144eac928",
@@ -1641,8 +1645,9 @@
       "ai_summary_model": "gemini-3.5-flash-lite",
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:07.780097+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:07.780097+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "f4237bc2503489335a677647865cb3e57f97b91d235e1253520ab77370bc9e0e",
@@ -1664,8 +1669,9 @@
       "ai_summary_model": "gemini-3.5-flash-lite",
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:07.780113+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:07.780113+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "5000bac5b332c4ed4ff46a8b4fdd5e67392a33f9af049374861d854ef2a46864",
@@ -1687,8 +1693,9 @@
       "ai_summary_model": "gemini-3.5-flash-lite",
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:07.780116+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:07.780116+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "9a1b1c7b16fb46828203368d2c5de314d9e120487b3aa42c8a3b784cb08ff1c0",
@@ -1710,8 +1717,9 @@
       "ai_summary_model": "gemini-3.5-flash-lite",
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:07.780118+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:07.780118+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "aeb107618ca1bda5beaef2adf2c6757f3f07c00d4cbea8a28f8b47e4ac718f32",
@@ -1733,8 +1741,9 @@
       "ai_summary_model": "gemini-3.5-flash-lite",
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:07.780120+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:07.780120+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "219846f9fbd00b679a1d3bca753560c8b58ec594bb5504dd837b3d00b08de81c",
@@ -1779,8 +1788,9 @@
       "ai_summary_model": "gemini-3.5-flash-lite",
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:07.780124+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:07.780124+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "aff294e7a5b1ac37721c111f0bec22c59f3b60ad98159e5a431806f665ea700d",
@@ -1878,8 +1888,9 @@
       "ai_summary_model": "gemini-3.5-flash-lite",
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:07.780126+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:07.780126+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "16866be06e2cde08d3d423393fe51e983305bb1b0d0b34b1572c10b2af7de4dd",
@@ -3605,8 +3616,9 @@
       "ai_summary_model": "gemini-3.5-flash-lite",
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:11.140497+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:11.140497+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "f22e8672f939df5a53487327ab90af34a6aa3987e59df928e19f0c8e1246824a",
@@ -4359,8 +4371,7 @@
       "priority": 80,
       "metadata_checked": true,
       "ai_summary": "This technical security assessment and penetration testing report for the Hack The Box target \"Writer\" was conducted in accordance with PTES and NIST SP 800-115 methodologies. The assessment identified a critical risk rating involving an unauthenticated remote exploit vector that led to complete host compromise and administrative takeover.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "c44f0975afcf627e37241e163875d074eabfc29eed4c8d20d962515eb5e137ff",
@@ -4386,8 +4397,7 @@
       "priority": 80,
       "metadata_checked": true,
       "ai_summary": "This security assessment report details a penetration test of the \"Worker\" target on Hack The Box, conducted using PTES and NIST SP 800-115 methodologies. The assessment identified a critical risk rating due to an unauthenticated remote exploit vector via a public-facing network service, leading to complete host compromise and administrative takeover.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "59d99b0196b379afbf349cb7c852e4afed5b49a4b26be8ba34e34195be54258f",
@@ -4413,8 +4423,7 @@
       "priority": 80,
       "metadata_checked": true,
       "ai_summary": "This security assessment report details a penetration test of the Valentine target environment on Hack The Box, conducted using PTES and NIST SP 800-115 methodologies. The assessment identified a critical unauthenticated remote exploit vector leading to complete host compromise and administrative takeover via public-facing network service exploitation.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "205a7695547277978f81b2758422a2dd86fa03e124000532a06cde2e385dd366",
@@ -7828,8 +7837,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:52.193165+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193165+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "809e5c77a834e4e7ae7ecad89d77c3ae927697b1a841b140273a897f308f854e",
@@ -7863,9 +7873,9 @@
       "id": "6a1f5ba5539b810ed9cdfe1d2956c93b701b052169d2d03fefb5c340002c1ad1",
       "title": "Trubl1on/CTF-Inter-Ecole-2026",
       "url": "https://github.com/Trubl1on/CTF-Inter-Ecole-2026",
-      "source": "GitHub · Digital Forensics",
+      "source": "GitHub · CTF writeup",
       "source_id": "github-search",
-      "platform": "Digital Forensics",
+      "platform": "CTF writeup",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "Trubl1on",
@@ -7946,8 +7956,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:52.193180+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193180+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "2565e5e4165f0cca7d1719ea074dcc0c28eabd1058bb3e59cf660c9cf605eb5d",
@@ -7975,8 +7986,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:52.193184+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193184+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "46a2b50b62de0d48916649c6e1e813e03958d5308306221dee476134bca53acc",
@@ -7999,8 +8011,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:52.193187+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193187+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "2aafc368942b53e6e30f29043f354a7bafcbb6426c11f3361312a95913ee060a",
@@ -8023,8 +8036,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:52.193190+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193190+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "c9a5225b28dd2e6911fc06cf69b4d2021d904d882d16a2ecefd67b1a86d4ae44",
@@ -8047,8 +8061,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:52.193193+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193193+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "8aad4d1a60e1259b7aafa6273d34108c91a5d369e4e2a72ca3c3619c613ffaac",
@@ -8124,8 +8139,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:52.193196+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193196+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "aca88bc7aba73d3de76a50bab97a3206c2be1cec2c96b18c9ff512432b4953b5",
@@ -8186,8 +8202,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:52.193199+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193199+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "7a227e72011e16bc5ab8b8a43ba8e959aac7eabe646438ee46c3e50d52f361ec",
@@ -8250,8 +8267,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:52.193202+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193202+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "e0df4b31d1f587bed9f2c378074c53d4592c146f30c8d710dfde99fdb8e055ea",
@@ -8274,8 +8292,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:52.193205+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193205+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "5eafc581d5bee5d53c3951da075a2320f3179a03b7f2269d422a9d6d2cb24132",
@@ -8298,8 +8317,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:52.193208+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193208+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "b3d00b12c6ead25b38ca00313924a66cf17666eaf333ca862753c6a630c9ed3d",
@@ -8322,8 +8342,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:52.193211+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193211+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "f853682b47c0ae110a4073e5ccdbdce0ef31fc4c616badb68b460f01ae114a40",
@@ -8355,8 +8376,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:52.193213+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193213+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "d8c62152268b11aa8f1445625dc38a724fa09289f13aa002e6ace86c0121156d",
@@ -8379,8 +8401,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:52.193216+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193216+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "7c036e317adbf5ea74e33c2c286208a075cca0502239c5ea0b208f920fb85250",
@@ -8483,8 +8506,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:52.193219+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193219+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "3bc7f80946a70b0a90d7a56c9c681ebb8d9afe679a255c5d90559357ae928567",
@@ -8507,8 +8531,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:52.193222+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193222+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "154afd9de2b9f90cceb73f651a3e07b65400ed8d84a41844ba5c9e8230d133d1",
@@ -8531,8 +8556,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:52.193224+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193224+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "60870c434a7d676ddb573781f5408d6e17c016791d7e04b0f3aabc7c970a9f03",
@@ -8595,8 +8621,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:52.193227+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193227+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "1fcbda0099a6dcb370471791e0476d0c4f124147d6f9d60fee02df67fa2aa7a4",
@@ -8619,8 +8646,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:52.193230+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193230+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "1f9a4ccc87c06c07817e8422661bbbd2a8e88a6e3ff7925055c5c4d6438fcc92",
@@ -8643,8 +8671,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:52.193233+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193233+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "c07386e9eef03994ee1810ae3a4e41a9f5ae45820516b15e8bc53ff7b16097da",
@@ -8667,8 +8696,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:55.453184+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453184+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "4754657f2fae112ee730773bc531e66efc14837fda0e993c56a0e3281cfd6f02",
@@ -8716,8 +8746,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:55.453202+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453202+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "2343572bac8d895143469e2683042da7a7f6596ba5cf216de0a3fc64e4f838c6",
@@ -8745,8 +8776,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:55.453207+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453207+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "b25314100fdca7ab98f694b156d99be60ea0bee7ccfdd5fbdc6557abc4f07c0d",
@@ -8781,8 +8813,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:55.453211+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453211+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "62262a048ff19b66b72b189b735c26c24e759bc5c181c406cabb83dce867bb5c",
@@ -8829,8 +8862,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:55.453215+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453215+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "5d5f76ee835b696ef0daa997eb5c741efad286810b0c5d061c6502e0cebd1eab",
@@ -8853,8 +8887,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:55.453218+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453218+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "fbae9e48ac2b6edf14acea76adae9c87f80ac815710d791036efe6fbcbf915ce",
@@ -8885,8 +8920,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:55.453222+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453222+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "0ad6bf955cdc286d84d0458706c28d7bad5e0191ed027b7f2d7ef93579edec69",
@@ -8909,8 +8945,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:55.453226+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453226+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "f2ab399861639a66d38e7a254e95ec59519274c9512ceff307b298dcea32da8f",
@@ -8933,16 +8970,17 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:55.453229+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453229+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "afa0be0bc64bd0b28d69070a26fb047f66325d5dd37bf0cbc29b248af819af9b",
       "title": "udaytammali-prog/CYLAB-CTF-Writeups",
       "url": "https://github.com/udaytammali-prog/CYLAB-CTF-Writeups",
-      "source": "GitHub · Web Exploitation",
+      "source": "GitHub · picoCTF",
       "source_id": "github-search",
-      "platform": "Web Exploitation",
+      "platform": "picoCTF",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "udaytammali-prog",
@@ -8997,8 +9035,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:55.453233+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453233+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "4d9c11324a25b6448f0c42be92c31ca6a98b098e566c6caab0e467e434d02de8",
@@ -9021,8 +9060,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:55.453236+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453236+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "bbd2f13012c73ab2112d19913379879b9c80cfafcbf832ae15d7b8bc961e1b55",
@@ -9092,9 +9132,9 @@
       "id": "fae234da4ca45161be0c74b3e81c559b9ee5b9e95437fd7d2e53acd429be1d96",
       "title": "sudoparasite/security-writeups",
       "url": "https://github.com/sudoparasite/security-writeups",
-      "source": "GitHub · Web Exploitation",
+      "source": "GitHub · Hack The Box",
       "source_id": "github-search",
-      "platform": "Web Exploitation",
+      "platform": "Hack The Box",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "sudoparasite",
@@ -9129,8 +9169,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:55.453240+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453240+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "6b8c9f41223cbaa1fafc460386e361f7b3c2dd18b43d08af1031a57c4f5b4f3f",
@@ -9178,8 +9219,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:55.453243+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453243+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "525b750b872c5063d74b10e200ce3fd6b72778f104a4ec0542eef4a8641355b4",
@@ -9202,8 +9244,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:55.453247+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453247+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "c1095e1189d6d0ecd2e28d8bb86c2045f76ae891be1fc1d164165785ebccb1d2",
@@ -9226,8 +9269,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:55.453251+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453251+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "ff97d006a603f5f5351b2c05758a6bfa6560a9785673d92bf596fbd7c23d274b",
@@ -9313,8 +9357,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:55.453254+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453254+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "98af802cb781f4133cdf7e8073820d8072b80b3c9367e55571f6fabf0f77b03f",
@@ -9337,8 +9382,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:55.453258+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453258+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "74fad5243dc965cc7f1050b42031dc42830d68eaa4175520eb460e096013ad89",
@@ -9361,8 +9407,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:55.453262+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453262+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "85611d0e301847be0b90b54592a718257786ef429886bb044619ba510dedbd85",
@@ -9385,8 +9432,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:55.453266+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453266+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "62646a7885213787add1021d87d1f62ad3c470401aa714a72bd0b70ee76b5596",
@@ -9453,8 +9501,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:24.683998+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:24.683998+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "8029cd61a03b2a5addc9370ad01a36672faf2a6e34656dfb74a472f445774db6",
@@ -9477,8 +9526,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:24.684016+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:24.684016+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "bde9cce1a3e78b4497615910aef850af981a0f279b87e8ef4d3c1a8a7fbb550c",
@@ -9501,8 +9551,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:24.684021+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:24.684021+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "23fe8a0cf99326f88d26ecc09bac3610c94c9c15df1abe7fc2bdc7c90a2433f4",
@@ -9525,8 +9576,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:24.684026+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:24.684026+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "bf3e0a3283b0d41c5e1f0c8d28aa817c6710dda1b1f8de44edc2a2b43239e792",
@@ -9549,8 +9601,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:24.684030+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:24.684030+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "6beec4375f487cd929c3524f2539830b25f95654bb8ad569615df404ab4e13ce",
@@ -9573,8 +9626,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:24.684033+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:24.684033+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "4bedb83f2a2224b6b18ace163b9ccade0f49a4b943c7f57aff6528b975937dfb",
@@ -9601,16 +9655,17 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:24.684037+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:24.684037+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "be61cf305f25491e0162f351928d76af9f25b59eec381ebd3832284a7e5889fe",
       "title": "RIAO124/CTF-writeups",
       "url": "https://github.com/RIAO124/CTF-writeups",
-      "source": "GitHub · Reverse Engineering",
+      "source": "GitHub · picoCTF",
       "source_id": "github-search",
-      "platform": "Reverse Engineering",
+      "platform": "picoCTF",
       "type": "ctf_writeup",
       "category": "CRYPTOGRAPHY",
       "author": "RIAO124",
@@ -9636,9 +9691,9 @@
       "id": "347aa63633f6085091d17cf278263bd88cb7bcd0e7d50b2577b1d0e3412edaba",
       "title": "Telieou-source/Try_Hack_Me_Writeups",
       "url": "https://github.com/Telieou-source/Try_Hack_Me_Writeups",
-      "source": "GitHub · AI Security",
+      "source": "GitHub · TryHackMe",
       "source_id": "github-search",
-      "platform": "AI Security",
+      "platform": "TryHackMe",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "Telieou-source",
@@ -9687,8 +9742,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:24.684041+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:24.684041+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "b0cc8dce288efb534213d6cff79d6076391d99788e0d7e610af7a1d1c7c5eaca",
@@ -9731,8 +9787,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:24.684045+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:24.684045+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "c07a46650c4e956f62f78eef2b6efa97f159d7766fcb37fceef337120706c88a",
@@ -9755,8 +9812,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:24.684049+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:24.684049+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "d3d1716ed80369459c83fc4df068bbf30806a3b495102378d67eee8ebb46a216",
@@ -9783,8 +9841,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:24.684052+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:24.684052+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "d4d603ca3432ad7220f33b2301f6656811f174f4a4a6293e336e6a092305112e",
@@ -9833,8 +9892,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:24.684056+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:24.684056+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "3be210469ebf3b1177b644b4754bca4d54842b09d85a7e63ea4d8568a5359183",
@@ -9857,8 +9917,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:24.684060+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:24.684060+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "54020fd7b7300c001dbb48bb8e99ea09c8cd5d6add5cbb916befa873ef7009a1",
@@ -9901,8 +9962,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:24.684064+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:24.684064+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "6e52822ee75df08b625f5504d20ff842054ea2360415f8cf64902fcfb6661677",
@@ -9953,8 +10015,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:24.684068+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:24.684068+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "6f075738eeeba51a6cd4654acc3d643629865fafcfe45d1a5e358ec6ec40ad92",
@@ -9977,8 +10040,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:24.684072+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:24.684072+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "1d8cded4d79e0fbeac2f56f96587c6d3318af5f4f5e86f8ea500c08bf04bc53b",
@@ -10023,8 +10087,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:24.684075+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:24.684075+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "180fcfdf4d38267e50a977cc52b016132d5c4c7e4fa5344f3512c1ed59056254",
@@ -10097,8 +10162,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:24.684079+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:24.684079+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "27f78bb15d88f32eca83f6cdba07da0b925169a2257dba48f28cf05dc7d3bbee",
@@ -10121,8 +10187,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:24.684082+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:24.684082+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "58930348cf641a0d727b0246e90e8923858f251309a8d4ed207c98e16daa97ea",
@@ -10145,8 +10212,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:24.684086+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:24.684086+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "90e55fbaa2ef1669c94156d2c7fd551b6d692bb39f6a7136b0b9c4b103363956",
@@ -10169,8 +10237,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:27.553864+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:27.553864+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "91785b5b89359d03a2d5b2d883a76c9ab6323134aebfebc7b20da448216140aa",
@@ -10193,8 +10262,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:27.553889+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:27.553889+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "a58d67c6bb8a93837d1479c3891750849a300ad5db033b37272010c4ec87a116",
@@ -10217,8 +10287,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:27.553894+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:27.553894+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "5f466de79e40347d47b90c2bc74bfc8c38d451169bcfdbab2cdde63c18c24b92",
@@ -10241,8 +10312,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:27.553897+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:27.553897+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "d0f3bbfa346a1f49ed8dacf49a2a2de8f4e0dce71f773abfe41cdb7d4e3038a4",
@@ -10265,8 +10337,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:27.553900+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:27.553900+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "b388d2125741de9a9acd5928e5461738b7ce3ff03c66b4a4962f496d4d1d923b",
@@ -10313,8 +10386,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:27.553907+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:27.553907+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "ea87a4a4f25936f88e74f3b5e0eec4348535d114701fd41564f7e5ac75715839",
@@ -10337,8 +10411,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:27.553910+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:27.553910+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "c3184b14fbe26a239edf923ffda02f8894a46fd5c2ceb1e4400a5da75a74f44c",
@@ -10361,8 +10436,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:27.553913+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:27.553913+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "5768651661f723e3c39b939e0f8b68ad8ce1baafa073222b82ddfb195351f1ba",
@@ -10405,8 +10481,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:27.553916+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:27.553916+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "f6ed051efa0cc78a96b66aeababc04702805c3969e8e5f19fbb760cf7d676b6d",
@@ -10429,8 +10506,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:27.553919+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:27.553919+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "ea7579615e70bbb866e0955d9e2a649aff660ada8b6e9d2acba2ba48d214e67d",
@@ -10477,8 +10555,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:27.553925+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:27.553925+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "447b1222fdaee123b7275c056c4d1d99832243e5ba281c8fefa133950ecd6e99",
@@ -10525,8 +10604,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:27.553932+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:27.553932+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "714cddda2f999fb3bc0ee124758bc242bd5eb9dbe72ef2258d9043e26af9acac",
@@ -10549,8 +10629,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:27.553934+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:27.553934+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "b9e1fe3d503df57cb465a2cddf0f40f3aeb9f2fdd55dfd19527a9328598f170c",
@@ -10573,8 +10654,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:27.553937+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:27.553937+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "85fc1a735fcbb8c2f5dea064dfd04377a7fbdf85ac5e2caaf84eebbde35ac1b8",
@@ -10597,8 +10679,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:27.553940+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:27.553940+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "cf8ac835daaf37d9c18f3f11f27fdaef0d150f58091fd04525a501a366c3f54e",
@@ -10621,8 +10704,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:27.553943+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:27.553943+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "96e4575bfb0c231965f5aeff1b7691214ac46dd8ee60eadc2ba7eff001a2012f",
@@ -10645,8 +10729,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:27.553946+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:27.553946+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "c208f3413cbbadcaaa5c1bd2be53cbf94522a92477d40f1565128fb58251ade6",
@@ -10669,8 +10754,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:30.674425+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:30.674425+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "cec05fd1c24a0f547bdfb7c9968efd1c4d34e464ff94f10f181e44b6006c3c95",
@@ -10713,8 +10799,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:30.674441+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:30.674441+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "33c4ef8417033f5c434beeee818df290d3e5587916aad82e6c11b8b8e599b3cc",
@@ -10737,8 +10824,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:30.674445+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:30.674445+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "395dd5e87606a917f91df4a737db45a301fbddb72c9ec10695d557a0343927d5",
@@ -10761,8 +10849,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:30.674449+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:30.674449+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "2acc7311d20e2eb727a8384490d5de5bf61607aeaa75137c8f77cca99a700b3e",
@@ -10785,8 +10874,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:30.674452+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:30.674452+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "e3cc6af8bc39976aed3939294eb6db24e6cf29a13170ead5220d99af88c347c3",
@@ -10868,8 +10958,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:30.674455+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:30.674455+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "c2ee5c74482101d33da149a4027b3d797fc1d15e84bdf69369359e13a9f3f064",
@@ -10892,8 +10983,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:30.674459+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:30.674459+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "ecb1ff310e4734d14e0b5bb44ffa0beb52feb9a7b1fb49bcb7292e39f4f91d28",
@@ -10938,9 +11030,9 @@
       "id": "09f35bbec8c9cdd43fc8e9a81b6239b2c8a5dc0f3ecc8cdc9f6912e9b49a31bb",
       "title": "f4zzie/MyNotes",
       "url": "https://github.com/f4zzie/MyNotes",
-      "source": "GitHub · Reverse Engineering",
+      "source": "GitHub · picoCTF",
       "source_id": "github-search",
-      "platform": "Reverse Engineering",
+      "platform": "picoCTF",
       "type": "ctf_writeup",
       "category": "BINARY-EXPLOITATION",
       "author": "f4zzie",
@@ -11008,8 +11100,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:30.674462+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:30.674462+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "bd0ff2ecff9d11197869bfc8df5a5f2830ba3eafd5aaed7bdfcf7faa70ab38b3",
@@ -11032,8 +11125,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:30.674466+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:30.674466+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "c0190258d6caa80c0f1a4ff5bd2e8f0c6ff6cfa8e6ebae2a8ab6debd532a2007",
@@ -11056,8 +11150,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:30.674469+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:30.674469+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "246b67cfac06053a91d0ba0e9aa6431b8bc9c05cde570f5b048fbae0258461c8",
@@ -11080,8 +11175,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:30.674473+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:30.674473+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "43a1d83731f4d4d598f11a9f5777869ff227efb198db558df27490072e49fd38",
@@ -11148,8 +11244,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:30.674480+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:30.674480+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "fc581c83504bed6ed4b83fbe36c6546adf6cbbc8eb8cf1ad3812d17d4b67e773",
@@ -11172,16 +11269,17 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:30.674483+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:30.674483+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "3004cb4d7e105da26576f15f23fb8dc898607161c7221fbca0fe453051f76145",
       "title": "Gantosay/CTF-Writeups",
       "url": "https://github.com/Gantosay/CTF-Writeups",
-      "source": "GitHub · Reverse Engineering",
+      "source": "GitHub · Binary Exploitation",
       "source_id": "github-search",
-      "platform": "Reverse Engineering",
+      "platform": "Binary Exploitation",
       "type": "ctf_writeup",
       "category": "BINARY-EXPLOITATION",
       "author": "Gantosay",
@@ -11216,8 +11314,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:30.674486+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:30.674486+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "890f9d55a03b38f3acf5045983dc6652e23cbb4c645fea38644350c68de76ab0",
@@ -11240,8 +11339,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:30.674489+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:30.674489+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "baa2b831c6bf2274dfd647498d5026e953eebc729a5d194b27d028978e89181a",
@@ -11264,8 +11364,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:30.674493+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:30.674493+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "f5dded1e32702ee7e4ae2953ec6993b7a224e408538aac9ede1d49ad51ef55cb",
@@ -11308,8 +11409,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:30.674497+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:30.674497+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "d1595cdcd1684fa210dc1d435a4b9bd964bd1ad751fea78aea72ebcadc7a118d",
@@ -11332,8 +11434,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:30.674500+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:30.674500+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "bdfe5fdfe9c3e8046ddd3fb8933d36f8ff509d2685321770fb5dea973f018c90",
@@ -11356,8 +11459,9 @@
       "metadata_checked": true,
       "ai_category": "UNCATEGORIZED",
       "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:16:30.674504+00:00"
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:30.674504+00:00",
+      "ai_category_attempts": 1
     },
     {
       "id": "d0e876b58af1cb456c1302969a678e1f86e2f7e5754c352cbbf168e0397a512f",
@@ -12710,9 +12814,9 @@
       "id": "b002c397e1bbdc4e2d59b390ed69ebf4e52e524158f74c318279ece6a782724a",
       "title": "maapik/cybersec-writeups",
       "url": "https://github.com/maapik/cybersec-writeups",
-      "source": "GitHub · Reverse Engineering",
+      "source": "GitHub · OSINT",
       "source_id": "github-search",
-      "platform": "Reverse Engineering",
+      "platform": "OSINT",
       "type": "ctf_writeup",
       "category": "DIGITAL-FORENSICS",
       "author": "maapik",
@@ -13408,9 +13512,9 @@
       "id": "7ca2fb3f3ba3c089fea7e779818229073929cf322318b2f59aea0f6b5a0b37c2",
       "title": "DarthWakamiya/ctf-writeup",
       "url": "https://github.com/DarthWakamiya/ctf-writeup",
-      "source": "GitHub · Web Exploitation",
+      "source": "GitHub · OSINT",
       "source_id": "github-search",
-      "platform": "Web Exploitation",
+      "platform": "OSINT",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "DarthWakamiya",
@@ -13496,9 +13600,9 @@
       "id": "1ead37f994076bc44f73aae4d7dea40d7517b506ac869acc3cdf06fcbe8adefe",
       "title": "princeg80900-sys/InIt-CTF-Writeups",
       "url": "https://github.com/princeg80900-sys/InIt-CTF-Writeups",
-      "source": "GitHub · Digital Forensics",
+      "source": "GitHub · OSINT",
       "source_id": "github-search",
-      "platform": "Digital Forensics",
+      "platform": "OSINT",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "princeg80900-sys",
@@ -13704,9 +13808,9 @@
       "id": "56b995bfbbaf6611fd765428776149cf8f68053fbffb10bfdcc33acdf0d23945",
       "title": "White0xdi3/NullOrigin-CTF-2026-Writeups",
       "url": "https://github.com/White0xdi3/NullOrigin-CTF-2026-Writeups",
-      "source": "GitHub · Reverse Engineering",
+      "source": "GitHub · Cryptography",
       "source_id": "github-search",
-      "platform": "Reverse Engineering",
+      "platform": "Cryptography",
       "type": "ctf_writeup",
       "category": "CRYPTOGRAPHY",
       "author": "White0xdi3",
@@ -13840,9 +13944,9 @@
       "id": "8d4dd411eea1cbf255b93df3b1410a50fe8950ebfecba38589a255418eef63b6",
       "title": "TALELMN/csaw-2026-finals-writeups",
       "url": "https://github.com/TALELMN/csaw-2026-finals-writeups",
-      "source": "GitHub · Digital Forensics",
+      "source": "GitHub · OSINT",
       "source_id": "github-search",
-      "platform": "Digital Forensics",
+      "platform": "OSINT",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "TALELMN",
@@ -14007,9 +14111,9 @@
       "id": "fb200e37aa483f7d187a23167e66800e9788e4589c49dc1b4d70fb72b57a1a72",
       "title": "MoriartyPuth/ctf-writeups",
       "url": "https://github.com/MoriartyPuth/ctf-writeups",
-      "source": "GitHub · Digital Forensics",
+      "source": "GitHub · OSINT",
       "source_id": "github-search",
-      "platform": "Digital Forensics",
+      "platform": "OSINT",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "MoriartyPuth",
@@ -14077,9 +14181,9 @@
       "id": "42abdca6cdc93d96a720ba5c7ebedb933d24748e9204ca4c4009ce4f08c4cd96",
       "title": "sh4shir/HackersInIndia-CTF-Writeups",
       "url": "https://github.com/sh4shir/HackersInIndia-CTF-Writeups",
-      "source": "GitHub · Digital Forensics",
+      "source": "GitHub · Cryptography",
       "source_id": "github-search",
-      "platform": "Digital Forensics",
+      "platform": "Cryptography",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "sh4shir",
@@ -15355,9 +15459,9 @@
       "id": "1d50e7512e19bfdcacb8ef0f27d92c6933342256b83e0db1afc501ed520400c1",
       "title": "BagaskaraAP-Dev/Writeup-hiCTF-2026-Bagaskara-Amukti-Palapa",
       "url": "https://github.com/BagaskaraAP-Dev/Writeup-hiCTF-2026-Bagaskara-Amukti-Palapa",
-      "source": "GitHub · Reverse Engineering",
+      "source": "GitHub · Cryptography",
       "source_id": "github-search",
-      "platform": "Reverse Engineering",
+      "platform": "Cryptography",
       "type": "ctf_writeup",
       "category": "CRYPTOGRAPHY",
       "author": "BagaskaraAP-Dev",
@@ -15395,9 +15499,9 @@
       "id": "567928f512dfac9ce27a76ef85c8e30f93502a867fc415d7ec91bed9867b8713",
       "title": "BagaskaraAP-Dev/cyber-frontier-2026-beyond-the-attack",
       "url": "https://github.com/BagaskaraAP-Dev/cyber-frontier-2026-beyond-the-attack",
-      "source": "GitHub · Digital Forensics",
+      "source": "GitHub · OSINT",
       "source_id": "github-search",
-      "platform": "Digital Forensics",
+      "platform": "OSINT",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "BagaskaraAP-Dev",
@@ -15849,9 +15953,9 @@
       "id": "3234585e432752ad32bc9cddf7f119e886dbab5a6e56d7fd60aa506dd767042b",
       "title": "SanayKrishna/spookyctf-2026-writeups",
       "url": "https://github.com/SanayKrishna/spookyctf-2026-writeups",
-      "source": "GitHub · Digital Forensics",
+      "source": "GitHub · OSINT",
       "source_id": "github-search",
-      "platform": "Digital Forensics",
+      "platform": "OSINT",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "SanayKrishna",
@@ -16288,9 +16392,9 @@
       "id": "6ce2c6bdb76d8abe9c4399cf845870f5b3981930c29c2383484bc158707ee3b6",
       "title": "ushoxa/HI-Cyber-Con-2026-CTF",
       "url": "https://github.com/ushoxa/HI-Cyber-Con-2026-CTF",
-      "source": "GitHub · Reverse Engineering",
+      "source": "GitHub · OSINT",
       "source_id": "github-search",
-      "platform": "Reverse Engineering",
+      "platform": "OSINT",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "ushoxa",
@@ -16408,9 +16512,9 @@
       "id": "362d9a00863caace7ff02bbb4bd2219857db3157b531a8f46ebd0203e0e66042",
       "title": "dianac00680/HUCTF-2026-Writeups",
       "url": "https://github.com/dianac00680/HUCTF-2026-Writeups",
-      "source": "GitHub · Web Exploitation",
+      "source": "GitHub · Cryptography",
       "source_id": "github-search",
-      "platform": "Web Exploitation",
+      "platform": "Cryptography",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "dianac00680",
@@ -16448,9 +16552,9 @@
       "id": "6a442627baa212064a36cc27f405eb3775e17d703feb6d4e5d15e6c72353e39e",
       "title": "TraceHanami/writeups",
       "url": "https://github.com/TraceHanami/writeups",
-      "source": "GitHub · Reverse Engineering",
+      "source": "GitHub · OSINT",
       "source_id": "github-search",
-      "platform": "Reverse Engineering",
+      "platform": "OSINT",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "TraceHanami",
@@ -16584,9 +16688,9 @@
       "id": "a60e244c9fc61a9441b63196673748246bd79cd399ad0ff738c1ac0aa072f164",
       "title": "hax1ng/csaw-ctf-quals-2026",
       "url": "https://github.com/hax1ng/csaw-ctf-quals-2026",
-      "source": "GitHub · Web Exploitation",
+      "source": "GitHub · OSINT",
       "source_id": "github-search",
-      "platform": "Web Exploitation",
+      "platform": "OSINT",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "hax1ng",
@@ -16844,9 +16948,9 @@
       "id": "edcb543d4dda2f938b9568e1c86574b4141b68b1031de1c90fd48fd98c5060d8",
       "title": "agurzil-kutama/Cybersecurity",
       "url": "https://github.com/agurzil-kutama/Cybersecurity",
-      "source": "GitHub · Web Exploitation",
+      "source": "GitHub · Cryptography",
       "source_id": "github-search",
-      "platform": "Web Exploitation",
+      "platform": "Cryptography",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "agurzil-kutama",
@@ -17382,9 +17486,9 @@
       "id": "f01eec98aa9edd86c1aa3c5e064efc57022b34b7328c5db33305313285d7245d",
       "title": "eperdieu/ctf-writeups",
       "url": "https://github.com/eperdieu/ctf-writeups",
-      "source": "GitHub · Web Exploitation",
+      "source": "GitHub · Cryptography",
       "source_id": "github-search",
-      "platform": "Web Exploitation",
+      "platform": "Cryptography",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "eperdieu",
@@ -17692,9 +17796,9 @@
       "id": "7b2456f9c8ed4ac11afeda18bc8c9c10eff37f5c2cb09494ce33264c2a9a707f",
       "title": "Oualidelaz/Offensive-CTF-Writeups",
       "url": "https://github.com/Oualidelaz/Offensive-CTF-Writeups",
-      "source": "GitHub · Web Exploitation",
+      "source": "GitHub · Cryptography",
       "source_id": "github-search",
-      "platform": "Web Exploitation",
+      "platform": "Cryptography",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "Oualidelaz",
@@ -17826,9 +17930,9 @@
       "id": "e1cd3ea015965d76ae5eb848b85152569c697fb4c07eca35bcdb2663858a4874",
       "title": "nishenmadawa15-collab/ctf-writeups",
       "url": "https://github.com/nishenmadawa15-collab/ctf-writeups",
-      "source": "GitHub · Digital Forensics",
+      "source": "GitHub · OSINT",
       "source_id": "github-search",
-      "platform": "Digital Forensics",
+      "platform": "OSINT",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "nishenmadawa15-collab",
@@ -18071,9 +18175,9 @@
       "id": "8aedfccf86462059dbb5b2ee7bb44631c99a8a674c4271257bba9aa883025e5d",
       "title": "DHRUV-MULANI/zero-trace-ctf-writeups",
       "url": "https://github.com/DHRUV-MULANI/zero-trace-ctf-writeups",
-      "source": "GitHub · Web Exploitation",
+      "source": "GitHub · OSINT",
       "source_id": "github-search",
-      "platform": "Web Exploitation",
+      "platform": "OSINT",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "DHRUV-MULANI",
@@ -18142,9 +18246,9 @@
       "id": "2cfcbe3810ff4823adc90d54fe9c8ea2d7e8c525a75e8c8124f51a739cda6826",
       "title": "Ask99Ayush/The-Sudo-Shebang-Void-CTF-2026-Writeups",
       "url": "https://github.com/Ask99Ayush/The-Sudo-Shebang-Void-CTF-2026-Writeups",
-      "source": "GitHub · Digital Forensics",
+      "source": "GitHub · Cryptography",
       "source_id": "github-search",
-      "platform": "Digital Forensics",
+      "platform": "Cryptography",
       "type": "ctf_writeup",
       "category": "CRYPTOGRAPHY",
       "author": "Ask99Ayush",
@@ -18425,9 +18529,9 @@
       "id": "40dc9631a6284c0fdf222f442d89743bd17d38c367dbe970e275dc4cb509a892",
       "title": "srioo10/cs-week-ctf",
       "url": "https://github.com/srioo10/cs-week-ctf",
-      "source": "GitHub · Digital Forensics",
+      "source": "GitHub · OSINT",
       "source_id": "github-search",
-      "platform": "Digital Forensics",
+      "platform": "OSINT",
       "type": "ctf_writeup",
       "category": "CRYPTOGRAPHY",
       "author": "srioo10",
@@ -18489,9 +18593,9 @@
       "id": "96ba4256ddf21b9a6aee53448aa642a51eccfc2de9882597b215dc9c1fe6aaf0",
       "title": "Aymwvn/CTF-Writeups",
       "url": "https://github.com/Aymwvn/CTF-Writeups",
-      "source": "GitHub · Reverse Engineering",
+      "source": "GitHub · OSINT",
       "source_id": "github-search",
-      "platform": "Reverse Engineering",
+      "platform": "OSINT",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "Aymwvn",
@@ -18756,9 +18860,9 @@
       "id": "c86ad3f9be51751a3defd3017c0fb33509fb6ac95b5167b5578d4acc3b1543f6",
       "title": "frqXoXo/CyLab-Security-Writeups",
       "url": "https://github.com/frqXoXo/CyLab-Security-Writeups",
-      "source": "GitHub · Web Exploitation",
+      "source": "GitHub · Cryptography",
       "source_id": "github-search",
-      "platform": "Web Exploitation",
+      "platform": "Cryptography",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "frqXoXo",
@@ -18816,9 +18920,9 @@
       "id": "05a6f9581abce4219bc6397bc56b7fd2507345becdd548428e64d32342625506",
       "title": "shabareesh-art/cypher-ctf-writeups",
       "url": "https://github.com/shabareesh-art/cypher-ctf-writeups",
-      "source": "GitHub · Reverse Engineering",
+      "source": "GitHub · Cryptography",
       "source_id": "github-search",
-      "platform": "Reverse Engineering",
+      "platform": "Cryptography",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "shabareesh-art",
@@ -18922,9 +19026,9 @@
       "id": "0009096522287ce49ed13cbeb2f03ec947782afdcd342dc4e8d85a1834ca54b2",
       "title": "ShahiTukda/CTF-Writeups",
       "url": "https://github.com/ShahiTukda/CTF-Writeups",
-      "source": "GitHub · Reverse Engineering",
+      "source": "GitHub · Binary Exploitation",
       "source_id": "github-search",
-      "platform": "Reverse Engineering",
+      "platform": "Binary Exploitation",
       "type": "ctf_writeup",
       "category": "BINARY-EXPLOITATION",
       "author": "ShahiTukda",
@@ -19007,9 +19111,9 @@
       "id": "dfbf519fa21a05a0b489fd131fd662ff6785b0ba510c56c1b7c6f6baaabdff14",
       "title": "umair-aziz025/CTF_WRITEUPS",
       "url": "https://github.com/umair-aziz025/CTF_WRITEUPS",
-      "source": "GitHub · Web Exploitation",
+      "source": "GitHub · Binary Exploitation",
       "source_id": "github-search",
-      "platform": "Web Exploitation",
+      "platform": "Binary Exploitation",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "umair-aziz025",
@@ -19215,9 +19319,9 @@
       "id": "134ca424cb1898781cd9aba6f559f0486b11aeb924406f516f90632d7178c4e6",
       "title": "hax1ng/pwnsec-ctf-2026",
       "url": "https://github.com/hax1ng/pwnsec-ctf-2026",
-      "source": "GitHub · Web Exploitation",
+      "source": "GitHub · OSINT",
       "source_id": "github-search",
-      "platform": "Web Exploitation",
+      "platform": "OSINT",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "hax1ng",
@@ -19515,9 +19619,9 @@
       "id": "6a6500e3bd54591a698eb7f4d138ba0f54bbb34a2a26e5d10b23f1b8ae52d5e6",
       "title": "nomadrai/GoPWNIt-CTF-Writeup",
       "url": "https://github.com/nomadrai/GoPWNIt-CTF-Writeup",
-      "source": "GitHub · Web Exploitation",
+      "source": "GitHub · Cryptography",
       "source_id": "github-search",
-      "platform": "Web Exploitation",
+      "platform": "Cryptography",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "nomadrai",
@@ -19786,9 +19890,9 @@
       "id": "2b661038b4f2614c4854c57fd3add926740fb8d25f181ea27b7278f9d319a762",
       "title": "itatipaul/Safaricom-CTF-2026-Writeups",
       "url": "https://github.com/itatipaul/Safaricom-CTF-2026-Writeups",
-      "source": "GitHub · Reverse Engineering",
+      "source": "GitHub · OSINT",
       "source_id": "github-search",
-      "platform": "Reverse Engineering",
+      "platform": "OSINT",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "itatipaul",
@@ -19886,9 +19990,9 @@
       "id": "7dcac2af2775959e69603de3fbf6990a7d6a02f58f4b92e6f952acba680c47c6",
       "title": "Nero265/CTF-Writeups",
       "url": "https://github.com/Nero265/CTF-Writeups",
-      "source": "GitHub · Web Exploitation",
+      "source": "GitHub · Cryptography",
       "source_id": "github-search",
-      "platform": "Web Exploitation",
+      "platform": "Cryptography",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "Nero265",
@@ -20306,9 +20410,9 @@
       "id": "8452d63fc399654070b0774c471ccfb19baf48064152c181958569742de72c8d",
       "title": "Nithishb03/picoCTF-writeups",
       "url": "https://github.com/Nithishb03/picoCTF-writeups",
-      "source": "GitHub · Web Exploitation",
+      "source": "GitHub · Cryptography",
       "source_id": "github-search",
-      "platform": "Web Exploitation",
+      "platform": "Cryptography",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "Nithishb03",
@@ -20431,9 +20535,9 @@
       "id": "3d44cf21dc89e13ba9af4d8991977bcbba98d7bd8bf2f83a9e7175fa3ef92a7d",
       "title": "aneepatni06-ux/ctf-writeups",
       "url": "https://github.com/aneepatni06-ux/ctf-writeups",
-      "source": "GitHub · Reverse Engineering",
+      "source": "GitHub · Cryptography",
       "source_id": "github-search",
-      "platform": "Reverse Engineering",
+      "platform": "Cryptography",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "aneepatni06-ux",
@@ -20990,9 +21094,9 @@
       "id": "83365453a15bfead0547257ce4de8d19ca03c0efa544f0e139245df5f833e345",
       "title": "malpinw/writeups",
       "url": "https://github.com/malpinw/writeups",
-      "source": "GitHub · Reverse Engineering",
+      "source": "GitHub · Cryptography",
       "source_id": "github-search",
-      "platform": "Reverse Engineering",
+      "platform": "Cryptography",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "malpinw",
@@ -21073,9 +21177,9 @@
       "id": "c5d6e234e629dffe74557a665ffa3021757ecfc7e0b3a55c0446c783fb9c339e",
       "title": "hax1ng/z0d1ak-ctf-qualifiers-2026",
       "url": "https://github.com/hax1ng/z0d1ak-ctf-qualifiers-2026",
-      "source": "GitHub · Web Exploitation",
+      "source": "GitHub · OSINT",
       "source_id": "github-search",
-      "platform": "Web Exploitation",
+      "platform": "OSINT",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "hax1ng",
@@ -21262,9 +21366,9 @@
       "id": "f816c9a8167ff86f49565c756eef15133dee4dde1ab0d0f67d07896c2a21240d",
       "title": "ia0lo/writeups",
       "url": "https://github.com/ia0lo/writeups",
-      "source": "GitHub · Web Exploitation",
+      "source": "GitHub · Cryptography",
       "source_id": "github-search",
-      "platform": "Web Exploitation",
+      "platform": "Cryptography",
       "type": "ctf_writeup",
       "category": "WEB-EXPLOITATION",
       "author": "ia0lo",
@@ -28068,10 +28172,26 @@
   "last_run": {
     "ctftime_entries": 30,
     "rss_entries": 201,
-    "github_repositories": 653,
+    "github_repositories": 469,
     "social_links": 0,
     "new_entries": 0,
     "failures": [
+      {
+        "source": "GitHub · Digital Forensics",
+        "error": "403 Client Error: rate limit exceeded for url: https://api.github.com/search/repositories?q=forensics+CTF+writeups+in%3Aname%2Cdescription&sort=updated&order=desc&per_page=50"
+      },
+      {
+        "source": "GitHub · Reverse Engineering",
+        "error": "403 Client Error: rate limit exceeded for url: https://api.github.com/search/repositories?q=reverse+engineering+CTF+writeups+in%3Aname%2Cdescription&sort=updated&order=desc&per_page=50"
+      },
+      {
+        "source": "GitHub · Web Exploitation",
+        "error": "403 Client Error: rate limit exceeded for url: https://api.github.com/search/repositories?q=web+exploitation+CTF+writeups+in%3Aname%2Cdescription&sort=updated&order=desc&per_page=50"
+      },
+      {
+        "source": "GitHub · AI Security",
+        "error": "403 Client Error: rate limit exceeded for url: https://api.github.com/search/repositories?q=AI+security+CTF+writeups+in%3Aname%2Cdescription&sort=updated&order=desc&per_page=50"
+      },
       {
         "source": "X/Twitter",
         "error": "Optional: configure X_BEARER_TOKEN Actions secret"

@@ -2,6 +2,7 @@
 
 | Date | CTF / Challenge / Repository | Platform | Category | Author / Team | Source |
 |---|---|---|---|---|---|
+| 2026-11-28T00:40 | [Trubl1on/CTF-Inter-Ecole-2026<br><sub>Writeups du CTF Inter-École 2026 — 20 challenges (Crypto, Forensic, Fullpwn, IA, ICS, Mobile, Pwn, Web)</sub>](https://github.com/Trubl1on/CTF-Inter-Ecole-2026) | CTF writeup | WEB-EXPLOITATION | Trubl1on | GitHub · CTF writeup |
 | 2026-11-27T22:44 | [andriimikheyenko-afk/CTF-writeups<br><sub>Public CTF writeup repository</sub>](https://github.com/andriimikheyenko-afk/CTF-writeups) | CTF writeup | UNCATEGORIZED | andriimikheyenko-afk | GitHub · CTF writeup |
 | 2026-11-27T22:03 | [abderrahim3333/GCDSTE-CTF-ROOT-FOR-GLORY<br><sub>Original CTF challenges and official writeups. Authored by me. 🚩</sub>](https://github.com/abderrahim3333/GCDSTE-CTF-ROOT-FOR-GLORY) | CTF writeup | UNCATEGORIZED | abderrahim3333 | GitHub · CTF writeup |
 | 2026-11-27T18:34 | [rif-x43/ctf-writeups<br><sub>Public CTF writeup repository</sub>](https://github.com/rif-x43/ctf-writeups) | CTF writeup | UNCATEGORIZED | rif-x43 | GitHub · CTF writeup |
