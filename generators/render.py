@@ -15,6 +15,44 @@ CATEGORY_FILES = {
     "MISC": "MISC.md", "UNCATEGORIZED": "UNCATEGORIZED.md",
 }
 
+
+CATEGORY_LABELS = {
+    "WEB-EXPLOITATION": ("🌐", "Web Exploitation"),
+    "CRYPTOGRAPHY": ("🔐", "Cryptography"),
+    "DIGITAL-FORENSICS": ("🧩", "Digital Forensics"),
+    "BINARY-EXPLOITATION": ("💥", "Binary Exploitation / Pwn"),
+    "AI-SECURITY": ("🤖", "AI Security"),
+    "REVERSE-ENGINEERING": ("⚙️", "Reverse Engineering"),
+    "OSINT": ("🕵️", "OSINT"),
+    "NETWORK": ("🌍", "Network"),
+    "CLOUD": ("☁️", "Cloud"),
+    "MOBILE": ("📱", "Mobile"),
+    "HARDWARE-IOT": ("🔌", "Hardware / IoT"),
+    "MISC": ("🎯", "Miscellaneous"),
+    "UNCATEGORIZED": ("📂", "Needs classification"),
+}
+
+
+def category_cards(items):
+    counts = {category: sum(1 for item in items if item.get("category") == category)
+              for category in CATEGORY_FILES}
+    keys = list(CATEGORY_LABELS)
+    cells = []
+    for offset in range(0, len(keys), 3):
+        row = []
+        for category in keys[offset:offset + 3]:
+            emoji, label = CATEGORY_LABELS[category]
+            count = counts.get(category, 0)
+            row.append(
+                f'<td width="33%" align="center"><a href="docs/{CATEGORY_FILES[category]}">'
+                f'<strong>{emoji} {label}</strong></a><br/><sub>{count:,} writeups · Browse</sub></td>'
+            )
+        while len(row) < 3:
+            row.append("<td width=\"33%\"></td>")
+        cells.append("<tr>" + "".join(row) + "</tr>")
+    cells.append('<tr><td colspan="3" align="center"><a href="docs/CTF-WRITEUPS.md"><strong>📚 Browse all CTF writeups by platform →</strong></a></td></tr>')
+    return '<table>\\n' + "\\n".join(cells) + '\\n</table>\\n'
+
 def esc(value):
     return str(value or "").replace("|", "\\|").replace("\r", " ").replace("\n", " ").strip()
 
@@ -71,6 +109,11 @@ def render(data):
 
     readme_path = ROOT / "README.md"
     readme = readme_path.read_text(encoding="utf-8")
+    category_start, category_end = "<!-- HACKFEED:CATEGORIES:START -->", "<!-- HACKFEED:CATEGORIES:END -->"
+    if category_start in readme and category_end in readme:
+        before_categories, remainder = readme.split(category_start, 1)
+        _, after_categories = remainder.split(category_end, 1)
+        readme = before_categories + category_start + "\\n" + category_cards(ctf_items) + category_end + after_categories
     start, end = "<!-- HACKFEED:START -->", "<!-- HACKFEED:END -->"
     if start in readme and end in readme:
         before, remainder = readme.split(start, 1)
