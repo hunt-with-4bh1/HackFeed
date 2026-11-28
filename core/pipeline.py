@@ -206,8 +206,8 @@ def ai_classify_uncategorized(items):
                and not x.get("ai_category_checked")
                and int(x.get("ai_category_attempts", 0)) < 4]
     # New records have the latest discovered_at timestamp and are classified first.
-    pending.sort(key=lambda x: (int(x.get("ai_category_attempts", 0)),
-                                x.get("discovered_at", "")), reverse=False)
+    pending.sort(key=lambda x: x.get("discovered_at", ""), reverse=True)
+    pending.sort(key=lambda x: int(x.get("ai_category_attempts", 0)))
     selected = pending[:int(os.getenv("GEMINI_CLASSIFY_PER_RUN", "60"))]
     changed = 0
     for offset in range(0, len(selected), 20):
@@ -317,6 +317,15 @@ def run_pipeline():
         else: added+=1
         by_id[item["id"]]=item
     items=list(by_id.values())
+    # Migrate records from the first classifier version: it incorrectly marked
+    # UNCATEGORIZED as permanently checked. Re-open them for classification.
+    for item in items:
+        if (item.get("type") == "ctf_writeup"
+                and item.get("category") == "UNCATEGORIZED"
+                and item.get("ai_category_checked")
+                and item.get("ai_category") == "UNCATEGORIZED"):
+            item["ai_category_checked"] = False
+            item["ai_category_attempts"] = max(1, int(item.get("ai_category_attempts", 0)))
     ai_classify_uncategorized(items)
     ai_summarize(items)
     items.sort(key=lambda x:(x.get("type")=="ctf_writeup",x.get("priority",0),x.get("published_at") or x.get("discovered_at","")),reverse=True)
