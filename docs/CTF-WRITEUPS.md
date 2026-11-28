@@ -3,24 +3,24 @@
 CTFtime is the primary source. Browse public writeup links by platform.
 
 - [0xdf](platforms/0xdf.md) — 51 entries
-- [AI Security](platforms/ai-security.md) — 35 entries
-- [Binary Exploitation](platforms/binary-exploitation.md) — 17 entries
+- [AI Security](platforms/ai-security.md) — 34 entries
+- [Binary Exploitation](platforms/binary-exploitation.md) — 20 entries
 - [CTF Learn](platforms/ctf-learn.md) — 49 entries
-- [CTF writeup](platforms/ctf-writeup.md) — 203 entries
+- [CTF writeup](platforms/ctf-writeup.md) — 204 entries
 - [CTF writeups](platforms/ctf-writeups.md) — 14 entries
 - [CTFtime](platforms/ctftime.md) — 91 entries
-- [Cryptography](platforms/cryptography.md) — 33 entries
+- [Cryptography](platforms/cryptography.md) — 49 entries
 - [DEV.to](platforms/dev.to.md) — 16 entries
-- [Digital Forensics](platforms/digital-forensics.md) — 40 entries
-- [Hack The Box](platforms/hack-the-box.md) — 111 entries
+- [Digital Forensics](platforms/digital-forensics.md) — 30 entries
+- [Hack The Box](platforms/hack-the-box.md) — 112 entries
 - [InfoSec Write-ups](platforms/infosec-write-ups.md) — 18 entries
 - [Medium](platforms/medium.md) — 60 entries
-- [OSINT](platforms/osint.md) — 24 entries
-- [Reverse Engineering](platforms/reverse-engineering.md) — 45 entries
+- [OSINT](platforms/osint.md) — 41 entries
+- [Reverse Engineering](platforms/reverse-engineering.md) — 31 entries
 - [Root-Me](platforms/root-me.md) — 58 entries
-- [TryHackMe](platforms/tryhackme.md) — 125 entries
-- [Web Exploitation](platforms/web-exploitation.md) — 49 entries
-- [picoCTF](platforms/picoctf.md) — 62 entries
+- [TryHackMe](platforms/tryhackme.md) — 126 entries
+- [Web Exploitation](platforms/web-exploitation.md) — 32 entries
+- [picoCTF](platforms/picoctf.md) — 65 entries
 
 ## Latest CTF writeups
 
