@@ -236,6 +236,10 @@ def run_pipeline():
         if previous:
             item["discovered_at"]=previous.get("discovered_at",item["discovered_at"])
             if previous.get("ai_summary"): item["ai_summary"]=previous["ai_summary"]; item["ai_summary_model"]=previous.get("ai_summary_model","")
+            if previous.get("ai_category_checked"):
+                item["category"]=previous.get("category",item.get("category","UNCATEGORIZED"))
+                for field in ("ai_category","ai_category_model","ai_category_checked","ai_category_checked_at"):
+                    if field in previous: item[field]=previous[field]
         else: added+=1
         by_id[item["id"]]=item
     items=list(by_id.values())
