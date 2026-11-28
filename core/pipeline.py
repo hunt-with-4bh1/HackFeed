@@ -202,7 +202,12 @@ def ai_classify_uncategorized(items):
         return
     model = os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
     pending = [x for x in items if x.get("type") == "ctf_writeup"
-               and x.get("category") == "UNCATEGORIZED" and not x.get("ai_category_checked")]
+               and x.get("category") == "UNCATEGORIZED"
+               and not x.get("ai_category_checked")
+               and int(x.get("ai_category_attempts", 0)) < 4]
+    # New records have the latest discovered_at timestamp and are classified first.
+    pending.sort(key=lambda x: (int(x.get("ai_category_attempts", 0)),
+                                x.get("discovered_at", "")), reverse=False)
     selected = pending[:int(os.getenv("GEMINI_CLASSIFY_PER_RUN", "60"))]
     changed = 0
     for offset in range(0, len(selected), 20):
@@ -229,13 +234,18 @@ def ai_classify_uncategorized(items):
                 item = lookup.get(str(result.get("id", "")))
                 category = str(result.get("category", "")).upper().replace(" ", "-")
                 if item and category in set(CATEGORY_RULES) | {"UNCATEGORIZED"}:
-                    item["category"] = category
-                    item["ai_category"] = category
                     item["ai_category_model"] = model
-                    item["ai_category_checked"] = True
-                    item["ai_category_checked_at"] = datetime.now(timezone.utc).isoformat()
+                    item["ai_category_attempts"] = int(item.get("ai_category_attempts", 0)) + 1
+                    item["ai_category_last_attempt_at"] = datetime.now(timezone.utc).isoformat()
                     if category != "UNCATEGORIZED":
+                        item["category"] = category
+                        item["ai_category"] = category
+                        item["ai_category_checked"] = True
+                        item["ai_category_checked_at"] = datetime.now(timezone.utc).isoformat()
                         changed += 1
+                    else:
+                        # Uncertain entries remain eligible for later retry if better metadata arrives.
+                        item["ai_category_checked"] = False
             LOG.info("Gemini category batch %d: %d/%d checked", offset // 20 + 1,
                      sum(1 for x in batch if x.get("ai_category_checked")), len(batch))
         except Exception as exc:
@@ -297,14 +307,13 @@ def run_pipeline():
         if previous:
             item["discovered_at"]=previous.get("discovered_at",item["discovered_at"])
             if previous.get("ai_summary"): item["ai_summary"]=previous["ai_summary"]; item["ai_summary_model"]=previous.get("ai_summary_model","")
+            for field in ("ai_category","ai_category_model","ai_category_checked",
+                          "ai_category_checked_at","ai_category_attempts",
+                          "ai_category_last_attempt_at"):
+                if field in previous:
+                    item[field] = previous[field]
             if previous.get("ai_category_checked"):
-                item["category"]=previous.get("category",item.get("category","UNCATEGORIZED"))
-                for field in ("ai_category","ai_category_model","ai_category_checked","ai_category_checked_at"):
-                    if field in previous: item[field]=previous[field]
-            if previous.get("ai_category_checked"):
-                item["category"]=previous.get("category",item.get("category","UNCATEGORIZED"))
-                for field in ("ai_category","ai_category_model","ai_category_checked","ai_category_checked_at"):
-                    if field in previous: item[field]=previous[field]
+                item["category"] = previous.get("category", item.get("category", "UNCATEGORIZED"))
         else: added+=1
         by_id[item["id"]]=item
     items=list(by_id.values())
