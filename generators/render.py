@@ -34,24 +34,35 @@ CATEGORY_LABELS = {
 
 
 def category_cards(items):
+    """Build a compact GitHub-compatible category directory from live counts."""
     counts = {category: sum(1 for item in items if item.get("category") == category)
               for category in CATEGORY_FILES}
-    keys = list(CATEGORY_LABELS)
-    cells = []
-    for offset in range(0, len(keys), 3):
-        row = []
-        for category in keys[offset:offset + 3]:
-            emoji, label = CATEGORY_LABELS[category]
-            count = counts.get(category, 0)
-            row.append(
-                f'<td width="33%" align="center"><a href="docs/{CATEGORY_FILES[category]}">'
-                f'<strong>{emoji} {label}</strong></a><br/><sub>{count:,} writeups · Browse</sub></td>'
-            )
-        while len(row) < 3:
-            row.append("<td width=\"33%\"></td>")
-        cells.append("<tr>" + "".join(row) + "</tr>")
-    cells.append('<tr><td colspan="3" align="center"><a href="docs/CTF-WRITEUPS.md"><strong>📚 Browse all CTF writeups by platform →</strong></a></td></tr>')
-    return '<table>\n' + "\n".join(cells) + '\n</table>\n'
+    primary = [key for key in CATEGORY_LABELS if key != "UNCATEGORIZED"]
+    primary.sort(key=lambda key: (-counts[key], key))
+    lines = [
+        '<table>',
+        '<thead><tr><th align="left">Category</th><th align="right">Writeups</th>'
+        '<th align="left">Explore</th></tr></thead>',
+        '<tbody>',
+    ]
+    for category in primary:
+        emoji, label = CATEGORY_LABELS[category]
+        count = counts[category]
+        lines.append(
+            f'<tr><td>{emoji} <strong>{label}</strong></td>'
+            f'<td align="right"><strong>{count:,}</strong></td>'
+            f'<td><a href="docs/{CATEGORY_FILES[category]}">View writeups →</a></td></tr>'
+        )
+    lines.extend(['</tbody>', '</table>', ''])
+    lines.append(
+        f'**📂 [Needs classification](docs/UNCATEGORIZED.md):** '
+        f'{counts["UNCATEGORIZED"]:,} writeups awaiting review. '
+        'The classifier retries records with sufficient available evidence.'
+    )
+    lines.append('')
+    lines.append('📚 **[Browse all CTF writeups by platform](docs/CTF-WRITEUPS.md)**')
+    return "\n".join(lines) + "\n"
+
 
 def esc(value):
     return str(value or "").replace("|", "\\|").replace("\r", " ").replace("\n", " ").strip()
