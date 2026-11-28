@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-11-28T04:09:15.742794+00:00",
+  "updated_at": "2026-11-28T04:09:55.540029+00:00",
   "total": 1247,
   "items": [
     {
@@ -4151,8 +4151,7 @@
       "priority": 80,
       "metadata_checked": true,
       "ai_summary": "This technical security assessment report details a penetration test of the \"Sniper\" target on Hack The Box, conducted using PTES and NIST SP 800-115 methodologies. The assessment identified a critical unauthenticated remote exploit vector leading to complete host compromise and administrative takeover via a public-facing network service.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "6d2eebd5fd832b21c7d2bdbfb64da7789bb82740a1e59d74f02838bdfefc77e4",
@@ -4178,8 +4177,7 @@
       "priority": 80,
       "metadata_checked": true,
       "ai_summary": "This technical security assessment report details a penetration test of the \"Sizzle\" target environment on Hack The Box, conducted in accordance with NIST SP 800-115 and PTES methodologies. The assessment identified a critical risk rating involving an unauthenticated remote exploit vector that led to complete host compromise and administrative takeover via a public-facing network service.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "ecb2df9798a4de80c40eea3d74da52652689d2d5919f98ef9db25a6860fdf9ce",
@@ -4205,8 +4203,7 @@
       "priority": 80,
       "metadata_checked": true,
       "ai_summary": "Based on the provided excerpt, a technical security assessment and penetration testing report was conducted on the \"Silo\" target on Hack The Box using PTES and NIST SP 800-115 methodologies. The assessment identified a critical risk rating involving an unauthenticated remote exploit vector that leads to complete host compromise and administrative takeover.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "01fdcb6a2388d529092adaa658631d4b531fbf7a4f2556955bcde5e415abced1",
@@ -4232,8 +4229,7 @@
       "priority": 80,
       "metadata_checked": true,
       "ai_summary": "This security assessment report for the Reel2 target on Hack The Box follows PTES and NIST SP 800-115 methodologies to evaluate potential vulnerabilities. It identifies a critical risk rating involving an unauthenticated remote exploit vector that leads to complete host compromise and administrative takeover via a public-facing network service.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "c1bc963992a01bf3bb00fb7f211356cb7fa7f4259e61a07865932bd0c301ecd8",
@@ -4259,8 +4255,7 @@
       "priority": 80,
       "metadata_checked": true,
       "ai_summary": "This security assessment report for the Hawk target on Hack The Box follows PTES and NIST SP 800-115 methodologies to evaluate operational risks. It identifies a critical risk rating involving an unauthenticated remote exploit vector that leads to complete host compromise and administrative takeover via public-facing network service exploitation.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "455608d182a5c05d2ffc63e624403a587098a53adb9e590a7f561d93fb090227",
@@ -4286,8 +4281,7 @@
       "priority": 80,
       "metadata_checked": true,
       "ai_summary": "Based on the provided text, this technical security assessment and penetration testing report for the Hack The Box target Cronos followed PTES and NIST SP 800-115 methodologies to evaluate system vulnerabilities. The assessment identified a critical risk rating due to an unauthenticated remote exploit vector leading to complete host compromise and administrative takeover via public-facing network service exploitation.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "74681bf9321842776a51fe6a3d5db20f08da543bdcac8e547e91384e3dac5a52",
@@ -4313,8 +4307,7 @@
       "priority": 80,
       "metadata_checked": true,
       "ai_summary": "This beginner's guide provides a writeup for the picoCTF \"runme.py\" challenge within the MISC category. The author suggests using either the CyLab webshell or a personal computer to complete the challenge.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "317b6bb848816bbd8d2a272550c1cf20e9d0fdc3d78b4050194527d7f4b393df",
@@ -4340,8 +4333,7 @@
       "priority": 80,
       "metadata_checked": true,
       "ai_summary": "This technical security assessment and penetration testing report for the Hack The Box target Zetta was conducted in accordance with PTES and NIST SP 800-115 methodologies. The assessment identified a critical risk rating due to an unauthenticated remote exploit vector via a public-facing network service, leading to complete host compromise and administrative takeover.",
-      "ai_summary_model": "gemini-3.5-flash-lite",
-      "ai_provider": "Google Gemini"
+      "ai_summary_model": "gemini-3.5-flash-lite"
     },
     {
       "id": "41aa3cc2f94eb84e50fe2e1776b370fa1122ec09d96e82c8116f6a6182f37adc",
@@ -6377,7 +6369,7 @@
       "source_id": "medium-ctf",
       "platform": "Medium",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "L4ZZ3RJ0D",
       "published_at": "Tue, 24 Nov 2026 10:41:01 GMT",
       "discovered_at": "2026-11-24T12:36:11.691751+00:00",
@@ -6390,7 +6382,11 @@
       ],
       "summary": "Now with more cat pictures, apparently, and three flags this time instead of the usual two. Added the box to /etc/hosts as cat2.thm so I&#x2026; Continue reading on Medium »",
       "priority": 75,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:49.105901+00:00"
     },
     {
       "id": "2b7f59350cf844a4a4df94452f00b97419b09a50a5f466fae47c6fb0c5b835ee",
@@ -6469,7 +6465,7 @@
       "source_id": "medium-ctf",
       "platform": "Medium",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "ttaenum",
       "published_at": "Tue, 24 Nov 2026 05:50:46 GMT",
       "discovered_at": "2026-11-24T12:36:11.694841+00:00",
@@ -6480,7 +6476,11 @@
       ],
       "summary": "Hi guys, this is my first writeup for CTF competition. It was a lot of fun and it is lasted for two months. I&#x2019;m enjoying it. Oh and I try&#x2026; Continue reading on Medium »",
       "priority": 75,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:49.105919+00:00"
     },
     {
       "id": "fb6e7c3d7465157f7f3d3fb3711078235656ee78954e9de6a75cb685c4c66450",
@@ -6512,7 +6512,7 @@
       "source_id": "medium-ctf",
       "platform": "Medium",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "Christian Ryly Tuggay",
       "published_at": "Tue, 24 Nov 2026 05:21:42 GMT",
       "discovered_at": "2026-11-24T12:36:11.697751+00:00",
@@ -6525,7 +6525,11 @@
       ],
       "summary": "A ctf for beginners, can you root me? Continue reading on Medium »",
       "priority": 75,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:49.105925+00:00"
     },
     {
       "id": "946b9266dbc288714d0d17c431dd467f8b3c70d7a990698d6932d16bac88cbce",
@@ -6669,7 +6673,7 @@
       "source_id": "medium-ctf",
       "platform": "Medium",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "sai_prasad_belvat",
       "published_at": "Thu, 26 Nov 2026 15:33:33 GMT",
       "discovered_at": "2026-11-26T19:38:03.618864+00:00",
@@ -6681,7 +6685,11 @@
       ],
       "summary": "Introduction Continue reading on Medium »",
       "priority": 75,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:49.105930+00:00"
     },
     {
       "id": "3c6fbe01e1892f789f1fc9e6ab48991e6e4f6e56fbfb08a8d1efc0836b91b73f",
@@ -6760,7 +6768,7 @@
       "source_id": "medium-ctf",
       "platform": "Medium",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "Jamilulx",
       "published_at": "Thu, 19 Nov 2026 17:20:54 GMT",
       "discovered_at": "2026-11-21T20:00:45.875942+00:00",
@@ -6773,7 +6781,11 @@
       ],
       "summary": "Tags: CTF, Penetration Testing, Cybersecurity, Vulnhub, Linux Continue reading on Medium »",
       "priority": 75,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:49.105933+00:00"
     },
     {
       "id": "2337b5e0cf376066ff3d7496e8ddfe03d18b5301f22a189b96e777bed5ba9d51",
@@ -6783,7 +6795,7 @@
       "source_id": "medium-ctf",
       "platform": "Medium",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "WEB-EXPLOITATION",
       "author": "Mohitrelekar",
       "published_at": "Thu, 19 Nov 2026 16:28:41 GMT",
       "discovered_at": "2026-11-21T20:00:45.875990+00:00",
@@ -6793,7 +6805,11 @@
       ],
       "summary": "Platform: root-me.org Continue reading on Medium »",
       "priority": 75,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "WEB-EXPLOITATION",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:49.105937+00:00"
     },
     {
       "id": "27707a63e10994120a7a30d579fcfb89aace64ac2f252ea4bb21efa25b3d222e",
@@ -6872,7 +6888,7 @@
       "source_id": "medium-ctf",
       "platform": "Medium",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "Ali Dak",
       "published_at": "Sun, 22 Nov 2026 15:26:01 GMT",
       "discovered_at": "2026-11-22T16:18:33.869327+00:00",
@@ -6885,7 +6901,11 @@
       ],
       "summary": "I have built 53 machines for OffSec Proving Grounds. Continue reading on Medium »",
       "priority": 75,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:49.105978+00:00"
     },
     {
       "id": "80e975a81a3f0a7c28bfa2de7b6581b47967db6d17739e74cbbbfc4541e68d04",
@@ -6895,7 +6915,7 @@
       "source_id": "medium-ctf",
       "platform": "Medium",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "PRiTi.EX",
       "published_at": "Sun, 22 Nov 2026 15:25:39 GMT",
       "discovered_at": "2026-11-22T16:18:33.870269+00:00",
@@ -6908,7 +6928,11 @@
       ],
       "summary": "In this walkthrough, I will be exploring Healthcare, a vulnerable machine from VulnHub designed to test practical penetration testing&#x2026; Continue reading on Medium »",
       "priority": 75,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:49.105988+00:00"
     },
     {
       "id": "2c3d3f942f7e2e6a2febae2d35aefd65a769ceb4bd49e4a8a87a9914038cadca",
@@ -7076,7 +7100,7 @@
       "source_id": "medium-ctf",
       "platform": "Medium",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "AI-SECURITY",
       "author": "MistRaven",
       "published_at": "Sat, 21 Nov 2026 17:37:25 GMT",
       "discovered_at": "2026-11-21T20:00:45.875524+00:00",
@@ -7086,7 +7110,11 @@
       ],
       "summary": "Elas j&#xe1; est&#xe3;o entre n&#xf3;s, e n&#xe3;o h&#xe1; como fugir dessa realidade. Muitos defendem que, se uma ferramenta est&#xe1; dispon&#xed;vel, ela deve ser&#x2026; Continue reading on Medium »",
       "priority": 75,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "AI-SECURITY",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:49.105995+00:00"
     },
     {
       "id": "dbf4fa44feab7beb4773e6706e573bf85060b1fa17c5a1cdf6e60c0163e062ac",
@@ -7118,7 +7146,7 @@
       "source_id": "devto-ctf",
       "platform": "DEV.to",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "CRYPTOGRAPHY",
       "author": "CTFDojo",
       "published_at": "Sat, 07 Nov 2026 22:37:55 +0000",
       "discovered_at": "2026-11-21T20:00:46.480568+00:00",
@@ -7129,7 +7157,11 @@
       ],
       "summary": "data.txt holds the password encoded in base64 — the base64 command's -d flag decodes it directly back to plain text. Platform: OverTheWire Bandit Category: Linux Fundamentals Level: 10 → 11 Difficulty: Beginner Technique: base64 decoding Challenge description No searching or filtering this time — the file is small and its entire content is the password, just run through base64 encoding first. \"Level Goal: The password for the next level is stored in the file data.txt, which contains base64 encoded data.\" Step 1 — Look at the raw content Log in as bandit10 and view the file directly — it's short, and clearly made up only of base64's alphabet (letters, digits, + , / , and padding = characters): cat data.txt VGhlIHBhc3N3b3JkIGlzIC4uLg== Step 2 — Decode it The base64 utility's -d (decode) flag",
       "priority": 75,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "CRYPTOGRAPHY",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:49.106003+00:00"
     },
     {
       "id": "3182699c44e9039f1e5c44f94a708512fb27d3517237fe0d669c1799da681f99",
@@ -7184,7 +7216,7 @@
       "source_id": "medium-ctf",
       "platform": "Medium",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "Bensu Öğüt",
       "published_at": "Mon, 23 Nov 2026 16:39:21 GMT",
       "discovered_at": "2026-11-24T02:14:48.261161+00:00",
@@ -7197,7 +7229,11 @@
       ],
       "summary": "Siber g&#xfc;venlik alan&#x131;na ad&#x131;m atarken kar&#x15f;&#x131;la&#x15f;&#x131;lan ilk ger&#xe7;ek, bir terminal ekran&#x131;yla ba&#x15f; ba&#x15f;a kalmakt&#x131;r. Komut sat&#x131;r&#x131;n&#x131; &#xf6;&#x11f;renmenin en&#x2026; Continue reading on Medium »",
       "priority": 75,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:49.106014+00:00"
     },
     {
       "id": "0ef86d5c12345698767688a0a1f6f5dbb808e7a6e3be0cf4c8e515fc0443baaa",
@@ -7273,7 +7309,7 @@
       "source_id": "medium-ctf",
       "platform": "Medium",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "CLOUD",
       "author": "Meloproacc",
       "published_at": "Mon, 23 Nov 2026 01:42:36 GMT",
       "discovered_at": "2026-11-23T03:44:08.634301+00:00",
@@ -7285,7 +7321,11 @@
       ],
       "summary": "Challenge Name: The Impossible Street Continue reading on Medium »",
       "priority": 75,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "CLOUD",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:49.106018+00:00"
     },
     {
       "id": "196dd3abcfa65a84ff0399eccd6a5bf34e6d9490bade6c0ddf4d2e4768f15217",
@@ -7295,7 +7335,7 @@
       "source_id": "medium-ctf",
       "platform": "Medium",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "Y0s_0x_IBM",
       "published_at": "Mon, 23 Nov 2026 00:27:52 GMT",
       "discovered_at": "2026-11-23T03:44:08.636146+00:00",
@@ -7308,7 +7348,11 @@
       ],
       "summary": "&#x62a;&#x648;&#x643;&#x644;&#x646;&#x627; &#x639;&#x644;&#x649; &#x648;&#x644;&#x627; &#x62d;&#x648;&#x644; &#x648;&#x644;&#x627; &#x642;&#x648;&#x647; &#x627;&#x644;&#x627; &#x628;&#x627;&#x644;&#x644;&#x647; Continue reading on Medium »",
       "priority": 75,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:49.106021+00:00"
     },
     {
       "id": "16be8ef0d7c080e3f4d16b729fec27d1f0e2788786bfad7e14d79433c979f545",
@@ -7340,7 +7384,7 @@
       "source_id": "medium-ctf",
       "platform": "Medium",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "AVINASH R",
       "published_at": "Fri, 27 Nov 2026 22:50:09 GMT",
       "discovered_at": "2026-11-28T03:55:06.984350+00:00",
@@ -7353,7 +7397,11 @@
       ],
       "summary": "https://tryhackme.com/room/easyctf Continue reading on Medium »",
       "priority": 75,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:49.106025+00:00"
     },
     {
       "id": "db015dfb42f98d0545c0c7d66578616dc617699eb15e9b1503341883336b6ede",
@@ -7453,7 +7501,7 @@
       "source_id": "medium-ctf",
       "platform": "Medium",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "CRYPTOGRAPHY",
       "author": "By Han",
       "published_at": "Fri, 27 Nov 2026 15:56:32 GMT",
       "discovered_at": "2026-11-27T21:58:53.843336+00:00",
@@ -7466,7 +7514,11 @@
       ],
       "summary": "TryHackMe Crack the Hash: Password Recovery and Hash Analysis Continue reading on Medium »",
       "priority": 75,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "CRYPTOGRAPHY",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:49.106028+00:00"
     },
     {
       "id": "efd4e49cd071c375c5603d3ee1688829ae9814aa589861dfa5015b2566be9e89",
@@ -7497,7 +7549,7 @@
       "source_id": "medium-ctf",
       "platform": "Medium",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "Vishvpruthi",
       "published_at": "Fri, 27 Nov 2026 12:27:17 GMT",
       "discovered_at": "2026-11-27T21:58:53.845124+00:00",
@@ -7510,7 +7562,11 @@
       ],
       "summary": "Team: HACKER Platform: SLAY CTF 2026 Event: Organized by Zero Logon, JGEC Continue reading on Medium »",
       "priority": 75,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:49.106033+00:00"
     },
     {
       "id": "ef3d0a78efae83f86142c310a9d1d9356094662b4f4e3b0d98d283ab2fc5d09c",
@@ -7520,7 +7576,7 @@
       "source_id": "medium-ctf",
       "platform": "Medium",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "sai_prasad_belvat",
       "published_at": "Fri, 27 Nov 2026 05:37:45 GMT",
       "discovered_at": "2026-11-27T12:25:50.348497+00:00",
@@ -7531,7 +7587,11 @@
       ],
       "summary": "Introduction Continue reading on Medium »",
       "priority": 75,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:49.106039+00:00"
     },
     {
       "id": "0b5487fea722576e8090c35c46d6b02be55fbc6f01161f50c58a20bd3aa96417",
@@ -7541,7 +7601,7 @@
       "source_id": "medium-ctf",
       "platform": "Medium",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "Satyam Pathania",
       "published_at": "Fri, 20 Nov 2026 17:37:52 GMT",
       "discovered_at": "2026-11-21T20:00:45.875581+00:00",
@@ -7554,7 +7614,11 @@
       ],
       "summary": "Here&#x2019;s How You Can Get Into Them&#x2026; Continue reading on Medium »",
       "priority": 75,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:49.106043+00:00"
     },
     {
       "id": "08e87fc057d81783f2bd1f133fbb65cb531d4f166dfb377489ece17aeeec64a0",
@@ -7564,7 +7628,7 @@
       "source_id": "medium-ctf",
       "platform": "Medium",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "Rajsegar Alagarathnam",
       "published_at": "Fri, 20 Nov 2026 14:36:30 GMT",
       "discovered_at": "2026-11-21T20:00:45.875641+00:00",
@@ -7577,7 +7641,11 @@
       ],
       "summary": "From SSH basics to Linux enumeration, binary analysis, data decoding, and private-key authentication &#x2014; documenting what I learned&#x2026; Continue reading on Medium »",
       "priority": 75,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:49.106046+00:00"
     },
     {
       "id": "89e8a9dfbf95954c885aca41ae1c19781272587b121def2200c5a4bddde6e02b",
@@ -7629,7 +7697,7 @@
       "source_id": "medium-ctf",
       "platform": "Medium",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "MISC",
       "author": "PRiTi.EX",
       "published_at": "Fri, 20 Nov 2026 08:27:35 GMT",
       "discovered_at": "2026-11-21T20:00:45.875806+00:00",
@@ -7642,7 +7710,11 @@
       ],
       "summary": "This room is based on Tokyo Ghoul anime. It&#x2019; easy to intermediate lab through this walkthrough you might be learn some new concepts. Continue reading on Medium »",
       "priority": 75,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "MISC",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:49.106050+00:00"
     },
     {
       "id": "6c80691f63cc693957751cb4d9d16093b6a92bdc0065ad6aca921c67bdf80e4c",
@@ -7729,7 +7801,11 @@
       ],
       "summary": "Summary The target was running a vulnerable version of ActiveMQ. The user account had a sudo rule allowing it to run nginx, which could be abused to execute commands as root — leading to privilege escalation. Recommendation Upgrade ActiveMQ to the latest version, and periodically check that all software and packages are kept up to date. Close off any ports that don’t need to be reachable from outside. Remove the sudo rule allowing nginx to be run by this user. More generally, apply the principle of least privilege to sudoers entries. Enumeration First of all, let's enumerate open ports using namp . sudo nmap -sS -Pn -p- --open -n --min-rate 5000 -oA scan_all 10.129.230.87 ports = $( grep -oP '\\d+/open' scan_all.gnmap | cut -d / -f1 | paste -sd , ) sudo nmap -sS -Pn -p \" $ports \" -A -oN sca",
       "priority": 75,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193165+00:00"
     },
     {
       "id": "809e5c77a834e4e7ae7ecad89d77c3ae927697b1a841b140273a897f308f854e",
@@ -7843,7 +7919,11 @@
       ],
       "summary": "Public CTF writeup repository",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193180+00:00"
     },
     {
       "id": "2565e5e4165f0cca7d1719ea074dcc0c28eabd1058bb3e59cf660c9cf605eb5d",
@@ -7868,7 +7948,11 @@
       ],
       "summary": "Cybersecurity writeups: TryHackMe, CryptoHack, Hackropole, Root-Me",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193184+00:00"
     },
     {
       "id": "46a2b50b62de0d48916649c6e1e813e03958d5308306221dee476134bca53acc",
@@ -7888,7 +7972,11 @@
       ],
       "summary": "Original CTF challenges and official writeups. Authored by me. 🚩",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193187+00:00"
     },
     {
       "id": "2aafc368942b53e6e30f29043f354a7bafcbb6426c11f3361312a95913ee060a",
@@ -7908,7 +7996,11 @@
       ],
       "summary": "hackthebox htb walkthrough writeup cybersecurity ethical-hacking penetration-testing nmap smb ftp telnet kali-linux",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193190+00:00"
     },
     {
       "id": "c9a5225b28dd2e6911fc06cf69b4d2021d904d882d16a2ecefd67b1a86d4ae44",
@@ -7928,7 +8020,11 @@
       ],
       "summary": "Colección de writeups de TryHackMe, Hack The Box y competencias CTF.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193193+00:00"
     },
     {
       "id": "8aad4d1a60e1259b7aafa6273d34108c91a5d369e4e2a72ca3c3619c613ffaac",
@@ -8001,7 +8097,11 @@
       ],
       "summary": "Public CTF writeup repository",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193196+00:00"
     },
     {
       "id": "aca88bc7aba73d3de76a50bab97a3206c2be1cec2c96b18c9ff512432b4953b5",
@@ -8059,7 +8159,11 @@
       ],
       "summary": "A github repo for my CTF_Writeups",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193199+00:00"
     },
     {
       "id": "7a227e72011e16bc5ab8b8a43ba8e959aac7eabe646438ee46c3e50d52f361ec",
@@ -8119,7 +8223,11 @@
       ],
       "summary": "My hands-on CTF writeups covering TryHackMe, Hack The Box, and other platforms. Documenting challenges, enumeration, exploitation techniques, vulnerabilities, and practical learning experiences.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193202+00:00"
     },
     {
       "id": "e0df4b31d1f587bed9f2c378074c53d4592c146f30c8d710dfde99fdb8e055ea",
@@ -8139,7 +8247,11 @@
       ],
       "summary": "Public CTF writeup repository",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193205+00:00"
     },
     {
       "id": "5eafc581d5bee5d53c3951da075a2320f3179a03b7f2269d422a9d6d2cb24132",
@@ -8159,7 +8271,11 @@
       ],
       "summary": "Tryhackme lab writeups.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193208+00:00"
     },
     {
       "id": "b3d00b12c6ead25b38ca00313924a66cf17666eaf333ca862753c6a630c9ed3d",
@@ -8179,7 +8295,11 @@
       ],
       "summary": "Cybersecurity lab, CTF writeups, security research and personal projects.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193211+00:00"
     },
     {
       "id": "f853682b47c0ae110a4073e5ccdbdce0ef31fc4c616badb68b460f01ae114a40",
@@ -8208,7 +8328,11 @@
       ],
       "summary": "My Personal Collection of CTF & lab write-ups for ( TryHackMe - Hack The Box)",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193213+00:00"
     },
     {
       "id": "d8c62152268b11aa8f1445625dc38a724fa09289f13aa002e6ace86c0121156d",
@@ -8228,7 +8352,11 @@
       ],
       "summary": "Pentest write-ups: TryHackMe and retired HackTheBox machines. Recon → foothold → privesc, with defensive notes.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193216+00:00"
     },
     {
       "id": "7c036e317adbf5ea74e33c2c286208a075cca0502239c5ea0b208f920fb85250",
@@ -8328,7 +8456,11 @@
       ],
       "summary": "Lab machine and CTF writeups",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193219+00:00"
     },
     {
       "id": "3bc7f80946a70b0a90d7a56c9c681ebb8d9afe679a255c5d90559357ae928567",
@@ -8348,7 +8480,11 @@
       ],
       "summary": "Writeup de la máquina Basic Pentesting (TryHackMe): de reconocimiento a root, con metodología, hallazgos y recomendaciones de seguridad.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193222+00:00"
     },
     {
       "id": "154afd9de2b9f90cceb73f651a3e07b65400ed8d84a41844ba5c9e8230d133d1",
@@ -8368,7 +8504,11 @@
       ],
       "summary": "TryHackMe Writeups and Rooms",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193224+00:00"
     },
     {
       "id": "60870c434a7d676ddb573781f5408d6e17c016791d7e04b0f3aabc7c970a9f03",
@@ -8428,7 +8568,11 @@
       ],
       "summary": "Public CTF writeup repository",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193227+00:00"
     },
     {
       "id": "1fcbda0099a6dcb370471791e0476d0c4f124147d6f9d60fee02df67fa2aa7a4",
@@ -8448,7 +8592,11 @@
       ],
       "summary": "Documenting my TryHackMe Pre Security journey through interconnected cybersecurity concepts, visual learning maps, hands-on labs, real-world examples, technical write-ups, and attacker and defender perspectives. Learning how systems work before learning how to secure them.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193230+00:00"
     },
     {
       "id": "1f9a4ccc87c06c07817e8422661bbbd2a8e88a6e3ff7925055c5c4d6438fcc92",
@@ -8468,7 +8616,11 @@
       ],
       "summary": "Mis write-ups y resoluciones de máquinas y laboratorios de HackTheBox.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:52.193233+00:00"
     },
     {
       "id": "c07386e9eef03994ee1810ae3a4e41a9f5ae45820516b15e8bc53ff7b16097da",
@@ -8488,7 +8640,11 @@
       ],
       "summary": "cybersecurity-ctf-writeups",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453184+00:00"
     },
     {
       "id": "4754657f2fae112ee730773bc531e66efc14837fda0e993c56a0e3281cfd6f02",
@@ -8533,7 +8689,11 @@
       ],
       "summary": "Writeup of ctf challenges I resolve",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453202+00:00"
     },
     {
       "id": "2343572bac8d895143469e2683042da7a7f6596ba5cf216de0a3fc64e4f838c6",
@@ -8558,7 +8718,11 @@
       ],
       "summary": "VulnHub & TryHackMe walkthroughs: DC: 1, DC: 2, symfonos: 1, GoldenEye: 1, Mr Robot",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453207+00:00"
     },
     {
       "id": "b25314100fdca7ab98f694b156d99be60ea0bee7ccfdd5fbdc6557abc4f07c0d",
@@ -8590,7 +8754,11 @@
       ],
       "summary": "More than 275 writeups for picoCTF challenges",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453211+00:00"
     },
     {
       "id": "62262a048ff19b66b72b189b735c26c24e759bc5c181c406cabb83dce867bb5c",
@@ -8634,7 +8802,11 @@
       ],
       "summary": "Public CTF writeup repository",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453215+00:00"
     },
     {
       "id": "5d5f76ee835b696ef0daa997eb5c741efad286810b0c5d061c6502e0cebd1eab",
@@ -8654,7 +8826,11 @@
       ],
       "summary": "Official and standalone CTF writeups and solutions",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453218+00:00"
     },
     {
       "id": "fbae9e48ac2b6edf14acea76adae9c87f80ac815710d791036efe6fbcbf915ce",
@@ -8682,7 +8858,11 @@
       ],
       "summary": "My personal cybersecurity knowledge base: notes, labs, CTF writeups and projects from my learning journey.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453222+00:00"
     },
     {
       "id": "0ad6bf955cdc286d84d0458706c28d7bad5e0191ed027b7f2d7ef93579edec69",
@@ -8702,7 +8882,11 @@
       ],
       "summary": "My cybersecurity CTF write-ups, practical challenges, methodologies, and technical learnings.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453226+00:00"
     },
     {
       "id": "f2ab399861639a66d38e7a254e95ec59519274c9512ceff307b298dcea32da8f",
@@ -8722,7 +8906,11 @@
       ],
       "summary": "Public CTF writeup repository",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453229+00:00"
     },
     {
       "id": "afa0be0bc64bd0b28d69070a26fb047f66325d5dd37bf0cbc29b248af819af9b",
@@ -8782,7 +8970,11 @@
       ],
       "summary": "Step-by-step writeups for capture the flag challenges (CTF)",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453233+00:00"
     },
     {
       "id": "4d9c11324a25b6448f0c42be92c31ca6a98b098e566c6caab0e467e434d02de8",
@@ -8802,7 +8994,11 @@
       ],
       "summary": "Writeups of some CTFs that I have participated in",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453236+00:00"
     },
     {
       "id": "bbd2f13012c73ab2112d19913379879b9c80cfafcbf832ae15d7b8bc961e1b55",
@@ -8906,7 +9102,11 @@
       ],
       "summary": "This repository contains the writeups for the \"dump\" team in the 2026 Curtin CTF.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453240+00:00"
     },
     {
       "id": "6b8c9f41223cbaa1fafc460386e361f7b3c2dd18b43d08af1031a57c4f5b4f3f",
@@ -8951,7 +9151,11 @@
       ],
       "summary": "TryHackMe write-ups and lab notes. Documenting my cybersecurity learning journey, covering networking, systems, and defensive security.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453243+00:00"
     },
     {
       "id": "525b750b872c5063d74b10e200ce3fd6b72778f104a4ec0542eef4a8641355b4",
@@ -8971,7 +9175,11 @@
       ],
       "summary": "These are collections of CTF writeups made by me and my team",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453247+00:00"
     },
     {
       "id": "c1095e1189d6d0ecd2e28d8bb86c2045f76ae891be1fc1d164165785ebccb1d2",
@@ -8991,7 +9199,11 @@
       ],
       "summary": "A collection of my CTF writeups from various platforms and competitions.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453251+00:00"
     },
     {
       "id": "ff97d006a603f5f5351b2c05758a6bfa6560a9785673d92bf596fbd7c23d274b",
@@ -9074,7 +9286,11 @@
       ],
       "summary": "🚩 All my writeups of CTF's",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453254+00:00"
     },
     {
       "id": "98af802cb781f4133cdf7e8073820d8072b80b3c9367e55571f6fabf0f77b03f",
@@ -9094,7 +9310,11 @@
       ],
       "summary": "My cybersecurity learning journey and penetration testing lab write-ups.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453258+00:00"
     },
     {
       "id": "74fad5243dc965cc7f1050b42031dc42830d68eaa4175520eb460e096013ad89",
@@ -9114,7 +9334,11 @@
       ],
       "summary": "TryHackMe & Hack The Box machine writeups with methodology",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453262+00:00"
     },
     {
       "id": "85611d0e301847be0b90b54592a718257786ef429886bb044619ba510dedbd85",
@@ -9134,7 +9358,11 @@
       ],
       "summary": "this repo is special for me to share techniques , challenges of my ctfs daily challenges",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453266+00:00"
     },
     {
       "id": "62646a7885213787add1021d87d1f62ad3c470401aa714a72bd0b70ee76b5596",
@@ -9164,7 +9392,7 @@
       "source_id": "github-search",
       "platform": "CTF writeup",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "AI-SECURITY",
       "author": "liudonghua123",
       "published_at": "2026-11-26T01:37:07Z",
       "discovered_at": "2026-11-26T01:02:00.048185+00:00",
@@ -9174,7 +9402,11 @@
       ],
       "summary": "Full-stack CTF AI Agent: autonomous analyze/solve/writeup with KB, skills and MCP support",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category": "AI-SECURITY",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T04:09:55.453269+00:00"
     },
     {
       "id": "bc6643cad654d26ad678563ac498b407f1f48ce2f03438338d446d1288d73d20",
