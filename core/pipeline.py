@@ -177,35 +177,94 @@ def optional_social(session):
     else: failures.append({"source":"Discord","error":"Optional: configure DISCORD_BOT_TOKEN and DISCORD_CHANNEL_IDS; bot needs channel read permissions"})
     return items,failures
 
+def _gemini_text(key, model, prompt, tokens=1800):
+    response = requests.post(
+        f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+        headers={"x-goog-api-key": key, "Content-Type": "application/json"},
+        json={"contents": [{"role": "user", "parts": [{"text": prompt}]}],
+              "generationConfig": {"temperature": 0.1, "maxOutputTokens": tokens}},
+        timeout=(8, 45),
+    )
+    if response.status_code == 429:
+        raise RuntimeError("Gemini quota/rate limit HTTP 429")
+    if response.status_code in (401, 403):
+        raise RuntimeError(f"Gemini key rejected or API/billing restricted HTTP {response.status_code}")
+    response.raise_for_status()
+    parts = response.json().get("candidates", [{}])[0].get("content", {}).get("parts", [])
+    return " ".join(p.get("text", "") for p in parts).strip()
+
+
+def ai_classify_uncategorized(items):
+    """Classify CTF records using their title, feed excerpt and tags; keep uncertain items uncategorized."""
+    key = os.getenv("GEMINI_API_KEY")
+    if not key:
+        LOG.warning("Gemini classification skipped: GEMINI_API_KEY is not configured")
+        return
+    model = os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
+    pending = [x for x in items if x.get("type") == "ctf_writeup"
+               and x.get("category") == "UNCATEGORIZED" and not x.get("ai_category_checked")]
+    selected = pending[:int(os.getenv("GEMINI_CLASSIFY_PER_RUN", "60"))]
+    changed = 0
+    for offset in range(0, len(selected), 20):
+        batch = selected[offset:offset + 20]
+        records = [{"id": x["id"], "title": x.get("title", ""),
+                    "excerpt": x.get("summary", "")[:650], "tags": x.get("tags", [])[:20],
+                    "platform": x.get("platform", "")} for x in batch]
+        prompt = (
+            "Classify each cybersecurity CTF writeup. Read the TITLE carefully; use excerpt and tags "
+            "as evidence. Do not summarize. Do not guess from event/platform alone. If evidence is "
+            "insufficient, return UNCATEGORIZED. Return ONLY a JSON array of {id, category}. "
+            "Allowed categories: WEB-EXPLOITATION, CRYPTOGRAPHY, DIGITAL-FORENSICS, "
+            "BINARY-EXPLOITATION, AI-SECURITY, REVERSE-ENGINEERING, OSINT, NETWORK, CLOUD, "
+            "MOBILE, HARDWARE-IOT, MISC, UNCATEGORIZED.\n\n" + json.dumps(records, ensure_ascii=False)
+        )
+        try:
+            raw = _gemini_text(key, model, prompt)
+            raw = raw.strip().removeprefix("```json").removeprefix("```").removesuffix("```").strip()
+            parsed = json.loads(raw)
+            if isinstance(parsed, dict):
+                parsed = parsed.get("items", parsed.get("results", []))
+            lookup = {x["id"]: x for x in batch}
+            for result in parsed if isinstance(parsed, list) else []:
+                item = lookup.get(str(result.get("id", "")))
+                category = str(result.get("category", "")).upper().replace(" ", "-")
+                if item and category in set(CATEGORY_RULES) | {"UNCATEGORIZED"}:
+                    item["category"] = category
+                    item["ai_category"] = category
+                    item["ai_category_model"] = model
+                    item["ai_category_checked"] = True
+                    item["ai_category_checked_at"] = datetime.now(timezone.utc).isoformat()
+                    if category != "UNCATEGORIZED":
+                        changed += 1
+            LOG.info("Gemini category batch %d: %d/%d checked", offset // 20 + 1,
+                     sum(1 for x in batch if x.get("ai_category_checked")), len(batch))
+        except Exception as exc:
+            LOG.error("Gemini category classification stopped: %s", str(exc)[:220])
+            if "429" in str(exc) or "quota" in str(exc).lower():
+                LOG.warning("Category backlog will retry on the next scheduled run")
+            break
+    LOG.info("Gemini category classification: %d assigned; %d pending; API key configured: yes",
+             changed, len(pending))
+
+
 def ai_summarize(items):
     """Generate concise summaries with Gemini; the API key is read only from Actions secrets."""
     key = os.getenv("GEMINI_API_KEY")
     if not key:
-        LOG.info("Gemini summaries disabled: GEMINI_API_KEY Actions secret is not set")
+        LOG.info("Gemini summaries skipped: GEMINI_API_KEY is not configured")
         return
     model = os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
     pending = [x for x in items if x.get("type") == "ctf_writeup" and not x.get("ai_summary") and x.get("summary")][:8]
     generated = 0
     for item in pending:
         prompt = (
-            "Write a factual 1-2 sentence summary of this CTF writeup listing. "
-            "Use only the title and supplied feed excerpt. Do not invent technical details "
-            "or imply you read the full article. If information is limited, say so.\n\n"
+            "Write a factual 1-2 sentence summary using only the title and supplied feed excerpt. "
+            "Do not invent details or imply you read the full article.\n\n"
             f"Title: {item['title']}\nPlatform: {item['platform']}\n"
             f"Category: {item['category']}\nExcerpt: {item['summary'][:700]}"
         )
         try:
-            response = requests.post(
-                f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
-                headers={"x-goog-api-key": key, "Content-Type": "application/json"},
-                json={"contents": [{"role": "user", "parts": [{"text": prompt}]}],
-                      "generationConfig": {"temperature": 0.2, "maxOutputTokens": 180}},
-                timeout=(8, 30),
-            )
-            response.raise_for_status()
-            payload = response.json()
-            parts = payload.get("candidates", [{}])[0].get("content", {}).get("parts", [])
-            summary = " ".join(part.get("text", "") for part in parts).strip()
+            summary = _gemini_text(key, model, prompt, 180)
             if summary:
                 item["ai_summary"] = summary[:600]
                 item["ai_summary_model"] = model
@@ -213,6 +272,8 @@ def ai_summarize(items):
                 generated += 1
         except Exception as exc:
             LOG.warning("Gemini summary failed for %s: %s", item.get("url", ""), str(exc)[:200])
+            if "429" in str(exc) or "quota" in str(exc).lower():
+                break
     LOG.info("Gemini summaries generated this run: %d; API key configured: yes", generated)
 
 def run_pipeline():
@@ -240,9 +301,14 @@ def run_pipeline():
                 item["category"]=previous.get("category",item.get("category","UNCATEGORIZED"))
                 for field in ("ai_category","ai_category_model","ai_category_checked","ai_category_checked_at"):
                     if field in previous: item[field]=previous[field]
+            if previous.get("ai_category_checked"):
+                item["category"]=previous.get("category",item.get("category","UNCATEGORIZED"))
+                for field in ("ai_category","ai_category_model","ai_category_checked","ai_category_checked_at"):
+                    if field in previous: item[field]=previous[field]
         else: added+=1
         by_id[item["id"]]=item
     items=list(by_id.values())
+    ai_classify_uncategorized(items)
     ai_summarize(items)
     items.sort(key=lambda x:(x.get("type")=="ctf_writeup",x.get("priority",0),x.get("published_at") or x.get("discovered_at","")),reverse=True)
     failures=cf+rf+gf+sf
