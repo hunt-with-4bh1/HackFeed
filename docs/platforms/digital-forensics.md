@@ -2,6 +2,7 @@
 
 | Date | CTF / Challenge / Repository | Platform | Category | Author / Team | Source |
 |---|---|---|---|---|---|
+| 2026-11-28T00:40 | [Trubl1on/CTF-Inter-Ecole-2026<br><sub>Writeups du CTF Inter-École 2026 — 20 challenges (Crypto, Forensic, Fullpwn, IA, ICS, Mobile, Pwn, Web)</sub>](https://github.com/Trubl1on/CTF-Inter-Ecole-2026) | Digital Forensics | WEB-EXPLOITATION | Trubl1on | GitHub · Digital Forensics |
 | 2026-11-27T17:41 | [0xgbreil/CyberTalents-Digital-Forensics-CTFs<br><sub>This repository contains writeups and solutions for all Digital Forensics challenges on the CyberTalents platform.</sub>](https://github.com/0xgbreil/CyberTalents-Digital-Forensics-CTFs) | Digital Forensics | DIGITAL-FORENSICS | 0xgbreil | GitHub · Digital Forensics |
 | 2026-11-27T08:15 | [ElkingsDom/EyesOPenCTF26<br><sub>My writeups from EyesOpenCTF (48h, solo, 16th of 90/5400 pts) covering Crypto, Rev, Forensics, Pwn, and an LLM prompt-injection challenge. It includes solved and unsolved challenges.</sub>](https://github.com/ElkingsDom/EyesOPenCTF26) | Digital Forensics | CRYPTOGRAPHY | ElkingsDom | GitHub · Digital Forensics |
 | 2026-11-26T18:54 | [bcaglarr/mercimek-ctf<br><sub>Forensics and steganography CTF challenge for ETUSEC — challenge files, generator tools, and writeup.</sub>](https://github.com/bcaglarr/mercimek-ctf) | Digital Forensics | DIGITAL-FORENSICS | bcaglarr | GitHub · Digital Forensics |
