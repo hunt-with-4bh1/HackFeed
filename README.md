@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="#latest-ctf-writeups">Explore writeups</a> ·
-  <a href="#categories">Categories</a> ·
+  <a href="#browse-by-category">Categories</a> ·
   <a href="#how-it-works">How it works</a> ·
   <a href="#contributing">Contribute</a>
 </p>
