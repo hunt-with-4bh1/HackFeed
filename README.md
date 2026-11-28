@@ -20,6 +20,40 @@
   <a href="#contributing">Contribute</a>
 </p>
 
+
+## Browse by category
+
+Choose a topic to explore matching CTF writeups. Category indexes update automatically.
+
+<!-- HACKFEED:CATEGORIES:START -->
+<table>
+<tr>
+<td width="33%" align="center"><a href="docs/WEB-EXPLOITATION.md"><strong>🌐 Web Exploitation</strong></a><br/><sub>Browse writeups</sub></td>
+<td width="33%" align="center"><a href="docs/CRYPTOGRAPHY.md"><strong>🔐 Cryptography</strong></a><br/><sub>Browse writeups</sub></td>
+<td width="33%" align="center"><a href="docs/DIGITAL-FORENSICS.md"><strong>🧩 Digital Forensics</strong></a><br/><sub>Browse writeups</sub></td>
+</tr>
+<tr>
+<td width="33%" align="center"><a href="docs/BINARY-EXPLOITATION.md"><strong>💥 Binary Exploitation / Pwn</strong></a><br/><sub>Browse writeups</sub></td>
+<td width="33%" align="center"><a href="docs/AI-SECURITY.md"><strong>🤖 AI Security</strong></a><br/><sub>Browse writeups</sub></td>
+<td width="33%" align="center"><a href="docs/REVERSE-ENGINEERING.md"><strong>⚙️ Reverse Engineering</strong></a><br/><sub>Browse writeups</sub></td>
+</tr>
+<tr>
+<td width="33%" align="center"><a href="docs/OSINT.md"><strong>🕵️ OSINT</strong></a><br/><sub>Browse writeups</sub></td>
+<td width="33%" align="center"><a href="docs/NETWORK.md"><strong>🌍 Network</strong></a><br/><sub>Browse writeups</sub></td>
+<td width="33%" align="center"><a href="docs/CLOUD.md"><strong>☁️ Cloud</strong></a><br/><sub>Browse writeups</sub></td>
+</tr>
+<tr>
+<td width="33%" align="center"><a href="docs/MOBILE.md"><strong>📱 Mobile</strong></a><br/><sub>Browse writeups</sub></td>
+<td width="33%" align="center"><a href="docs/HARDWARE-IOT.md"><strong>🔌 Hardware / IoT</strong></a><br/><sub>Browse writeups</sub></td>
+<td width="33%" align="center"><a href="docs/MISC.md"><strong>🎯 Miscellaneous</strong></a><br/><sub>Browse writeups</sub></td>
+</tr>
+<tr>
+<td colspan="3" align="center"><a href="docs/UNCATEGORIZED.md"><strong>📂 Needs classification</strong></a> · <a href="docs/CTF-WRITEUPS.md"><strong>📚 All CTF writeups by platform →</strong></a></td>
+</tr>
+</table>
+<!-- HACKFEED:CATEGORIES:END -->
+
+
 ---
 
 ## What is HackFeed?
@@ -151,24 +185,6 @@ New public writeup links are collected automatically. Open the original source f
 | Wed, 11 Nov 2026 | [Blind trust: stealing credentials through CSP<br><sub>Content Security Policy is supposed to be the safety net that stops an HTML injection from turning into XSS. Usually it works. But sometimes it doesn't, because the policy allows-lists a domain that h</sub>](https://portswigger.net/research/blind-trust-stealing-credentials-through-csp) | PortSwigger | WEB-EXPLOITATION |  | PortSwigger Research |
 | Wed, 10 Dec 2025 | [The Fragile Lock: Novel Bypasses For SAML Authentication<br><sub>TLDR This post shows how to achieve a full authentication bypass in the Ruby and PHP SAML ecosystem by exploiting several parser-level inconsistencies: including attribute pollution, namespace confusi</sub>](https://portswigger.net/research/the-fragile-lock) | PortSwigger | WEB-EXPLOITATION |  | PortSwigger Research |
 <!-- HACKFEED:END -->
-
-## Categories
-
-| Category | Browse |
-|---|---|
-| 🌐 Web Exploitation | [Open index](docs/WEB-EXPLOITATION.md) |
-| 🔐 Cryptography | [Open index](docs/CRYPTOGRAPHY.md) |
-| 🧩 Digital Forensics | [Open index](docs/DIGITAL-FORENSICS.md) |
-| 💥 Binary Exploitation / Pwn | [Open index](docs/BINARY-EXPLOITATION.md) |
-| 🤖 AI Security | [Open index](docs/AI-SECURITY.md) |
-| ⚙️ Reverse Engineering | [Open index](docs/REVERSE-ENGINEERING.md) |
-| 🕵️ OSINT | [Open index](docs/OSINT.md) |
-| 🌍 Network | [Open index](docs/NETWORK.md) |
-| ☁️ Cloud | [Open index](docs/CLOUD.md) |
-| 📱 Mobile | [Open index](docs/MOBILE.md) |
-| 🔌 Hardware / IoT | [Open index](docs/HARDWARE-IOT.md) |
-| 🎯 Miscellaneous | [Open index](docs/MISC.md) |
-| 📚 All CTF writeups by platform | [Open index](docs/CTF-WRITEUPS.md) |
 
 ## Sources
 
