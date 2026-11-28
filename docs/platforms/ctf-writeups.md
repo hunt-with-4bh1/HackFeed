@@ -2,6 +2,7 @@
 
 | Date | CTF / Challenge / Repository | Platform | Category | Author / Team | Source |
 |---|---|---|---|---|---|
+| 2026-11-27T18:02 | [ezlx1/CTF_Writeups<br><sub>A github repo for my CTF_Writeups</sub>](https://github.com/ezlx1/CTF_Writeups) | CTF writeups | UNCATEGORIZED | ezlx1 | GitHub · CTF writeups |
 | 2026-11-26T09:37 | [natenapaS/ctf-writeups<br><sub>A collection of my CTF writeups from various platforms and competitions.</sub>](https://github.com/natenapaS/ctf-writeups) | CTF writeups | UNCATEGORIZED | natenapaS | GitHub · CTF writeups |
 | 2026-11-23T03:15 | [h2-r6/AHAU-ctf-writeup<br><sub>🏆 1er lugar · Writeups del Kernel CTF (AHAU Team) — Network & Web</sub>](https://github.com/h2-r6/AHAU-ctf-writeup) | CTF writeups | WEB-EXPLOITATION | h2-r6 | GitHub · CTF writeups |
 | 2026-11-22T07:12 | [prompiriyag/CTF-Writeups<br><sub>Public CTF writeup repository</sub>](https://github.com/prompiriyag/CTF-Writeups) | CTF writeups | UNCATEGORIZED | prompiriyag | GitHub · CTF writeups |

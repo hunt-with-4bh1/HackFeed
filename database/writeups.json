@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "updated_at": "2026-11-28T04:34:18.829019+00:00",
-  "total": 1247,
+  "updated_at": "2026-11-28T13:02:31.271128+00:00",
+  "total": 1271,
   "items": [
     {
       "id": "107dbe66672ba43877f3e93fab3d038b3f318bf23c8c5ef9989e36f20d711cc0",
@@ -2076,7 +2076,7 @@
       "published_at": "",
       "discovered_at": "2026-11-21T20:09:11.205738+00:00",
       "tags": [],
-      "summary": "[click on title to read] URL: https://ctftime.org/writeup/41151 Topics: misc&nbsp; Rating: 2.0",
+      "summary": "[click on title to read] URL: https://ctftime.org/writeup/41151 Topics: misc&nbsp; Rating: 3.5",
       "priority": 100,
       "metadata_checked": true,
       "ai_summary": "The PINK+ CTF 2026 Sanity Check 2 writeup by VG Team is categorized under misc on CTFtime. Beyond the title, team name, category, and platform, no further technical details are provided in the excerpt.",
@@ -5008,7 +5008,10 @@
       "ai_category": "WEB-EXPLOITATION",
       "ai_category_model": "gemini-3.5-flash-lite",
       "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:11.140522+00:00"
+      "ai_category_checked_at": "2026-11-28T04:09:11.140522+00:00",
+      "ai_summary": "The \"Irish-Name-Repo 1\" writeup from CyLab, categorized under WEB-EXPLOITATION for picoCTF, provides a challenge overview on Medium.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "aa5fdf155690edfedcdf0719787fb19bd74605305aec9b62e877c6ed05632dfb",
@@ -5031,7 +5034,10 @@
       ],
       "summary": "HTB Orion — Writeup Orion is rated \"Very Easy\" on Hack The Box, but the path to root turned into a genuinely useful debugging exercise — less about the exploit chain itself and more about what happens when your tooling fights you. This is a writeup of my own run at it, including the parts that didn't go according to plan. Recon Standard start: nmap -sCV 10.129.69.96 Two ports: 22 (OpenSSH 8.9p1) and 80 (nginx 1.18.0), redirecting to orion.htb. echo \"10.129.69.96 orion.htb\" | sudo tee -a /etc/hosts The site was a telecom company page with \"Powered by CraftCMS\" in the footer. A quick directory fuzz confirmed /admin → /admin/login, and the login page leaked the exact CraftCMS version: 5.6.16. That version is vulnerable to CVE-2025-32432 — an unauthenticated RCE in Craft's image transform endp",
       "priority": 80,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This Hack The Box writeup covers the \"Very Easy\" web exploitation machine Orion, featuring a CraftCMS 5.6.16 instance discovered via reconnaissance on ports 22 and 80. The author details their run against the target, which involved troubleshooting tooling issues alongside the exploitation process.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "27b3f430599dd67b32a8f1ba1e2cd4cac564e6b99c203f19a5066d99c4ba6283",
@@ -5054,7 +5060,10 @@
       ],
       "summary": "A complete walkthrough of HackTheBox DevArea — chaining an Apache CXF SSRF vulnerability, Hoverfly middleware injection, Flask session forgery, command injection, and a double symlink privilege escalation to achieve full root compromise. Difficulty: Hard | OS: Linux | Platform: Hack The Box Attack Path: Anonymous FTP → JAR Analysis → CVE-2022-46364 (Apache CXF SSRF) → Hoverfly Credentials → CVE-2025-54123 (Hoverfly RCE) → Shell as dev_ryan → Secret Key Leak → Session Forgery → Command Injection → Double Symlink → Root 1. Reconnaissance nmap -sC -sV -A &lt;MACHINE-IP&gt; Key Findings: Port 21: vsftpd (Anonymous login enabled) Port 22: SSH Port 80: Apache HTTP Port 8080: Java/Jetty (SOAP service — Apache CXF) Port 8500/8888: Hoverfly proxy echo \"&lt;MACHINE-IP&gt; devarea.htb\" | sudo tee -a ",
       "priority": 80,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This Hack The Box walkthrough details the hard-difficulty Linux machine \"DevArea,\" focusing on a multi-step attack path ranging from anonymous FTP and an Apache CXF SSRF vulnerability to Hoverfly middleware injection, Flask session forgery, and a double symlink privilege escalation to achieve root access.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "61799287abec8db4f76830daf2285ec47cdf4b86776604447fdb0aac6780c3b1",
@@ -5078,7 +5087,10 @@
       ],
       "summary": "Dissecting a disk image, leveraging Sleuthkit, and uncovering timestamp manipulation. Continue reading on Medium »",
       "priority": 80,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This write-up for the picoCTF digital forensics challenge \"Timeline 0\" covers dissecting a disk image using Sleuthkit and uncovering timestamp manipulation.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "cc4387650aa74c5d5b5202dff903bbf447c50092061d65a0d4baec799016553f",
@@ -5105,7 +5117,10 @@
       "ai_category": "MISC",
       "ai_category_model": "gemini-3.5-flash-lite",
       "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:09:11.140524+00:00"
+      "ai_category_checked_at": "2026-11-28T04:09:11.140524+00:00",
+      "ai_summary": "The \"Cylab Security Academy — Special\" challenge is a MISC category event hosted on the picoCTF platform. The provided excerpt indicates that further details can be found by reading the full overview on Medium.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "7efe92a02f6b2ec1f41fcaf2f0c9d1e712a330aa26c87323c033db1b6cd9fe9c",
@@ -5127,7 +5142,10 @@
       ],
       "summary": "Platform: TryHackMe · Difficulty: Easy · Category: CMS SQLi / Upload Filter Bypass / GTFOBins Introduction Simple CTF tells you exactly how complicated things are going to get right there in the name. Three services, one username left in a plaintext note on an anonymous FTP server, a CMS running a publicly known SQL injection vulnerability, and a sudo rule so generous it might as well be a signed permission slip to root. The only thing standing between www-data and a proper shell was a file upload filter that had apparently never heard of .phtml . Simple indeed. Recon Three ports this time — more interesting than the usual two. Full-range sweep, Nmap handling service and version detection: rustscan -a 10.49.168.253 -r 1-65535 --ulimit 5000 -- -Pn -sC -sV Port Service Version 21/tcp FTP vsf",
       "priority": 80,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "The \"Simple CTF\" TryHackMe room features three open ports, a CMS vulnerable to SQL injection, an anonymous FTP server with a plaintext note, and a misconfigured sudo rule. The write-up outlines how these vulnerabilities, along with an upload filter bypass, allow a user to escalate privileges to root.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "79efb31b1f5db383585d5b83152fe0cbb3c6b0589b6c143747c3351ef236cbb0",
@@ -5149,7 +5167,10 @@
       ],
       "summary": "Platform: TryHackMe · Difficulty: Medium · Category: Targeted Wordlist / IDOR / Log File Credential Leak Introduction Silver Platter opens by daring you to use rockyou.txt and then daring you to think of something better. The room explicitly tells you the password policy blocks any password in the rockyou wordlist — a hint to build a targeted wordlist from the site itself. The escalation path is equally deliberate: IDOR on internal message IDs, credentials in a log file, and a user who can sudo everything. The box hands the flag to you on a silver platter — but only after you've earned it through careful enumeration. Recon Service and version fingerprinting via Nmap: rustscan -a 10.49.190.34 -r 1-65535 --ulimit 5000 -- -Pn -sC -sV Port Service Version 22/tcp SSH OpenSSH 8.9p1 Ubuntu 3ubunt",
       "priority": 80,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "The TryHackMe write-up for \"Silver Platter\" explains how to bypass a password policy blocking the *rockyou.txt* wordlist by building a targeted wordlist from the site's homepage. The challenge involves enumeration, an IDOR vulnerability on internal message IDs, credentials found in a log file, and a sudo-privileged user.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "3dc39a7b6bb32111e0a5d129348b43b914f16c9a23260781a98ce4340e0636fa",
@@ -5172,7 +5193,10 @@
       ],
       "summary": "Binary Exploitation, 250 points Continue reading on Medium »",
       "priority": 80,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_summary": "This picoCTF Binary Exploitation challenge is titled \"Fermat-strings(a little gap)\" and is worth 250 points.",
+      "ai_summary_model": "gemini-3.5-flash-lite",
+      "ai_provider": "Google Gemini"
     },
     {
       "id": "9a898a6db983f4a64ff9637e89ad4227d4f95b9d7ef0de8b76395f6e984f9101",
@@ -7083,6 +7107,193 @@
       "metadata_checked": true
     },
     {
+      "id": "2f080fe84326f6ef410f19cfdc0d13b8023f94ab06566344557aaae40b848fd9",
+      "title": "I Found a VM Inside a Binary, Then It Made Me Decrypt It 99 Times",
+      "url": "https://medium.com/@if.benyelles/i-found-a-vm-inside-a-binary-then-it-made-me-decrypt-it-99-times-0a3006023595?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "platform": "Medium",
+      "type": "ctf_writeup",
+      "category": "REVERSE-ENGINEERING",
+      "author": "If Benyelles",
+      "published_at": "Sat, 28 Nov 2026 12:59:59 GMT",
+      "discovered_at": "2026-11-28T13:01:53.689974+00:00",
+      "tags": [
+        "ctf",
+        "ctf-writeup",
+        "cybersecurity",
+        "reverse-engineering"
+      ],
+      "summary": "IngeHack MiniCTF: Reverse Engineering a Custom Bytecode VM Continue reading on Medium »",
+      "priority": 75,
+      "metadata_checked": true
+    },
+    {
+      "id": "c639bcafab0ce389ae478143951ae63980fd5ffa5d9cd90aeac45f469aef7996",
+      "title": "CTF 103 MISC & OSINT WRITEUPS",
+      "url": "https://medium.com/@akricherayen/ctf-103-misc-osint-writeups-bf49e6a42b93?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "platform": "Medium",
+      "type": "ctf_writeup",
+      "category": "OSINT",
+      "author": "rayenakriche",
+      "published_at": "Sat, 28 Nov 2026 12:52:50 GMT",
+      "discovered_at": "2026-11-28T13:01:53.691034+00:00",
+      "tags": [
+        "ctf",
+        "ctf-writeup",
+        "miscellaneous",
+        "osint",
+        "osint-investigation"
+      ],
+      "summary": "Hello! I&#x2019;m Rayen Akriche, Co-President of CTF103 and the author of these challenges. Continue reading on Medium »",
+      "priority": 75,
+      "metadata_checked": true
+    },
+    {
+      "id": "994305912ef0de9092cae43177354be9ee462b5d0f8b99469fc41a4c78db3d2d",
+      "title": "Outback Overflow Capture The Flag Write-Ups",
+      "url": "https://medium.com/@professorbadman01/outback-overflow-capture-the-flag-write-ups-226d37608efd?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "platform": "Medium",
+      "type": "ctf_writeup",
+      "category": "CRYPTOGRAPHY",
+      "author": "Professor Badman",
+      "published_at": "Sat, 28 Nov 2026 12:32:53 GMT",
+      "discovered_at": "2026-11-28T13:01:53.691362+00:00",
+      "tags": [
+        "capture-the-flag",
+        "ctf",
+        "ctf-writeup",
+        "cybersecurity",
+        "information-security"
+      ],
+      "summary": "CRYPTO Continue reading on Medium »",
+      "priority": 75,
+      "metadata_checked": true
+    },
+    {
+      "id": "bea84d677b2f03ba41933d68faaadcc2deac628e1f1a5d10da898a825c82515c",
+      "title": "I Got Gaslit by a Fake Linux Capability for an Hour and Then Escaped a Docker Container Anyway",
+      "url": "https://medium.com/@if.benyelles/i-got-gaslit-by-a-fake-linux-capability-for-an-hour-and-then-escaped-a-docker-container-anyway-7ec201dc9ff2?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "platform": "Medium",
+      "type": "ctf_writeup",
+      "category": "CLOUD",
+      "author": "If Benyelles",
+      "published_at": "Sat, 28 Nov 2026 12:07:21 GMT",
+      "discovered_at": "2026-11-28T13:01:53.692384+00:00",
+      "tags": [
+        "ctf",
+        "ctf-writeup",
+        "linux",
+        "postgresql"
+      ],
+      "summary": "IngeHack MiniCTF: From a Decoy Linux Capability to Docker Container Escape Continue reading on Medium »",
+      "priority": 75,
+      "metadata_checked": true
+    },
+    {
+      "id": "c3d0fd9d1633e5d3652e59a4fd831ed363ff6004ef2326fc0c877a380e14b32a",
+      "title": "Advent of December",
+      "url": "https://medium.com/@8batamladen8/advent-of-december-8e140b250672?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "platform": "Medium",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "Batamladen",
+      "published_at": "Sat, 28 Nov 2026 10:15:05 GMT",
+      "discovered_at": "2026-11-28T13:01:53.693368+00:00",
+      "tags": [
+        "advent-of-code",
+        "ctf",
+        "cybersecurity",
+        "tryhackme"
+      ],
+      "summary": "Yo, December&#x2019;s here, the cold&#x2019;s on the block, Advent of Code ticking like a clock. Continue reading on Medium »",
+      "priority": 75,
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:19.991640+00:00",
+      "ai_category_checked": false
+    },
+    {
+      "id": "d9579d79536c706b02dedc134d3adcec07d07b901fcbe3c39e0266fba26bc14a",
+      "title": "Advent of December",
+      "url": "https://dev.to/bata_mladen/advent-of-december-5faa",
+      "source": "DEV.to · CTF",
+      "source_id": "devto-ctf",
+      "platform": "DEV.to",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "BataMladen",
+      "published_at": "Sat, 28 Nov 2026 10:11:42 +0000",
+      "discovered_at": "2026-11-28T13:01:53.903541+00:00",
+      "tags": [
+        "adventofcode",
+        "ctf",
+        "cybersecurity",
+        "thm"
+      ],
+      "summary": "Read Blog Post",
+      "priority": 75,
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:19.991637+00:00",
+      "ai_category_checked": false
+    },
+    {
+      "id": "08625827b9079565fc69ac9e478432bace30cac0e47c55692eacebe8b6fc7446",
+      "title": "TryHackMe Overheard at Breakfast: Complete OSINT Walkthrough | Th3BlackHol3",
+      "url": "https://th3blackhol3.medium.com/tryhackme-overheard-at-breakfast-complete-osint-walkthrough-th3blackhol3-3f02e9e601cd?source=rss------ctf-5",
+      "source": "Medium · CTF",
+      "source_id": "medium-ctf",
+      "platform": "Medium",
+      "type": "ctf_writeup",
+      "category": "OSINT",
+      "author": "Th3BlackHol3",
+      "published_at": "Sat, 28 Nov 2026 08:51:20 GMT",
+      "discovered_at": "2026-11-28T13:01:53.694379+00:00",
+      "tags": [
+        "ctf",
+        "cybersecurity",
+        "open-source-intelligence",
+        "osint",
+        "tryhackme"
+      ],
+      "summary": "Continue reading on Medium »",
+      "priority": 75,
+      "metadata_checked": true
+    },
+    {
+      "id": "1d3237467086c300b6c3804e97f802ddad859afc459361d61eb7ed6ef225d32b",
+      "title": "HTB - Intentions Writeup - no Metasploit",
+      "url": "https://dev.to/nekohige/htb-intentions-writeup-no-metasploit-2aj",
+      "source": "DEV.to · CTF",
+      "source_id": "devto-ctf",
+      "platform": "DEV.to",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "nekohige",
+      "published_at": "Sat, 28 Nov 2026 05:25:46 +0000",
+      "discovered_at": "2026-11-28T13:01:53.907396+00:00",
+      "tags": [
+        "ctf",
+        "hackthebox",
+        "htb",
+        "security"
+      ],
+      "summary": "Summary SQL Injection — The favorite genres input field ( /api/v1/gallery/user/feed ) was vulnerable to SQL injection, allowing a UNION-based attack that extracted the admin user's email address and bcrypt password hash. Information Disclosure / Pass-the-Hash — A leftover debug comment in the front-end admin.js revealed that /api/v2/auth/login accepted authentication via the raw password hash itself (Pass the Hash), allowing login as admin using the extracted hash. SSRF (Imagick / ImageMagick MSL) — The admin panel's /api/v2/admin/image/modify endpoint was vulnerable to SSRF, which was leveraged via a crafted MSL file to write arbitrary PHP code (a web shell) into the web root, achieving remote code execution. Leftover .git History on the Production Server — After obtaining a web shell, en",
+      "priority": 75,
+      "metadata_checked": true
+    },
+    {
       "id": "a13fb57b4815de90c77fad832230484feab057c5803fd233ee9b87158973da00",
       "title": "Flag Hunters — picoCTF Writeup (Reverse Engineering)",
       "url": "https://medium.com/@volcanio27/flag-hunters-7d91a39dc278?source=rss------ctf-5",
@@ -7890,6 +8101,329 @@
       "ai_category_attempts": 1
     },
     {
+      "id": "aca88bc7aba73d3de76a50bab97a3206c2be1cec2c96b18c9ff512432b4953b5",
+      "title": "mito753/Kernel-Exploit-Dojo",
+      "url": "https://github.com/mito753/Kernel-Exploit-Dojo",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "BINARY-EXPLOITATION",
+      "author": "mito753",
+      "published_at": "2026-11-28T12:51:01Z",
+      "discovered_at": "2026-11-28T03:55:10.724189+00:00",
+      "tags": [
+        "ctf",
+        "ctf-writeups",
+        "dirty-pipe",
+        "ebpf",
+        "github",
+        "kernel-exploitation",
+        "kernel-pwn",
+        "kernel-rop",
+        "kpti",
+        "linux-kernel",
+        "linux-kernel-exploitation",
+        "modprobe-path",
+        "msg-msg",
+        "pipe-buffer",
+        "pwn",
+        "qemu",
+        "smap",
+        "smep-bypass",
+        "uaf",
+        "userfaultfd"
+      ],
+      "summary": "CTF kernel exploitation notes, PoCs, exploits, and writeups.",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "9e3f669be5e21109ef95f905433ef3c81db759c9762418916ad04f650237cee8",
+      "title": "Haby04/ctf-writeups-forensics",
+      "url": "https://github.com/Haby04/ctf-writeups-forensics",
+      "source": "GitHub · Digital Forensics",
+      "source_id": "github-search",
+      "platform": "Digital Forensics",
+      "type": "ctf_writeup",
+      "category": "DIGITAL-FORENSICS",
+      "author": "Haby04",
+      "published_at": "2026-11-28T12:34:44Z",
+      "discovered_at": "2026-11-28T13:02:12.612102+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Write-ups de 13 challenges CTF en Forensics (CyLab Security Academy / picoCTF), orientés analyse de fichiers et détection d'incidents",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "7bfb11a0702c4ba75f63d7ed60ae9f7f71e543b35d16a30131b585cb39b19d4b",
+      "title": "redxwhite12k-dev/ctf-and-lab-writeups-",
+      "url": "https://github.com/redxwhite12k-dev/ctf-and-lab-writeups-",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "redxwhite12k-dev",
+      "published_at": "2026-11-28T11:57:31Z",
+      "discovered_at": "2026-11-28T13:01:58.061049+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Public CTF writeup repository",
+      "priority": 70,
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:19.991634+00:00",
+      "ai_category_checked": false
+    },
+    {
+      "id": "7143021891d7c954340b45cdf0d622058f71aed20fb829ddbe5072be4ccfb78f",
+      "title": "mintuah99m/TryHackMe-Writeups",
+      "url": "https://github.com/mintuah99m/TryHackMe-Writeups",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "mintuah99m",
+      "published_at": "2026-11-28T11:24:20Z",
+      "discovered_at": "2026-11-28T13:02:02.686211+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Public CTF writeup repository",
+      "priority": 70,
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:19.991613+00:00",
+      "ai_category_checked": false
+    },
+    {
+      "id": "6f075738eeeba51a6cd4654acc3d643629865fafcfe45d1a5e358ec6ec40ad92",
+      "title": "Moudjib16/PicoCTF-Writeups",
+      "url": "https://github.com/Moudjib16/PicoCTF-Writeups",
+      "source": "GitHub · picoCTF",
+      "source_id": "github-search",
+      "platform": "picoCTF",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "Moudjib16",
+      "published_at": "2026-11-28T11:08:51Z",
+      "discovered_at": "2026-11-21T20:12:44.076499+00:00",
+      "tags": [
+        "capture-the-flag",
+        "cryptography",
+        "ctf",
+        "ctf-writeups",
+        "cybersecurity",
+        "forensics",
+        "github",
+        "infosec",
+        "linux",
+        "picoctf",
+        "picoctf-writeups",
+        "python",
+        "web-exploitation",
+        "writeups"
+      ],
+      "summary": "Step-by-step picoCTF writeups explaining the reasoning, tools and key takeaways behind each challenge, organized by category and event.",
+      "priority": 70,
+      "metadata_checked": true,
+      "ai_category": "UNCATEGORIZED",
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": false,
+      "ai_category_checked_at": "2026-11-28T04:16:24.684072+00:00",
+      "ai_category_attempts": 1
+    },
+    {
+      "id": "7c036e317adbf5ea74e33c2c286208a075cca0502239c5ea0b208f920fb85250",
+      "title": "cirosantilli/china-dictatorship",
+      "url": "https://github.com/cirosantilli/china-dictatorship",
+      "source": "GitHub · AI Security",
+      "source_id": "github-search",
+      "platform": "AI Security",
+      "type": "ctf_writeup",
+      "category": "WEB-EXPLOITATION",
+      "author": "cirosantilli",
+      "published_at": "2026-11-28T11:00:56Z",
+      "discovered_at": "2026-11-21T20:39:51.865550+00:00",
+      "tags": [
+        "996",
+        "censorship",
+        "censorship-circumvention",
+        "china",
+        "china-dictatorship",
+        "chinese-communist-party",
+        "covid-19",
+        "covid-19-china",
+        "ctf",
+        "dictator",
+        "dictatorship",
+        "falun-gong",
+        "gfw",
+        "github",
+        "great-firewall",
+        "human-rights",
+        "shadowsocks",
+        "socks5",
+        "tiananmen",
+        "totalitarian",
+        "xi-jinping",
+        "xinjiang"
+      ],
+      "summary": "反中共政治宣传库。Anti Chinese government propaganda. 住在中国真名用户的网友请别给星星，不然你要被警察请喝茶。常见问答集，新闻集和饭店和音乐建议。卐习万岁卐。冠状病毒审查郝海东新疆改造中心六四事件法轮功 996.ICU709大抓捕巴拿马文件邓家贵低端人口西藏骚乱。Friends who live in China and have real name on account, please don't star this repo, or else the police might pay you a visit. Home to the mega-FAQ, news compilation, restaurant and music recommendations.Heil Xi 卐. 大陆修宪香港恶法台湾武统朝鲜毁约美中冷战等都是王沪宁愚弄习思想极左命运共同体的大策划中共窃国这半个多世纪所犯下的滔天罪恶，前期是毛泽东策划的，中期6.4前后是邓小平策划的，黄牛数据分析后期是毛的极左追随者三朝罪恶元凶王沪宁策划的。王沪宁高小肆业因文革政治和情报需要保送“学院外语班“红色仕途翻身，所以王的本质是极左的。他是在上海底层弄堂长大的，因其本性也促成其瘪三下三滥个性，所以也都说他有易主“变色龙”哈巴狗“的天性。大陆像王沪宁这样学马列政治所谓\"法学\"专业的人，在除朝鲜古巴所有国家特别是在文明发达国家是无法找到专业对口工作必定失业，唯独在大陆却是重用的紧缺“人才”，6.4后中共信仰大危机更是最重用的救党“人才”。这也就是像王沪宁此类工农兵假“大学生”平步青云的原因，他们最熟悉毛泽东历次运动的宫庭内斗经验手段和残酷的阶级斗争等暴力恐怖的“政治学”。王沪宁能平步青云靠他这马毛伪“政治学”资本和头衔，不是什么真才实学，能干实事有点真才实学的或许在他手下的谋士及",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "157c4b56ec57348fbd25453dace2e215c6c3182156d46868a5cab34c4098fffe",
+      "title": "karthi1246/supreme-octo-memory",
+      "url": "https://github.com/karthi1246/supreme-octo-memory",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "karthi1246",
+      "published_at": "2026-11-28T10:22:21Z",
+      "discovered_at": "2026-11-28T13:01:58.062985+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Practice scripts, writeups, and tooling notes for security challenges and CTF prep.",
+      "priority": 70,
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:19.991629+00:00",
+      "ai_category_checked": false
+    },
+    {
+      "id": "a24e29f5c66cd1a82af0e8e03db8e0072214b2ab35370caf150d8672b5d76046",
+      "title": "pTn1ne/ptn1ne.github.io",
+      "url": "https://github.com/pTn1ne/ptn1ne.github.io",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "pTn1ne",
+      "published_at": "2026-11-28T09:18:42Z",
+      "discovered_at": "2026-11-28T13:01:58.063400+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Hex Notes — security field notes and CTF writeups.",
+      "priority": 70,
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:19.991626+00:00",
+      "ai_category_checked": false
+    },
+    {
+      "id": "c44c2f08e608ca2de5ceae2568c784ebcfb3be9b2eed03758a18b581c4bbebf6",
+      "title": "karinangelica/N0v4CTF-Writeups",
+      "url": "https://github.com/karinangelica/N0v4CTF-Writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "karinangelica",
+      "published_at": "2026-11-28T08:00:14Z",
+      "discovered_at": "2026-11-28T13:01:58.064758+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Public CTF writeup repository",
+      "priority": 70,
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:19.991621+00:00",
+      "ai_category_checked": false
+    },
+    {
+      "id": "5db37dd3b5a3eeff566ee58ec12ee0d64c7eaf52780be10bae49304d6e99962b",
+      "title": "MelPea/CTF-writeup",
+      "url": "https://github.com/MelPea/CTF-writeup",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "BINARY-EXPLOITATION",
+      "author": "MelPea",
+      "published_at": "2026-11-28T06:19:25Z",
+      "discovered_at": "2026-11-28T13:01:58.066130+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Focus Reverse Engineering & Binary Exploitation",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
+      "id": "4bd07d7f1d34ec5dbcdd48e049b48f8630d32a6285cb43401bd89a477fc58b3d",
+      "title": "dozikim/thm-writeups",
+      "url": "https://github.com/dozikim/thm-writeups",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "dozikim",
+      "published_at": "2026-11-28T04:56:28Z",
+      "discovered_at": "2026-11-28T13:02:02.689149+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "TryHackMe writeups by Dozikim",
+      "priority": 70,
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:19.991579+00:00",
+      "ai_category_checked": false
+    },
+    {
+      "id": "72acb7594e20e8dd93824d13c32879774cda008ea6d5b8a15757038365b57bfc",
+      "title": "heyyprakhar/CTF-Writeups",
+      "url": "https://github.com/heyyprakhar/CTF-Writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "heyyprakhar",
+      "published_at": "2026-11-28T04:46:33Z",
+      "discovered_at": "2026-11-28T13:01:58.068045+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Writeups and solutions for various CTF challenges",
+      "priority": 70,
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:19.991618+00:00",
+      "ai_category_checked": false
+    },
+    {
       "id": "809e5c77a834e4e7ae7ecad89d77c3ae927697b1a841b140273a897f308f854e",
       "title": "gege-circle/.github",
       "url": "https://github.com/gege-circle/.github",
@@ -8192,50 +8726,12 @@
       "ai_category_attempts": 1
     },
     {
-      "id": "aca88bc7aba73d3de76a50bab97a3206c2be1cec2c96b18c9ff512432b4953b5",
-      "title": "mito753/Kernel-Exploit-Dojo",
-      "url": "https://github.com/mito753/Kernel-Exploit-Dojo",
-      "source": "GitHub · CTF writeup",
-      "source_id": "github-search",
-      "platform": "CTF writeup",
-      "type": "ctf_writeup",
-      "category": "BINARY-EXPLOITATION",
-      "author": "mito753",
-      "published_at": "2026-11-27T18:19:29Z",
-      "discovered_at": "2026-11-28T03:55:10.724189+00:00",
-      "tags": [
-        "ctf",
-        "ctf-writeups",
-        "dirty-pipe",
-        "ebpf",
-        "github",
-        "kernel-exploitation",
-        "kernel-pwn",
-        "kernel-rop",
-        "kpti",
-        "linux-kernel",
-        "linux-kernel-exploitation",
-        "modprobe-path",
-        "msg-msg",
-        "pipe-buffer",
-        "pwn",
-        "qemu",
-        "smap",
-        "smep-bypass",
-        "uaf",
-        "userfaultfd"
-      ],
-      "summary": "CTF kernel exploitation notes, PoCs, exploits, and writeups.",
-      "priority": 70,
-      "metadata_checked": true
-    },
-    {
       "id": "205348265f77a9e9f9253cf9fe6a8535b36b36a2c8f069c71c808116b31f8901",
       "title": "ezlx1/CTF_Writeups",
       "url": "https://github.com/ezlx1/CTF_Writeups",
-      "source": "GitHub · CTF writeup",
+      "source": "GitHub · CTF writeups",
       "source_id": "github-search",
-      "platform": "CTF writeup",
+      "platform": "CTF writeups",
       "type": "ctf_writeup",
       "category": "UNCATEGORIZED",
       "author": "ezlx1",
@@ -8452,46 +8948,6 @@
       "ai_category_checked": false,
       "ai_category_checked_at": "2026-11-28T04:09:52.193216+00:00",
       "ai_category_attempts": 1
-    },
-    {
-      "id": "7c036e317adbf5ea74e33c2c286208a075cca0502239c5ea0b208f920fb85250",
-      "title": "cirosantilli/china-dictatorship",
-      "url": "https://github.com/cirosantilli/china-dictatorship",
-      "source": "GitHub · AI Security",
-      "source_id": "github-search",
-      "platform": "AI Security",
-      "type": "ctf_writeup",
-      "category": "WEB-EXPLOITATION",
-      "author": "cirosantilli",
-      "published_at": "2026-11-27T08:26:04Z",
-      "discovered_at": "2026-11-21T20:39:51.865550+00:00",
-      "tags": [
-        "996",
-        "censorship",
-        "censorship-circumvention",
-        "china",
-        "china-dictatorship",
-        "chinese-communist-party",
-        "covid-19",
-        "covid-19-china",
-        "ctf",
-        "dictator",
-        "dictatorship",
-        "falun-gong",
-        "gfw",
-        "github",
-        "great-firewall",
-        "human-rights",
-        "shadowsocks",
-        "socks5",
-        "tiananmen",
-        "totalitarian",
-        "xi-jinping",
-        "xinjiang"
-      ],
-      "summary": "反中共政治宣传库。Anti Chinese government propaganda. 住在中国真名用户的网友请别给星星，不然你要被警察请喝茶。常见问答集，新闻集和饭店和音乐建议。卐习万岁卐。冠状病毒审查郝海东新疆改造中心六四事件法轮功 996.ICU709大抓捕巴拿马文件邓家贵低端人口西藏骚乱。Friends who live in China and have real name on account, please don't star this repo, or else the police might pay you a visit. Home to the mega-FAQ, news compilation, restaurant and music recommendations.Heil Xi 卐. 大陆修宪香港恶法台湾武统朝鲜毁约美中冷战等都是王沪宁愚弄习思想极左命运共同体的大策划中共窃国这半个多世纪所犯下的滔天罪恶，前期是毛泽东策划的，中期6.4前后是邓小平策划的，黄牛数据分析后期是毛的极左追随者三朝罪恶元凶王沪宁策划的。王沪宁高小肆业因文革政治和情报需要保送“学院外语班“红色仕途翻身，所以王的本质是极左的。他是在上海底层弄堂长大的，因其本性也促成其瘪三下三滥个性，所以也都说他有易主“变色龙”哈巴狗“的天性。大陆像王沪宁这样学马列政治所谓\"法学\"专业的人，在除朝鲜古巴所有国家特别是在文明发达国家是无法找到专业对口工作必定失业，唯独在大陆却是重用的紧缺“人才”，6.4后中共信仰大危机更是最重用的救党“人才”。这也就是像王沪宁此类工农兵假“大学生”平步青云的原因，他们最熟悉毛泽东历次运动的宫庭内斗经验手段和残酷的阶级斗争等暴力恐怖的“政治学”。王沪宁能平步青云靠他这马毛伪“政治学”资本和头衔，不是什么真才实学，能干实事有点真才实学的或许在他手下的谋士及",
-      "priority": 70,
-      "metadata_checked": true
     },
     {
       "id": "4fdf3526e38c893873b82d9071fc8b88186904e868584529bcded6f25896ba83",
@@ -9325,9 +9781,9 @@
       "id": "ff97d006a603f5f5351b2c05758a6bfa6560a9785673d92bf596fbd7c23d274b",
       "title": "b-draoui/sherpa",
       "url": "https://github.com/b-draoui/sherpa",
-      "source": "GitHub · TryHackMe",
+      "source": "GitHub · Hack The Box",
       "source_id": "github-search",
-      "platform": "TryHackMe",
+      "platform": "Hack The Box",
       "type": "ctf_writeup",
       "category": "AI-SECURITY",
       "author": "b-draoui",
@@ -10065,31 +10521,6 @@
       "ai_category_model": "gemini-3.5-flash-lite",
       "ai_category_checked": false,
       "ai_category_checked_at": "2026-11-28T04:16:24.684068+00:00",
-      "ai_category_attempts": 1
-    },
-    {
-      "id": "6f075738eeeba51a6cd4654acc3d643629865fafcfe45d1a5e358ec6ec40ad92",
-      "title": "Moudjib16/PicoCTF-Writeups",
-      "url": "https://github.com/Moudjib16/PicoCTF-Writeups",
-      "source": "GitHub · picoCTF",
-      "source_id": "github-search",
-      "platform": "picoCTF",
-      "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
-      "author": "Moudjib16",
-      "published_at": "2026-11-25T08:30:49Z",
-      "discovered_at": "2026-11-21T20:12:44.076499+00:00",
-      "tags": [
-        "ctf",
-        "github"
-      ],
-      "summary": "Writeups for PicoCTF Challenges",
-      "priority": 70,
-      "metadata_checked": true,
-      "ai_category": "UNCATEGORIZED",
-      "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_checked": false,
-      "ai_category_checked_at": "2026-11-28T04:16:24.684072+00:00",
       "ai_category_attempts": 1
     },
     {
@@ -12176,9 +12607,9 @@
       "priority": 70,
       "metadata_checked": true,
       "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": false,
       "ai_category_attempts": 1,
-      "ai_category_last_attempt_at": "2026-11-28T04:34:10.954916+00:00",
-      "ai_category_checked": false
+      "ai_category_last_attempt_at": "2026-11-28T04:34:10.954916+00:00"
     },
     {
       "id": "84d1170448bbf766959aca4e503615aac826a6ac5d3c26b9206e48002ca99d60",
@@ -12319,7 +12750,11 @@
       ],
       "summary": "Writeups de máquinas resueltas.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:19.991648+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "7087b480c31ebb3b4addf7b6dc866f27f582475c82689b45bb287349b38f0048",
@@ -13337,9 +13772,9 @@
       "priority": 70,
       "metadata_checked": true,
       "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": false,
       "ai_category_attempts": 1,
-      "ai_category_last_attempt_at": "2026-11-28T04:34:14.278392+00:00",
-      "ai_category_checked": false
+      "ai_category_last_attempt_at": "2026-11-28T04:34:14.278392+00:00"
     },
     {
       "id": "de213ab865150a5db00db5d9f401ee3ab371e94985e658b2fbe99b219148cfae",
@@ -13569,7 +14004,11 @@
       ],
       "summary": "Public CTF writeup repository",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:19.991642+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "494e742bb889a0f190ea6bf5cae7cdd0eecda86ee4e9ce0f7f3989d257204690",
@@ -13702,7 +14141,11 @@
       ],
       "summary": "Writeups on how I solve CTF machines in my way of improving as an Ethical Hacker",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:19.991653+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "a2c089ee7f473f14a439651155c8fd139414a520ecd274ec4d8a02372f416c49",
@@ -13968,9 +14411,9 @@
       "priority": 70,
       "metadata_checked": true,
       "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": false,
       "ai_category_attempts": 1,
-      "ai_category_last_attempt_at": "2026-11-28T04:34:14.278389+00:00",
-      "ai_category_checked": false
+      "ai_category_last_attempt_at": "2026-11-28T04:34:14.278389+00:00"
     },
     {
       "id": "56b995bfbbaf6611fd765428776149cf8f68053fbffb10bfdcc33acdf0d23945",
@@ -14539,7 +14982,11 @@
       ],
       "summary": "Hands-on lab writeups from my TryHackMe Pre Security (SEC0) and Cyber Security 101 (SEC1) paths — Linux, Windows & Active Directory, networking, and defensive security.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:23.082111+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "f856840e4f29814d7522faf07be2b6775c961a55db3ec3dd0d7a5f63570bd2b0",
@@ -14641,7 +15088,11 @@
       ],
       "summary": "CTFlearn (Capture The Flag) writeups, code snippets, notes, scripts",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:23.082159+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "0c830b7c23bda623ad7b450185d8e539a9b958fc49e54dd6c942a63b6600b85f",
@@ -14886,9 +15337,9 @@
       "priority": 70,
       "metadata_checked": true,
       "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": false,
       "ai_category_attempts": 1,
-      "ai_category_last_attempt_at": "2026-11-28T04:34:14.278378+00:00",
-      "ai_category_checked": false
+      "ai_category_last_attempt_at": "2026-11-28T04:34:14.278378+00:00"
     },
     {
       "id": "58ba0a1a08ca4e53833cdb3ce62237ca22ffd9e4a942417b133e2fe270620d3c",
@@ -15133,12 +15584,12 @@
       "summary": "Writeups and notes from the TryHackMe SOC Level 1 learning path - documenting my transition into cybersecurity/SOC analysis.",
       "priority": 70,
       "metadata_checked": true,
-      "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_attempts": 1,
-      "ai_category_last_attempt_at": "2026-11-28T04:34:08.078121+00:00",
       "ai_category": "DIGITAL-FORENSICS",
+      "ai_category_model": "gemini-3.5-flash-lite",
       "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:34:08.078123+00:00"
+      "ai_category_checked_at": "2026-11-28T04:34:08.078123+00:00",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:34:08.078121+00:00"
     },
     {
       "id": "01a86f49f617636fe763662f3b346efce4731afd53b0bc477a69834bef030f2d",
@@ -15184,9 +15635,9 @@
       "priority": 70,
       "metadata_checked": true,
       "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": false,
       "ai_category_attempts": 1,
-      "ai_category_last_attempt_at": "2026-11-28T04:34:14.278372+00:00",
-      "ai_category_checked": false
+      "ai_category_last_attempt_at": "2026-11-28T04:34:14.278372+00:00"
     },
     {
       "id": "bfb5a40063a0bf917eb73da4b03ff2556b52264654cb6c7b4dabd9ab91f22fea",
@@ -15520,6 +15971,31 @@
       "ai_category_model": "gemini-3.5-flash-lite",
       "ai_category_attempts": 1,
       "ai_category_last_attempt_at": "2026-11-28T04:28:47.222711+00:00",
+      "ai_category_checked": false
+    },
+    {
+      "id": "6cbd5cd01cc0391cf572a81d67407c6e991a89c0b2ca7627054a8d98b4fb3b51",
+      "title": "jiegec/ctf-writeups",
+      "url": "https://github.com/jiegec/ctf-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "jiegec",
+      "published_at": "2026-11-11T15:40:39Z",
+      "discovered_at": "2026-11-28T13:01:58.062521+00:00",
+      "tags": [
+        "ctf",
+        "ctf-writeups",
+        "github"
+      ],
+      "summary": "CTF Writeups",
+      "priority": 70,
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:19.991632+00:00",
       "ai_category_checked": false
     },
     {
@@ -16165,9 +16641,9 @@
       "priority": 70,
       "metadata_checked": true,
       "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": false,
       "ai_category_attempts": 1,
-      "ai_category_last_attempt_at": "2026-11-28T04:34:14.278334+00:00",
-      "ai_category_checked": false
+      "ai_category_last_attempt_at": "2026-11-28T04:34:14.278334+00:00"
     },
     {
       "id": "e9e2a64ea2f54a3071291950f0eaca6b778a2fea2c442c74f9429ae21a2b317d",
@@ -16290,6 +16766,30 @@
       "metadata_checked": true
     },
     {
+      "id": "a302918643fd209c53bd2ee2b12f2b0db35fe61f9985d3864c3029a1b83260d7",
+      "title": "amniz1ya1-droid/tryhackme-writeups",
+      "url": "https://github.com/amniz1ya1-droid/tryhackme-writeups",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "amniz1ya1-droid",
+      "published_at": "2026-11-09T00:47:08Z",
+      "discovered_at": "2026-11-28T13:02:02.686694+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Here, I describe in detail the steps for hacking various machines on the TryHackMe website",
+      "priority": 70,
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:19.991609+00:00",
+      "ai_category_checked": false
+    },
+    {
       "id": "3fad0f4d048fad219369f2a61c803a51e15d41a8a4f1eb0b481b9629fccfc5a5",
       "title": "Frankishtien/Challenges-writeups-CTFS",
       "url": "https://github.com/Frankishtien/Challenges-writeups-CTFS",
@@ -16333,7 +16833,7 @@
       "source_id": "github-search",
       "platform": "Root-Me",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "REVERSE-ENGINEERING",
       "author": "Yoloyolo26",
       "published_at": "2026-11-08T20:08:12Z",
       "discovered_at": "2026-11-21T20:39:16.404080+00:00",
@@ -16343,7 +16843,13 @@
       ],
       "summary": "i finished a Cracking challenge on RootMe ,and there are only two solutions on RootMe ,i tried to goole for the imformation of this challenge but found nothing,so i make this simple writeup to try my best to exolian it!!!if i said something wrong pls tell me ,thanks guys !!",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:25.963015+00:00",
+      "ai_category": "REVERSE-ENGINEERING",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T13:02:25.963017+00:00"
     },
     {
       "id": "4074da8d473cb553815cf4b65e051c4f9ec27782e17907a16bdb4df2c81eea9e",
@@ -16652,7 +17158,7 @@
       "source_id": "github-search",
       "platform": "Cryptography",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "CRYPTOGRAPHY",
       "author": "leyla-sygrlu",
       "published_at": "2026-11-07T11:52:50Z",
       "discovered_at": "2026-11-21T20:39:20.072966+00:00",
@@ -16662,7 +17168,13 @@
       ],
       "summary": "A comprehensive collection of my TryHackMe CTF write-ups, cryptographic analysis, and security vulnerability exploitation.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:23.082150+00:00",
+      "ai_category": "CRYPTOGRAPHY",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T13:02:23.082153+00:00"
     },
     {
       "id": "4ac93c60db017188a5f36dabebd0616d37d49d9e1b1ce9c082ead6ccaebc678b",
@@ -16748,6 +17260,26 @@
       "metadata_checked": true
     },
     {
+      "id": "53d5cebc9facb728e67b021f79c037b9bfa5973aa12b9845c800da6b937b2efc",
+      "title": "H13ap-pwn/PWN",
+      "url": "https://github.com/H13ap-pwn/PWN",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "BINARY-EXPLOITATION",
+      "author": "H13ap-pwn",
+      "published_at": "2026-11-06T01:41:41Z",
+      "discovered_at": "2026-11-28T13:01:58.064392+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "Pwnable cheat sheets, notes, and CTF writeups/solutions",
+      "priority": 70,
+      "metadata_checked": true
+    },
+    {
       "id": "3096039ae92e62f22122ee213864f114658963176e7b92959a38c2d5cfb94006",
       "title": "kokoromiruu/ctf-writeups",
       "url": "https://github.com/kokoromiruu/ctf-writeups",
@@ -16810,7 +17342,11 @@
       ],
       "summary": "Writeup of security — CTFLearn Challenges.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:23.082164+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "836b32c648746e6227f115666ce6c76c8e357cec0a0362659125a327fca13fbd",
@@ -16946,7 +17482,11 @@
       ],
       "summary": "Writeups Of CTFlearn Challenges",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:25.962999+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "13d259d9ed0a6e0368903c2ade7b975152fec5dea656c6090396cf17a28beab7",
@@ -17571,7 +18111,11 @@
       ],
       "summary": "Public CTF writeup repository",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:19.991650+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "513335cd02e904514a48a500efb2c4ccad4d73a3d37876f53fbc3c147185b636",
@@ -18687,6 +19231,30 @@
       "ai_category_last_attempt_at": "2026-11-28T04:28:44.090202+00:00"
     },
     {
+      "id": "9b9f482147bd90ed69bd4f28cc59a10444762c3853072330a8b2b41bf4f6c35a",
+      "title": "Frontman369/tryhackme-writeups",
+      "url": "https://github.com/Frontman369/tryhackme-writeups",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "Frontman369",
+      "published_at": "2026-10-24T15:33:53Z",
+      "discovered_at": "2026-11-28T13:02:02.687120+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "My cybersecurity learning journey",
+      "priority": 70,
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:19.991605+00:00",
+      "ai_category_checked": false
+    },
+    {
       "id": "74d4cdeb9d47b804a7708e3f6aa06c77cb57e38555eb1bad04304ea4c36f1679",
       "title": "diver-osint-ctf/writeups",
       "url": "https://github.com/diver-osint-ctf/writeups",
@@ -19172,7 +19740,11 @@
       ],
       "summary": "Public CTF writeup repository",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:19.991645+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "8aae27727b4c509319b3cb4b44b8840f642c11c2a4c89c4ee4e2ae062ea773a4",
@@ -19410,9 +19982,9 @@
       "priority": 70,
       "metadata_checked": true,
       "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": false,
       "ai_category_attempts": 1,
-      "ai_category_last_attempt_at": "2026-11-28T04:34:10.954922+00:00",
-      "ai_category_checked": false
+      "ai_category_last_attempt_at": "2026-11-28T04:34:10.954922+00:00"
     },
     {
       "id": "0009096522287ce49ed13cbeb2f03ec947782afdcd342dc4e8d85a1834ca54b2",
@@ -19894,6 +20466,30 @@
       "summary": "My CTF write-ups (TryHackMe, picoCTF, Hack The Box,Ctf.mn)",
       "priority": 70,
       "metadata_checked": true
+    },
+    {
+      "id": "0ff5ae9aa0198dc3ca1748c5f749705940563252e782973abce48cd30de5b78d",
+      "title": "Rizwannshaik/TryHackMe-Writeups",
+      "url": "https://github.com/Rizwannshaik/TryHackMe-Writeups",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "Rizwannshaik",
+      "published_at": "2026-10-12T15:31:56Z",
+      "discovered_at": "2026-11-28T13:02:02.685321+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "My completed Rooms & Challenges write-ups [tryhackme.com]",
+      "priority": 70,
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:19.991616+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "8e69f95d4872a63532ce2b22df0959121f9ba9014800db92bdc5c645286d4d97",
@@ -20456,7 +21052,11 @@
       ],
       "summary": "TryHackMe CTF challenge writeups and security learning with Cognitive Core",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:23.082147+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "89658347d1a90f28aa6a1ec14a38ba138bc936768ab0858d0a80ea361bbb80d9",
@@ -20650,7 +21250,7 @@
       "source_id": "github-search",
       "platform": "AI Security",
       "type": "ctf_writeup",
-      "category": "UNCATEGORIZED",
+      "category": "WEB-EXPLOITATION",
       "author": "JeremyGracey-AI",
       "published_at": "2026-09-30T21:09:29Z",
       "discovered_at": "2026-11-21T20:39:51.857203+00:00",
@@ -20664,7 +21264,13 @@
       ],
       "summary": "Smart-contract security learning log: CTF writeups, contest findings, and vuln-class notes as they land.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:23.082138+00:00",
+      "ai_category": "WEB-EXPLOITATION",
+      "ai_category_checked": true,
+      "ai_category_checked_at": "2026-11-28T13:02:23.082140+00:00"
     },
     {
       "id": "cf292f826c24fb8b8d9ea3406aa43e848ede5613df7efd32d72a0d65fc153a17",
@@ -21302,9 +21908,9 @@
       "priority": 70,
       "metadata_checked": true,
       "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": false,
       "ai_category_attempts": 1,
-      "ai_category_last_attempt_at": "2026-11-28T04:34:10.954930+00:00",
-      "ai_category_checked": false
+      "ai_category_last_attempt_at": "2026-11-28T04:34:10.954930+00:00"
     },
     {
       "id": "138919c8816d83f1adb6fd724d1b94a741f6cba3933817a688a536afb1ecd2ee",
@@ -22551,7 +23157,11 @@
       ],
       "summary": "Hands-on Cybersecurity & AI/ML write-ups, CTF solutions, and exploit walkthroughs from Carnegie Mellon University's CyLab Security Academy.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:23.082144+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "0da76ca97a6e6e1a9181b07a27bd86e58348c77634836901f2bbc3dff78151ca",
@@ -22611,7 +23221,11 @@
       ],
       "summary": "CTF and box writeups — HackTheBox, TryHackMe, Root-Me, and competition challenge solutions",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:25.963012+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "5e2f9bab67d127c9ccfca6480e3cf7c4b40164ef4127e16ddc17eec997ede6cb",
@@ -23186,7 +23800,11 @@
       ],
       "summary": "My CTFLearn writeups",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:23.082180+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "1fb2509b8408c080418dc98a0d3943b31a72c364c28e4bcc2ada681bae70fcce",
@@ -23212,6 +23830,30 @@
       "ai_category_model": "gemini-3.5-flash-lite",
       "ai_category_attempts": 1,
       "ai_category_last_attempt_at": "2026-11-28T04:34:08.078105+00:00",
+      "ai_category_checked": false
+    },
+    {
+      "id": "74c2f07bf876c4f5c78021d2d4921d438f7d1f0e6c8e8afa26460504ea53c7c1",
+      "title": "sheldon-ligon/THM-SOC-Level-1-Writeups",
+      "url": "https://github.com/sheldon-ligon/THM-SOC-Level-1-Writeups",
+      "source": "GitHub · TryHackMe",
+      "source_id": "github-search",
+      "platform": "TryHackMe",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "sheldon-ligon",
+      "published_at": "2026-06-10T01:40:26Z",
+      "discovered_at": "2026-11-28T13:02:02.687608+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "TryHackMe SOC Level 1 learning path notes, investigations, and MITRE ATT&CK mappings.",
+      "priority": 70,
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:19.991601+00:00",
       "ai_category_checked": false
     },
     {
@@ -23280,9 +23922,9 @@
       "id": "e6c1a17a4e7b8733316ca2d8c18c0122ff510c75106922f388c8234fb13d3b4b",
       "title": "dechamithsilva/CTF-Writeups",
       "url": "https://github.com/dechamithsilva/CTF-Writeups",
-      "source": "GitHub · TryHackMe",
+      "source": "GitHub · Hack The Box",
       "source_id": "github-search",
-      "platform": "TryHackMe",
+      "platform": "Hack The Box",
       "type": "ctf_writeup",
       "category": "UNCATEGORIZED",
       "author": "dechamithsilva",
@@ -23318,7 +23960,11 @@
       ],
       "summary": "A collection of my cybersecurity walkthroughs, CTF writeups, and AI-assisted security scripts.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:23.082135+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "a29589210256ea8c028d65cf0255f49478d8782ee6c860a5fe29779a880eed48",
@@ -23466,7 +24112,11 @@
       ],
       "summary": "Writeups for CTFLearn Challenges",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:25.962994+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "c0001bc36cb98ccdbfb3e8dc4cb356d37e7d901a64e74ef3b136c265a45809b2",
@@ -23593,7 +24243,11 @@
       ],
       "summary": "My writeups for CTFlearn",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:25.962973+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "03bad4b7567f0e1e24a1c496ee35473928852e83e4ada2702624845c66c6dc37",
@@ -23839,9 +24493,9 @@
       "priority": 70,
       "metadata_checked": true,
       "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_checked": false,
       "ai_category_attempts": 1,
-      "ai_category_last_attempt_at": "2026-11-28T04:28:40.835777+00:00",
-      "ai_category_checked": false
+      "ai_category_last_attempt_at": "2026-11-28T04:28:40.835777+00:00"
     },
     {
       "id": "9bb38ae4dd8c48931e17cae6cd84b33aea150800046ccf11dd8534273001905b",
@@ -24317,7 +24971,11 @@
       ],
       "summary": "Naughty Cat Writeup",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:23.082161+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "2f273d885bc896200577ffe3efe1e35f7ea21310b6ba94a8d25fafd008830140",
@@ -24337,7 +24995,11 @@
       ],
       "summary": "Faux writeups CTF pour l'entraînement (Root-Me / THM)",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:25.963019+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "9f345665fb84644d3686a69d892e68c007c473e46db355f921cc69a7fdb6b6f3",
@@ -24397,7 +25059,11 @@
       ],
       "summary": "Public CTF writeup repository",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:25.963009+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "fa1ee65b12cba6fbbc5b65d255b4601994e0f2075271092ddf2c03b5a8f3fd10",
@@ -24463,7 +25129,11 @@
       ],
       "summary": "some root me CTF writeups",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:25.963006+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "edcb3be0792104c99eaceaf4cad96d82c0b279edbd2eaf2c4bc5c174e10f3496",
@@ -24483,7 +25153,11 @@
       ],
       "summary": "Root-Me CTF 20k - Writeups & Sources",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:25.963004+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "b7d2372ec2fe8a16d0dd0d93770d25caa40793c9c4ba57efc6772c9b5bab3e54",
@@ -24504,7 +25178,11 @@
       ],
       "summary": "This repository contains all the challenge files and writeups from the AIRange CTF platform.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:23.082132+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "009a195bf0ae0543ea3c663c8831389943f4456e86fc408e86d433a6a9b18393",
@@ -24607,6 +25285,30 @@
       "metadata_checked": true
     },
     {
+      "id": "8d92fd1279387944ac2e9615cb56789c47bb14ea38b25d9691b92e25d9a60f69",
+      "title": "ShudarsanRegmi/ctf-writeups",
+      "url": "https://github.com/ShudarsanRegmi/ctf-writeups",
+      "source": "GitHub · CTF writeup",
+      "source_id": "github-search",
+      "platform": "CTF writeup",
+      "type": "ctf_writeup",
+      "category": "UNCATEGORIZED",
+      "author": "ShudarsanRegmi",
+      "published_at": "2024-07-12T13:40:31Z",
+      "discovered_at": "2026-11-28T13:01:58.063833+00:00",
+      "tags": [
+        "ctf",
+        "github"
+      ],
+      "summary": "This is a short writeup of ctf challenges that I encouter",
+      "priority": 70,
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:19.991624+00:00",
+      "ai_category_checked": false
+    },
+    {
       "id": "d7c8e337afcb7b05374d4e4035fdf143995440a3337cb1acb2c8fd8b257a9ecb",
       "title": "khuluqilkarim/CTFLearn-WriteUps",
       "url": "https://github.com/khuluqilkarim/CTFLearn-WriteUps",
@@ -24624,7 +25326,11 @@
       ],
       "summary": "This is my writeup as a result of working on CTF questions on the CTFLEARN website",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:25.962992+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "745536d7dbdf09b7b1ea594eeaa769a0eb209aa9fcc2a049227996d64cab0386",
@@ -24728,7 +25434,11 @@
       ],
       "summary": "mbark on exciting Capture The Flag (CTF) challenges to enhance my sk 🛠️ What to Expect: 🎓 Master's student in Cybersecurity 💡 Constantly learning and exploring new techniques 🧩 Daily CTF practitioner",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:25.963001+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "959f68f5fa764375b761a74a77bfafa1877cc821293d33cdf9bf39b730878ced",
@@ -24748,7 +25458,11 @@
       ],
       "summary": "Public CTF writeup repository",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:25.962996+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "9a4b300f8fe46fc8ad239e5aa772f67b5f65a058987fdec906ad53410848913e",
@@ -24832,7 +25546,11 @@
       ],
       "summary": "My first CTFLearn writeups, sorry if this is too bad",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:25.962989+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "3ddd0103f95d63064eb06a1ced32790ddd4c64acb11111c32474e8808433e5bc",
@@ -24916,7 +25634,11 @@
       ],
       "summary": "Public CTF writeup repository",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:25.962952+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "0d53aec3fb6d5c0a2dfdf6a5c1f77e103210bb1237f059209a9152853e3a85c9",
@@ -24936,7 +25658,11 @@
       ],
       "summary": "Ce repository contient tous les writeups que j'ai rédigés toutes plateformes de CTF confondues.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:23.082128+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "8ed389a31dc83f7d08ee91bc276d945f8a6c00b788a3da367dc62041c129b9ba",
@@ -24956,7 +25682,11 @@
       ],
       "summary": "ngga tau sii, buat nyimpen writeup ctflearn pokoknya",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:25.962987+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "2adee232f11d0dd5471ca3c4df14ff3134d583cbe18b5414a3473335c898ec9a",
@@ -24976,7 +25706,11 @@
       ],
       "summary": "Writeups of CTFlearn Challenges.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:25.962984+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "2e743672e508f7d661489263809e58228a236d1b0554b998cdea481365baca3a",
@@ -24996,7 +25730,11 @@
       ],
       "summary": "Here is my personal CTFlearn WriteUp",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:25.962982+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "c7e660e3bdc7631443836638dcd6ab249222f9c5adda22dd6d82fea2676891d8",
@@ -25037,7 +25775,11 @@
       ],
       "summary": "CTFlearn writeups of all the challenges I have solved",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:25.962979+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "1a89cd7259d6885d05582a1e2b298b6cb55e1198796bb6c1256db3095c64c194",
@@ -25057,7 +25799,11 @@
       ],
       "summary": "Public CTF writeup repository",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:25.962970+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "b174703af9842448951fe50ecf3526c4dfc036c554a08d392b6c2186401a707f",
@@ -25077,7 +25823,11 @@
       ],
       "summary": "Writeup",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:23.082182+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "52a6ba8d93598205363144e3f5bcd6deba978e16ee8f1b47305eaa2801093695",
@@ -25137,7 +25887,11 @@
       ],
       "summary": "Writeups of CTFLearn games",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:25.962976+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "f1dd61c848cc67726cc7c0cd939ae99157c5a91d364a7e1e9f2d72684a4e2255",
@@ -25181,7 +25935,11 @@
       ],
       "summary": "Public CTF writeup repository",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:23.082177+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "476a602442538fece646c3ac03235925bcaf2170109335d69550912ee822e28e",
@@ -25201,7 +25959,11 @@
       ],
       "summary": "Writeups of all the CTFlearn challenges I solved.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:23.082175+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "c759c86e07e95304a53e250d6368a65c2cd65aadb48b3bed60bb40b9ccbaf436",
@@ -25241,7 +26003,11 @@
       ],
       "summary": "Public CTF writeup repository",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:23.082173+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "236a6a21a148e7ede7ef0399c4a1b81898ba3fcabcdc673e17095fd694981767",
@@ -25261,7 +26027,11 @@
       ],
       "summary": "This is a repo with CTFlearn writeups!",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:23.082171+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "137b7f9e62163954e7e2d87d75823f78e5843e931656b2c1d41cc240536fa3f2",
@@ -25286,7 +26056,11 @@
       ],
       "summary": "Here are a few writeups of CTFlearn challenges that I solved.",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:23.082169+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "c146dbbab3f6784bb90b1751a87cdd404b6eb74436c31d03cdb90c015540b3e3",
@@ -25306,7 +26080,11 @@
       ],
       "summary": "Writeups for famous CTF Learn",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:23.082166+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "124d2d3d59e45ffb083e89a48d96fcaafbbfd30638c295663b72ba087c3cba72",
@@ -25326,7 +26104,11 @@
       ],
       "summary": "Public CTF writeup repository",
       "priority": 70,
-      "metadata_checked": true
+      "metadata_checked": true,
+      "ai_category_model": "gemini-3.5-flash-lite",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T13:02:23.082156+00:00",
+      "ai_category_checked": false
     },
     {
       "id": "043f198314a6200e565cbb358e21fd51bafa743c2d88064c8b39295a4eeb6130",
@@ -25743,12 +26525,12 @@
       "summary": "The Scenario During testing, I discovered that the application’s password change functionality could be abused to brute-force a user’s current password. While the login page itself was not the target, the password change feature exposed a weakness in how credential validation was handled. A typical password change request required: Current password New password Confirmation of the new password The Vulnerability The application verified the current password before allowing a password change. However, it responded differently depending on whether: The current password was incorrect. The new passwords did not match. This difference allowed an attacker to determine when the correct current password had been supplied. By repeatedly submitting requests with different values for the current passw",
       "priority": 55,
       "metadata_checked": true,
-      "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_attempts": 1,
-      "ai_category_last_attempt_at": "2026-11-28T04:34:08.078085+00:00",
       "ai_category": "WEB-EXPLOITATION",
+      "ai_category_model": "gemini-3.5-flash-lite",
       "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:34:08.078088+00:00"
+      "ai_category_checked_at": "2026-11-28T04:34:08.078088+00:00",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:34:08.078085+00:00"
     },
     {
       "id": "d1d43b520007b9c4129af3593941c52c44e369feabd43c5445dad3009c4dfe07",
@@ -25772,12 +26554,12 @@
       "summary": "The Scenario While testing a login endpoint, I discovered an interesting flaw in the application’s brute-force defense. The login API expected credentials in JSON format, but it failed to properly validate the structure of user input. By supplying multiple password values in a single request, it was possible to make numerous authentication attempts through a single login request. A normal login request looked like this: Login Request The Vulnerability The application assumed that the password parameter would contain a single value. However, it also accepted an array of passwords. Instead of sending one password, I modified the request to include a list of commonly used passwords. And, the backend processed each password in the array and checked them against the target account. With the cor",
       "priority": 55,
       "metadata_checked": true,
-      "ai_category_model": "gemini-3.5-flash-lite",
-      "ai_category_attempts": 1,
-      "ai_category_last_attempt_at": "2026-11-28T04:34:08.078080+00:00",
       "ai_category": "WEB-EXPLOITATION",
+      "ai_category_model": "gemini-3.5-flash-lite",
       "ai_category_checked": true,
-      "ai_category_checked_at": "2026-11-28T04:34:08.078082+00:00"
+      "ai_category_checked_at": "2026-11-28T04:34:08.078082+00:00",
+      "ai_category_attempts": 1,
+      "ai_category_last_attempt_at": "2026-11-28T04:34:08.078080+00:00"
     },
     {
       "id": "224392cb7b7d25c54ebccab70c48fd2b1f9627389e2363314ee274d934638dfe",
@@ -28714,7 +29496,7 @@
     "rss_entries": 201,
     "github_repositories": 653,
     "social_links": 0,
-    "new_entries": 0,
+    "new_entries": 36,
     "failures": [
       {
         "source": "X/Twitter",
